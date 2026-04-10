@@ -1,0 +1,1961 @@
+
+===== PAGINA 1 OBJ 2 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+EXAME DE HABILITAÇÃO PARA CAPITÃO-AMADOR
+
+(CPA – I/2024)
+1ª Questão
+No dia 06 de agosto de 2011, a hora informada no Almanaque Náutico para o ‘nascer do
+Sol’, na latitude 10
+0
+S, corresponde a:
+(A) HVL (hora verdadeira local).
+(B) HVG (hora verdadeira em Greenwich).
+(C) HMG (hora média em Greenwich).
+(D) HML (hora média local).
+(E) H
+LEG
+(hora legal).
+2ª Questão
+Um Capitão-Amador, no dia 05 de agosto de 2011, navegando pela Costa Leste
+brasileira, nas proximidades do Porto de Cabedelo (Lat: 07
+0
+00,00’ S e Long: 034
+0
+50,00’ W), calculou o seguinte horário legal (H
+LEG
+) para o pôr-do-Sol (conforme o seu
+relógio - horário de Brasília):
+(A) 18 h 00 m 36 s.
+(B) 18 h 03 m 21 s.
+(C) 18 h 09 m 00 s.
+(D) 17 h 57 m 00 s.
+(E) 17 h 19 m 56 s.
+
+
+1
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 2 OBJ 5 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+3ª Questão
+Navegando na Costa Leste brasileira, no dia 05 de agosto de 2011, no instante do
+crepúsculo astronômico, um Capitão Amador teve sérios problemas na máquina de sua
+embarcação (ficando à deriva), perdendo também as informações de posicionamento
+geográfico do GPS de bordo. O navegante adormeceu preocupado; mas, no dia seguinte
+(06 de agosto de 2011), ao despertar bem cedo e olhar fixamente para o horizonte,
+percebeu que a sua embarcação estava ‘aproada’ ao Sol. Com base nas informações,
+pode-se concluir que:
+(A) O navegante navegava no rumo certo e logo chegaria a um porto do nordeste
+brasileiro.
+(B) O navegante estava perdido; no entanto, com o aproamento ideal para calcular o
+crepúsculo civil.
+(C) O navegante navegava sem qualquer possibilidade de orientação.
+(D) O navegante navegava rumo a águas profundas; no entanto, não abrigadas.
+(E) O navegante teria que calcular o horário legal do ‘nascer do Sol’ para obter o rumo a
+seguir.
+4ª Questão
+Considerando-se as definições relacionadas aos princípios de estabilidade em
+embarcações, analise as proposições abaixo e assinale afirmação correta:
+(A) A parte do casco de uma embarcação, situada acima do plano de flutuação é
+denominada
+obras vivas.
+(B) Ao se descer o centro de gravidade (G) aumenta-se o braço de estabilidade (GZ).
+Porém, ao descer demasiadamente G, a flutuabilidade fica comprometida, diminuindo a
+segurança, embora aumente o GZ.
+(C)
+
+Porte líquido,
+significa o peso máximo de carga que uma embarcação pode
+transportar em qualquer condição de carregamento.
+(D)
+Reserva de flutuação
+é a soma de todos os espaços fechados e estanques abaixo da
+linha d’água, normalmente expressa em percentagem de deslocamento.
+(E) Quando o calado a ré é maior que o calado avante, pode-se afirmar que o compasso
+é negativo.
+
+
+2
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 3 OBJ 8 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+5ª Questão
+Observe o gráfico das alturas do Sol nas proximidades da PMS. O navegante observará
+uma série de alturas do Sol, com suas respectivas horas, para calcular sua Latitude
+meridiana, através da combinação da distância zenital meridiana do Sol (z = 90º – a)
+com sua Declinação (Dec) no instante da observação. Assim, no instante da PMS, o
+navegante utilizará a altura:
+(A) menos variável e tabulada do Sol.
+(B) tabulada mais precisa do Sol.
+(C) mais corrigida tabulada do Sol.
+(D) mais equidistante de culminação do Sol.
+(E) mais elevada observada do Sol.
+6ª Questão
+A distância vertical entre a linha de flutuação e o convés principal de uma embarcação
+denomina-se:
+(A) Borda livre.
+(B) Pontal Moldado.
+(C) Seção mestra.
+(D) Boca moldada.
+(E) Plano longitudinal.
+
+
+3
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 5 OBJ 13 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+7ª Questão
+Observando a imagem (abaixo), pode-se concluir que:
+(A) No limbo superior o erro instrumental é positivo.
+(B) A observação foi realizada pelo limbo inferior do astro.
+(C) A altura observada do astro foi igualada a zero.
+(D) O astro estava no vertical inferior do observador.
+(E) A observação ocorreu no crepúsculo astronômico matutino.
+8ª Questão
+Conhecendo-se os movimentos verdadeiros do Planeta Terra, pode-se afirmar que:
+(A) O Sol executa pelo menos um movimento diário verdadeiro.
+(B) A Terra executa pelo menos um movimento planetário aparente.
+(C) O Sol executa um movimento diário no sentido direto.
+(D) A Terra não executa um movimento diário no sentido retrógrado.
+(E) Quanto ao ‘nascer dos astros’, o leste é uma referência de orientação em relação aos
+seus movimentos diurnos verdadeiros.
+
+
+4
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 7 OBJ 20 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+9ª Questão
+No dia 07 de agosto de 2011, para a posição estimada de um navegante (Lat.: 14
+0
+03,0’
+N e Long.: 005
+0
+30,0’ W), às HCr = 12h 29m 00s foi observado o limbo inferior do Sol,
+obtendo com o sextante a altura instrumental (a
+i
+) = 87
+0
+18,3’. Sabendo-se que o erro
+instrumental (e
+i
+) = – 1,0’, elevação do olho do observador = 8,0 m ,e o Estado Absoluto
+do cronômetro (Ea) = – 00h 01m 00s, qual a latitude meridiana (
+
+md
+) do observador?
+(Utilizar os anexos disponibilizados ao final da prova e considerar a correção relativa à
+declinação do Sol e ao valor
+d
+(0,7) em relação ao tempo: Acres. = – 0,3’).
+(A) 15
+0
+03,0’ N.
+(B) 14
+0
+02,0’ N.
+(C) 14
+0
+00,0’ N.
+(D) 13
+0
+54,0’ N.
+(E) 13
+0
+45,0’ N.
+10ª Questão
+Um experiente Capitão Amador estava a conduzir, durante o período noturno, sua
+embarcação em um trecho entre Cabo Frio e o Rio de Janeiro, no rumo 270°. Ele
+observou que as linhas de profundidade são praticamente paralelas à orla nesse trecho, e
+decidiu que deveria
+manter a sua derrota sobre a isobatimétrica de 50 metros,
+a fim de
+evitar maiores riscos. De acordo com o acima descrito, qual foi a
+técnica de navegação
+batimétrica
+utilizada?
+(A) Sondagem paralela.
+(B) Correr uma isóbata.
+(C)
+Transporte de isóbatas.
+(D) Profundidades semelhantes.
+(E) Posição pelo Cume.
+
+
+5
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 8 OBJ 23 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+11ª Questão
+Em um sistema GPS a bordo de uma embarcação, os “trigramas” SOG, RNG e MOB
+significam respectivamente:
+(A) Velocidade de avanço, Homem ao mar e Distância.
+(B) Waypoint, Marcação e Homem ao mar.
+(C) Velocidade no fundo, Distância e Homem ao mar.
+(D) Rumo no fundo, Alcance e Marcação de boia de sinalização.
+(E) Desvio da derrota, Distância e Marcação.
+12ª Questão
+Sobre o
+Automatic Identification System
+(AIS) e seu funcionamento, assinale a opção
+correta:
+(A) Os dados do AIS
+não são
+s
+incronizados por um sistema GNSS (Sistema Global de
+Navegação Satélite).
+(B) É esperado um valor típico de alcance do AIS no mar de 100 a 120 milhas náuticas.
+(C) O AIS utiliza frequências dedicadas de VHF e transmite continuamente suas
+informações.
+(D) O propósito do AIS é ser um sistema Anti-Colisão.
+(E) O AIS é incompatível com o DSC (Chamada Seletiva Digital).
+13ª Questão
+A dotação de coletes salva-vidas em uma embarcação deve ser:
+(A) um para cada tripulante.
+(B) um para cada passageiro.
+(C) um para cada pessoa a bordo até a sua lotação máxima.
+(D) um para cada criança.
+(E) um para cada adulto.
+
+
+6
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 9 OBJ 26 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+14ª Questão
+A Marinha do Brasil oferece a cobertura por estações DGPS de praticamente toda a
+costa brasileira. Sobre o
+Diferencial Global Positioning System
+, DGPS, assinale a opção
+correta.
+(A) Não satisfaz ao requisito de precisão entre 8 a 15 metros em águas restritas.
+(B) É necessário que o navegante possua o receptor DGPS para a utilização do serviço.
+(C) Usando o DGPS, não são necessários outros métodos de posicionamento visuais ou
+eletrônicos.
+(D) Os alcances dos sinais de correção DGPS não se alteram no decorrer de um dia.
+(E) A transmissão do sinal DGPS é feita nas mesmas frequências normais de operação
+do GPS, que são 1.575,42 MHz e 1227,6 MHz.
+15ª Questão
+A experiente Capitão Amador Michelle tem conhecimento de que ao dar máquinas a ré
+em seu iate, por muitas vezes, o ecobatímetro :
+(A)
+apresenta uma indicação maior que a real, devido ao fluxo de água que induz uma
+corrente elétrica parasita.
+(B) apresenta uma informação menor que a real devido à interferência do movimento
+lento da embarcação.
+(C) “congela” a indicação da profundidade devido ao efeito Coanda causado pela
+corrente de descarga do hélice.
+(D) perde a indicação momentaneamente devido às pequenas bolhas de ar que passam
+por baixo do transdutor.
+(E) varia a indicação por um longo período devido ao fenômeno de superrefração
+sonora causado pelo hélice.
+
+
+7
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 10 OBJ 29 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+16ª Questão
+Que controle do radar deve ser acionado para que a escala de distância seja ajustada de
+acordo com a necessidade do navegante?
+(A) STC.
+(B) Rings.
+(C) Range.
+(D) EBL.
+(E) VRM.
+17ª Questão
+O experiente Capitão Amador Daniel Carlos, navegando no canal dragado/varrido do
+Rio de
+
+Janeiro, observou que a boia de perigo isolado da entrada da Baía de Guanabara
+se soltou da poita e
+
+estava à deriva, ato contínuo fez uma chamada geral no canal 16 do
+VHF de porto alertando para a
+
+boia
+
+de
+
+perigo isolado fora
+
+de
+
+posição e
+
+à
+
+deriva.
+De acordo com os procedimentos radiotelefônicos a estação que transmite uma
+mensagem relativa à
+
+segurança
+
+da
+
+navegação
+
+ou
+
+algum aviso
+
+meteorológico
+
+importante,
+deve
+
+iniciar a
+
+transmissão
+
+por:
+(A) AVEGANTE,
+
+AVEGANTE,
+
+AVEGANTE.
+(B) SÉCURITÉ,
+
+SÉCURITÉ,
+
+SÉCURITÉ.
+(C) PAN,
+
+PAN,
+
+PAN.
+(D) INTERCO,
+
+INTERCO,
+
+INTERCO.
+(E) MÊIDEI,
+
+MÊIDEI,
+
+MÊIDEI.
+
+
+8
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 11 OBJ 32 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+18ª Questão
+O Capitão Amador Fabel do iate Kings planejou uma viagem de Aracaju com destino a
+Recife, a
+
+ser
+
+realizada
+
+em julho, e
+
+utilizou uma
+
+velocidade
+
+de
+
+avanço de
+
+09 nós.
+O referido Capitão amador, nessa fase do planejamento, cometeu um erro grave e não
+levou em
+
+consideração a informação do Atlas de Cartas Piloto da existência da corrente
+do Brasil, paralela à
+
+derrota
+
+traçada
+
+na
+
+carta
+
+náutica, com uma
+
+intensidade
+
+de
+
+1,8
+
+nós.
+Após traçar a derrota na Carta Náutica verificou que a derrota era praticamente uma
+linha reta, com
+
+a distância total a ser navegada de 216 milhas náuticas e com uma
+duração de 24 horas (calculada
+
+com
+
+a
+
+velocidade
+
+de
+
+avanço estipulada para
+
+a
+
+viagem).
+O velocímetro da embarcação é do tipo turbina (não é doppler) e funciona também
+como odômetro,
+
+mostrando
+
+as milhas percorridas
+
+num registrador.
+Ao suspender de Aracaju, o Capitão Amador Fabel zerou a leitura do registrador do
+odômetro do
+
+velocímetro da embarcação
+
+e navegou durante todo o trajeto com a
+velocidade de 09 nós no
+
+velocímetro.
+
+Levando
+
+em
+
+consideração
+
+a
+
+informação
+
+da
+existência
+
+da
+
+corrente
+
+do
+
+Brasil,
+
+complete
+
+as
+
+02
+
+lacunas abaixo e
+
+assinale a
+
+alternativa
+correta:
+A
+
+duração
+
+real
+
+da
+
+travessia
+
+será
+
+de
+
+horas
+
+e
+
+a
+
+leitura
+
+do
+
+registrador
+
+do
+odômetro
+
+mostrará
+
+
+
+
+milhas
+
+ao
+
+chegar
+
+a
+
+Recife.
+(A)
+
+20
+
+-
+
+162
+(B) 20 -
+
+180
+(C) 24 -
+
+216
+(D) 30 - 270
+(E)
+
+30
+
+-
+
+324
+
+
+9
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 12 OBJ 35 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+19ª Questão
+Do ponto de vista da navegação, a Projeção de Mercator resolveu graficamente os
+principais
+
+problemas das cartas náuticas com tal sucesso que sua popularidade é
+inexcedível e seu emprego é
+
+incomparável. Analise as afirmativas abaixo quanto ao
+emprego da projeção de Mercator nas cartas
+
+náuticas e
+
+assinale
+
+a
+
+alternativa
+INCORRETA
+:
+(A) A
+
+loxodromia
+
+é
+
+representada
+
+por
+
+uma
+
+linha
+
+reta,
+
+que
+
+no
+
+cruzamento
+
+com
+
+os
+meridianos
+
+faz
+
+um
+
+ângulo
+
+constante
+
+e
+
+igual
+
+ao seu azimute.
+(B) Os
+
+ângulos
+
+medidos
+
+na
+
+carta
+
+náutica
+
+não
+
+são
+
+representados
+
+por
+
+ângulos
+
+idênticos
+na
+
+superfície
+
+da
+
+Terra, mas as direções podem
+
+ser
+
+medidas diretamente na carta.
+(C) A
+
+impossibilidade
+
+de
+
+representação
+
+dos
+
+polos
+
+e
+
+o
+
+valor
+
+exageradamente
+crescente
+
+das
+
+deformações
+
+lineares e
+
+superficiais
+
+nas
+
+altas latitudes
+
+é
+
+uma
+
+limitação
+acentuada.
+(D) É
+
+limitada
+
+pelo
+
+paralelo
+
+de
+
+60º
+
+em
+
+razão
+
+das
+
+deformações
+
+que
+
+se
+
+apresentam
+excessivas
+
+nesta
+
+latitude.
+(E) Pode ser utilizada
+
+satisfatoriamente até a latitude
+
+de 80º desde que sejam
+
+tomadas
+precauções
+
+especiais
+
+quanto
+
+ao uso da
+
+escala
+
+das distâncias.
+20ª Questão
+Dos
+
+principais
+
+elementos
+
+representados
+
+em
+
+uma
+
+carta
+
+náutica
+
+qual
+
+dos
+
+elementos
+abaixo
+
+não
+
+é
+
+encontrado
+
+na
+
+parte marítima (aquática) de
+
+uma carta
+
+náutica:
+(A) rebojos.
+(B) estirâncio.
+(C) áreas
+
+de
+
+exercícios.
+(D) indicações
+
+de
+
+correntes.
+(E) escala.
+
+
+10
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 13 OBJ 38 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+21ª Questão
+Utilizando as informações fornecidas no quadro abaixo, calcule e complete o quadro
+com as
+
+informações que faltam de rumo da agulha giroscópica (Rgi), rumo da agulha
+magnético (Rmg) e
+
+desvio
+
+da
+
+agulha magnética
+
+(Dag)
+
+às 01:30 horas e assinale a
+alternativa
+
+correta:
+Hora
+Rumo
+Verdadeiro
+Agulha
+Giroscópica
+Dec
+
+Mg
+Rumo
+Mg
+Agulha
+
+Magnética
+Rv
+Rgi
+Dgi
+Rmg
+Rag
+Dag
+01
+
+30
+322°
+1°
+
+E
+17°W
+340°
+(A) 325º - 338º - 1º W.
+
+(B) 323º
+
+-
+
+340º
+
+-
+
+0º.
+(C) 323º - 339º - 1º E.
+
+(D)
+321º -
+
+340º
+
+-
+
+1º E.
+(E)
+
+321º - 339º - 1º W.
+22ª Questão
+Analise as alternativas a seguir e assinale aquela que não está de acordo com os
+fundamentos teóricos da estabilidade de embarcações.
+(A) No
+centro de carena
+, está localizado o ponto de aplicação da resultante das forças
+de empuxo. Sua posição sofre alteração quando alteramos o calado.
+(B) Quando uma embarcação aderna, seu cento de carena descreve uma curva cujo
+centro denomina-se
+metacentro (M) ou metacentro transversal (MT).
+(C) A altura metacêntrica, é a distância vertical compreendida entre o centro de
+gravidade e o centro de carena.
+(D) A resultante de todos os pesos em um corpo tem seu ponto de aplicação no centro
+de gravidade.
+(E) O centro de carena é alterado quando ocorre inclinação em uma embarcação.
+
+
+11
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 14 OBJ 41 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+23ª Questão
+De acordo com o livro Capitão Amador de Jaime Felipe, o rádio é o principal recurso
+para a
+
+segurança do navegante, quando navegando em mar aberto, podendo se
+comunicar rapidamente um
+
+problema surgido, uma situação de perigo ou até mesmo
+obter previsões meteorológicas. Dentro da
+
+existência
+
+de
+
+inúmeras
+
+situações
+
+em
+
+que
+
+o
+relato
+
+do
+
+fato
+
+ou
+
+o
+
+recebimento
+
+de
+
+informações
+
+se
+
+tornam
+
+essenciais para a segurança
+no mar, correlacione a coluna da esquerda com a da direita e marque a
+
+alternativa
+correta.
+OBS.: cada
+
+número
+
+pode
+
+não
+
+ser
+
+adotado ou
+
+ser adotado
+
+mais de
+
+uma
+
+vez.
+√
+
+-
+
+símbolo
+
+de
+
+raiz quadrada.
+(01) 158,6
+
+Mhz
+(
+
+) Cálculo
+
+da
+
+distância
+
+do
+
+horizonte
+
+em
+
+VHF.
+(02) Altura
+
+da
+
+Antena.
+(
+
+) Exclusivo
+
+para
+
+chamada
+
+seletiva
+
+digital
+
+(DSC)
+
+em VHF.
+(03) 2.187,5
+
+Khz
+(
+
+) Frequência
+
+internacional
+
+de
+
+socorro
+
+em
+MF
+
+em radiotelefonia.
+(04) Canal
+
+70
+(
+
+) Frequência
+
+internacional
+
+de
+
+socorro em
+
+VHF.
+(05) 2.175
+
+Khz
+(
+
+) Principal
+
+fator
+
+na
+
+determinação
+
+de alcance
+em
+
+VHF.
+(06) 2.182,0
+
+Khz
+(
+
+) Chamada
+
+seletiva
+
+digital
+
+(DSC)
+
+em
+
+MF.
+(07) 156,8 Mhz
+(
+
+) Canal
+
+16.
+(08) 2
+
+√
+
+H
+
+(H
+
+-
+
+altitude
+
+do olho
+
+do
+o
+bservador)
+(
+
+) Frequência
+
+de
+
+socorro
+
+em HF
+
+do
+
+Atlântico
+Sul.
+(09) Potência
+
+da
+
+portadora
+(10) Canal
+
+60
+(11) 2,5
+
+√
+
+H
+
+(H
+
+-
+
+altura
+
+em metros
+
+da
+
+antena)
+(12) 4.125
+
+KHZ
+(A)
+
+08 -
+
+10
+
+-
+
+06 -
+
+01 -
+
+09
+
+-
+
+06
+
+-
+
+01 -
+
+03
+(B)
+
+11 -
+
+04 -
+
+05 -
+
+10 -
+
+02
+
+-
+
+03
+
+-
+
+04 -
+
+06
+(C)
+
+08 -
+
+01 -
+
+03 -
+
+01 -
+
+09
+
+-
+
+04
+
+-
+
+01 -
+
+12
+(D)
+
+11 -
+
+04 -
+
+06 -
+
+07 -
+
+02
+
+-
+
+03
+
+-
+
+07 -
+
+12
+(E)
+
+08 -
+
+01
+
+-
+
+05 -
+
+07 -
+
+11
+
+-
+
+04
+
+-
+
+07 –
+
+05
+
+
+12
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 15 OBJ 44 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+24ª Questão
+Qual
+
+é
+
+o
+
+nome
+
+do
+
+sistema
+
+de
+
+recebimento
+
+Telex
+
+que
+
+permite
+
+que
+
+comunicações
+
+em
+
+uma
+frequência
+
+fixa
+
+seja
+
+transmitida
+
+de
+
+uma
+
+estação
+
+costeira
+
+e
+
+recebida
+
+automaticamente
+pelas
+
+embarcações
+
+equipadas com o receptor, sem que nenhuma ação seja necessária a
+não ser ter o receptor ligado. As
+
+mensagens
+
+de
+
+socorro,
+
+urgência
+
+e
+
+segurança,
+
+além
+
+de
+não
+
+poderem
+
+deixar
+
+de
+
+ser
+
+recebidas,
+
+farão
+
+soar
+
+um
+
+alarme
+
+no receptor.
+(A) NAVTEX
+(B) INMARSAT-C
+(C) SAFETYNET
+(D) RADIOTELEX
+(E) IAC-FLEET
+25ª Questão
+Analise
+
+as
+
+afirmativas abaixo
+
+e
+
+assinale
+
+a
+
+alternativa
+
+correta:
+I –
+
+A
+
+EPIRB
+
+pode
+
+ser
+
+ativada
+
+manualmente
+
+ou
+
+automaticamente
+
+por
+
+um
+
+dispositivo
+hidrostático
+
+que
+
+a
+
+liberará
+
+ao ser atingida
+
+a
+
+profundidade
+
+de
+
+4 metros.
+II –
+
+A
+
+EPIRB,
+
+além
+
+do
+
+dispositivo
+
+hidrostático
+
+para
+
+sua
+
+liberação,
+
+possui
+
+também
+
+um
+fiel
+
+usado
+
+para
+
+prender a baliza a balsa ou a pessoa na água, este fiel deve estar preso na
+embarcação, para liberar a
+
+EPIRB no caso de
+
+afundamento.
+III –
+
+A
+
+NAVAREA
+
+V e
+
+a
+
+Área
+
+SAR
+
+do
+
+Brasil
+
+são
+
+coincidentes
+
+e
+
+tem
+
+a
+
+mesma
+dimensão,
+
+entretanto,
+
+cabe a DHN a responsabilidade pela elaboração e disseminação
+dos Avisos aos Navegantes e ao
+
+SALVAMAR BRASIL (Comando de Operações
+Navais) a coordenação das operações de busca e
+
+salvamento como
+
+RCC.
+IV – O bigrama “NC” (November Charlie) do Código Internacional de Sinais é um
+exemplo de
+
+natureza
+
+do acidente que
+
+significa: Estou em perigo
+
+e
+
+solicito auxílio
+imediato.
+(A) Apenas
+
+as
+
+afirmativas
+
+I
+
+e
+
+IV
+
+estão
+
+corretas.
+(B) Apenas
+
+as afirmativas
+
+II e III
+
+estão
+
+corretas.
+(C) Apenas
+
+as afirmativas
+
+I, III
+
+e
+
+IV
+
+estão corretas.
+(D) Apenas
+
+as afirmativas
+
+II e
+
+IV
+
+estão corretas.
+(E) Apenas
+
+as afirmativas
+
+I, II
+
+e III
+
+estão corretas.
+
+
+13
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 16 OBJ 47 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+26ª Questão
+O Candida
+to a Capitão Amador Figueiredo estudando para a processo seletivo do CPA,
+no livro
+
+Capitão Amador do Comandante Jaime Felipe,
+fez algumas anotações sobre o
+transponder radar de
+
+busca e salvamento (SART), que é o princ
+ipal equipamento para
+localização de embarcações em
+
+perigo
+
+ou balsas salva vidas, na
+
+área
+
+de
+
+um sinistro.
+Analise
+
+as
+
+afirmativas
+
+abaixo
+
+sobre
+
+o
+
+SART e
+
+assinale
+
+a
+
+alternativa
+
+correta:
+(A) Opera
+
+na
+
+faixa
+
+de
+
+frequência de
+
+7 GHz
+
+(7200
+
+a
+
+7500
+
+MHz).
+(B) Gera
+
+uma resposta
+
+quando
+
+interrogado
+
+por
+
+um
+
+radar marítimo
+
+que
+
+opera
+
+na banda
+
+S
+(10
+
+cm).
+(C) Gera
+
+na
+
+tela
+
+do
+
+radar
+
+da
+
+unidade
+
+de
+
+busca
+
+uma
+
+linha
+
+com
+
+10
+
+pontos
+
+(“blip
+
+code”)
+para
+
+fora
+
+da
+
+posição
+
+do transponder ao longo da linha de
+
+marcação.
+(D) A
+
+Organização
+
+Marítima
+
+Internacional
+
+(IMO)
+
+recomenda
+
+que
+
+o
+
+SART
+
+seja
+instalado
+
+a,
+
+no
+
+mínimo,
+
+1 metro acima
+
+do nível do mar.
+(E) Ao
+
+se
+
+aproximar
+
+do
+
+SART,
+
+a
+
+linha
+
+com
+
+os
+
+10
+
+pontos
+
+(“blip
+
+code”)
+
+tende
+
+a
+
+se
+expandir
+
+em
+
+arcos,
+
+transformando-se em círculos a cerca
+
+de
+
+05 milhas
+
+de
+
+distância do
+SART.
+27ª Questão
+Quando um navegante afirma que sua embarca
+ção encontra-se na condição adriçada,
+significa que a embarcação está:
+(A) Sem banda, sem trim e em equilíbrio.
+(B) Com a borda livre mergulhada parcialmente.
+(C) Carregada em sua máxima capacidade.
+(D) Com banda e trim pela popa.
+(E) Sem equilíbrio e em águas parelhas.
+
+
+14
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 17 OBJ 50 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+28ª Questão
+As ondas tropicais ao norte da ZCIT indicam
+(A) áreas de pressão atmosférica alta que se movem para Oeste através dos ventos
+convergentes de Leste (Alísios). Geralmente estão associadas a extensas áreas de bom
+tempo, quando o desvio do escoamento evolui para circulação fechada, as perturbações
+atmosféricas podem se intensificar e atingir o desenvolvimento de ciclones tropicais.
+(B) áreas de pressão atmosférica relativamente baixa que se movem para Leste através
+dos ventos divergentes de Leste (Alísios). Geralmente estão associadas a pequenas
+áreas de nebulosidade e chuvas, quando o desvio do escoamento evolui para circulação
+fechada, as perturbações atmosféricas podem se intensificar e atingir o desenvolvimento
+de furacões.
+(C) áreas de pressão atmosférica relativamente baixa que se movem para Oeste através
+dos ventos convergentes de Leste (Alísios). Geralmente estão associadas a extensas
+áreas de nebulosidade e chuvas, quando o desvio do escoamento evolui para circulação
+fechada, as perturbações atmosféricas podem se intensificar e atingir o desenvolvimento
+de ciclones tropicais.
+(D) áreas de pressão atmosférica relativamente alta que se movem para Oeste através
+dos ventos convergentes de Leste (Alísios). Geralmente estão associadas a extensas
+áreas de nebulosidade e chuvas, quando o desvio do escoamento evolui para circulação
+fechada, as perturbações atmosféricas podem se intensificar e atingir o desenvolvimento
+de grades nuvens.
+(E) áreas de pressão atmosférica relativamente baixa que se movem para Leste através
+dos ventos convergentes de Oeste (Alísios). Geralmente estão associadas a pequenas
+áreas de nebulosidade e chuvas, quando o desvio do escoamento evolui para circulação
+fechada, as perturbações atmosféricas podem se intensificar e atingir o desenvolvimento
+de ciclones tropicais.
+
+
+15
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 18 OBJ 53 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+29ª Questão
+A combinação de ar muito quente e muito úmido é característica da formação de nuvens
+do tipo:
+(A) Cirrus.
+(B) Cumulunimbus.
+(C) Cirrustratus.
+(D) Stratus.
+(E) Nimbustratus.
+30ª Questão
+Em uma região com ocorrência de mau tempo, as principais características observadas
+da circulação horizontal e do movimento vertical do ar são:
+(A) circulação horizontal divergente e movimento vertical circular.
+(B) circulação horizontal divergente e movimento vertical ascendente.
+(C) circulação horizontal divergente e movimento vertical descendente.
+(D) circulação horizontal convergente e movimento vertical descendente.
+(E) circulação horizontal convergente e movimento vertical ascendente.
+31ª Questão
+O semicírculo perigoso de um furacão no HS (Hemisfério Sul) apresenta-se:
+(A) à direita da trajetória.
+(B) à frente da trajetória.
+(C) abaixo da trajetória.
+(D) à esquerda da trajetória.
+(E) acima da trajetória.
+
+
+16
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 19 OBJ 56 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+32ª Questão
+Sabe-se que o corpo humano necessita de água para digerir proteínas, portanto em
+sobrevivência no mar, o sangue de animais pode ser utilizado como recurso, porém só
+deve ser ingerido se
+(A) tiver certeza que o animal é saudável.
+(B) não houver restrição de água.
+(C) o sangue ainda estiver quente.
+(D) houver a possibilidade de filtrar o sangue.
+(E) o animal for um peixe.
+33ª Questão
+As balsas sal
+va-vidas são equipadas com itens de sobrevivência, dentre eles as rações
+(líquida e sólida), no Brasil as rações líquidas existentes nas balsas são suficientes para
+(A) 3 dias.
+(B) 4 dias.
+(C) 5 dias.
+(D) 6 dias.
+(E) 7 dias.
+34ª Questão
+Um náufrago imerso na água pode desenvolver um estado de hipotermia, esta condição
+tem como principal causa
+(A) o estado do mar e a temperatura do ar.
+(B) a umidade relativa do ar e a chuva.
+(C) o vento e a correte marítima.
+(D) a água salgada e o Sol.
+(E) o tempo de exposição e a temperatura da água.
+
+
+17
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 20 OBJ 59 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+35ª Questão
+Um náufrago sozinho na água utilizando colete salva-vidas, para reduzir a perda de
+calor deve
+(A) adotar a posição HUDDLE.
+(B) se agitar para produzir calor.
+(C) adotar a posição HELP.
+(D) tentar nadar.
+(E) tirar o colete a abraçá-lo.
+36ª Questão
+A Tábua do Ponto serve para:
+(A) determinar a posição da balsa conhecendo-se, aproximadamente, a posição inicial
+do náufrago, o rumo e a distância navegada.
+(B) a última posição conhecida da embarcação que naufragou.
+(C) a direção e a velocidade do vento.
+(D) as coordenadas geográficas (latitude e longitude) que indicam o ponto de onde a
+balsa foi lançada.
+(E) identificar as frequências rádio para pedido de socorro.
+37ª Questão
+Considerando-se os efeitos de remoção, embarque e desembarque de pesos na
+estabilidade de uma embarcação, pode-se afirmar que quando movimentamos,
+embarcamos ou desembarcamos pesos ou cargas, estamos também movimentando o
+centro de gravidade (CG). De acordo com esta afirmação, podemos afirmar que o CG
+movimenta-se:
+(A) No sentido oposto dos pesos embarcados.
+(B) Na mesma direção e sentido ao peso removido.
+(C) Na direção e sentido oposto, respectivamente, ao peso acrescentado.
+(D) No mesmo sentido dos pesos embarcados.
+(E) Perpendicularmente ao movimento dos pesos de bordo.
+
+
+18
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 21 OBJ 62 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+38ª Questão
+Considerando-se os cuidados para evitar os efeitos de superfície livre, o navegador
+deverá tomar medidas preventivas. Analise as opções e assinale aquela que está em
+desacordo com os cuidados a serem tomados, para reduzir tais efeitos.
+(A) Manter os tanques de água , preferencialmente cheios ou vazios.
+(B) Verificar se as saídas de água e embornais permanecem desobstruídas.
+(C) Manter os tanques de combustíveis entre 50 e 70 porcento completos.
+(D) Manter e verificar se os porões encontram-se esgotados.
+(E) Manter um mínimo de tanques de serviço diariamente em uso.
+39ª Questão
+Um navegador, a fim de manter sua embarcação na condição de equilíbrio estável,
+durante toda sua travessia do Rio de Janeiro para Montevidéu, mesmo em possíveis
+condições adversas de mar ou vento, deverá manter, entre outros aspectos relacionados
+à salvaguarda da vida humana no mar, proteção ambiental e segurança da navegação, a
+distância metacêntrica (GM) :
+(A) Menor ou igual a zero.
+(B) Menor do que zero.
+(C) Maior ou igual a zero.
+(D) Maior do que zero.
+(E) Maior do que 1.
+40ª Questão
+Pode-se afirmar, para obtermos o
+deadweight
+de uma embarcação, é necessário:
+(A) Somar os deslocamentos leve e bruto.
+(B) Multiplicar o peso leve pelo expoente de carga completa.
+(C) Somar os deslocamentos da embarcação totalmente carregada e totalmente leve.
+(D) Multiplicar o volume da carena pela densidade da água.
+(E)Diminuir o deslocamento de uma embarcação totalmente carregada do deslocamento
+totalmente leve.
+
+
+19
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 22 OBJ 65 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+ANEXO I
+
+
+20
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 23 OBJ 72 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+ANEXO II
+
+
+21
+
+/ 22 CAPITÃO-AMADOR I/2024
+
+===== PAGINA 24 OBJ 79 0 =====
+Exame de Habilitação – Capitão-Amador - I /2024 - Exame de Conhecimentos…………..……
+ANEXO III
+
+
+22
+
+/ 22 CAPITÃO-AMADOR I/2024

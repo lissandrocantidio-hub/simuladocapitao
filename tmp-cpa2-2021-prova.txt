@@ -1,0 +1,638 @@
+
+===== PAGINA 1 OBJ 2 0 =====
+EXAME DE SELEÇÃO PARA CATEGORIA DE CAPITÃO-AMADOR
+CPA-02/2021
+Data de realização do exame: 27OUT2021
+
+(Valor: 0,25 cada questão – Valor Total: 10,0 pontos)
+Há um ano, em 27 de outubro de 2020, um Capitão-Amador navegando com seu veleiro no Oceano
+Pacífico, realizando uma pernada longa desde San Diego - Califórnia até Honolulu - Havaí, adotou
+as providências necessárias para calcular a Latitude pela observação da passagem meridiana do Sol.
+Dessa forma, tratou de determinar o erro instrumental
+(ei)
+do sextante, por meio do processo do
+horizonte do mar, tendo encontrado o valor de +2,6’. Na sequência dos procedimentos da
+observação da passagem meridiana do Sol, verificou-se, na carta náutica, a posição estimada para o
+instante da culminação do astro-rei, tendo encontrado: φ - 26° 23,0’ N e λ - 131° 00,0’W. Com base
+nessa situação e nos demais dados apresentados no corpo das perguntas e nos anexos do Almanaque
+Náutico Brasileiro (
+ANB
+),
+analise
+as
+oito questões
+que se seguem, assinalando a opção
+CORRETA.
+1ª Questão
+Para observar o Sol no instante da passagem meridiana, o navegante necessita conhecer a Hora
+Legal (Hleg) em que ocorrerá o fenômeno, para, neste momento, estar pronto para medir a altura do
+Sol com o sextante. Então, na data de 27 de outubro de 2020, a
+Hora Legal (
+Hleg)
+prevista para o
+Sol culminar, na posição estimada foi:
+(A) 11h 28m fuso W.
+(B) 11h 30m fuso W.
+(C) 11h 30m fuso U.
+(D) 11h 28m fuso V.
+(E) 11h 28m fuso U.
+2ª Questão
+Durante a medição de altura com o sextante, após se visar o Sol, é preciso deslocar a alidade ao
+longo do arco graduado, ao mesmo tempo em que se abaixa lentamente o sextante, até levar a
+imagem refletida do Sol a coincidir com a imagem direta do horizonte. O componente do sextante
+onde o observador verifica se a colimação está correta é:
+(A) a alidade.
+(B) o tambor micrométrico.
+(C) o espelho pequeno.
+(D) o vernier.
+(E) o espelho grande.
+1
+/16
+
+===== PAGINA 2 OBJ 5 0 =====
+3ª Questão
+Na determinação do
+ei
+do sextante, sabendo que o sextante possuía a escala de vernier subdividida
+em 5 partes e utilizando o processo da visada do horizonte do mar, quando as imagens direta e
+refletida do mar apareceram exatamente alinhadas, o
+ei
+encontrado foi de +2,6’. Então, pode-se
+afirmar que na leitura do sextante:
+(A) o índice da alidade estava à direita do zero do arco graduado e o índice do tambor micrométrico
+estava entre os valores 57’ e 58’.
+(B) o índice da alidade estava à esquerda do zero do arco graduado e o índice do tambor
+micrométrico estava entre os valores 02’ e 03’.
+(C) o índice da alidade estava à direita do zero do arco graduado e o índice do tambor micrométrico
+estava entre os valores 02’ e 03’.
+(D) o índice da alidade estava à esquerda do zero do arco graduado e o índice do tambor
+micrométrico estava entre os valores 57’ e 58’.
+(E) o índice da alidade estava à direita do zero do arco graduado e o índice do tambor micrométrico
+estava entre os valores 03’ e 04’.
+4ª Questão
+À Hora Média de Greenwich (
+HMG
+) – 20h28m00s, o Capitão-Amador observou o limbo inferior
+do Sol, obtendo a altura instrumental (
+ai
+) = 50º 12,4’.
+Indique
+a declinação do Sol, empregando os
+dados do ANB para a
+HMG
+da altura de culminação:
+(A) 13° 08,4’ N.
+(B) 13° 08,8’ S.
+(C) 13° 09,2’ N.
+(D) 13° 09,2’ S.
+(E) 13° 08,8’ N.
+5ª Questão
+À Hora Média de Greenwich (
+HMG)
+– 20h28m00s, o Capitão-Amador observou o limbo inferior
+do Sol, obtendo a altura instrumental (
+ai
+) = 50º 12,4’. Sabendo que o olho do Capitão-Amador, no
+instante da observação, estava com uma elevação de 5,6 m em relação ao nível do mar,
+indique
+a
+altura verdadeira do Sol (
+a
+), empregando os dados do
+ANB:
+(A) 50° 19,2’.
+(B) 49° 54,0’.
+(C) 50° 15,0’.
+(D) 50° 10,8’.
+(E) 50° 26,2’.
+2
+/16
+
+===== PAGINA 3 OBJ 8 0 =====
+6ª Questão
+A Distância Zenital (
+z
+)
+
+calculada no instante da passagem meridiana do Sol foi de:
+(A) 39° 43,6’.
+(B) 38° 43,6’.
+(C) 39° 33,8’.
+(D) 40° 43,6’.
+(E) 38° 33,8’.
+7ª Questão
+A Latitude (φ)
+
+calculada na passagem meridiana do Sol, no dia 27 de outubro de 2020 foi de:
+(A) 26° 24,6’ N.
+(B) 26° 24,0’ N.
+(C) 26° 23,0’ N.
+(D) 26° 25,0’ N.
+(E) 26° 24,2’ S.
+8ª Questão
+Como sabemos da literatura técnica sobre navegação astronômica, a dificuldade de calcular a
+Longitude do observador na passagem meridiana do Sol decorre da altura do Sol permanecer
+praticamente constante durante certo tempo e da velocidade da posição do observador decorrente da
+elevada velocidade do movimento de rotação da Terra, e, portanto o processo recomendado por
+apresentar uma precisão aceitável denomina-se “Longitude por alturas iguais do Sol”. Entretanto,
+também é do nosso conhecimento, que pela HMG do instante da culminação do Sol, é possível
+calcular o Ângulo Horário do Sol (
+AHG)
+do Sol, e que se houver exatidão no instante da passagem
+meridiana do Sol, o
+AHG
+do Sol corresponderia a Longitude (λ) do observador. Como a observação
+efetuada pelo Capitão-Amador determinou que às
+HMG
+= 20h28m00s, o Sol atingiu sua
+culminação, então, pode-se afirmar que o
+AHG
+
+do Sol no instante da culminação e a respectiva e
+aproximada
+λ
+do veleiro, calculada pelo AHG do Sol, foi de:
+(A) AHG = 124º 10,1’ e λ = 124º 10,1’ W.
+(B) AHG = 131º 03,1’ e λ = 131º 03,1’ W.
+(C) AHG = 124º 10,1’ e λ = 131º 03,1’ W.
+(D) AHG = 124º 10,1’ e λ = 131º 02,9’ W.
+(E) AHG = 131º 02,9’ e λ = 131º 02,9’ W.
+9ª Questão
+Como se chama o documento cartográfico resultante de levantamentos de áreas oceânicas, mares,
+baías, rios, canais, lagos, lagoas, ou qualquer outra massa d’água navegável e que se destina a servir
+de base à navegação?
+(A) Projeção transversa de Mercator.
+(B) Carta de Ney.
+(C) Carta naval.
+(D) Carta de auxílio.
+(E) Carta náutica.
+3
+/16
+
+===== PAGINA 4 OBJ 11 0 =====
+10ª Questão
+Cartas náuticas, para baixas latitudes, são em sua maioria construídas na projeção de:
+(A) Ney.
+(B) Lambert.
+(C) Mercator.
+(D) Peters.
+(E) Cones s
+imples.
+11ª Questão
+Em relação às cartas náuticas, é INCORRETO afirmar que:
+
+(A) Representam os acidentes terrestres e submarinos.
+(B) São documentos cartográficos.
+(C) Servem de base à navegação.
+(D) Todas são construídas na projeção policônica.
+(E) Fornecem informações sobre profundidades, perigos à navegação, e natureza dos fundos, por
+exemplo.
+12ª Questão
+Informações sobre profundidades, perigos à navegação, natureza do fundo, fundeadouros, áreas de
+fundeio, auxílios à navegação, altitudes e pontos notáveis aos navegantes, linha de costa e de
+contorno das ilhas, elementos de marés, correntes e magnetismo e outras indicações necessárias à
+segurança da navegação, estão representadas na(o):
+(A) lista de faróis.
+(B) roteiro.
+(C) carta de marés.
+(D) carta náutica.
+(E) lista de auxíli
+o rádio.
+13ª Questão
+Os Dados Dinâmicos transmitidos pelo AIS (
+Automatic Identification System
+) são oriundos de
+outros equipamentos interfaceados ao equipamento AIS de bordo, com exceção de um Dado
+Dinâmico que é introduzido manualmente e deve ter coerência com as luzes e marcas exibidas pela
+embarcação. Qual é o nome desse Dado Dinâmico?
+(A)
+Posição da embarcação.
+(B)
+Rumo no fundo.
+(C)
+Derrota percorrida.
+(D)
+Bandeira.
+(E)
+Situação da embarcação.
+4
+/16
+
+===== PAGINA 5 OBJ 14 0 =====
+14ª Questão
+Para a segurança da navegação é desejável que todos os objetos sejam visíveis ao radar. Os objetos
+de menor porte e os feitos de materiais (madeira, fibra etc.) que são maus refletores das ondas radar,
+resultam em uma baixa detecção. Visando atenuar esse problema, se utiliza um recurso que recebe o
+sinal do radar e que transmite outro de volta na mesma frequência, o que permite ao radar exibir um
+sinal forte em código Morse na tela, indicando a distância e a marcação do local onde o
+equipamento se encontra instalado. Como se chama esse equipamento?
+
+(A)
+RACON (
+Radar Transponder Beacon
+).
+(B)
+Reforçador de alvo radar (
+Radar Target Enhancer
+– RTE).
+(C)
+Refletor radar.
+(D)
+RAMARK.
+(E)
+SART.
+15ª Questão
+Como se chama a menor distância entre dois alvos situados na mesma marcação, para que esses
+alvos apareçam como imagens distintas na tela do radar?
+(A)
+Discriminação tangencial.
+(B)
+Poder separador em distância.
+(C)
+Poder separador em marcação.
+(D)
+Largura do feixe.
+(E)
+Largura de pulso.
+16ª Questão
+Como se chama a diferença mínima em marcação para que dois alvos situados à mesma distância
+do radar apareçam como imagens distintas na tela do radar?
+(A)
+Refração.
+(B)
+Poder separador em distância.
+(C)
+Largura do feixe.
+(D)
+Poder separador em marcação.
+(E)
+Largura de pulso.
+5
+/16
+
+===== PAGINA 6 OBJ 17 0 =====
+17ª Questão
+Nossa embarcação está no rumo 000°, velocidade 10 nós e opera um radar com apresentação
+estabilizada, na escala de 12 milhas, com 2 milhas entre os anéis de distância. A situação ilustrada
+na FIGURA abaixo mostra a posição de 05 alvos (A, B, C, D e E) nos minutos 00 e 06.
+Qual desses alvos está no mesmo rumo e velocidade que o nosso navio?
+(A)
+Alvo A.
+(B)
+Alvo B.
+(C)
+Alvo C.
+(D)
+Alvo D.
+(E)
+Alvo E.
+6
+/16
+
+===== PAGINA 7 OBJ 21 0 =====
+18ª Questão
+Analisando as afirmativas abaixo, podemos afirmar que:
+I – O DGPS auxilia na identificação de embarcações, no rastreamento de alvos e permite detectar
+alvos em torno de curvas e atrás de ilhas.
+II – O RTE (reforçador de alvos radar) é normalmente instalado no mastro de pequenas
+embarcações, recebendo o sinal do transmissor radar, o amplificando e o devolvendo ao
+transmissor.
+III – O ECDIS possibilita a capacidade de navegação em tempo real e de operar com cartas Raster.
+IV – A Navegação Paralela Indexada permite constatar em tempo real se a embarcação está
+navegando sobre uma derrota planejada.
+Assinale
+a opção correta.
+(A) Apenas as afirmativas II e IV são verdadeiras.
+(B) Apenas a afirmativa IV é verdadeira.
+(C) Apenas as afirmativas II e III são verdadeiras.
+(D) Apenas as afirmativas II, III e IV são verdadeiras.
+(E) Apenas as afirmativas I e IV são verdadeiras.
+19ª Questão
+Coloque por ordem da maior precisão para a menor precisão os métodos abaixo, utilizados para
+obtenção de uma posição usando o radar e
+assinale
+a opção que apresenta a sequência correta.
+1) Cruzamento de distâncias radar.
+2) Cruzamento de marcações radar.
+3) Cruzamento de distâncias radar e marcações visuais.
+4) Cruzamento de distâncias radar e marcações radar.
+(A)
+1, 2, 3 e 4.
+(B)
+3, 4, 1 e 2.
+(C)
+1, 4, 2 e 3.
+(D)
+3, 1, 4 e 2.
+(E)
+4, 3, 2 e 1.
+7
+/16
+
+===== PAGINA 8 OBJ 24 0 =====
+20ª Questão
+Num radar em
+Relative Motion
+(Movimento Relativo) com a função “histórico” (
+History Trails
+ou
+Historical Dots
+) ativada, os alvos e pontos fixos de terra movimentam-se no indicador em relação
+ao centro da tela e apresentam um aspecto sombreado que passa a marcar a posição em que o alvo
+já esteve na tela.
+Considerando a FIGURA abaixo como o indicador de um radar na escala de 6 milhas, de uma
+embarcação no rumo 240º e velocidade 12 nós, que apresenta 04 alvos (1, 2, 3 e 4) com histórico,
+correlacione
+a coluna da direita com a coluna da esquerda, em seguida,
+selecione
+a opção que
+apresenta a sequência correta.
+
+( 1 ) Alvo 1.
+( ) Ilha ou morro em terra.
+( 2 ) Alvo 2.
+( ) Próximo ao ponto de maior aproximação.
+
+( 3 ) Alvo 3.
+( ) Rumo de colisão e meu navio é obrigado a manobrar.
+( 4 ) Alvo 4.
+( ) Mesmo rumo e velocidade do nosso navio.
+(A)
+1, 2, 3 e 4.
+(B)
+3, 2, 1 e 4.
+(C)
+2, 1, 4 e 3.
+(D)
+1, 4, 3 e 2.
+(E)
+4, 3, 2 e 1.
+8
+/16
+2
+4
+
+===== PAGINA 9 OBJ 28 0 =====
+21ª Questão
+Sobre o
+Vessel Traffic Service
+(VTS),
+p
+odemos afirmar que:
+I – A participação de uma embarcação em um VTS pode ser mandatória ou voluntária, dependendo
+das regras locais.
+II – A autoridade de um VTS TOS se sobrepõe à competência de um Comandante pela segurança de
+sua embarcação.
+III – As Normas da Autoridade Marítima para serviço de VTS constam da publicação NORMAM-
+26/DHN.
+IV - O Serviço de Assistência à Navegação (NAS) de um VTS provê informações relevantes para a
+navegação e contribui efetivamente no processo de tomada de decisão a bordo.
+Assinale
+a
+opção correta.
+(
+A) Apenas as afirmativas II e IV são verdadeiras.
+(B) Apenas a afirmativa IV é verdadeira.
+(C) Apenas as afirmativas I, III e IV são verdadeiras.
+(D) Apenas as afirmativas II, III e IV são verdadeiras.
+(E) Apenas as afirmativas I e IV são verdadeiras.
+22ª Questão
+No que diz respeito a utilização do ECDIS,
+assinale
+a opção INCORRETA.
+(A) Permite a apresentação da imagem radar e informações meteorológicas gráficas (carta sinótica)
+em sobreposição a ENC
+(Electronic Nautical Chart
+).
+(B) Durante a execução de uma derrota, caso o sistema não disponha de uma Carta Náutica Digital
+Oficial para o trecho selecionado é exibido na tela um alerta para o navegante utilizar uma carta
+náutica oficial em papel.
+(C) Permite acesso a informações digitais de publicações náuticas (roteiro, auxílio-rádio, lista de
+faróis, aviso aos navegantes etc).
+(D) Capacidade de integração com agulha giroscópica, radar, diversos sensores e o AIS.
+(E) Quando utilizando cartas Raster emprega o modo RCDS, passando para a condição de
+ferramenta auxiliar de navegação e dispensando a navegação de ser conduzida utilizando as
+respectivas cartas náuticas em papel.
+9
+/16
+
+===== PAGINA 10 OBJ 31 0 =====
+23ª Questão
+Um Capitão Amador navegou com sua lancha, de calado 1,3 metro, para fundeio numa baía
+abrigada de ventos de sudoeste e escolheu um ponto de fundeio de profundidade registrada na carta
+náutica (NR, nível de redução) de 5,8 metros. Após o fundeio verificou que o ecobatímetro da
+lancha indicava 6,7 metros abaixo da quilha.
+Qual é à altura da maré no momento da leitura do ecobatímetro?
+(A)
+0,9 metro.
+(B)
+1,2 metro.
+(C)
+1,9 metro.
+(D)
+2,0 metros.
+(E)
+2,2 metros.
+24ª Questão
+Com relação ao assunto “Nível de Redução (NR)” utilizado como nível de referência para as
+medidas das alturas das marés e das profundidades registradas nas cartas náuticas do porto
+utilizado,
+assinale
+a alternativa correta.
+(A) O NR normalmente corresponde ao nível médio das preamares de sizígia (MHWS) nas cartas
+náuticas brasileiras.
+(B) O NR normalmente corresponde ao nível médio das baixamares de quadratura (MLWN) nas
+cartas náuticas brasileiras. É um nível abaixo do qual o mar não desce senão raramente.
+(C) O NR normalmente corresponde ao nível médio das baixamares de sizígia (MLWS) nas cartas
+náuticas brasileiras. É um nível abaixo do qual o mar não desce senão raramente.
+(D) o NR é calculado utilizando os valores médios das baixamares dos períodos de marés mortas,
+considerando o sistema Sol-Terra-Lua. É um nível abaixo do qual o mar não desce senão raramente.
+(E) o NR é calculado utilizando os valores médios das preamares dos períodos de marés vivas,
+considerando o sistema Sol-Terra-Lua.
+25ª Questão
+Em uma carta sinótica a maior intensidade dos ventos pode ser verificada por:
+(A) menor espaçamento entre as isóbaras.
+(B) maior espaçamento entre as isóbaras.
+(C) isóbaras retilíneas.
+(D) isóbaras perpendiculares à costa.
+(E) isóbaras paralelas à costa.
+26ª Questão
+Conforme Hemisfério Norte ou Sul (HN ou HS), em uma manobra evasiva deve-se navegar com o
+vento entrando pela:
+(A) alheta de boreste no HS no semicírculo perigoso.
+(B) bochecha de boreste no HS no semicírculo perigoso.
+(C) bochecha de boreste no HN no semicírculo perigoso.
+(D) bochecha de boreste no HS no semicírculo navegável.
+(E) alheta de bombordo no HN no semicírculo navegável.
+10
+/16
+
+===== PAGINA 11 OBJ 34 0 =====
+27ª Questão
+A figura abaixo foi retirada de um Atlas de Carta Piloto do mês de outubro do Porto de Santos.
+Quanto a rosa dos ventos da FIGURA, podemos afirmar que:
+(
+A)
+a percentagem de calmaria registrada nesse mês é de 28%.
+(B)
+o vento predominante é o Leste com 31% de frequência e Força Beaufort 5.
+(C)
+a percentagem de ocorrência de ventos da direção sudeste é de 31 nós.
+(D)
+a menor percentagem de vento esperada nesse mês é da direção sudoeste.
+(E)
+a força média dos ventos de oeste na Escala Beaufort é de 5.
+28ª Questão
+Como são denominadas as nuvens que são muito densas e acinzentadas, com formatos que lembram
+grandes torres; normalmente seguidas de mau tempo com fortes ventos e chuvas pesadas e que
+causam forte turbulência e são típicas de ciclones?
+(A) Altocumulus.
+(B) Cumulonimbus.
+(C) Altostratus.
+(D) Cirrocumulus.
+(E) Cirrostratus.
+29ª Questão
+Em uma carta sinótica :
+(A) “A” representa centros de Baixa pressão.
+(B) “B” representa centros de Alta pressão.
+(C) _ _ _ _ _ representa instabilidade/cavado.
+(D)
+representa uma frente quente.
+(E)
+representa uma frente fria.
+11
+/16
+
+===== PAGINA 12 OBJ 40 0 =====
+30ª Questão
+Com base na figura abaixo, podemos afirmar que a área B possui:
+(A) alta pressão em torno de 1024hPa.
+(B) baixa pressão em torno de 1024hPa.
+(C) instabilidade.
+(D) uma frente fria.
+(E) uma frente oclusa.
+12
+/16
+
+===== PAGINA 13 OBJ 44 0 =====
+31ª Questão
+Ao observar as nuvens Cumulus, que possuem cerca de 1000 metros, podemos afirmar que
+representam:
+(A) bom tempo.
+
+(B) mau tempo.
+(C) chuva.
+(D) baixa visibilidade.
+(E) ciclone.
+32ª Questão
+Considerando-se os coletes salva-vidas utilizados obrigatoriamente na navegação oceânica, pode-se
+afirmar que pertencem obrigatoriamente à classe SOLAS:
+(A) classe I.
+(B) classe II.
+(C) classe III.
+(D) classe IV.
+(E) classe V.
+33ª Questão
+As algas e os plânctons podem ser utilizados como complemento alimentar à dieta de um náufrago.
+Entretanto, sua ingestão deve estar condicionada à:
+(A) distância mínima da costa, evitando-se a presença de poluentes.
+(B) falta de ração sólida disponível para consumo.
+(C) disponibilidade de água doce.
+(D) verificação da toxidez da alga.
+(E) coloração visível das algas disponíveis.
+34ª Questão
+Considerando-se as medidas de proteção quanto aos ataques de tubarões, que possam surtir efeito,
+assinale
+aquela que está em
+desacordo
+com as orientações de sobrevivência no mar.
+(A) Evitar deixar as mãos e os pés dentro da água, enquanto embarcados.
+(B) Estando dentro da água, gritar com a cabeça mergulhada. Sons estridentes poderão espantá-los.
+(C) Bater com as palmas das mãos, em forma de cuia, na superfície da água, de maneira forte e
+regular.
+(D) Não retirar as roupas nem os sapatos. Roupas escuras parecem oferecer proteção maior que as
+roupas claras.
+(E) Manter a embarcação, se possível, perto de cardumes de peixes a fim de confundi-los.
+13
+/16
+
+===== PAGINA 14 OBJ 47 0 =====
+35ª Questão
+Tendo em vista a presença de óleo derramado na superfície do mar e estando este óleo em
+combustão ou não,
+assinale
+qual a atitude correta a ser tomada pelo náufrago que se encontra nessa
+situação.
+(A) Quando estiver na superfície, respirar com o rosto voltado para barlavento.
+(B) Se o óleo não estiver em combustão, não oferecerá perigo ao náufrago e não necessitará de
+cuidado especial.
+(C) À noite, utilizar óleo combustível no corpo, a fim de prevenir a hipotermia e ataques de animais.
+(D) Estando cercado pelo óleo, afastar-se do local nadando sob a água, à barlavento da mancha.
+(E) Não utilizar colete salva-vidas em caso de óleo no mar, a fim de evitar sua combustão em caso
+de proximidade ao fogo.
+36ª Questão
+Quando estiver imerso na água, utilizando colete salva-vidas e aguardando ser resgatado, um
+náufrago deverá:
+(
+A) movimentar-se continuamente por meio de exercícios físicos.
+(B) adotar a posição HELP.
+(C) manter-se imerso o máximo possível, se em água fria, para proteger-se do vento.
+(D) permanecer nadando para aquecer-se e afastar-se do local do naufrágio.
+(E) manter-se afastado dos outros náufragos para que seja visto e resgatado.
+37ª Questão
+Qual é a distância aproximada em que uma balsa salva-vidas pode ser visualizada, considerando-se
+o olho do observador em uma altura de 25 metros, zero à altura da balsa e com boas condições
+atmosféricas?
+(A) 02 Milhas Náuticas.
+(B) 04 Milhas Náuticas.
+(C) 06 Milhas Náuticas.
+(D) 08 Milhas Náuticas.
+(E) 10 Milhas Náuticas.
+38ª Questão
+O que deverá fazer o socorrista em caso de resgaste de uma pessoa dentro d’água?
+(A) Estar amarrado ao barco por cabo guia e utilizar coletes salva-vidas.
+(B) Entrar na água com pouca vestimenta, evitando molhar sua roupa.
+(C) Ser profissional de equipe de resgate treinado.
+(D) Nadar sem colete salva-vidas.
+(E) Nadar sob a superfície, evitando os efeitos do vento.
+14
+/16
+
+===== PAGINA 15 OBJ 50 0 =====
+39ª Questão
+Em um iate, ao tentar sair de Ubatuba, verificou-se que ele apresentava as seguintes cotas dos
+pontos notáveis G e M: respectivamente 2,7 m e 2,7 m. Qual é o tipo de equilíbrio e o valor da
+elevação virtual do centro de gravidade dessa embarcação
+?
+(A) Indiferente, 0,1.
+(B) Instável, 2,7.
+(C) Estável, 2,7.
+(D) Instável, 0,1.
+(E) Indiferente, 0.
+40ª Questão
+O que significa a altura metacêntrica (GM) transversal igual a zero, em relação ao equilíbrio de uma
+embarcação?
+(A) Altera o trim da embarcação.
+(B) Pode levá-la ao emborcamento.
+(C) Aumenta o gasto de combustível.
+(D) Não altera a estabilidade.
+(E) A embarcação fica abicada.
+15
+/16
+
+===== PAGINA 16 OBJ 53 0 =====
+EXAME DE SELEÇÃO PARA CATEGORIA DE CAPITÃO-AMADOR-II/2021
+RELAÇÃO DE ANEXOS PARA NAVEGAÇÃO ASTRONÔMICA
+A)
+Cópia da página A2 CORREÇÃO DE ALTURA DE 10º - 90º, SOL, ESTRELAS E PLANETAS,
+do Almanaque Náutico Brasileiro 2020.
+B)
+Cópias das páginas 212 e 213 do Almanaque Náutico Brasileiro 2020.
+C)
+Cópias das páginas XVI e XVII – Acréscimos e Correções do Almanaque
+Náutico Brasileiro 2020.
+D)
+Cópia da página I – Conversão de Arco em Tempo, do Almanaque
+Náutico Brasileiro 2020.
+16
+/16
