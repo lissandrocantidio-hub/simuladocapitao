@@ -128,8 +128,8 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado-arrais',
     title: 'Arrais-Amador',
     description:
-      'Termos nauticos, marinharia, fundeio, Ripeam, balizamento, VHF e seguranca para a prova de Arrais-Amador.',
-    badge: 'Nova prova',
+      'Nova habilitacao com 100 questoes para treinar termos nauticos, manobras, Ripeam, balizamento, VHF e seguranca de navegacao.',
+    badge: 'Nova habilitacao',
     subjects: ['arrais-amador'],
     questionCount: 20,
     durationMinutes: 40,

@@ -93,22 +93,42 @@ export default function Home() {
 
         <div className="grid gap-5 md:grid-cols-2">
           {simulationPresets.map((preset) => (
+            (() => {
+              const isArrais = preset.href === '/simulado-arrais'
+
+              return (
             <Link
               key={preset.href}
               href={premiumPaths.has(preset.href) ? '/comprar' : preset.href}
-              className="group rounded-[2rem] border border-line bg-surface-strong p-6 shadow-[0_18px_40px_rgba(16,32,51,0.08)] transition hover:-translate-y-1 hover:shadow-[0_24px_50px_rgba(16,32,51,0.12)]"
+              className={`group rounded-[2rem] p-6 transition hover:-translate-y-1 ${
+                isArrais
+                  ? 'border-2 border-accent/30 bg-[linear-gradient(135deg,rgba(214,241,235,0.85),rgba(255,250,241,0.98))] shadow-[0_24px_60px_rgba(16,120,108,0.14)]'
+                  : 'border border-line bg-surface-strong shadow-[0_18px_40px_rgba(16,32,51,0.08)] hover:shadow-[0_24px_50px_rgba(16,32,51,0.12)]'
+              }`}
             >
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <div className="flex flex-wrap gap-2">
-                    <span className="inline-flex rounded-full bg-accent-soft px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-accent">
+                    <span
+                      className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] ${
+                        isArrais
+                          ? 'bg-slate-950 text-white'
+                          : 'bg-accent-soft text-accent'
+                      }`}
+                    >
                       {preset.badge}
                     </span>
                     <span className="inline-flex rounded-full border border-line bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">
                       {premiumPaths.has(preset.href) ? 'Premium' : 'Demo gratis'}
                     </span>
                   </div>
-                  <h3 className="mt-4 text-2xl font-semibold text-slate-950">{preset.title}</h3>
+                  <h3
+                    className={`mt-4 font-semibold text-slate-950 ${
+                      isArrais ? 'text-3xl' : 'text-2xl'
+                    }`}
+                  >
+                    {preset.title}
+                  </h3>
                 </div>
                 <span className="rounded-full border border-line px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
                   {preset.durationMinutes} min
@@ -116,6 +136,12 @@ export default function Home() {
               </div>
 
               <p className="mt-4 text-sm leading-7 text-slate-700">{preset.description}</p>
+
+              {isArrais ? (
+                <p className="mt-4 rounded-2xl border border-white/70 bg-white/70 px-4 py-3 text-sm font-medium text-slate-800">
+                  Banco dedicado para quem vai tirar a habilitacao de Arrais-Amador.
+                </p>
+              ) : null}
 
               <div className="mt-6 flex flex-wrap gap-2">
                 {preset.subjects.map((subject) => (
@@ -135,6 +161,8 @@ export default function Home() {
                 </span>
               </div>
             </Link>
+              )
+            })()
           ))}
         </div>
       </section>
