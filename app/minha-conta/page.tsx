@@ -57,7 +57,7 @@ export default async function MinhaContaPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href={hasAccess ? '/prova-marinha' : '/comprar'}
-              className="rounded-full bg-slate-950 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-slate-800"
+              className="rounded-full bg-slate-950 px-6 py-3.5 text-lg font-semibold !text-white transition hover:bg-slate-800 hover:!text-white visited:!text-white focus-visible:!text-white"
             >
               {hasAccess ? 'Abrir prova premium' : 'Ativar acesso'}
             </Link>

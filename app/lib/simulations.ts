@@ -12,13 +12,14 @@ export type SimulationPreset = {
 }
 
 export const subjectLabels: Record<string, string> = {
-  astronomia: 'Navegação astronômica',
+  astronomia: 'Navegacao astronomica',
   meteorologia: 'Meteorologia',
-  navegacao: 'Navegação costeira',
-  'navegacao-eletronica': 'Navegação eletrônica',
-  sobrevivencia: 'Sobrevivência no mar',
-  comunicacoes: 'Comunicações',
+  navegacao: 'Navegacao costeira',
+  'navegacao-eletronica': 'Navegacao eletronica',
+  sobrevivencia: 'Sobrevivencia no mar',
+  comunicacoes: 'Comunicacoes',
   estabilidade: 'Estabilidade',
+  'arrais-amador': 'Arrais-Amador',
 }
 
 export const simulationPresets: SimulationPreset[] = [
@@ -26,7 +27,7 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado',
     title: 'Simulado geral',
     description:
-      'Demo gratuita com 5 questões fixas para conhecer a plataforma antes da versão completa.',
+      'Demo gratuita com 5 questoes fixas para conhecer a plataforma antes da versao completa.',
     badge: 'Mais procurado',
     subjects: [
       'astronomia',
@@ -47,7 +48,7 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/prova-marinha',
     title: 'Prova estilo Marinha',
     description:
-      'Fluxo mais próximo da prova real, com cronômetro mais longo e revisão só no final.',
+      'Fluxo mais proximo da prova real, com cronometro mais longo e revisao so no final.',
     badge: 'Modo prova',
     subjects: [
       'astronomia',
@@ -65,7 +66,7 @@ export const simulationPresets: SimulationPreset[] = [
   },
   {
     href: '/simulado-astronomica',
-    title: 'Astronômica',
+    title: 'Astronomica',
     description:
       'Passagem meridiana, sextante, altura verdadeira, latitude e longitude.',
     badge: 'Foco total',
@@ -79,8 +80,8 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado-meteorologia',
     title: 'Meteorologia',
     description:
-      'Frentes, nuvens, cartas sinóticas, ventos e leitura de cenários operacionais.',
-    badge: 'Revisão rápida',
+      'Frentes, nuvens, cartas sinoticas, ventos e leitura de cenarios operacionais.',
+    badge: 'Revisao rapida',
     subjects: ['meteorologia'],
     questionCount: 10,
     durationMinutes: 25,
@@ -89,9 +90,9 @@ export const simulationPresets: SimulationPreset[] = [
   },
   {
     href: '/simulado-comunicacoes',
-    title: 'Comunicações',
+    title: 'Comunicacoes',
     description:
-      'GMDSS, EPIRB, SART e fundamentos operacionais das comunicações marítimas.',
+      'GMDSS, EPIRB, SART e fundamentos operacionais das comunicacoes maritimas.',
     badge: 'Novo bloco',
     subjects: ['comunicacoes'],
     questionCount: 10,
@@ -101,10 +102,10 @@ export const simulationPresets: SimulationPreset[] = [
   },
   {
     href: '/simulado-sobrevivencia',
-    title: 'Sobrevivência',
+    title: 'Sobrevivencia',
     description:
       'Hipotermia, abandono, balsas salva-vidas e manobras em mares tempestuosos.',
-    badge: 'Treino rápido',
+    badge: 'Treino rapido',
     subjects: ['sobrevivencia'],
     questionCount: 10,
     durationMinutes: 20,
@@ -115,12 +116,24 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado-estabilidade',
     title: 'Estabilidade',
     description:
-      'GM, TPC, superfície livre e noções essenciais de segurança da embarcação.',
-    badge: 'Base técnica',
+      'GM, TPC, superficie livre e nocoes essenciais de seguranca da embarcacao.',
+    badge: 'Base tecnica',
     subjects: ['estabilidade'],
     questionCount: 10,
     durationMinutes: 20,
     passRate: 0.6,
+    mode: 'practice',
+  },
+  {
+    href: '/simulado-arrais',
+    title: 'Arrais-Amador',
+    description:
+      'Termos nauticos, marinharia, fundeio, Ripeam, balizamento, VHF e seguranca para a prova de Arrais-Amador.',
+    badge: 'Nova prova',
+    subjects: ['arrais-amador'],
+    questionCount: 20,
+    durationMinutes: 40,
+    passRate: 0.5,
     mode: 'practice',
   },
 ]
