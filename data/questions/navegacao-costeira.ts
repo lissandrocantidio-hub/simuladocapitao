@@ -605,4 +605,512 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   explanation: `Se as isobatas acompanham o rumo da embarcacao, o navegante pode manter a profundidade caracteristica para seguir com seguranca, o que corresponde a correr uma isobata. Por isso, a alternativa correta e a E.`,
 },
+{
+  id: 2024301,
+  subject: 'navegacao',
+  topic: 'mares / conceitos basicos',
+  conceptKey: 'nav.tide.tide_definition',
+  groupKey: 'nav.tide.concepts.basic',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `O movimento periodico de subida e descida do nivel do mar, causado principalmente pela atracao gravitacional da Lua e do Sol, recebe o nome de:`,
+
+  options: {
+    A: 'Corrente de deriva.',
+    B: 'Mare.',
+    C: 'Arrebentacao.',
+    D: 'Vaga.',
+    E: 'Ressaca.',
+  },
+
+  correct: 'B',
+
+  explanation: `Mare e a oscilacao periodica do nivel do mar produzida principalmente pela atracao gravitacional da Lua e do Sol, combinada com a rotacao da Terra. Por isso, a alternativa correta e a B.`,
+},
+{
+  id: 2024302,
+  subject: 'navegacao',
+  topic: 'mares / preamar e baixamar',
+  conceptKey: 'nav.tide.high_low_tide',
+  groupKey: 'nav.tide.concepts.basic',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `O instante em que o nivel da agua atinge sua maior altura em um ciclo de mare e chamado de:`,
+
+  options: {
+    A: 'Baixamar.',
+    B: 'Estofa de vazante.',
+    C: 'Preamar.',
+    D: 'Mare vazante.',
+    E: 'Mare enchente.',
+  },
+
+  correct: 'C',
+
+  explanation: `Preamar e o momento em que a agua alcanca a maior altura no ciclo considerado. Baixamar e a menor altura. Por isso, a alternativa correta e a C.`,
+},
+{
+  id: 2024303,
+  subject: 'navegacao',
+  topic: 'mares / estofa',
+  conceptKey: 'nav.tide.slack_water',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `O curto intervalo em que a corrente de mare praticamente cessa antes de inverter seu sentido e conhecido como:`,
+
+  options: {
+    A: 'Estofa.',
+    B: 'Vaga.',
+    C: 'Marulho.',
+    D: 'Cavado.',
+    E: 'Mar de leva.',
+  },
+
+  correct: 'A',
+
+  explanation: `Estofa e o intervalo de transicao em que a corrente de mare enfraquece ao maximo antes de mudar de sentido. Por isso, a alternativa correta e a A.`,
+},
+{
+  id: 2024304,
+  subject: 'navegacao',
+  topic: 'mares / amplitude',
+  conceptKey: 'nav.tide.range_definition',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `A diferenca entre a altura da preamar e a altura da baixamar em um mesmo ciclo e chamada de:`,
+
+  options: {
+    A: 'Deriva.',
+    B: 'Amplitude da mare.',
+    C: 'Profundidade minima.',
+    D: 'Altura cartografica.',
+    E: 'Curva de nivel.',
+  },
+
+  correct: 'B',
+
+  explanation: `Amplitude da mare e a diferenca entre a altura da preamar e a da baixamar no mesmo ciclo. Por isso, a alternativa correta e a B.`,
+},
+{
+  id: 2024305,
+  subject: 'navegacao',
+  topic: 'mares / sizigia e quadratura',
+  conceptKey: 'nav.tide.spring_tide',
+  groupKey: 'nav.tide.spring_neap',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `As mares de maior amplitude, normalmente associadas ao alinhamento aproximado entre Sol, Terra e Lua, sao chamadas de:`,
+
+  options: {
+    A: 'Mares de quadratura.',
+    B: 'Mares mortas.',
+    C: 'Mares de sizigia.',
+    D: 'Mares de estofa.',
+    E: 'Mares de deriva.',
+  },
+
+  correct: 'C',
+
+  explanation: `Nas sizigias, Sol, Terra e Lua ficam aproximadamente alinhados, reforcando os efeitos gravitacionais e produzindo mares de maior amplitude. Por isso, a alternativa correta e a C.`,
+},
+{
+  id: 2024306,
+  subject: 'navegacao',
+  topic: 'mares / sizigia e quadratura',
+  conceptKey: 'nav.tide.neap_tide',
+  groupKey: 'nav.tide.spring_neap',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `As mares de menor amplitude, observadas nas fases de quarto crescente e quarto minguante, sao chamadas de:`,
+
+  options: {
+    A: 'Mares de sizigia.',
+    B: 'Mares de quadratura.',
+    C: 'Mares de tempestade.',
+    D: 'Mares de enchente.',
+    E: 'Mares de arrebentacao.',
+  },
+
+  correct: 'B',
+
+  explanation: `Nas quadraturas, os efeitos gravitacionais da Lua e do Sol se contrapoe parcialmente, produzindo mares de menor amplitude. Por isso, a alternativa correta e a B.`,
+},
+{
+  id: 2024307,
+  subject: 'navegacao',
+  topic: 'mares / leitura operacional',
+  conceptKey: 'nav.tide.flood_tide',
+  groupKey: 'nav.tide.current_direction',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Quando o nivel da agua esta subindo entre a baixamar e a preamar, diz-se que a mare esta:`,
+
+  options: {
+    A: 'Vazante.',
+    B: 'Enchente.',
+    C: 'Parada.',
+    D: 'Em sizigia.',
+    E: 'Em quadratura.',
+  },
+
+  correct: 'B',
+
+  explanation: `Mare enchente e a fase em que o nivel da agua sobe da baixamar para a preamar. Por isso, a alternativa correta e a B.`,
+},
+{
+  id: 2024308,
+  subject: 'navegacao',
+  topic: 'mares / leitura operacional',
+  conceptKey: 'nav.tide.ebb_tide',
+  groupKey: 'nav.tide.current_direction',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Quando o nivel da agua esta descendo da preamar para a baixamar, diz-se que a mare esta:`,
+
+  options: {
+    A: 'Enchente.',
+    B: 'Parada.',
+    C: 'Vazante.',
+    D: 'De sizigia.',
+    E: 'Em amplitude maxima.',
+  },
+
+  correct: 'C',
+
+  explanation: `Mare vazante e a fase em que o nivel do mar desce da preamar para a baixamar. Por isso, a alternativa correta e a C.`,
+},
+{
+  id: 2024309,
+  subject: 'navegacao',
+  topic: 'mares / calculo de amplitude',
+  conceptKey: 'nav.tide.range_calculation',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Em um porto, a preamar prevista e 2,8 m e a baixamar prevista e 0,6 m. Qual e a amplitude dessa mare?`,
+
+  options: {
+    A: '1,2 m.',
+    B: '2,0 m.',
+    C: '2,2 m.',
+    D: '2,8 m.',
+    E: '3,4 m.',
+  },
+
+  correct: 'C',
+
+  explanation: `A amplitude da mare e a diferenca entre preamar e baixamar: 2,8 - 0,6 = 2,2 m. Portanto, a alternativa correta e a C.`,
+},
+{
+  id: 2024310,
+  subject: 'navegacao',
+  topic: 'mares / profundidade disponivel',
+  conceptKey: 'nav.tide.depth_available',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Uma carta indica sondagem de 1,9 m em determinado ponto e a altura da mare no instante e 0,8 m. Desprezando outros efeitos, qual e a profundidade total aproximada disponivel nesse ponto?`,
+
+  options: {
+    A: '1,1 m.',
+    B: '1,9 m.',
+    C: '2,1 m.',
+    D: '2,7 m.',
+    E: '3,1 m.',
+  },
+
+  correct: 'D',
+
+  explanation: `A profundidade total aproximada resulta da soma da sondagem cartografica com a altura da mare: 1,9 + 0,8 = 2,7 m. Portanto, a alternativa correta e a D.`,
+},
+{
+  id: 2024311,
+  subject: 'navegacao',
+  topic: 'mares / folga abaixo da quilha',
+  conceptKey: 'nav.tide.under_keel_clearance',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Em um local com profundidade total disponivel de 2,6 m, uma embarcacao de calado 1,8 m tera qual folga aproximada abaixo da quilha?`,
+
+  options: {
+    A: '0,4 m.',
+    B: '0,6 m.',
+    C: '0,8 m.',
+    D: '1,2 m.',
+    E: '4,4 m.',
+  },
+
+  correct: 'C',
+
+  explanation: `A folga abaixo da quilha e a profundidade disponivel menos o calado: 2,6 - 1,8 = 0,8 m. Portanto, a alternativa correta e a C.`,
+},
+{
+  id: 2024312,
+  subject: 'navegacao',
+  topic: 'mares / janela operacional',
+  conceptKey: 'nav.tide.best_departure_time',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Para transpor uma barra rasa com seguranca, em geral e mais favoravel escolher um horario proximo da:`,
+
+  options: {
+    A: 'Baixamar.',
+    B: 'Mare vazante maxima.',
+    C: 'Preamar.',
+    D: 'Estofa de vazante.',
+    E: 'Quadratura obrigatoriamente.',
+  },
+
+  correct: 'C',
+
+  explanation: `Em regra, a preamar oferece maior altura d'agua e, portanto, mais folga para transpor barras e passos rasos. Por isso, a alternativa correta e a C.`,
+},
+{
+  id: 2024313,
+  subject: 'navegacao',
+  topic: 'mares / leitura temporal',
+  conceptKey: 'nav.tide.time_between_tides',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Se a preamar ocorreu as 06:00 e a proxima baixamar esta prevista para as 12:10, o intervalo aproximado entre esses dois eventos e de:`,
+
+  options: {
+    A: '4h 10min.',
+    B: '5h 40min.',
+    C: '6h 10min.',
+    D: '6h 40min.',
+    E: '12h 10min.',
+  },
+
+  correct: 'C',
+
+  explanation: `Basta subtrair os horarios informados: de 06:00 a 12:10 decorrem 6 horas e 10 minutos. Portanto, a alternativa correta e a C.`,
+},
+{
+  id: 2024314,
+  subject: 'navegacao',
+  topic: 'mares / comparacao de amplitudes',
+  conceptKey: 'nav.tide.compare_ranges',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Em um dia de sizigia, a amplitude prevista e 3,4 m. Em um dia de quadratura, a amplitude prevista e 1,6 m. Qual afirmacao esta correta?`,
+
+  options: {
+    A: 'A quadratura apresenta amplitude maior.',
+    B: 'A sizigia apresenta amplitude maior.',
+    C: 'As amplitudes sao iguais.',
+    D: 'Nao ha relacao entre fase da Lua e amplitude.',
+    E: 'A amplitude de quadratura e necessariamente zero.',
+  },
+
+  correct: 'B',
+
+  explanation: `Sizigias tendem a produzir amplitudes maiores do que quadraturas. Como 3,4 m > 1,6 m, a afirmacao correta e a da alternativa B.`,
+},
+{
+  id: 2024315,
+  subject: 'navegacao',
+  topic: 'mares / nivel de reducao',
+  conceptKey: 'nav.tide.chart_datum',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Em navegacao costeira, a altura da mare fornecida pela tabua e somada a sondagem da carta para estimar a profundidade total. Isso e possivel porque as sondagens estao referidas ao:`,
+
+  options: {
+    A: 'Nivel de reducao.',
+    B: 'Nivel medio do mar instantaneo.',
+    C: 'Topo da onda significativa.',
+    D: 'Fundo movel local.',
+    E: 'Calado da embarcacao-padrao.',
+  },
+
+  correct: 'A',
+
+  explanation: `As sondagens cartograficas sao referidas ao nivel de reducao. Por isso, a altura da mare pode ser somada a elas para estimar a profundidade total no instante considerado. Portanto, a alternativa correta e a A.`,
+},
+{
+  id: 2024316,
+  subject: 'navegacao',
+  topic: 'mares / leitura de tendencia',
+  conceptKey: 'nav.tide.trend_assessment',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Se a baixamar esta prevista para as 09:00 e a preamar seguinte para as 15:20, as 11:00 a tendencia mais provavel do nivel do mar sera:`,
+
+  options: {
+    A: 'Descida, pois ainda falta muito para a preamar.',
+    B: 'Subida, pois o periodo esta entre baixamar e preamar.',
+    C: 'Nivel constante, pois duas horas apos a baixamar ha sempre estofa.',
+    D: 'Descida, porque a enchente so comeca na metade do intervalo.',
+    E: 'Impossivel avaliar sem carta sinotica.',
+  },
+
+  correct: 'B',
+
+  explanation: `Entre a baixamar e a preamar subsequente, o nivel do mar tende a subir. Como 11:00 esta nesse intervalo, a tendencia mais provavel e de enchente. Portanto, a alternativa correta e a B.`,
+},
+{
+  id: 2024317,
+  subject: 'navegacao',
+  topic: 'mares / estimativa proporcional',
+  conceptKey: 'nav.tide.proportional_estimate',
+  groupKey: 'nav.tide.intermediate_height',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Em uma estimativa simplificada, considere baixamar de 0,8 m as 06:00 e preamar de 2,0 m as 12:00. Admitindo variacao linear apenas para efeito de aproximacao, qual seria a altura de mare as 09:00?`,
+
+  options: {
+    A: '1,0 m.',
+    B: '1,2 m.',
+    C: '1,4 m.',
+    D: '1,6 m.',
+    E: '2,8 m.',
+  },
+
+  correct: 'C',
+
+  explanation: `A amplitude total e 2,0 - 0,8 = 1,2 m. As 09:00 decorreu metade do intervalo entre 06:00 e 12:00, entao, nessa aproximacao linear, soma-se metade da amplitude: 0,8 + 0,6 = 1,4 m. Portanto, a alternativa correta e a C.`,
+},
+{
+  id: 2024318,
+  subject: 'navegacao',
+  topic: 'mares / estimativa proporcional',
+  conceptKey: 'nav.tide.proportional_estimate_descending',
+  groupKey: 'nav.tide.intermediate_height',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Em uma estimativa simplificada, considere preamar de 3,0 m as 18:00 e baixamar de 1,2 m a 00:00. Admitindo variacao linear apenas para efeito de aproximacao, qual seria a altura de mare as 21:00?`,
+
+  options: {
+    A: '1,2 m.',
+    B: '1,8 m.',
+    C: '2,1 m.',
+    D: '2,4 m.',
+    E: '3,6 m.',
+  },
+
+  correct: 'C',
+
+  explanation: `A diferenca entre 3,0 m e 1,2 m e 1,8 m. As 21:00 decorreu metade do intervalo entre 18:00 e 00:00, entao a reducao aproximada seria de 0,9 m. Assim, a altura estimada fica 3,0 - 0,9 = 2,1 m. Portanto, a alternativa correta e a C.`,
+},
+{
+  id: 2024319,
+  subject: 'navegacao',
+  topic: 'mares / seguranca de manobra',
+  conceptKey: 'nav.tide.mooring_adjustment',
+  difficulty: 'medium',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `Em um cais com variacao significativa de mare, as espias devem ser acompanhadas ao longo do periodo porque:`,
+
+  options: {
+    A: 'O casco muda de cor com a enchente.',
+    B: 'A altura da embarcacao em relacao ao cais varia e pode sobrecarregar as espias.',
+    C: 'A mare elimina o efeito do vento.',
+    D: 'As defensas deixam de funcionar em preamar.',
+    E: 'O calado da embarcacao torna-se nulo na baixamar.',
+  },
+
+  correct: 'B',
+
+  explanation: `Com a subida e descida da mare, a embarcacao muda de altura em relacao ao cais. Isso exige acompanhar as espias para evitar esforcos excessivos, folgas inadequadas ou dano ao conjunto. Portanto, a alternativa correta e a B.`,
+},
+{
+  id: 2024320,
+  subject: 'navegacao',
+  topic: 'mares / uso da tabua',
+  conceptKey: 'nav.tide.tide_table_purpose',
+  difficulty: 'easy',
+  year: 2024,
+  exam: 'Banco complementar',
+  source: 'Questao autoral',
+  verified: true,
+
+  statement: `A principal finalidade pratica da tabua de mare para o navegante costeiro e permitir a previsao de:`,
+
+  options: {
+    A: 'Temperatura da agua e salinidade media.',
+    B: 'Horario e altura aproximada das mares em determinado porto ou referencia.',
+    C: 'Somente a direcao do vento dominante.',
+    D: 'Profundidade exata em qualquer ponto sem consulta a carta.',
+    E: 'Posicao do Sol e da Lua para sextante.',
+  },
+
+  correct: 'B',
+
+  explanation: `A tabua de mare informa os horarios e as alturas previstas de preamares e baixamares, servindo de base para estimar profundidades disponiveis e janelas operacionais. Por isso, a alternativa correta e a B.`,
+},
 ]
