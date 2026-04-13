@@ -178,7 +178,7 @@ export const estabilidadeQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Utilizando a tabela de dados hidrostáticos abaixo, o Capitão-Amador Alan determinou a variação do trim causada por um peso de 1,8 t que foi movimentado 9 m longitudinalmente para ré, tendo a embarcação os calados a vante e a ré iguais a 1,9 m. Ele encontrou para essa variação e para o novo trim os seguintes valores:',
+      'Utilizando a tabela de dados hidrostáticos da prova (ver material de apoio), o Capitão-Amador Alan determinou a variação do trim causada por um peso de 1,8 t que foi movimentado 9 m longitudinalmente para ré, tendo a embarcação os calados a vante e a ré iguais a 1,9 m. Ele encontrou para essa variação e para o novo trim os seguintes valores:',
     options: {
       A: '0cm e 1cm.',
       B: '1cm e 2cm.',
@@ -188,7 +188,13 @@ export const estabilidadeQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'O momento de trim é peso vezes deslocamento longitudinal: 1,8 x 9 = 16,2 t.m. Usando a tabela hidrostática fornecida na questão, esse momento corresponde a uma variação de trim de aproximadamente 2 cm. Como os calados inicial a vante e a ré eram iguais, o trim inicial era zero; depois da movimentação para ré, o novo trim passa a 2 cm. Por isso, a alternativa correta é a C.',
+      'O momento de trim vale peso vezes deslocamento longitudinal: 1,8 x 9 = 16,2 t.m. Consultando a tabela hidrostática para o calado de 1,9 m, obtém-se o MCT 1 cm correspondente, e a divisão desse momento por esse valor leva a uma variação de trim de aproximadamente 2 cm. Como os calados iniciais a vante e a ré eram iguais, o trim inicial era zero; depois da movimentação para ré, o novo trim passa a 2 cm. Portanto, a alternativa correta é a C.',
+    attachments: [
+      {
+        label: 'Tabela hidrostática - CPA-II 2022',
+        path: '/anexos/cpa2-2022/cpa2-2022-prova.pdf#page=13',
+      },
+    ],
   },
   {
     id: 20212039,
