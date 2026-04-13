@@ -2,31 +2,16 @@ import { AccessGrantStatus, PurchaseStatus } from '@prisma/client'
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth'
+import { accessPlan } from '@/lib/billing'
 import { prisma } from '@/lib/db'
 import { hasGrantedAccess } from '@/lib/payment-access'
 import { simulationPresets } from '@/app/lib/simulations'
-
-export const accessPlan = {
-  code: 'premium-90d',
-  name: 'Acesso completo por 90 dias',
-  description: 'Libera todos os simulados premium por 90 dias corridos.',
-  durationDays: 90,
-  priceCents: 3990,
-  currency: 'BRL',
-} as const
 
 export const freePaths = new Set(['/simulado'])
 
 export const premiumPaths = new Set(
   simulationPresets.map((preset) => preset.href).filter((pathname) => !freePaths.has(pathname))
 )
-
-export function formatPriceInReais(amountCents: number) {
-  return new Intl.NumberFormat('pt-BR', {
-    style: 'currency',
-    currency: 'BRL',
-  }).format(amountCents / 100)
-}
 
 export function addDays(date: Date, days: number) {
   const nextDate = new Date(date)

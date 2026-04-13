@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import AccountActions from '@/app/components/AccountActions'
-import { accessPlan, formatPriceInReais, getCurrentAccessSnapshot } from '@/lib/access'
+import { getCurrentAccessSnapshot } from '@/lib/access'
+import { accessPlan, formatPriceInReais } from '@/lib/billing'
+import { supportEmail } from '@/lib/checkout-offers'
 import { prisma } from '@/lib/db'
 
 export default async function MinhaContaPage() {
@@ -38,6 +40,9 @@ export default async function MinhaContaPage() {
               {hasAccess && accessGrant
                 ? `Valido ate ${new Intl.DateTimeFormat('pt-BR').format(accessGrant.expiresAt)}.`
                 : `Plano disponivel por ${formatPriceInReais(accessPlan.priceCents)}.`}
+            </p>
+            <p className="mt-2 text-sm leading-7 text-slate-700">
+              Suporte e atendimento: <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
             </p>
           </div>
 

@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation'
 import RegisterForm from '@/app/components/RegisterForm'
 import { getCurrentUser } from '@/lib/auth'
+import { supportEmail } from '@/lib/checkout-offers'
 
 export default async function CadastroPage() {
   const user = await getCurrentUser()
@@ -22,6 +23,9 @@ export default async function CadastroPage() {
           <p className="max-w-xl text-base leading-8 text-slate-700">
             Depois do cadastro, voce ja pode seguir para o checkout e ativar o plano completo de
             90 dias.
+          </p>
+          <p className="max-w-xl text-sm leading-7 text-slate-600">
+            Suporte e atendimento: <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
           </p>
         </div>
 

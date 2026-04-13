@@ -1,6 +1,7 @@
 import { PurchaseStatus } from '@prisma/client'
 import { NextResponse } from 'next/server'
-import { accessPlan, grantPlanAccess } from '@/lib/access'
+import { grantPlanAccess } from '@/lib/access'
+import { accessPlan } from '@/lib/billing'
 import { prisma } from '@/lib/db'
 import { getMercadoPagoPaymentClient } from '@/lib/mercadopago'
 

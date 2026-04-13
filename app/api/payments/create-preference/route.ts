@@ -1,10 +1,12 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
+import { getAppliedCoupon, getCheckoutPricing, normalizeCouponCode } from '@/lib/checkout-offers'
 import { createPendingPaymentAccess, checkoutProduct } from '@/lib/payment-access'
 import { getMercadoPagoPreferenceClient } from '@/lib/mercadopago'
 
 const payloadSchema = z.object({
   email: z.string().email(),
+  couponCode: z.string().optional(),
 })
 
 function getBaseUrl(request: Request) {
@@ -37,6 +39,12 @@ export async function POST(request: Request) {
     }
 
     const email = parsed.data.email.toLowerCase().trim()
+    const couponCode = normalizeCouponCode(parsed.data.couponCode)
+    if (couponCode && !getAppliedCoupon(couponCode)) {
+      return NextResponse.json({ error: 'Cupom invalido.' }, { status: 400 })
+    }
+
+    const pricing = getCheckoutPricing(couponCode)
     await createPendingPaymentAccess(email)
 
     const baseUrl = getBaseUrl(request)
@@ -49,15 +57,21 @@ export async function POST(request: Request) {
             title: checkoutProduct.title,
             description: checkoutProduct.description,
             quantity: 1,
-            unit_price: checkoutProduct.priceCents / 100,
+            unit_price: pricing.finalPriceCents / 100,
             currency_id: checkoutProduct.currency,
           },
         ],
         payer: {
           email,
         },
+        payment_methods: {
+          default_payment_method_id: 'pix',
+        },
         metadata: {
           email,
+          couponCode: pricing.coupon?.code ?? null,
+          originalPriceCents: pricing.originalPriceCents,
+          finalPriceCents: pricing.finalPriceCents,
         },
         external_reference: email,
         back_urls: {

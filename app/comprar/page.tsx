@@ -1,5 +1,6 @@
 import CheckoutProForm, { type CheckoutStatus } from '@/app/components/CheckoutProForm'
-import { formatPriceInReais } from '@/lib/access'
+import { formatPriceInReais } from '@/lib/billing'
+import { getCheckoutPricing, launchCoupon, supportEmail } from '@/lib/checkout-offers'
 import { checkoutProduct, getPaymentAccessByEmail, hasGrantedAccess } from '@/lib/payment-access'
 
 type ComprarPageProps = {
@@ -17,6 +18,7 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
       ? { type: resolved.status, email }
       : undefined
 
+  const launchPricing = getCheckoutPricing(launchCoupon.code)
   const hasAccess = email ? await hasGrantedAccess(email) : false
   const accessRecord = email ? await getPaymentAccessByEmail(email) : null
 
@@ -35,6 +37,15 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
             acesso automaticamente quando o pagamento for aprovado.
           </p>
 
+          <div className="rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-4 text-sm text-emerald-950">
+            <p className="font-semibold">Promocao de lancamento ativa</p>
+            <p className="mt-1">
+              Use o cupom {launchCoupon.code} e pague{' '}
+              {formatPriceInReais(launchPricing.finalPriceCents)} em vez de{' '}
+              {formatPriceInReais(launchPricing.originalPriceCents)}.
+            </p>
+          </div>
+
           <ul className="grid gap-3 text-sm text-slate-700 md:grid-cols-3">
             <li className="rounded-2xl border border-line bg-white/65 px-4 py-4">
               90 dias de acesso premium
@@ -43,7 +54,7 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
               Simulados por materia
             </li>
             <li className="rounded-2xl border border-line bg-white/65 px-4 py-4">
-              Liberacao por webhook
+              Pix priorizado no checkout
             </li>
           </ul>
         </div>
@@ -59,6 +70,13 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
             </strong>
             <p className="mt-2 text-sm leading-7 text-slate-700">
               Pagamento unico com acesso premium por 90 dias.
+            </p>
+            <p className="mt-2 text-sm leading-7 text-slate-700">
+              Com o cupom {launchCoupon.code}, o valor cai para{' '}
+              {formatPriceInReais(launchPricing.finalPriceCents)}.
+            </p>
+            <p className="mt-3 text-sm leading-7 text-slate-700">
+              Suporte e atendimento: <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
             </p>
           </div>
 

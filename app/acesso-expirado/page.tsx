@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { supportEmail } from '@/lib/checkout-offers'
 
 export default function AcessoExpiradoPage() {
   return (
@@ -13,6 +14,9 @@ export default function AcessoExpiradoPage() {
         <p className="mx-auto mt-4 max-w-2xl text-base leading-8 text-slate-700">
           Entre novamente no checkout para renovar por mais 90 dias e continuar usando todos os
           simulados fechados.
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
+          Suporte e atendimento: <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
         </p>
 
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
