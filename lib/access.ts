@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth'
 import { accessPlan } from '@/lib/billing'
 import { prisma } from '@/lib/db'
-import { hasGrantedAccess } from '@/lib/payment-access'
+import { getActivePaymentAccessByEmail, hasGrantedAccess } from '@/lib/payment-access'
 import { simulationPresets } from '@/app/lib/simulations'
 
 export const freePaths = new Set(['/simulado'])
@@ -51,11 +51,13 @@ export async function getCurrentAccessSnapshot() {
   }
 
   const accessGrant = await getActiveAccessGrant(user.id)
+  const emailAccess = user.email ? await getActivePaymentAccessByEmail(user.email) : null
 
   return {
     user,
     accessGrant,
-    hasAccess: Boolean(accessGrant),
+    emailAccess,
+    hasAccess: Boolean(accessGrant || emailAccess),
   }
 }
 

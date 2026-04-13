@@ -1,4 +1,5 @@
 import { prisma } from '@/lib/db'
+import { accessPlan } from '@/lib/billing'
 
 export const checkoutProduct = {
   title: 'Acesso Simulado Capitão Amador',
@@ -13,6 +14,7 @@ export type PaymentAccessSnapshot = {
   status: string
   accessGranted: boolean
   createdAt: Date
+  updatedAt: Date
 }
 
 export async function createPendingPaymentAccess(email: string) {
@@ -93,11 +95,31 @@ export async function getPaymentAccessByEmail(email: string): Promise<PaymentAcc
       status: true,
       accessGranted: true,
       createdAt: true,
+      updatedAt: true,
     },
   })
 }
 
+export function getPaymentAccessExpiration(access: Pick<PaymentAccessSnapshot, 'updatedAt'>) {
+  const expiresAt = new Date(access.updatedAt)
+  expiresAt.setDate(expiresAt.getDate() + accessPlan.durationDays)
+  return expiresAt
+}
+
+export function isPaymentAccessActive(access: PaymentAccessSnapshot | null) {
+  if (!access?.accessGranted) {
+    return false
+  }
+
+  return getPaymentAccessExpiration(access) > new Date()
+}
+
+export async function getActivePaymentAccessByEmail(email: string) {
+  const access = await getPaymentAccessByEmail(email)
+  return isPaymentAccessActive(access) ? access : null
+}
+
 export async function hasGrantedAccess(email: string) {
   const access = await getPaymentAccessByEmail(email)
-  return Boolean(access?.accessGranted)
+  return isPaymentAccessActive(access)
 }

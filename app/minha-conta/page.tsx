@@ -5,9 +5,10 @@ import { getCurrentAccessSnapshot } from '@/lib/access'
 import { accessPlan, formatPriceInReais } from '@/lib/billing'
 import { supportEmail } from '@/lib/checkout-offers'
 import { prisma } from '@/lib/db'
+import { getPaymentAccessExpiration } from '@/lib/payment-access'
 
 export default async function MinhaContaPage() {
-  const { user, accessGrant, hasAccess } = await getCurrentAccessSnapshot()
+  const { user, accessGrant, emailAccess, hasAccess } = await getCurrentAccessSnapshot()
 
   if (!user?.id) {
     redirect('/login?next=/minha-conta')
@@ -37,13 +38,20 @@ export default async function MinhaContaPage() {
               {hasAccess ? 'Premium ativo' : 'Sem acesso ativo'}
             </strong>
             <p className="mt-2 text-sm leading-7 text-slate-700">
-              {hasAccess && accessGrant
-                ? `Valido ate ${new Intl.DateTimeFormat('pt-BR').format(accessGrant.expiresAt)}.`
+              {hasAccess && (accessGrant || emailAccess)
+                ? `Valido ate ${new Intl.DateTimeFormat('pt-BR').format(
+                    accessGrant?.expiresAt ?? getPaymentAccessExpiration(emailAccess!)
+                  )}.`
                 : `Plano disponivel por ${formatPriceInReais(accessPlan.priceCents)}.`}
             </p>
             <p className="mt-2 text-sm leading-7 text-slate-700">
               Suporte e atendimento: <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
             </p>
+            {!accessGrant && emailAccess ? (
+              <p className="mt-2 text-sm leading-7 text-slate-700">
+                Pagamento identificado pelo e-mail do checkout.
+              </p>
+            ) : null}
           </div>
 
           <div className="flex flex-wrap gap-3">
