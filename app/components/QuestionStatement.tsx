@@ -10,6 +10,31 @@ type CorrelationLayout = {
 }
 
 function parseCorrelationLayout(statement: string): CorrelationLayout | null {
+  if (statement.includes('Coluna 1') && statement.includes('Coluna 2')) {
+    const lines = statement
+      .split('\n')
+      .map((line) => line.trim())
+      .filter(Boolean)
+
+    const coluna1Index = lines.findIndex((line) => line === 'Coluna 1')
+    const coluna2Index = lines.findIndex((line) => line === 'Coluna 2')
+
+    if (coluna1Index !== -1 && coluna2Index !== -1 && coluna1Index < coluna2Index) {
+      const intro = lines.slice(0, coluna1Index)
+      const leftItems = lines
+        .slice(coluna1Index + 1, coluna2Index)
+        .map((line) => line.replace(/^\d+\.\s*/, ''))
+        .map((line, index) => `(${index + 1}) ${line}`)
+      const rightItems = lines
+        .slice(coluna2Index + 1)
+        .map((line) => line.replace(/^\d+\.\s*/, ''))
+
+      if (leftItems.length > 0 && rightItems.length > 0) {
+        return { intro, leftItems, rightItems }
+      }
+    }
+  }
+
   if (!statement.includes('Itens a correlacionar:')) {
     return null
   }

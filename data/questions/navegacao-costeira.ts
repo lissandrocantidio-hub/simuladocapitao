@@ -577,7 +577,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'D',
 
-  explanation: `Aplicando sucessivamente declinacao e desvio a oeste ao rumo verdadeiro, chega-se ao rumo da agulha magnetica da alternativa D.`,
+  explanation: `A conversao deve ser feita na sequencia Verdadeiro -> Magnetico -> Agulha. Como a declinacao e 17° W, para passar de rumo verdadeiro para rumo magnetico soma-se 17°: 145° + 17° = 162°. Em seguida aplica-se o desvio da agulha, que tambem e 1° W, somando mais 1° para obter o rumo da agulha: 162° + 1° = 163°. Portanto, o rumo da agulha a adotar e 163°, correspondente a alternativa D.`,
 },
 {
   id: 2023211,

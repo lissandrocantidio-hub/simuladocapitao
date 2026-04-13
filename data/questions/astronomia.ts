@@ -1286,7 +1286,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Sabendo que a altura verdadeira do Sol na culminacao foi 84° 29,8’ e que a declinacao solar no instante era 04° 02,7’ N, qual foi a latitude meridiana calculada pelo Capitao?',
+      'Em 30 de marco de 2017, na passagem meridiana do Sol, sabendo que a altura verdadeira do astro na culminacao foi 84° 29,8’ e que a declinacao solar no instante era 04° 02,7’ N, qual foi a latitude meridiana calculada pelo Capitao?',
     options: {
       A: '01° 18,3’ S.',
       B: '01° 23,1’ S.',
@@ -2139,9 +2139,9 @@ Alternativa correta: B.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Um navegante observou o Sol com altura instrumental de 81° 52,8’, com erro instrumental de –0,3’ e altura do olho de 2,9 m.
+  statement: `No dia 23 de fevereiro de 2020, durante a passagem meridiana do Sol, um navegante observou o limbo inferior do astro com altura instrumental de 81° 52,8’, com erro instrumental de –0,3’ e altura do olho de 2,9 m.
 
-Aplicando as correções necessárias, qual é a altura verdadeira do astro?`,
+Aplicando as correções necessárias do ANB, qual é a altura verdadeira do Sol?`,
 
   attachments: [
     {
@@ -2150,7 +2150,7 @@ Aplicando as correções necessárias, qual é a altura verdadeira do astro?`,
     },
     {
       label: 'Correções do Sol (ANB)',
-      path: '/anexos/anb-2020-xxii.pdf'
+      path: '/anexos/anb-2020-p47.pdf'
     }
   ],
 
@@ -2164,7 +2164,9 @@ Aplicando as correções necessárias, qual é a altura verdadeira do astro?`,
 
   correct: 'B',
 
-  explanation: `1) Corrige erro instrumental:
+  explanation: `Como a observacao foi do limbo inferior do Sol, aplica-se a sequencia padrao de reducao da altura: erro instrumental, dip e correcao tabulada do Sol.
+
+1) Corrige erro instrumental:
 81° 52,8’ - 0,3’ = 81° 52,5’
 
 2) Aplica dip (2,9 m):

@@ -398,7 +398,7 @@ export const sobrevivenciaQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'Pela formulação e gabarito oficiais da prova, o processo descrito corresponde ao afogamento seco. Por isso, a alternativa correta é a C.',
+      'O enunciado descreve uma vitima retirada de agua fria com sinais aparentes de morte, mas ainda com possibilidade de recuperacao por tempo prolongado devido a uma reducao extrema das funcoes vitais. Entre as opcoes dadas, esse quadro corresponde ao chamado afogamento seco, em que ha insuficiencia respiratoria grave sem o quadro tipico de inundacao pulmonar do afogamento molhado. Por isso, a alternativa correta e a C.',
   },
   {
     id: 20212032,
