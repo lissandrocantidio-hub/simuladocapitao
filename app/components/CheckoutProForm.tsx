@@ -21,7 +21,7 @@ export default function CheckoutProForm({
   accessGranted?: boolean
 }) {
   const [email, setEmail] = useState(initialEmail)
-  const [couponCode, setCouponCode] = useState(launchCoupon.code)
+  const [couponCode, setCouponCode] = useState<string>(launchCoupon.code)
   const [error, setError] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [sessionReady, setSessionReady] = useState(false)
