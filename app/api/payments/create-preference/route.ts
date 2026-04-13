@@ -75,9 +75,9 @@ export async function POST(request: Request) {
         },
         external_reference: email,
         back_urls: {
-          success: `${baseUrl}/comprar?status=success&email=${encodeURIComponent(email)}`,
-          pending: `${baseUrl}/comprar?status=pending&email=${encodeURIComponent(email)}`,
-          failure: `${baseUrl}/comprar?status=failure&email=${encodeURIComponent(email)}`,
+          success: `${baseUrl}/compra-concluida?status=success&email=${encodeURIComponent(email)}`,
+          pending: `${baseUrl}/compra-concluida?status=pending&email=${encodeURIComponent(email)}`,
+          failure: `${baseUrl}/compra-concluida?status=failure&email=${encodeURIComponent(email)}`,
         },
         auto_return: 'approved',
         notification_url: `${baseUrl}/api/mercadopago/webhook`,

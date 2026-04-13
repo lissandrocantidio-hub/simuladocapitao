@@ -66,9 +66,9 @@ export async function POST(request: Request) {
           default_payment_method_id: 'pix',
         },
         back_urls: {
-          success: `${origin}/minha-conta?checkout=success`,
-          pending: `${origin}/minha-conta?checkout=pending`,
-          failure: `${origin}/comprar?checkout=failure`,
+          success: `${origin}/compra-concluida?status=success&source=account`,
+          pending: `${origin}/compra-concluida?status=pending&source=account`,
+          failure: `${origin}/compra-concluida?status=failure&source=account`,
         },
         auto_return: 'approved',
         external_reference: purchase.id,
