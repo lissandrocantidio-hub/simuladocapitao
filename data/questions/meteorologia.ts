@@ -660,7 +660,27 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Na interpretação das informações de uma carta sinótica e de uma imagem de satélite meteorológico do oceano Atlântico Sul, o navegante pode identificar os elementos de um sistema frontal. Baseado nesta interpretação, faça a associação dos parâmetros meteorológicos das colunas 1 e 2.',
+      `Na interpretacao das informacoes de uma carta sinotica e de uma imagem de satelite meteorologico do oceano Atlantico Sul, o navegante pode identificar os elementos de um sistema frontal. Baseado nessa interpretacao, faca a associacao dos parametros meteorologicos das colunas 1 e 2.
+
+Coluna 1
+1. Frente fria
+2. Frente quente
+3. Centro de baixa pressao
+4. Centro de alta pressao
+5. Faixa principal de nebulosidade
+6. Ar frio pos-frontal
+7. Ar quente pre-frontal
+8. Cavado
+
+Coluna 2
+1. Banda de nuvens compacta e alongada associada ao sistema frontal
+2. Setor situado atras da frente fria
+3. Regiao ciclonica identificada pelas isobaras fechadas
+4. Regiao anticiclonica identificada pelas isobaras fechadas
+5. Descontinuidade entre massas de ar com avanço do ar frio
+6. Descontinuidade frontal com ar quente ascendendo sobre ar frio
+7. Setor quente a frente da frente fria
+8. Alongamento do campo de baixa pressao sem circulacao fechada`,
     options: {
       A: '(1) (-) (3) (6) (2) (5) (-) (4)',
       B: '(3) (5) (1) (6) (-) (2) (4) (-)',
@@ -670,7 +690,7 @@ export const meteorologiaQuestions: Question[] = [
     },
     correct: 'A',
     explanation:
-      'Na associação entre carta sinótica e imagem de satélite, a alternativa A é a que melhor preserva a correspondência clássica entre frente fria, nebulosidade, gradiente de pressão e posição do ciclone. As demais combinações trocam elementos que normalmente aparecem juntos.',
+      'A associacao correta e a que preserva as relacoes sinoticas classicas: frente fria com sua descontinuidade propria, banda principal de nebulosidade acompanhando o sistema, centro de baixa pressao na area ciclonica, centro de alta pressao na area anticiclonica e ar frio ocupando o setor pos-frontal. A sequencia compativel com esse conjunto e a da alternativa A.',
     attachments: [
       { label: 'Carta sinótica', path: '/anexos/meteorologia/carta-sinotica-atlantico-sul.pdf' },
       { label: 'Imagem de satélite meteorológico', path: '/anexos/meteorologia/satelite-atlantico-sul.pdf' },
