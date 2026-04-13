@@ -2,8 +2,8 @@ import { prisma } from '@/lib/db'
 
 export const checkoutProduct = {
   title: 'Acesso Simulado Capitão Amador',
-  description: 'Liberacao completa do simulado mediante pagamento aprovado.',
-  priceCents: 1990,
+  description: 'Acesso premium completo por 90 dias mediante pagamento aprovado.',
+  priceCents: 3990,
   currency: 'BRL',
 } as const
 

@@ -21,7 +21,7 @@ export default async function CadastroPage() {
           </h1>
           <p className="max-w-xl text-base leading-8 text-slate-700">
             Depois do cadastro, voce ja pode seguir para o checkout e ativar o plano completo de
-            180 dias.
+            90 dias.
           </p>
         </div>
 

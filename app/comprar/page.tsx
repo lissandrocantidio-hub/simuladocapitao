@@ -1,4 +1,5 @@
 import CheckoutProForm, { type CheckoutStatus } from '@/app/components/CheckoutProForm'
+import { formatPriceInReais } from '@/lib/access'
 import { checkoutProduct, getPaymentAccessByEmail, hasGrantedAccess } from '@/lib/payment-access'
 
 type ComprarPageProps = {
@@ -36,7 +37,7 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
 
           <ul className="grid gap-3 text-sm text-slate-700 md:grid-cols-3">
             <li className="rounded-2xl border border-line bg-white/65 px-4 py-4">
-              Prova completa
+              90 dias de acesso premium
             </li>
             <li className="rounded-2xl border border-line bg-white/65 px-4 py-4">
               Simulados por materia
@@ -52,6 +53,13 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
             <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Produto</p>
             <strong className="mt-2 block text-3xl text-slate-950">{checkoutProduct.title}</strong>
             <p className="mt-2 text-sm leading-7 text-slate-700">{checkoutProduct.description}</p>
+            <p className="mt-4 text-sm uppercase tracking-[0.2em] text-slate-500">Valor</p>
+            <strong className="mt-2 block text-4xl text-slate-950">
+              {formatPriceInReais(checkoutProduct.priceCents)}
+            </strong>
+            <p className="mt-2 text-sm leading-7 text-slate-700">
+              Pagamento unico com acesso premium por 90 dias.
+            </p>
           </div>
 
           <CheckoutProForm

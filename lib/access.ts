@@ -7,11 +7,11 @@ import { hasGrantedAccess } from '@/lib/payment-access'
 import { simulationPresets } from '@/app/lib/simulations'
 
 export const accessPlan = {
-  code: 'premium-180d',
-  name: 'Acesso completo por 180 dias',
-  description: 'Libera todos os simulados premium por 180 dias corridos.',
-  durationDays: 180,
-  priceCents: 3900,
+  code: 'premium-90d',
+  name: 'Acesso completo por 90 dias',
+  description: 'Libera todos os simulados premium por 90 dias corridos.',
+  durationDays: 90,
+  priceCents: 3990,
   currency: 'BRL',
 } as const
 

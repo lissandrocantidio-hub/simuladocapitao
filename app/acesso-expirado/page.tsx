@@ -11,7 +11,7 @@ export default function AcessoExpiradoPage() {
           Seu periodo premium terminou
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base leading-8 text-slate-700">
-          Entre novamente no checkout para renovar por mais 180 dias e continuar usando todos os
+          Entre novamente no checkout para renovar por mais 90 dias e continuar usando todos os
           simulados fechados.
         </p>
 
