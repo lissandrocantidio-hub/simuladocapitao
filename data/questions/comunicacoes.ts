@@ -230,7 +230,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'D',
     explanation:
-      'A alternativa correta é a D, conforme o gabarito oficial de CPA-II 2024. Ela preserva as correlações corretas entre NAVTEX, SAFETYNET, NAVAREA/METAREA brasileiras, Área A2, IRIDIUM, Área A3 e NBDP.',
+      'A correlação correta é: NAVTEX atende às áreas A1 e A2; SAFETYNET usa o sistema INMARSAT; o Brasil é responsável pela NAVAREA V e pela METAREA VI no contexto do enunciado; a Área A2 é a de cobertura MF com alerta DSC permanente; IRIDIUM usa satélites LEO; e a Área A3 corresponde à cobertura INMARSAT fora da A1/A2. Essa combinação corresponde à alternativa D.',
   },
   {
     id: 20242023,
@@ -293,7 +293,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'D',
     explanation:
-      'Pelo gabarito oficial, a correlação correta é a da alternativa D, que associa SAFETYNET, CISMAR, NAVAREA V, Área A2 e RENEC aos respectivos conceitos do enunciado.',
+      'SAFETYNET é o serviço de MSI via INMARSAT para a Área A3; CISMAR é o órgão da MB ligado ao acompanhamento do tráfego na área SAR brasileira; NAVAREA V é a área brasileira de avisos aos navegantes; a Área A2 é a de cobertura MF com DSC; e a RENEC presta apoio de radiocomunicações terra-embarcação-terra ao iatismo. Essa sequência corresponde à alternativa D.',
   },
   {
     id: 20232027,
@@ -356,7 +356,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'A',
     explanation:
-      'Pelo gabarito oficial, as afirmativas corretas são I e IV. A II está incorreta porque o DSC em VHF usa o canal 70, não o 77, e a III não corresponde ao enunciado como formulado na prova. Por isso, a alternativa correta é a A.',
+      'A afirmativa I é aceita como correta no contexto da prova, e a IV também está correta porque foguetes ou granadas lançando estrelas vermelhas, em intervalos curtos, são sinais internacionais de socorro. A II está errada porque o DSC em VHF usa o canal 70, não o 77. A III está incorreta porque avisos temporários não são, por definição, simples antecipações de futuros avisos permanentes. Por isso, a alternativa correta é a A.',
   },
   {
     id: 20222017,

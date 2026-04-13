@@ -8,6 +8,7 @@ export type SimulationPreset = {
   durationMinutes: number
   passRate: number
   mode: 'practice' | 'exam'
+  fixedQuestionIds?: number[]
 }
 
 export const subjectLabels: Record<string, string> = {
@@ -25,7 +26,7 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado',
     title: 'Simulado geral',
     description:
-      'Mistura os principais blocos da prova para um treino equilibrado e rápido.',
+      'Demo gratuita com 5 questões fixas para conhecer a plataforma antes da versão completa.',
     badge: 'Mais procurado',
     subjects: [
       'astronomia',
@@ -36,10 +37,11 @@ export const simulationPresets: SimulationPreset[] = [
       'comunicacoes',
       'estabilidade',
     ],
-    questionCount: 12,
-    durationMinutes: 35,
+    questionCount: 5,
+    durationMinutes: 15,
     passRate: 0.6,
     mode: 'practice',
+    fixedQuestionIds: [2020107, 3001, 2022007, 2022036, 2022020],
   },
   {
     href: '/prova-marinha',

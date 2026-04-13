@@ -49,6 +49,23 @@ function getPool(subjects: string[]) {
   return allQuestions.filter((question) => subjects.includes(question.subject))
 }
 
+function buildFixedSimulation(preset: SimulationPreset): Question[] | null {
+  if (!preset.fixedQuestionIds || preset.fixedQuestionIds.length === 0) {
+    return null
+  }
+
+  const questionsById = new Map(allQuestions.map((question) => [question.id, question]))
+  const fixedQuestions = preset.fixedQuestionIds
+    .map((questionId) => questionsById.get(questionId))
+    .filter((question): question is Question => question !== undefined)
+
+  if (fixedQuestions.length === 0) {
+    return null
+  }
+
+  return fixedQuestions.slice(0, preset.questionCount)
+}
+
 function canSelectQuestion(
   question: Question,
   state: SelectionState,
@@ -136,6 +153,12 @@ function selectQuestions(
 }
 
 function buildSimulation(preset: SimulationPreset): Question[] {
+  const fixedSimulation = buildFixedSimulation(preset)
+
+  if (fixedSimulation) {
+    return fixedSimulation
+  }
+
   const pool = getPool(preset.subjects)
 
   if (pool.length <= preset.questionCount) {
@@ -480,7 +503,7 @@ export default function SimulatorExperience({
                   onClick={handleRestart}
                   className="rounded-full bg-accent px-5 py-3 text-sm font-semibold text-white transition hover:bg-accent-strong"
                 >
-                  Gerar novo simulado
+                  {preset.fixedQuestionIds?.length ? 'Refazer demo' : 'Gerar novo simulado'}
                 </button>
                 <Link
                   href="/"

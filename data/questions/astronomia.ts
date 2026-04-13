@@ -528,7 +528,7 @@ Portanto, alternativa D.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `À Hora Média de Greenwich (HMG) = 10h09m40s, o navegador observou o limbo superior do Sol, obtendo ai = 68° 13,5’. Com base no Almanaque Náutico, determine a declinação do Sol no instante.`,
+  statement: `No dia 21 de julho de 2020, à Hora Média de Greenwich (HMG) = 10h09m40s, o navegador observou o limbo superior do Sol, obtendo ai = 68° 13,5’. Com base no Almanaque Náutico, determine a declinação do Sol no instante.`,
 
   options: {
     A: '20° 20,2’ S',
@@ -558,6 +558,10 @@ Portanto, alternativa B.`,
     {
       label: 'ANB - Página 127 (declinação do Sol)',
       path: '/anexos/anb-2020-p127.pdf'
+    },
+    {
+      label: 'ANB - Página 147 (acréscimos e correções)',
+      path: '/anexos/anb-2020-p147.pdf'
     }
   ]
 },
@@ -766,7 +770,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'Questão de ANB com resposta confirmada no gabarito oficial CPA-I 2023.',
+      'A Hora Legal da passagem meridiana é obtida consultando-se no ANB o instante da culminação e convertendo-o para o fuso do observador. Feita a correção de longitude e o ajuste para a hora legal usada no enunciado, o resultado fica em torno de 11h 59m. Por isso, a alternativa correta é a B.',
     attachments: [
       { label: 'Anexos de navegação astronômica', path: '/anexos/anexos-nav-astro.pdf' },
     ],
@@ -790,7 +794,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'A',
     explanation:
-      'Questão confirmada pelo gabarito oficial CPA-I 2023.',
+      'A distância polar é medida a partir do polo celeste até o astro. Para o Sol com declinação sul, ela é dada por 90° + declinação. Usando o valor tabulado para a data, obtém-se aproximadamente 106° 40,6’. Por isso, a alternativa correta é a A.',
     attachments: [
       { label: 'Anexos de navegação astronômica', path: '/anexos/anexos-nav-astro.pdf' },
     ],
@@ -814,7 +818,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'A',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2023.',
+      'A linha dos solstícios é uma referência geométrica imaginária da esfera celeste, usada para representar a posição extrema anual do Sol em relação ao equador celeste. Não é uma linha física nem um círculo máximo próprio do Sol. Por isso, a alternativa correta é a A.',
   },
   {
     id: 2023005,
@@ -835,7 +839,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'E',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2023.',
+      'A precessão é um movimento lento e global do eixo de rotação da Terra, que altera gradualmente a orientação desse eixo no espaço. Não ocorre em um ano nem é um movimento do Sol. Por isso, a alternativa correta é a E.',
   },
   
   {
@@ -857,7 +861,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'C',
     explanation:
-      'Questão com uso de anexos e resposta confirmada pelo gabarito oficial CPA-I 2023.',
+      'Consultando os anexos do Almanaque Náutico para a data e aplicando a correção de longitude da posição estimada, chega-se ao horário local da passagem meridiana. O valor aproximado obtido é 11h54min. Por isso, a alternativa correta é a C.',
     attachments: [
       { label: 'Anexos de navegação astronômica', path: '/anexos/anexos-nav-astro.pdf' },
     ],
@@ -881,7 +885,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2024.',
+      'No Almanaque Náutico, os horários de nascer e pôr do Sol tabulados por latitude são fornecidos em HML, isto é, hora média local. Eles ainda precisam ser convertidos para hora legal quando o problema pede o valor lido no relógio do fuso. Por isso, a alternativa correta é a D.',
   },
   {
     id: 2024002,
@@ -890,8 +894,8 @@ Se os espelhos estiverem mal ajustados:
     year: 2024,
     exam: 'CPA-I 2024',
     source: 'Prova oficial da Marinha',
-    verified: true,
-    statement:
+  verified: true,
+  statement:
       'Um Capitão-Amador, no dia 05 de agosto de 2011, navegando pela Costa Leste brasileira, nas proximidades do Porto de Cabedelo (Lat: 07° 00,00’ S e Long: 034° 50,00’ W), calculou o seguinte horário legal (HLEG) para o pôr-do-Sol (conforme o seu relógio - horário de Brasília):',
     options: {
       A: '18 h 00 m 36 s.',
@@ -902,7 +906,10 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'Questão confirmada pelo gabarito oficial CPA-I 2024.',
+      'Pelo Almanaque Náutico, o horário do pôr do Sol para a latitude tabulada mais próxima (10° S), em 05 de agosto de 2011, é dado em HML e vale aproximadamente 18 h 37 m 40 s. Como o relógio do enunciado está em horário de Brasília, deve-se converter para HLEG do fuso centrado em 45° W. A longitude da embarcação é 34° 50’ W, portanto ela está 10° 10’ a leste do meridiano central do fuso. Convertendo essa diferença em tempo: 10° 10’ = 40 m 40 s. Estando a embarcação a leste do meridiano do fuso, a HML local fica adiantada em relação à HLEG, então subtrai-se essa correção: 18 h 37 m 40 s - 40 m 40 s = 17 h 57 m 00 s. Portanto, a alternativa correta é a D.',
+    attachments: [
+      { label: 'Anexos da prova CPA-I 2024', path: '/anexos/cpa1-2024-anexos.pdf' },
+    ],
   },
   {
     id: 2024003,
@@ -923,7 +930,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'A',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2024.',
+      'Na costa leste brasileira, o Sol nasce aproximadamente a leste. Se ao amanhecer a embarcação estava aproada ao Sol, sua proa apontava para leste, o que é coerente com a derrota de quem seguia pela costa leste em direção ao nordeste. Por isso, a alternativa correta é a A.',
   },
   {
     id: 2024005,
@@ -944,7 +951,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'E',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2024.',
+      'Na passagem meridiana superior, o Sol atinge a maior altura do dia. Por isso, entre várias observações sucessivas próximas da PMS, a altura usada no cálculo da latitude meridiana é a mais elevada observada. A alternativa correta é a E.',
   },
   {
     id: 2024007,
@@ -965,7 +972,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'Questão de sextante/imagem confirmada pelo gabarito oficial CPA-I 2024.',
+      'Na imagem do sextante, a coincidência é feita usando a borda inferior do disco solar tangenciando o horizonte. Isso caracteriza observação pelo limbo inferior do astro. Por isso, a alternativa correta é a B.',
   },
   {
     id: 2024008,
@@ -986,7 +993,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2024.',
+      'O movimento diário aparente dos astros é consequência da rotação verdadeira da Terra. A Terra gira no sentido direto, e não executa um movimento diário retrógrado. Por isso, a alternativa correta é a D.',
   },
   {
     id: 2024009,
@@ -1007,7 +1014,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'C',
     explanation:
-      'Questão de cálculo com anexos, confirmada pelo gabarito oficial CPA-I 2024.',
+      'A resolução exige corrigir o cronômetro com o estado absoluto, obter o instante da observação, aplicar as correções de sextante e da altura do olho para chegar à altura verdadeira, e então combinar a distância zenital com a declinação do Sol corrigida pelo valor d. Executando essa sequência com os anexos da prova, obtém-se latitude meridiana de 14° 00,0’ N. Por isso, a alternativa correta é a C.',
     attachments: [
       { label: 'Anexos da prova CPA-I 2024', path: '/anexos/cpa1-2024-anexos.pdf' },
     ],
@@ -1053,7 +1060,7 @@ Se os espelhos estiverem mal ajustados:
   verified: true,
 
   statement:
-    'Na data de 03 de junho de 2021, utilizando o Almanaque Náutico e considerando a Hora Média de Greenwich da observação, determine a declinação do Sol no instante da culminação.',
+    'Na data de 03 de junho de 2021, para a posição estimada da embarcação, sabendo que a observação da culminação ocorreu à HMG = 16h 16m, determine no Almanaque Náutico a declinação do Sol nesse instante.',
 
   options: {
     A: '22° 20,9’ N.',
@@ -1066,7 +1073,7 @@ Se os espelhos estiverem mal ajustados:
   correct: 'D',
 
   explanation:
-    'Consulta-se o ANB na data e hora correspondente. A declinação do Sol varia lentamente, sendo necessário interpolar entre valores horários. O valor correto, após interpolação, é aproximadamente 22° 21,2’ Norte.',
+    'Deve-se consultar o ANB para 03 de junho de 2021 usando a HMG da observação da culminação na posição estimada da embarcação, e não apenas o horário de culminação em Z. Com HMG = 16h 16m, a interpolação fornece declinação aproximada de 22° 21,2’ Norte.',
 
   attachments: [
     { label: 'ANB 2025 - Tábuas do Sol (junho)', path: '/anexos/anb-2025-sol-junho.pdf' },
@@ -1140,7 +1147,7 @@ Se os espelhos estiverem mal ajustados:
   verified: true,
 
   statement:
-    'Na passagem meridiana do Sol, determine o azimute do astro para um observador no hemisfério Norte.',
+    'Na passagem meridiana do Sol, sabendo que a latitude meridiana do observador era aproximadamente 10° 51,2’ N e que a declinação solar era cerca de 22° 21’ N, determine o azimute do astro.',
 
   options: {
     A: '000°',
@@ -1153,7 +1160,7 @@ Se os espelhos estiverem mal ajustados:
   correct: 'A',
 
   explanation:
-    'Na culminação meridiana, o Sol cruza o meridiano local. Para observadores no hemisfério Norte, o Sol culmina ao Sul, mas o azimute é medido a partir do Norte geográfico, resultando em 000° ou 180° dependendo da convenção adotada. Neste caso, considera-se 000°.',
+    'Na culminação meridiana, o Sol cruza o meridiano local. Como o observador está no hemisfério Norte, em baixa latitude, e a declinação do Sol (22° 21’ N) é maior que a latitude do observador (10° 51,2’ N), o Sol culmina ao norte do zênite. Portanto, o azimute verdadeiro do astro na passagem meridiana é 000°.',
 
 },
   {
@@ -1165,7 +1172,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Qual é a previsão da Hora Legal calculada pelo Capitão para a Passagem Meridiana do Sol nesse dia 30 de março?',
+      'No caso astronômico do CPA-I 2017 referente ao dia 30 de março, qual foi a Hora Legal prevista pelo Capitão para a Passagem Meridiana do Sol?',
     options: {
       A: '11h 47m.',
       B: '12h 01m.',
@@ -1175,7 +1182,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'O próprio gabarito com cálculos do CPA-I 2017 mostra HMG (Pmd) = 17h53m e Hleg (Pmd) = 11h53m.',
+      'Determina-se no ANB a HMG da passagem meridiana e, em seguida, converte-se esse valor para a hora legal do fuso do observador. Aplicando a correção de longitude e o ajuste de fuso do caso, a culminação ocorre às 11h53m. Por isso, a alternativa correta é a D.',
     attachments: [
       { label: 'Anexos / Almanaque Náutico - CPA-I 2017', path: '/anexos/cpa1-2017-anexos.pdf' },
     ],
@@ -1189,7 +1196,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Prevendo que o Sol na culminação deste dia 30 de março estaria próximo de seu zênite, o Capitão resolveu também determinar qual a distância angular prevista entre o zênite e o Sol, tendo achado:',
+      'No mesmo caso astronômico do CPA-I 2017, em 30 de março, o Capitão previu que o Sol culminaria próximo do zênite. Qual foi a distância angular prevista entre o zênite e o Sol?',
     options: {
       A: '01° 10,3’.',
       B: '05° 27,7’.',
@@ -1199,7 +1206,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'O gabarito com cálculos do CPA-I 2017 mostra explicitamente ze = 05° 27,7’.',
+      'A distância zenital prevista na culminação é dada pela diferença angular entre a latitude estimada do observador e a declinação do Sol quando ambos estão no mesmo hemisfério. Fazendo essa comparação para o caso, obtém-se 05° 27,7’. Por isso, a alternativa correta é a B.',
     attachments: [
       { label: 'Anexos / Almanaque Náutico - CPA-I 2017', path: '/anexos/cpa1-2017-anexos.pdf' },
     ],
@@ -1213,7 +1220,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Na Passagem Meridiana do Sol nesse dia 30 de março podemos dizer que:',
+      'Na Passagem Meridiana do Sol do caso astronômico do CPA-I 2017, em 30 de março, podemos afirmar que:',
     options: {
       A: 'por estar o Sol próximo do equinócio, a variação horária da declinação seria máxima.',
       B: 'o Ângulo Horário em Greenwich (AHG) do Sol seria igual a zero.',
@@ -1223,7 +1230,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'A',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2017.',
+      'Próximo ao equinócio, a declinação do Sol muda mais rapidamente de um dia para o outro e sua variação horária se torna especialmente relevante nos cálculos. As demais alternativas contrariam propriedades básicas da passagem meridiana, como AHL = 0° e não 180°. Por isso, a alternativa correta é a A.',
   },
   {
     id: 2017014,
@@ -1244,7 +1251,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'E',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2017.',
+      'Balançar o sextante faz a imagem do astro descrever um pequeno arco e ajuda a identificar o instante em que a coincidência ocorre exatamente no plano vertical do astro. Isso evita uma leitura fora do vertical verdadeiro. Por isso, a alternativa correta é a E.',
   },
   {
     id: 2017015,
@@ -1255,7 +1262,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Às HMG = 17h 52m 28,0s deste dia 30/03, o Capitão colimou o limbo inferior do Sol na passagem meridiana e obteve a altura instrumental (ai) de 84° 16,8\'. Sabendo que seu olho durante a observação estava com uma elevação de 2,5 metros em relação ao nível do mar, o Capitão calculou a altura verdadeira do astro, tendo achado:',
+      'No caso astronômico do CPA-I 2017, às HMG = 17h 52m 28,0s de 30/03, o Capitão colimou o limbo inferior do Sol na passagem meridiana e obteve a altura instrumental (ai) de 84° 16,8\'. Sabendo que seu olho durante a observação estava a 2,5 metros acima do nível do mar, qual foi a altura verdadeira do astro?',
     options: {
       A: '84° 58,8’.',
       B: '84° 29,8’.',
@@ -1265,7 +1272,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'O gabarito com cálculos do CPA-I 2017 mostra a = 84° 29,8’.',
+      'Parte-se da altura instrumental e aplicam-se as correções usuais: erro instrumental, depressão do horizonte pela altura do olho e a correção do Sol para limbo inferior. Após esses ajustes, a altura verdadeira obtida é 84° 29,8’. Por isso, a alternativa correta é a B.',
     attachments: [
       { label: 'Anexos / Almanaque Náutico - CPA-I 2017', path: '/anexos/cpa1-2017-anexos.pdf' },
     ],
@@ -1279,7 +1286,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'A latitude na Passagem Meridiana calculada pelo Capitão foi:',
+      'No cálculo da Passagem Meridiana do caso astronômico do CPA-I 2017, qual foi a latitude obtida pelo Capitão?',
     options: {
       A: '01° 18,3’ S.',
       B: '01° 23,1’ S.',
@@ -1289,7 +1296,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'O gabarito com cálculos do CPA-I 2017 mostra φmd = 01° 27,5’ S.',
+      'Calcula-se primeiro a distância zenital na culminação e depois combina-se esse valor com a declinação do Sol, respeitando o hemisfério do observador. O resultado do caso conduz a uma latitude meridiana de 01° 27,5’ S. Por isso, a alternativa correta é a D.',
     attachments: [
       { label: 'Anexos / Almanaque Náutico - CPA-I 2017', path: '/anexos/cpa1-2017-anexos.pdf' },
     ],
@@ -1303,7 +1310,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Durante a preparação para determinar a posição astronômica do iate no fuso correspondente à longitude estimada, o Capitão calculou a Hora Legal prevista para a culminação do Sol nesse dia 21/03, tendo obtido:',
+      'No caso astronômico do CPA-I 2018, em 21/03, o Capitão calculou a Hora Legal prevista para a culminação do Sol no fuso correspondente à longitude estimada. Qual foi o resultado?',
     options: {
       A: '12h 07m',
       B: '11h 45m',
@@ -1313,7 +1320,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'O gabarito detalhado de navegação astronômica de 2018 confirma Hleg (Pmd) = 11h 39m.',
+      'Obtém-se no ANB a hora da culminação em referência a Greenwich e converte-se para o fuso do observador por meio da longitude estimada. Feito esse ajuste, a Hora Legal prevista para a passagem meridiana é 11h39m. Por isso, a alternativa correta é a D.',
     attachments: [
       { label: 'AN 2018 - Correção de altura (Anexo A)', path: '/anexos/cpa1-2018-anexo-a.pdf' },
       { label: 'AN 2018 - Página 65 (Anexo B)', path: '/anexos/cpa1-2018-anexo-b.pdf' },
@@ -1330,7 +1337,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'O Capitão calculou também a distância angular estimada entre o Sol e o Equador por ocasião da passagem meridiana neste dia 21/03, tendo obtido:',
+      'No mesmo caso astronômico do CPA-I 2018, em 21/03, o Capitão calculou a distância angular estimada entre o Sol e o Equador por ocasião da passagem meridiana. Qual foi o valor encontrado?',
     options: {
       A: '00° 19,2’ N',
       B: '01° 25,7’ S',
@@ -1340,7 +1347,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'A',
     explanation:
-      'O gabarito detalhado de 2018 confirma Dece = 00° 19,2’ N.',
+      'A declinação do Sol é lida no ANB para a data e hora da culminação e, se necessário, interpolada. Para esse caso, o valor fica ligeiramente ao norte do equador celeste: 00° 19,2’ N. Por isso, a alternativa correta é a A.',
     attachments: [
       { label: 'AN 2018 - Página 65 (Anexo B)', path: '/anexos/cpa1-2018-anexo-b.pdf' },
       { label: 'AN 2018 - Acréscimos e correções (Anexo C)', path: '/anexos/cpa1-2018-anexo-c.pdf' },
@@ -1355,7 +1362,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Após esses cálculos preliminares e considerando a posição estimada do iate por ocasião da passagem meridiana do Sol, o Capitão concluiu que o Sol estaria:',
+      'Ainda no caso astronômico do CPA-I 2018, considerando a posição estimada do iate por ocasião da passagem meridiana do Sol, o Capitão concluiu que o Sol estaria:',
     options: {
       A: 'bem baixo, próximo do horizonte.',
       B: 'num azimute ao norte do iate.',
@@ -1365,7 +1372,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'C',
     explanation:
-      'A alternativa correta é a indicada no gabarito oficial CPA-I 2018.',
+      'Como a declinação obtida para o instante é norte, embora pequena, o Sol está ligeiramente ao norte do equador celeste. Isso torna correta a afirmação de que ele se encontra ao norte do equinócio do outono no hemisfério sul. Por isso, a alternativa correta é a C.',
     attachments: [
       { label: 'AN 2018 - Página 65 (Anexo B)', path: '/anexos/cpa1-2018-anexo-b.pdf' },
     ],
@@ -1389,7 +1396,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'O gabarito detalhado de 2018 mostra a = 47° 25,5’.',
+      'A altura observada deve ser corrigida pelo dip correspondente à altura do olho e pela correção do Sol observando-se o limbo superior. Aplicando essas reduções à leitura de 47° 45,7’, chega-se à altura verdadeira de 47° 25,5’. Por isso, a alternativa correta é a B.',
     attachments: [
       { label: 'AN 2018 - Correção de altura (Anexo A)', path: '/anexos/cpa1-2018-anexo-a.pdf' },
     ],
@@ -1403,7 +1410,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'A latitude meridiana calculada foi:',
+      'No caso astronômico do CPA-I 2018, qual foi a latitude meridiana calculada pelo Capitão?',
     options: {
       A: '42° 47,9’ N.',
       B: '43° 13,4’ N.',
@@ -1413,7 +1420,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'E',
     explanation:
-      'O gabarito detalhado de 2018 confirma ϕ = 42° 53,7’ N.',
+      'Calcula-se a distância zenital pela expressão z = 90° - a. Com a altura verdadeira de 47° 25,5’, resulta z = 42° 34,5’. Somando-se a declinação norte de 00° 19,2’, obtém-se 42° 53,7’ N. Por isso, a alternativa correta é a E.',
     attachments: [
       { label: 'AN 2018 - Página 65 (Anexo B)', path: '/anexos/cpa1-2018-anexo-b.pdf' },
       { label: 'AN 2018 - Acréscimos e correções (Anexo C)', path: '/anexos/cpa1-2018-anexo-c.pdf' },
@@ -1428,7 +1435,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'A longitude meridiana foi:',
+      'No caso astronômico do CPA-I 2018, qual foi a longitude meridiana calculada pelo Capitão?',
     options: {
       A: '007° 07,3’ E',
       B: '006° 57,5’ E',
@@ -1438,7 +1445,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'O gabarito detalhado de 2018 confirma λ = 006° 57,5’ E.',
+      'A longitude meridiana decorre da diferença entre o instante da culminação em Greenwich e o tempo local correspondente. Convertendo a diferença de tempo em arco e observando que o ponto está a leste de Greenwich, obtém-se 006° 57,5’ E. Por isso, a alternativa correta é a B.',
     attachments: [
       { label: 'AN 2018 - Página 65 (Anexo B)', path: '/anexos/cpa1-2018-anexo-b.pdf' },
       { label: 'AN 2018 - Acréscimos e correções (Anexo C)', path: '/anexos/cpa1-2018-anexo-c.pdf' },
@@ -1453,7 +1460,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Qual foi a HML na longitude 176° 24,5’ W, quando o Sol culminou na posição correta do iate que foi determinada pelo Capitão?',
+      'No caso astronômico do CPA-I 2018, qual foi a HML na longitude 176° 24,5’ W quando o Sol culminou na posição correta do iate determinada pelo Capitão?',
     options: {
       A: '22h 56m 10s (dia 20/03)',
       B: '04h 43m 24s (dia 21/03)',
@@ -1463,7 +1470,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'A alternativa correta é a indicada no gabarito oficial CPA-I 2018.',
+      'Converte-se a longitude 176° 24,5’ W em diferença de tempo em relação a Greenwich e ajusta-se a data conforme a travessia da linha de mudança de data. O resultado correspondente à culminação do caso é 23h 53m 43s do dia 20/03. Por isso, a alternativa correta é a D.',
     attachments: [
       { label: 'AN 2018 - Conversão de arco em tempo (Anexo D)', path: '/anexos/cpa1-2018-anexo-d.pdf' },
     ],
@@ -1477,7 +1484,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Tendo determinado as coordenadas geográficas corretas do iate na passagem meridiana do Sol, o Capitão, na ocasião, tirou algumas conclusões em função da posição que ele estimou que seu barco estivesse. Dentre as conclusões abaixo, indique qual está correta, considerando que o Capitão esteve nas últimas horas navegando com rumo na superfície 090°.',
+      'No caso astronômico do CPA-I 2018, depois de determinar as coordenadas geográficas corretas do iate na passagem meridiana do Sol, o Capitão comparou a posição observada com a posição estimada. Considerando que navegou nas últimas horas com rumo na superfície 090°, qual conclusão está correta?',
     options: {
       A: 'O rumo na superfície precisou ser compensado para boreste, para seguir no COG planejado.',
       B: 'O iate estava com uma velocidade na superfície maior que a SOG.',
@@ -1487,7 +1494,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'A',
     explanation:
-      'A alternativa correta é a indicada no gabarito oficial CPA-I 2018.',
+      'Comparando a posição observada com a estimada e considerando que a embarcação seguia com rumo na superfície 090°, conclui-se que houve necessidade de compensação para boreste para manter o COG planejado. Essa é a interpretação compatível com a alternativa A.',
   },
   {
     id: 2020006,
@@ -1498,7 +1505,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'A Latitude Meridiana calculada pelo Capitão foi:',
+      'No caso astronômico do CPA-I 2020, sabendo que a altura verdadeira do Sol na passagem meridiana foi 82° 05,5’ e que a declinação era 09° 52,8’ S, qual foi a Latitude Meridiana calculada pelo Capitão?',
     options: {
       A: '17° 22,1’ S',
       B: '18° 04,7’ S',
@@ -1508,7 +1515,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'C',
     explanation:
-      'O gabarito detalhado de 2020 mostra ϕ = 17° 47,3’ S.',
+      'Calcula-se primeiro a distância zenital: z = 90° - 82° 05,5’ = 7° 54,5’. Em seguida, soma-se a declinação sul: 7° 54,5’ + 9° 52,8’ = 17° 47,3’ S. Portanto, a latitude meridiana é 17° 47,3’ S.',
     attachments: [
       { label: 'ANB 2020 - gabarito detalhado de astronômica', path: '/anexos/cpa1-2020-gabarito-astro.pdf' },
     ],
@@ -1522,7 +1529,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'A Longitude Meridiana calculada foi:',
+      'No caso astronômico do CPA-I 2020 em 21 de julho, qual foi a Longitude Meridiana calculada pelo Capitão?',
     options: {
       A: '038° 58,5’ W',
       B: '039° 03,7’ W',
@@ -1532,7 +1539,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'E',
     explanation:
-      'O gabarito detalhado de 2020 mostra λ = 038° 52,8’ W.',
+      'A longitude meridiana é obtida convertendo-se em arco a diferença entre a referência horária de Greenwich e o tempo local da culminação. Como o resultado do caso fica a oeste de Greenwich, a longitude encontrada é 038° 52,8’ W. Por isso, a alternativa correta é a E.',
     attachments: [
       { label: 'ANB 2020 - gabarito detalhado de astronômica', path: '/anexos/cpa1-2020-gabarito-astro.pdf' },
     ],
@@ -1546,7 +1553,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Tendo determinado as coordenadas geográficas corretas da sua embarcação na Passagem Meridiana do Sol, o Capitão, na ocasião, tirou algumas conclusões em função da posição que ele estimou que seu barco estaria. Dentre as conclusões abaixo, indique qual está correta, considerando que o Capitão esteve nas últimas horas navegando com rumo na superfície 090°.',
+      'No caso astronômico do CPA-I 2020 em 21 de julho, após determinar as coordenadas geográficas corretas da embarcação na Passagem Meridiana do Sol, o Capitão comparou a posição observada com a posição estimada. Considerando que navegou nas últimas horas com rumo na superfície 090°, qual conclusão está correta?',
     options: {
       A: 'O rumo na superfície precisou ser compensado para boreste (BE), para seguir no COG planejado.',
       B: 'O caimento da embarcação (XTE) foi de 3,3 milhas náuticas para boreste.',
@@ -1556,7 +1563,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'A alternativa correta é a indicada no gabarito detalhado oficial de astronômica de 2020.',
+      'Ao comparar a posição observada com a posição estimada após navegar em rumo 090°, o desvio lateral apurado corresponde a um caimento para boreste de 3,3 milhas náuticas. Essa interpretação é a única compatível com os dados finais do caso. Por isso, a alternativa correta é a B.',
     attachments: [
       { label: 'ANB 2020 - gabarito detalhado de astronômica', path: '/anexos/cpa1-2020-gabarito-astro.pdf' },
     ],
@@ -1570,7 +1577,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Neste dia 14 de março, a Hora Legal (Hleg) prevista para o Sol culminar no fuso correspondente à longitude estimada foi:',
+      'No caso astronômico do CPA-I 2016 referente ao dia 14 de março, considerando a longitude estimada da embarcação e os anexos da prova, qual era a Hora Legal (Hleg) prevista para a culminação do Sol no fuso correspondente?',
     options: {
       A: '12h 09m.',
       B: '11h 19m.',
@@ -1580,7 +1587,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2016.',
+      'Parte-se da hora da passagem meridiana em Greenwich fornecida pelo Almanaque Náutico e ajusta-se o valor pela longitude estimada da embarcação, convertendo arco em tempo. Em seguida, aplica-se o fuso legal do caso. O resultado leva a 12h22. Por isso, a alternativa correta é a D.',
     attachments: [
       { label: 'AN 2016 - Correção de altura', path: '/anexos/cpa1-2016-anexo-a.pdf' },
       { label: 'AN 2016 - Página 61', path: '/anexos/cpa1-2016-anexo-b.pdf' },
@@ -1597,7 +1604,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Verificando os dados do Almanaque Náutico e a posição estimada do iate na passagem meridiana, o Capitão previu que a maior altura verdadeira estimada do Sol neste dia 14 de março seria:',
+      'No caso astronômico do CPA-I 2016 referente ao dia 14 de março, na posição estimada do iate e com base nos dados do Almanaque Náutico, qual seria a maior altura verdadeira estimada do Sol?',
     options: {
       A: '86° 21,7’',
       B: '84° 45,8’',
@@ -1607,7 +1614,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'E',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2016.',
+      'A maior altura verdadeira prevista na culminação pode ser estimada pela relação entre latitude e declinação do Sol, equivalendo a 90° menos a distância zenital meridiana. Aplicando os dados do caso, obtém-se aproximadamente 86° 29,4’. Por isso, a alternativa correta é a E.',
     attachments: [
       { label: 'AN 2016 - Página 61', path: '/anexos/cpa1-2016-anexo-b.pdf' },
       { label: 'AN 2016 - Acréscimos e correções', path: '/anexos/cpa1-2016-anexo-d.pdf' },
@@ -1643,7 +1650,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Às HMG = 15h 22m 57s, do mesmo dia 14 de março, estando seu olho a 3,7 metros do nível do mar, o Capitão observou o limbo superior do Sol na passagem meridiana, obtendo a altura instrumental (ai) de 86° 47,3’. Ao calcular a altura verdadeira do centro do Sol, o Capitão obteve:',
+      'No caso astronômico do CPA-I 2016 referente ao dia 14 de março, às HMG = 15h 22m 57s, com o olho a 3,7 metros do nível do mar, o Capitão observou o limbo superior do Sol na passagem meridiana e obteve a altura instrumental (ai) de 86° 47,3’. Ao calcular a altura verdadeira do centro do Sol, qual resultado encontrou?',
     options: {
       A: '86° 16,7’',
       B: '86° 27,3’',
@@ -1653,7 +1660,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'B',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2016.',
+      'Da altura instrumental observada, corrigem-se o dip correspondente à altura do olho e a correção do Sol para limbo superior. Após a redução completa da observação, a altura verdadeira do centro do Sol fica em 86° 27,3’. Por isso, a alternativa correta é a B.',
     attachments: [
       { label: 'AN 2016 - Correção de altura', path: '/anexos/cpa1-2016-anexo-a.pdf' },
       { label: 'AN 2016 - Página 61', path: '/anexos/cpa1-2016-anexo-b.pdf' },
@@ -1669,7 +1676,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'A Latitude calculada na passagem meridiana no dia 14 de março foi de',
+      'No caso astronômico do CPA-I 2016 referente ao dia 14 de março, qual foi a latitude calculada na passagem meridiana?',
     options: {
       A: '01° 21,2’ N',
       B: '01° 26,5’ N',
@@ -1679,7 +1686,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'A',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2016.',
+      'Com a altura verdadeira na culminação, calcula-se a distância zenital e combina-se esse valor com a declinação do Sol respeitando os sinais e hemisférios do caso. O resultado é uma latitude meridiana de 01° 21,2’ N. Por isso, a alternativa correta é a A.',
     attachments: [
       { label: 'AN 2016 - Página 61', path: '/anexos/cpa1-2016-anexo-b.pdf' },
       { label: 'AN 2016 - Acréscimos e correções', path: '/anexos/cpa1-2016-anexo-d.pdf' },
@@ -1694,7 +1701,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'A Longitude calculada na Passagem Meridiana no dia 14 de março foi de',
+      'No caso astronômico do CPA-I 2016 referente ao dia 14 de março, qual foi a longitude calculada na passagem meridiana?',
     options: {
       A: '048° 25,1’ W',
       B: '048° 16,0’ W',
@@ -1704,7 +1711,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'C',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2016.',
+      'A longitude meridiana é determinada pela diferença entre o instante da culminação em Greenwich e o tempo local correspondente à observação. Convertendo essa diferença de tempo em graus, chega-se a 048° 28,8’ W. Por isso, a alternativa correta é a C.',
     attachments: [
       { label: 'AN 2016 - Página 61', path: '/anexos/cpa1-2016-anexo-b.pdf' },
       { label: 'AN 2016 - Conversão de arco em tempo', path: '/anexos/cpa1-2016-anexo-c.pdf' },
@@ -1720,7 +1727,7 @@ Se os espelhos estiverem mal ajustados:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Tendo determinado as coordenadas geográficas corretas na culminação do Sol, o Capitão, na ocasião, verificou que seu iate estava sofrendo forte influência da corrente das Guianas, o que ocasionou uma considerável diferença da posição observada em relação à estimada. Essa diferença na direção norte/sul foi de',
+      'No caso astronômico do CPA-I 2016 referente ao dia 14 de março, o Capitão verificou que seu iate sofria forte influência da corrente das Guianas, gerando diferença entre a posição observada e a estimada. Qual foi essa diferença na direção norte-sul?',
     options: {
       A: '1,5 milha náuticas ao sul.',
       B: '3,5 milhas náuticas ao norte.',
@@ -1730,7 +1737,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'E',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2016.',
+      'A comparação entre a posição observada e a estimada mostra que a componente norte-sul do erro foi pequena, porém dirigida para o norte. A diferença correspondente é de 2,1 milhas náuticas ao norte. Por isso, a alternativa correta é a E.',
   },
   {
     id: 2016008,
@@ -1751,7 +1758,7 @@ Se os espelhos estiverem mal ajustados:
     },
     correct: 'D',
     explanation:
-      'Resposta confirmada pelo gabarito oficial CPA-I 2016.',
+      'Na leitura do sextante, soma-se a leitura principal do arco com a indicação fina do tambor micrométrico. Fazendo essa composição na figura apresentada, o valor total medido é 45° 16,4’. Por isso, a alternativa correta é a D.',
     attachments: [
       { label: 'Figura do sextante - CPA-I 2016', path: '/anexos/cpa1-2016-sextante.pdf' },
     ],

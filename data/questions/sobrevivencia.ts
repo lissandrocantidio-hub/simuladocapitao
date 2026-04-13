@@ -293,7 +293,7 @@ export const sobrevivenciaQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'Pelo gabarito oficial da prova, a melhor combinação apresentada para compassar a embarcação em mar severo é navegar à capa com condição compassada ou pequeno trim de popa. Por isso, a alternativa correta é a C.',
+      'Em mar severo, a condição à capa tende a reduzir esforços excessivos e pancadas mais duras da embarcação sobre as ondas. Um arranjo compassado ou com pequeno trim de popa costuma ser o mais favorável para essa situação, sem enterrar demasiadamente a proa. Por isso, a alternativa correta é a C.',
   },
   {
     id: 20222033,
@@ -335,7 +335,7 @@ export const sobrevivenciaQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'Pelo padrão citado na prova e confirmado pelo gabarito oficial, cada lata de ração líquida possui 350 ml. Por isso, a alternativa correta é a C.',
+      'Se a recomendação diária é de 700 ml por pessoa e a água é fracionada em latas para facilitar o controle do consumo, o volume unitário compatível entre as opções é 350 ml, isto é, duas latas por dia. Por isso, a alternativa correta é a C.',
   },
   {
     id: 20222038,

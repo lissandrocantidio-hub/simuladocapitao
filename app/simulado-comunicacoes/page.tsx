@@ -1,12 +1,15 @@
 import SimulatorExperience from '@/app/components/SimulatorExperience'
 import { getPresetByPath } from '@/app/lib/simulations'
+import { requirePremiumAccess } from '@/lib/access'
 
 const preset = getPresetByPath('/simulado-comunicacoes')
 
-export default function SimuladoComunicacoesPage() {
+export default async function SimuladoComunicacoesPage() {
   if (!preset) {
     return null
   }
+
+  await requirePremiumAccess('/simulado-comunicacoes')
 
   return <SimulatorExperience preset={preset} />
 }

@@ -125,7 +125,7 @@ export const estabilidadeQuestions: Question[] = [
     },
     correct: 'A',
     explanation:
-      'Pelo gabarito oficial da prova, a combinação correta para o deslocamento e a condição longitudinal do iate é a da alternativa A. Por isso, a resposta correta é “205, derrabada e contra-alquebrada”.',
+      'O deslocamento é dado por volume de carena vezes densidade da água salgada: 200 x 1,025 = 205 t. Como o calado a ré (2,5 m) é maior que o calado a vante (2,3 m), a embarcação está derrabada. A média entre vante e ré é 2,4 m, e como o calado a meio-navio é 2,39 m, o meio está acima da linha média dos extremos, caracterizando contra-alquebramento. Por isso, a alternativa correta é a A.',
   },
   {
     id: 20222028,
@@ -167,7 +167,7 @@ export const estabilidadeQuestions: Question[] = [
     },
     correct: 'A',
     explanation:
-      'Pelo gabarito oficial da questão, a curva apresentada representa embarcação com GM negativo. Por isso, a alternativa correta é a A.',
+      'Uma CEE de embarcação com GM negativo apresenta comportamento inicial incompatível com o equilíbrio estável: a curva começa indicando tendência de adernamento em vez de retorno. Esse é o traço característico de GM negativo. Por isso, a alternativa correta é a A.',
   },
   {
     id: 20222034,
@@ -188,7 +188,7 @@ export const estabilidadeQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'Pelo gabarito oficial da prova, a combinação correta para a variação e o novo trim é a apresentada na alternativa C. Por isso, a resposta correta é “2 cm e 2 cm”.',
+      'O momento de trim é peso vezes deslocamento longitudinal: 1,8 x 9 = 16,2 t.m. Usando a tabela hidrostática fornecida na questão, esse momento corresponde a uma variação de trim de aproximadamente 2 cm. Como os calados inicial a vante e a ré eram iguais, o trim inicial era zero; depois da movimentação para ré, o novo trim passa a 2 cm. Por isso, a alternativa correta é a C.',
   },
   {
     id: 20212039,
@@ -362,7 +362,7 @@ export const estabilidadeQuestions: Question[] = [
   },
   correct: 'B',
   explanation:
-    'Pelo gabarito oficial, a alternativa incorreta e a B. O item mistura a convencao de compasso com a descricao da condicao longitudinal da embarcacao de forma inadequada.',
+    'Se o calado a vante é maior que o calado a ré, a embarcação está embicada. A alternativa B associa essa condição a uma convenção de compasso incompatível com a descrição apresentada, por isso ela é a incorreta. As demais opções permanecem coerentes com os conceitos básicos de estabilidade. Portanto, a alternativa correta é a B.',
 },
 {
   id: 2023031,
