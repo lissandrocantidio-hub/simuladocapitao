@@ -164,10 +164,10 @@ export default function CheckoutProForm({
                 Abrir conteudo liberado
               </Link>
               <Link
-                href="/simulado-astronomica"
+                href="/"
                 className="rounded-full border border-emerald-300 bg-white px-4 py-2 font-semibold transition hover:bg-emerald-100"
               >
-                Abrir premium
+                Escolher outro simulado
               </Link>
             </div>
           ) : null}

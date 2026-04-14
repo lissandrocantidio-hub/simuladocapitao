@@ -5,7 +5,7 @@ import { getCurrentAccessSnapshot } from '@/lib/access'
 import { accessPlan, formatPriceInReais } from '@/lib/billing'
 import { supportEmail } from '@/lib/checkout-offers'
 import { prisma } from '@/lib/db'
-import { getPaymentAccessExpiration } from '@/lib/payment-access'
+import { getPaymentAccessByEmail, getPaymentAccessExpiration } from '@/lib/payment-access'
 
 export default async function MinhaContaPage() {
   const { user, accessGrant, emailAccess, hasAccess } = await getCurrentAccessSnapshot()
@@ -19,6 +19,7 @@ export default async function MinhaContaPage() {
     orderBy: { createdAt: 'desc' },
     take: 5,
   })
+  const paymentAccessRecord = user.email ? await getPaymentAccessByEmail(user.email) : null
 
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-8 md:px-8 lg:px-10">
@@ -59,8 +60,24 @@ export default async function MinhaContaPage() {
               href={hasAccess ? '/prova-marinha' : '/comprar'}
               className="rounded-full bg-slate-950 px-6 py-3.5 text-lg font-semibold !text-white transition hover:bg-slate-800 hover:!text-white visited:!text-white focus-visible:!text-white"
             >
-              {hasAccess ? 'Abrir prova premium' : 'Ativar acesso'}
+              {hasAccess ? 'Abrir Capitao' : 'Ativar acesso'}
             </Link>
+            {hasAccess ? (
+              <>
+                <Link
+                  href="/simulado-arrais"
+                  className="rounded-full border border-line px-6 py-3.5 text-base font-semibold text-slate-900 transition hover:bg-white"
+                >
+                  Abrir Arrais
+                </Link>
+                <Link
+                  href="/simulado-mestre"
+                  className="rounded-full border border-line px-6 py-3.5 text-base font-semibold text-slate-900 transition hover:bg-white"
+                >
+                  Abrir Mestre
+                </Link>
+              </>
+            ) : null}
             <AccountActions />
           </div>
         </div>
@@ -78,7 +95,7 @@ export default async function MinhaContaPage() {
           </div>
         </div>
 
-        {purchases.length > 0 ? (
+        {purchases.length > 0 || paymentAccessRecord ? (
           <div className="mt-6 grid gap-3">
             {purchases.map((purchase) => (
               <article
@@ -94,6 +111,20 @@ export default async function MinhaContaPage() {
                 </div>
               </article>
             ))}
+            {!purchases.length && paymentAccessRecord ? (
+              <article className="flex flex-col gap-2 rounded-2xl border border-line bg-white p-4 text-sm text-slate-700 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <p className="font-semibold text-slate-950">{accessPlan.code}</p>
+                  <p>{new Intl.DateTimeFormat('pt-BR').format(paymentAccessRecord.updatedAt)}</p>
+                  <p className="mt-1 text-xs uppercase tracking-[0.14em] text-slate-500">
+                    Pagamento identificado pelo e-mail do checkout
+                  </p>
+                </div>
+                <div className="font-semibold text-slate-900">
+                  {formatPriceInReais(accessPlan.priceCents)} · {paymentAccessRecord.status}
+                </div>
+              </article>
+            ) : null}
           </div>
         ) : (
           <p className="mt-6 text-sm leading-7 text-slate-700">

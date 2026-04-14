@@ -99,7 +99,11 @@ export default function Home() {
               return (
             <Link
               key={preset.href}
-              href={premiumPaths.has(preset.href) ? '/comprar' : preset.href}
+              href={
+                premiumPaths.has(preset.href)
+                  ? `/comprar?next=${encodeURIComponent(preset.href)}`
+                  : preset.href
+              }
               className={`group rounded-[2rem] p-6 transition hover:-translate-y-1 ${
                 isArrais
                   ? 'border-2 border-accent/30 bg-[linear-gradient(135deg,rgba(214,241,235,0.85),rgba(255,250,241,0.98))] shadow-[0_24px_60px_rgba(16,120,108,0.14)]'
