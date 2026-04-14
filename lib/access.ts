@@ -78,6 +78,14 @@ export async function requirePremiumAccess(pathname: string) {
     redirect(`/comprar?next=${encodeURIComponent(pathname)}`)
   }
 
+  if (user.email && (await hasGrantedAccess(user.email))) {
+    return {
+      user,
+      email: user.email,
+      accessGranted: true,
+    }
+  }
+
   const activeAccess = await getActiveAccessGrant(user.id)
 
   if (activeAccess) {
