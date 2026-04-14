@@ -31,7 +31,8 @@ export default async function SiteHeader() {
           ) : (
             <Link
               href="/login"
-              className="rounded-full border border-slate-300 bg-slate-900 px-5 py-2.5 text-base font-semibold text-white transition hover:bg-slate-800"
+              className="rounded-full border border-slate-300 bg-slate-900 px-5 py-2.5 text-base font-semibold !text-white transition hover:bg-slate-800 hover:!text-white visited:!text-white focus-visible:!text-white"
+              style={{ color: '#ffffff', WebkitTextFillColor: '#ffffff' }}
             >
               Entrar
             </Link>
