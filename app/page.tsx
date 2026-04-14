@@ -25,8 +25,8 @@ export default function Home() {
                 Simulado online para a prova de Capitao Amador
               </h1>
               <p className="max-w-2xl text-base leading-8 text-slate-700 md:text-lg">
-                Teste a plataforma no demo gratuito e desbloqueie a versao premium para acessar
-                modo prova, simulados por materia e a experiencia completa.
+                Teste a plataforma no demo gratuito de Capitao e desbloqueie a versao premium
+                para acessar modo prova, simulados por materia e a experiencia completa.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ export default function Home() {
                 href="/simulado"
                 className="rounded-full bg-slate-950 px-7 py-3.5 text-base font-semibold !text-white shadow-[0_10px_24px_rgba(2,6,23,0.24)] ring-1 ring-slate-950/90 transition hover:bg-slate-900 hover:!text-white visited:!text-white focus-visible:!text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
               >
-                Testar demo gratuita
+                Testar demo de Capitao
               </Link>
               <Link
                 href="/comprar"
@@ -119,7 +119,7 @@ export default function Home() {
                       {preset.badge}
                     </span>
                     <span className="inline-flex rounded-full border border-line bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">
-                      {premiumPaths.has(preset.href) ? 'Premium' : 'Demo gratis'}
+                      {premiumPaths.has(preset.href) ? 'Premium' : 'Demo Capitao'}
                     </span>
                   </div>
                   <h3
@@ -157,7 +157,7 @@ export default function Home() {
               <div className="mt-6 flex items-center justify-between text-sm text-slate-600">
                 <span>{preset.questionCount} questoes</span>
                 <span className="font-semibold text-accent transition group-hover:text-accent-strong">
-                  {premiumPaths.has(preset.href) ? 'Desbloquear' : 'Abrir demo'}
+                  {premiumPaths.has(preset.href) ? 'Desbloquear' : 'Abrir demo de Capitao'}
                 </span>
               </div>
             </Link>

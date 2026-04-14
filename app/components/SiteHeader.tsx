@@ -13,7 +13,7 @@ export default async function SiteHeader() {
 
         <nav className="flex items-center gap-3 text-sm font-medium text-slate-700">
           <Link href="/simulado" className="rounded-full px-4 py-2 transition hover:bg-white/70">
-            Demo
+            Demo Capitao
           </Link>
           <Link
             href="/comprar"

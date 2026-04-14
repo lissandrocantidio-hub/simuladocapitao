@@ -21,15 +21,16 @@ export const subjectLabels: Record<string, string> = {
   comunicacoes: 'Comunicacoes',
   estabilidade: 'Estabilidade',
   'arrais-amador': 'Arrais-Amador',
+  'mestre-amador': 'Mestre-Amador',
 }
 
 export const simulationPresets: SimulationPreset[] = [
   {
     href: '/simulado',
-    title: 'Simulado geral',
+    title: 'Demo Capitao-Amador',
     description:
-      'Demo gratuita com 5 questoes fixas para conhecer a plataforma antes da versao completa.',
-    badge: 'Mais procurado',
+      'Demo gratuita com 5 questoes fixas para conhecer a plataforma de Capitao antes da versao completa.',
+    badge: 'Entrada gratuita',
     certification: 'Capitao-Amador',
     subjects: [
       'astronomia',
@@ -142,6 +143,19 @@ export const simulationPresets: SimulationPreset[] = [
     subjects: ['arrais-amador'],
     questionCount: 20,
     durationMinutes: 40,
+    passRate: 0.5,
+    mode: 'practice',
+  },
+  {
+    href: '/simulado-mestre',
+    title: 'Mestre-Amador',
+    description:
+      'Banco dedicado com 100 questoes para treinar carta nautica, navegacao costeira, meteorologia, manobras, Ripeam e seguranca.',
+    badge: 'Nova habilitacao',
+    certification: 'Mestre-Amador',
+    subjects: ['mestre-amador'],
+    questionCount: 20,
+    durationMinutes: 45,
     passRate: 0.5,
     mode: 'practice',
   },
