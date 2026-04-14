@@ -291,6 +291,9 @@ export default function SimulatorExperience({
               {preset.badge}
             </span>
             <div className="space-y-2">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
+                Prova: {preset.certification}
+              </p>
               <h1 className="text-3xl font-semibold tracking-tight text-slate-900 md:text-4xl">
                 {preset.title}
               </h1>

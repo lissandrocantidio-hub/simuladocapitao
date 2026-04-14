@@ -3,6 +3,7 @@ export type SimulationPreset = {
   title: string
   description: string
   badge: string
+  certification: string
   subjects: string[]
   questionCount: number
   durationMinutes: number
@@ -29,6 +30,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'Demo gratuita com 5 questoes fixas para conhecer a plataforma antes da versao completa.',
     badge: 'Mais procurado',
+    certification: 'Capitao-Amador',
     subjects: [
       'astronomia',
       'meteorologia',
@@ -50,6 +52,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'Fluxo mais proximo da prova real, com cronometro mais longo e revisao so no final.',
     badge: 'Modo prova',
+    certification: 'Capitao-Amador',
     subjects: [
       'astronomia',
       'meteorologia',
@@ -70,6 +73,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'Passagem meridiana, sextante, altura verdadeira, latitude e longitude.',
     badge: 'Foco total',
+    certification: 'Capitao-Amador',
     subjects: ['astronomia'],
     questionCount: 10,
     durationMinutes: 30,
@@ -82,6 +86,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'Frentes, nuvens, cartas sinoticas, ventos e leitura de cenarios operacionais.',
     badge: 'Revisao rapida',
+    certification: 'Capitao-Amador',
     subjects: ['meteorologia'],
     questionCount: 10,
     durationMinutes: 25,
@@ -94,6 +99,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'GMDSS, EPIRB, SART e fundamentos operacionais das comunicacoes maritimas.',
     badge: 'Novo bloco',
+    certification: 'Capitao-Amador',
     subjects: ['comunicacoes'],
     questionCount: 10,
     durationMinutes: 20,
@@ -106,6 +112,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'Hipotermia, abandono, balsas salva-vidas e manobras em mares tempestuosos.',
     badge: 'Treino rapido',
+    certification: 'Capitao-Amador',
     subjects: ['sobrevivencia'],
     questionCount: 10,
     durationMinutes: 20,
@@ -118,6 +125,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'GM, TPC, superficie livre e nocoes essenciais de seguranca da embarcacao.',
     badge: 'Base tecnica',
+    certification: 'Capitao-Amador',
     subjects: ['estabilidade'],
     questionCount: 10,
     durationMinutes: 20,
@@ -130,6 +138,7 @@ export const simulationPresets: SimulationPreset[] = [
     description:
       'Nova habilitacao com 100 questoes para treinar termos nauticos, manobras, Ripeam, balizamento, VHF e seguranca de navegacao.',
     badge: 'Nova habilitacao',
+    certification: 'Arrais-Amador',
     subjects: ['arrais-amador'],
     questionCount: 20,
     durationMinutes: 40,
