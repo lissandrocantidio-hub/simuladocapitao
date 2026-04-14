@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { FormEvent, useEffect, useState } from 'react'
 import { launchCoupon, supportEmail } from '@/lib/checkout-offers'
+import { sanitizeNextPath } from '@/lib/navigation'
 
 export type CheckoutStatus =
   | {
@@ -15,16 +16,19 @@ export default function CheckoutProForm({
   initialEmail = '',
   checkoutStatus,
   accessGranted = false,
+  nextPath = '/prova-marinha',
 }: {
   initialEmail?: string
   checkoutStatus?: CheckoutStatus
   accessGranted?: boolean
+  nextPath?: string
 }) {
   const [email, setEmail] = useState(initialEmail)
   const [couponCode, setCouponCode] = useState<string>(launchCoupon.code)
   const [error, setError] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [sessionReady, setSessionReady] = useState(false)
+  const targetPath = sanitizeNextPath(nextPath)
 
   async function tryRestoreAccessSession(targetEmail: string) {
     const response = await fetch('/api/access/session', {
@@ -40,7 +44,7 @@ export default function CheckoutProForm({
     }
 
     setSessionReady(true)
-    window.location.href = '/prova-marinha'
+    window.location.href = targetPath
     return true
   }
 
@@ -90,7 +94,7 @@ export default function CheckoutProForm({
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ email: normalizedEmail, couponCode }),
+      body: JSON.stringify({ email: normalizedEmail, couponCode, nextPath: targetPath }),
     })
 
     const data = (await response.json().catch(() => ({}))) as {
@@ -154,10 +158,10 @@ export default function CheckoutProForm({
           {sessionReady ? (
             <div className="mt-3 flex flex-wrap gap-2">
               <Link
-                href="/prova-marinha"
+                href={targetPath}
                 className="rounded-full border border-emerald-300 bg-white px-4 py-2 font-semibold transition hover:bg-emerald-100"
               >
-                Abrir prova completa
+                Abrir conteudo liberado
               </Link>
               <Link
                 href="/simulado-astronomica"

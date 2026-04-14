@@ -2,11 +2,13 @@ import Link from 'next/link'
 import CheckoutProForm, { type CheckoutStatus } from '@/app/components/CheckoutProForm'
 import { getCurrentAccessSnapshot } from '@/lib/access'
 import { supportEmail } from '@/lib/checkout-offers'
+import { sanitizeNextPath } from '@/lib/navigation'
 import { getPaymentAccessByEmail, hasGrantedAccess } from '@/lib/payment-access'
 
 type CompraConcluidaPageProps = {
   searchParams?: Promise<{
     email?: string
+    next?: string
     source?: string
     status?: string
   }>
@@ -15,6 +17,7 @@ type CompraConcluidaPageProps = {
 export default async function CompraConcluidaPage({ searchParams }: CompraConcluidaPageProps) {
   const resolved = searchParams ? await searchParams : undefined
   const email = resolved?.email?.toLowerCase().trim() ?? ''
+  const nextPath = sanitizeNextPath(resolved?.next)
   const source = resolved?.source ?? ''
   const checkoutStatus: CheckoutStatus =
     resolved?.status === 'success' || resolved?.status === 'pending' || resolved?.status === 'failure'
@@ -93,6 +96,7 @@ export default async function CompraConcluidaPage({ searchParams }: CompraConclu
               initialEmail={email}
               checkoutStatus={checkoutStatus}
               accessGranted={hasEmailAccess}
+              nextPath={nextPath}
             />
           ) : (
             <div className="grid gap-3">

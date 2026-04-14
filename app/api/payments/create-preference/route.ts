@@ -1,12 +1,14 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { getAppliedCoupon, getCheckoutPricing, normalizeCouponCode } from '@/lib/checkout-offers'
+import { sanitizeNextPath } from '@/lib/navigation'
 import { createPendingPaymentAccess, checkoutProduct } from '@/lib/payment-access'
 import { getMercadoPagoPreferenceClient } from '@/lib/mercadopago'
 
 const payloadSchema = z.object({
   email: z.string().email(),
   couponCode: z.string().optional(),
+  nextPath: z.string().optional(),
 })
 
 function getBaseUrl(request: Request) {
@@ -40,6 +42,7 @@ export async function POST(request: Request) {
 
     const email = parsed.data.email.toLowerCase().trim()
     const couponCode = normalizeCouponCode(parsed.data.couponCode)
+    const nextPath = sanitizeNextPath(parsed.data.nextPath)
     if (couponCode && !getAppliedCoupon(couponCode)) {
       return NextResponse.json({ error: 'Cupom invalido.' }, { status: 400 })
     }
@@ -75,9 +78,9 @@ export async function POST(request: Request) {
         },
         external_reference: email,
         back_urls: {
-          success: `${baseUrl}/compra-concluida?status=success&email=${encodeURIComponent(email)}`,
-          pending: `${baseUrl}/compra-concluida?status=pending&email=${encodeURIComponent(email)}`,
-          failure: `${baseUrl}/compra-concluida?status=failure&email=${encodeURIComponent(email)}`,
+          success: `${baseUrl}/compra-concluida?status=success&email=${encodeURIComponent(email)}&next=${encodeURIComponent(nextPath)}`,
+          pending: `${baseUrl}/compra-concluida?status=pending&email=${encodeURIComponent(email)}&next=${encodeURIComponent(nextPath)}`,
+          failure: `${baseUrl}/compra-concluida?status=failure&email=${encodeURIComponent(email)}&next=${encodeURIComponent(nextPath)}`,
         },
         auto_return: 'approved',
         notification_url: `${baseUrl}/api/mercadopago/webhook`,
