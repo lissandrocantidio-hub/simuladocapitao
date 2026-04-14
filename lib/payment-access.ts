@@ -13,6 +13,9 @@ export type PaymentAccessSnapshot = {
   paymentId: string | null
   status: string
   accessGranted: boolean
+  confirmationEmailSentAt: Date | null
+  confirmationEmailSentForPaymentId: string | null
+  confirmationEmailLastError: string | null
   createdAt: Date
   updatedAt: Date
 }
@@ -94,6 +97,9 @@ export async function getPaymentAccessByEmail(email: string): Promise<PaymentAcc
       paymentId: true,
       status: true,
       accessGranted: true,
+      confirmationEmailSentAt: true,
+      confirmationEmailSentForPaymentId: true,
+      confirmationEmailLastError: true,
       createdAt: true,
       updatedAt: true,
     },
@@ -122,4 +128,30 @@ export async function getActivePaymentAccessByEmail(email: string) {
 export async function hasGrantedAccess(email: string) {
   const access = await getPaymentAccessByEmail(email)
   return isPaymentAccessActive(access)
+}
+
+export async function markConfirmationEmailResult(input: {
+  email: string
+  paymentId: string | null
+  success: boolean
+  error?: string | null
+}) {
+  return prisma.paymentAccess.update({
+    where: { email: input.email },
+    data: {
+      confirmationEmailSentAt: input.success ? new Date() : undefined,
+      confirmationEmailSentForPaymentId: input.success ? input.paymentId : undefined,
+      confirmationEmailLastError: input.success ? null : (input.error ?? 'email-send-failed'),
+    },
+  })
+}
+
+export function shouldSendConfirmationEmail(
+  access: Pick<PaymentAccessSnapshot, 'accessGranted' | 'paymentId' | 'confirmationEmailSentForPaymentId'>
+) {
+  if (!access.accessGranted || !access.paymentId) {
+    return false
+  }
+
+  return access.confirmationEmailSentForPaymentId !== access.paymentId
 }

@@ -1,9 +1,13 @@
 import { NextResponse } from 'next/server'
 import {
   grantAccessForApprovedPayment,
+  markConfirmationEmailResult,
   recordMercadoPagoWebhookEvent,
+  shouldSendConfirmationEmail,
 } from '@/lib/payment-access'
+import { getCheckoutPricing } from '@/lib/checkout-offers'
 import { getMercadoPagoPaymentClient } from '@/lib/mercadopago'
+import { sendPurchaseConfirmationEmail } from '@/lib/purchase-confirmation-email'
 
 function extractPaymentId(searchParams: URLSearchParams, body: Record<string, unknown>) {
   const bodyData = body.data
@@ -61,11 +65,31 @@ export async function POST(request: Request) {
     })
 
     if (email && payment.status) {
-      await grantAccessForApprovedPayment({
+      const access = await grantAccessForApprovedPayment({
         email: email.toLowerCase().trim(),
         paymentId: String(payment.id ?? paymentId),
         status: payment.status,
       })
+
+      if (shouldSendConfirmationEmail(access)) {
+        const couponCode =
+          typeof payment.metadata?.couponCode === 'string' ? payment.metadata.couponCode : null
+        const pricing = getCheckoutPricing(couponCode)
+        const emailResult = await sendPurchaseConfirmationEmail({
+          buyerEmail: access.email,
+          paymentId: access.paymentId,
+          amountCents: pricing.finalPriceCents,
+        })
+
+        if (!emailResult.skipped) {
+          await markConfirmationEmailResult({
+            email: access.email,
+            paymentId: access.paymentId,
+            success: emailResult.ok,
+            error: emailResult.ok ? null : emailResult.error,
+          })
+        }
+      }
     }
 
     return NextResponse.json({ received: true })
