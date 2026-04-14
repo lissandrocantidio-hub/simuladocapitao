@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/next'
 import MetaPixelPageTracker from '@/app/components/MetaPixelPageTracker'
 import SiteHeader from '@/app/components/SiteHeader'
 import './globals.css'
@@ -47,6 +48,7 @@ export default function RootLayout({
         ) : null}
         <SiteHeader />
         {children}
+        <Analytics />
       </body>
     </html>
   )
