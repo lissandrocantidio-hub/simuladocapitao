@@ -95,6 +95,8 @@ export default function Home() {
           {simulationPresets.map((preset) => (
             (() => {
               const isArrais = preset.href === '/simulado-arrais'
+              const isMestre = preset.href === '/simulado-mestre'
+              const isFeaturedCertification = isArrais || isMestre
 
               return (
             <Link
@@ -105,7 +107,7 @@ export default function Home() {
                   : preset.href
               }
               className={`group rounded-[2rem] p-6 transition hover:-translate-y-1 ${
-                isArrais
+                isFeaturedCertification
                   ? 'border-2 border-accent/30 bg-[linear-gradient(135deg,rgba(214,241,235,0.85),rgba(255,250,241,0.98))] shadow-[0_24px_60px_rgba(16,120,108,0.14)]'
                   : 'border border-line bg-surface-strong shadow-[0_18px_40px_rgba(16,32,51,0.08)] hover:shadow-[0_24px_50px_rgba(16,32,51,0.12)]'
               }`}
@@ -115,7 +117,7 @@ export default function Home() {
                   <div className="flex flex-wrap gap-2">
                     <span
                       className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] ${
-                        isArrais
+                        isFeaturedCertification
                           ? 'bg-slate-950 text-white'
                           : 'bg-accent-soft text-accent'
                       }`}
@@ -128,7 +130,7 @@ export default function Home() {
                   </div>
                   <h3
                     className={`mt-4 font-semibold text-slate-950 ${
-                      isArrais ? 'text-3xl' : 'text-2xl'
+                      isFeaturedCertification ? 'text-3xl' : 'text-2xl'
                     }`}
                   >
                     {preset.title}
@@ -144,6 +146,12 @@ export default function Home() {
               {isArrais ? (
                 <p className="mt-4 rounded-2xl border border-white/70 bg-white/70 px-4 py-3 text-sm font-medium text-slate-800">
                   Banco dedicado para quem vai tirar a habilitacao de Arrais-Amador.
+                </p>
+              ) : null}
+
+              {isMestre ? (
+                <p className="mt-4 rounded-2xl border border-white/70 bg-white/70 px-4 py-3 text-sm font-medium text-slate-800">
+                  Banco dedicado para quem esta avancando para a habilitacao de Mestre-Amador.
                 </p>
               ) : null}
 
