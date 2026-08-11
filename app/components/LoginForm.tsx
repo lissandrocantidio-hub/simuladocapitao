@@ -62,6 +62,12 @@ export default function LoginForm() {
         />
       </label>
 
+      <div className="-mt-2 text-right text-sm">
+        <Link href="/esqueci-senha" className="font-semibold text-accent">
+          Esqueci minha senha
+        </Link>
+      </div>
+
       {error ? <p className="text-sm text-rose-700">{error}</p> : null}
 
       <button

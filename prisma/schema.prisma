@@ -12,10 +12,27 @@ model User {
   name         String
   email        String        @unique
   passwordHash String
+  lastSeenAt   DateTime?
+  lastSeenPath String?
   createdAt    DateTime      @default(now())
   updatedAt    DateTime      @updatedAt
   purchases    Purchase[]
   accessGrants AccessGrant[]
+  simulationAttempts SimulationAttempt[]
+  passwordResetTokens PasswordResetToken[]
+}
+
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([expiresAt])
 }
 
 model Purchase {
@@ -64,6 +81,22 @@ model PaymentAccess {
   updatedAt                    DateTime @updatedAt
 }
 
+model MercadoPagoPayment {
+  id          String    @id @default(cuid())
+  paymentId   String    @unique
+  email       String
+  status      String
+  amount      Decimal   @db.Decimal(10, 2)
+  currency    String    @default("BRL")
+  eventId     String    @unique
+  processedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([email, createdAt])
+  @@index([status, createdAt])
+}
+
 model MercadoPagoWebhookEvent {
   id         String   @id @default(cuid())
   topic      String?
@@ -74,6 +107,36 @@ model MercadoPagoWebhookEvent {
   createdAt  DateTime @default(now())
 
   @@index([paymentId, createdAt])
+}
+
+model Coupon {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  percentOff  Int
+  description String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model SimulationAttempt {
+  id             String   @id @default(cuid())
+  userId         String
+  presetHref     String
+  presetTitle    String
+  subjectLabels  String[]
+  questionCount  Int
+  correctCount   Int
+  scoreRatio     Float
+  timeLeftSeconds Int
+  wrongTopics    String[]
+  questionIds     Int[]    @default([])
+  answers        Json?
+  createdAt      DateTime @default(now())
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([userId, presetHref, createdAt])
 }
 
 enum PaymentProvider {

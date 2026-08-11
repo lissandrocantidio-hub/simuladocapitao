@@ -1,0 +1,11 @@
+2026/04/24-16:35:39.940 2384 Reusing MANIFEST C:\Users\lissa\simuladocapitao\tmp-verify-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/04/24-16:35:39.942 2384 Recovering log #3
+2026/04/24-16:35:40.172 2384 Level-0 table #3: started
+2026/04/24-16:35:40.258 2384 Level-0 table #3: 682121 bytes OK
+2026/04/24-16:35:40.259 2384 Recovering log #4
+2026/04/24-16:35:40.261 2384 Reusing old log C:\Users\lissa\simuladocapitao\tmp-verify-profile\Default\EdgeCoupons/coupons_data.db/000004.log 
+2026/04/24-16:35:40.269 2384 Delete type=0 #3
+2026/04/24-16:35:40.284 2384 Delete type=2 #5
+2026/04/24-16:35:42.288 3d20 Level-0 table #6: started
+2026/04/24-16:35:42.297 3d20 Level-0 table #6: 682224 bytes OK
+2026/04/24-16:35:42.301 3d20 Delete type=0 #4

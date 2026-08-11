@@ -1,28 +1,14 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
-import { getAppliedCoupon, getCheckoutPricing, normalizeCouponCode } from '@/lib/checkout-offers'
+import { createCheckoutPreference, getCheckoutBaseUrl } from '@/lib/checkout-preference'
 import { sanitizeNextPath } from '@/lib/navigation'
-import { createPendingPaymentAccess, checkoutProduct } from '@/lib/payment-access'
-import { getMercadoPagoPreferenceClient } from '@/lib/mercadopago'
+import { sendPendingCheckoutEmail } from '@/lib/purchase-confirmation-email'
 
 const payloadSchema = z.object({
   email: z.string().email(),
   couponCode: z.string().optional(),
   nextPath: z.string().optional(),
 })
-
-function getBaseUrl(request: Request) {
-  if (process.env.NEXT_PUBLIC_APP_URL) {
-    return process.env.NEXT_PUBLIC_APP_URL
-  }
-
-  if (process.env.APP_URL) {
-    return process.env.APP_URL
-  }
-
-  const { origin } = new URL(request.url)
-  return origin
-}
 
 export async function POST(request: Request) {
   if (!process.env.MERCADOPAGO_ACCESS_TOKEN) {
@@ -41,54 +27,39 @@ export async function POST(request: Request) {
     }
 
     const email = parsed.data.email.toLowerCase().trim()
-    const couponCode = normalizeCouponCode(parsed.data.couponCode)
     const nextPath = sanitizeNextPath(parsed.data.nextPath)
-    if (couponCode && !getAppliedCoupon(couponCode)) {
-      return NextResponse.json({ error: 'Cupom invalido.' }, { status: 400 })
-    }
 
-    const pricing = getCheckoutPricing(couponCode)
-    await createPendingPaymentAccess(email)
-
-    const baseUrl = getBaseUrl(request)
-    const preferenceClient = getMercadoPagoPreferenceClient()
-    const response = await preferenceClient.create({
-      body: {
-        items: [
-          {
-            id: 'acesso-simulado-capitao-amador',
-            title: checkoutProduct.title,
-            description: checkoutProduct.description,
-            quantity: 1,
-            unit_price: pricing.finalPriceCents / 100,
-            currency_id: checkoutProduct.currency,
-          },
-        ],
-        payer: {
-          email,
-        },
-        payment_methods: {
-          default_payment_method_id: 'pix',
-        },
-        metadata: {
-          email,
-          couponCode: pricing.coupon?.code ?? null,
-          originalPriceCents: pricing.originalPriceCents,
-          finalPriceCents: pricing.finalPriceCents,
-        },
-        external_reference: email,
-        back_urls: {
-          success: `${baseUrl}/compra-concluida?status=success&email=${encodeURIComponent(email)}&next=${encodeURIComponent(nextPath)}`,
-          pending: `${baseUrl}/compra-concluida?status=pending&email=${encodeURIComponent(email)}&next=${encodeURIComponent(nextPath)}`,
-          failure: `${baseUrl}/compra-concluida?status=failure&email=${encodeURIComponent(email)}&next=${encodeURIComponent(nextPath)}`,
-        },
-        auto_return: 'approved',
-        notification_url: `${baseUrl}/api/mercadopago/webhook`,
-      },
+    const result = await createCheckoutPreference({
+      email,
+      baseUrl: getCheckoutBaseUrl(request.url),
+      nextPath,
+      couponCode: parsed.data.couponCode,
     })
 
+    if (!result.ok) {
+      if (result.error === 'Cupom invalido.') {
+        return NextResponse.json({ error: result.error }, { status: 400 })
+      }
+
+      return NextResponse.json({ error: result.error }, { status: 400 })
+    }
+
+    if (result.checkoutUrl) {
+      try {
+        await sendPendingCheckoutEmail({
+          buyerEmail: email,
+          checkoutUrl: result.checkoutUrl,
+          coupon: result.pricing.coupon,
+          originalPriceCents: result.pricing.originalPriceCents,
+          finalPriceCents: result.pricing.finalPriceCents,
+        })
+      } catch (error) {
+        console.error('[payments:create-preference] failed to send pending checkout email', error)
+      }
+    }
+
     return NextResponse.json({
-      init_point: response.init_point ?? response.sandbox_init_point ?? null,
+      init_point: result.checkoutUrl,
     })
   } catch {
     return NextResponse.json(

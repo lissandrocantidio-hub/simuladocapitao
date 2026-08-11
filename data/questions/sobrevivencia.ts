@@ -39,9 +39,9 @@ export const sobrevivenciaQuestions: Question[] = [
       D: 'temperatura da água e constituição física.',
       E: 'tempo de exposição e exercícios regulares.',
     },
-    correct: 'D',
+    correct: 'C',
     explanation:
-      'O risco de colapso por hipotermia depende principalmente da temperatura da água e da constituição física da vítima, já que massa corporal, gordura e resistência individual influenciam a perda de calor. Tempo de exposição é importante para evolução do quadro, mas a dupla cobrada pela prova é temperatura da água e constituição física.',
+      'O tempo de sobrevivência em água fria antes de uma parada cardíaca depende principalmente da temperatura da água e do tempo de exposição. Quanto mais fria a água e maior o tempo de permanência, maior o risco de hipotermia e colapso.',
   },
   {
     id: 2022021,
@@ -68,6 +68,8 @@ export const sobrevivenciaQuestions: Question[] = [
     id: 2022022,
     subject: 'sobrevivencia',
     topic: 'afogamento seco',
+    conceptKey: 'survival.dry_drowning',
+    groupKey: 'survival.dry_drowning.variant',
     year: 2022,
     exam: 'CPA-I 2022',
     source: 'Prova oficial da Marinha',
@@ -144,9 +146,9 @@ export const sobrevivenciaQuestions: Question[] = [
       D: 'mar de popa o mais lentamente possível.',
       E: 'mar de través o mais rápido possível.',
     },
-    correct: 'C',
+    correct: 'D',
     explanation:
-      '“Correr com o tempo” é a manobra em que a embarcação navega com o mar pela popa, acompanhando o deslocamento das ondas. Nessa situação, procura-se manter boa governabilidade e velocidade compatível com o estado do mar, o que corresponde à ideia de mar de popa o mais rápido possível dentro das condições seguras. Por isso, a alternativa correta é a C.',
+      '“Correr com o tempo” significa navegar com o mar pela popa, isto é, com as ondas vindo por trás da embarcação. A ideia não é acelerar, mas reduzir a velocidade ao mínimo que ainda permita manter o governo. Se a embarcação se aproxima demais da velocidade de propagação das ondas, o leme perde eficiência e aumenta o risco de desgoverno e de atravessar ao mar. Por isso, entre as alternativas dadas, a correta é “mar de popa o mais lentamente possível”, letra D.',
   },
   {
     id: 2022030,
@@ -157,7 +159,7 @@ export const sobrevivenciaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Segundo o livro “Capitão-Amador para sobrevivência da embarcação”, em mares tempestuosos devemos:',
+      'Segundo o livro “Capitão-Amador para sobrevivência da embarcação”, em marés tempestuosos devemos:',
     options: {
       A: 'economizar combustível.',
       B: 'diminuir a propulsão.',
@@ -167,7 +169,7 @@ export const sobrevivenciaQuestions: Question[] = [
     },
     correct: 'E',
     explanation:
-      'Em mares tempestuosos, a prioridade é preservar a segurança da embarcação, o que inclui manter estabilidade, flutuabilidade, governo e capacidade de propulsão. Economizar combustível ou energia pode ser importante depois, mas não supera a necessidade imediata de manter o barco estável. Por isso, a alternativa correta é a E.',
+      'Em marés tempestuosos, a prioridade é preservar a segurança da embarcação, o que inclui manter estabilidade, flutuabilidade, governo e capacidade de propulsão. Economizar combustível ou energia pode ser importante depois, mas não supera a necessidade imediata de manter o barco estável. Por isso, a alternativa correta é a E.',
   },
   {
     id: 20252020,
@@ -383,6 +385,8 @@ export const sobrevivenciaQuestions: Question[] = [
     id: 20222040,
     subject: 'sobrevivencia',
     topic: 'afogamento seco',
+    conceptKey: 'survival.dry_drowning',
+    groupKey: 'survival.dry_drowning.variant',
     year: 2022,
     exam: 'CPA-II 2022',
     source: 'Prova oficial da Marinha',
@@ -398,7 +402,7 @@ export const sobrevivenciaQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'O enunciado descreve uma vitima retirada de agua fria com sinais aparentes de morte, mas ainda com possibilidade de recuperacao por tempo prolongado devido a uma reducao extrema das funcoes vitais. Entre as opcoes dadas, esse quadro corresponde ao chamado afogamento seco, em que ha insuficiencia respiratoria grave sem o quadro tipico de inundacao pulmonar do afogamento molhado. Por isso, a alternativa correta e a C.',
+      'O enunciado descreve uma vítima retirada de água fria com sinais aparentes de morte, mas ainda com possibilidade de recuperacao por tempo prolongado devido a uma redução extrema das funções vitais. Entre as opcoes dadas, esse quadro corresponde ao chamado afogamento seco, em que ha insuficiencia respiratoria grave sem o quadro tipico de inundacao pulmonar do afogamento molhado. Por isso, a alternativa correta e a C.',
   },
   {
     id: 20212032,
@@ -514,7 +518,7 @@ export const sobrevivenciaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Qual é a distância aproximada em que uma balsa salva-vidas pode ser visualizada, considerando-se o olho do observador em uma altura de 25 metros, zero à altura da balsa e com boas condições atmosféricas?',
+      'Qual é a distância aproximada em que uma balsa salva-vidas pode ser visualizada, considerando-se o olho do observador em uma altura de 25 metros, zero à altura da balsa e com boas condições atmosféricas',
     options: {
       A: '02 Milhas Náuticas.',
       B: '04 Milhas Náuticas.',
@@ -535,7 +539,7 @@ export const sobrevivenciaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'O que deverá fazer o socorrista em caso de resgate de uma pessoa dentro d’água?',
+      'O que deverá fazer o socorrista em caso de resgate de uma pessoa dentro d’água',
     options: {
       A: 'Estar amarrado ao barco por cabo guia e utilizar coletes salva-vidas.',
       B: 'Entrar na água com pouca vestimenta, evitando molhar sua roupa.',

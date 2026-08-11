@@ -1,6 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import { trackBeginCheckout } from '@/lib/google-analytics'
+import { trackInitiateCheckout } from '@/lib/meta-pixel'
 
 export default function BuyButton() {
   const [error, setError] = useState('')
@@ -26,6 +28,8 @@ export default function BuyButton() {
       return
     }
 
+    trackBeginCheckout()
+    await trackInitiateCheckout()
     window.location.href = data.initPoint
   }
 

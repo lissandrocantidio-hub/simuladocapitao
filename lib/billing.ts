@@ -7,13 +7,22 @@ export const accessPlan = {
   currency: 'BRL',
 } as const
 
-export const supportEmail = 'atendimento@simuladocapitao.com.br'
+export const supportEmail = 'contato@simuladocapitao.com.br'
 
 export const launchCoupon = {
   code: 'LANCAMENTO20',
   percentOff: 20,
   description: 'Cupom de lancamento com 20% de desconto.',
 } as const
+
+export const checkoutCoupons = [
+  launchCoupon,
+  {
+    code: 'COMPRA_TESTE',
+    percentOff: 99,
+    description: 'Cupom para compra de teste interno (99% OFF).',
+  },
+] as const
 
 export function formatPriceInReais(amountCents: number) {
   return new Intl.NumberFormat('pt-BR', {

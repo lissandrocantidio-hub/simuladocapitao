@@ -38,6 +38,7 @@ body {
   background-image: var(--hero-glow), var(--hero-sea);
   background-attachment: fixed;
   font-family: var(--font-sans);
+  overflow-x: hidden;
 }
 
 a {
@@ -47,4 +48,10 @@ a {
 
 button {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }

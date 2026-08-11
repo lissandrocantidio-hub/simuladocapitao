@@ -1,0 +1,1601 @@
+
+===== PAGINA 1 OBJ 2 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+MARINHA DO BRASIL
+CENTRO DE INSTRUÇÃO ALMIRANTE
+GRAÇA ARANHA
+Processo Seletivo para Capitão-Amador
+(PS-CPA–II/2022)
+CAPITÃO-AMADOR
+1
+de
+16
+
+
+
+===== PAGINA 2 OBJ 5 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+EXAME DE SELEÇÃO PARA CAPITÃO-AMADOR (CPA-II/2022)
+(Valor: 0,25 cada questão – Valor Total: 10,0 pontos)
+Um navegador realizando a travessia marítima desde Porto Alegre – Brasil até a
+Cidade do Cabo – África do Sul em seu veleiro, no dia 30 de maio de 2021 adotou
+as providências necessárias para efetuar o cálculo da Latitude pela observação da
+passagem meridiana do Sol. Dessa forma, a fim de determinar o erro instrumental
+(ei)
+do sextante, escolheu o processo conhecido como “pelo horizonte do mar”, e,
+após realizar as observações com o sextante do horizonte e alinhar, perfeitamente,
+as imagens direta e refletida, fez a leitura no tambor micrométrico e encontrou o
+valor do erro instrumental do sextante: + 2,8’. Buscou, então, os demais dados
+imprescindíveis para a realização da observação da passagem meridiana do Sol e
+posterior cálculo da Latitude meridiana. Observando a carta náutica, verificou a
+posição estimada que o veleiro estaria no instante da passagem meridiana, tendo
+obtido as seguintes coordenadas geográficas: φ - 31° 18,7’ S e λ - 016° 02,1’ W.
+Então, nas proximidades dessa posição estimada, o navegador, que estava com o
+seu olho a uma elevação de 5,0 m em relação ao nível do mar, efetuou a
+observação do limbo superior do Sol, com o sextante, na Hora Média de Greenwich
+(
+HMG
+) – 10h54m30s, obtendo a altura instrumental (
+ai
+) = 37º 07,5’. Considerando a
+situação explanada e baseando-se nos demais dados apresentados no corpo das
+perguntas e nos anexos do Almanaque Náutico Brasileiro (
+ANB
+),
+analise
+as
+oito
+questões
+que se seguem, assinalando a opção CORRETA.
+1) O conhecimento da Hora Legal (Hleg) da Passagem Meridiana do Sol é de
+fundamental importância para a realização da observação do Sol, pois nesse
+instante marcado por seu relógio de pulso ocorrerá a culminação do Sol, e o
+navegador deve estar pronto para medir a altura do Sol com o sextante. Então, em
+30 de maio de 2021, a
+Hora Legal (
+Hleg
+)
+
+prevista para o Sol culminar, na posição
+estimada pelo navegador foi:
+(A) 12h 02m Z
+(B) 11h 58m N
+(C) 11h 58m Z
+(D) 12h 02m N
+(E) 11h 58m O
+2) Considerando os dados do enunciado da situação, indique a declinação do Sol,
+empregando os dados do
+ANB
+para a
+HMG
+da altura de culminação:
+(A) 21° 49,8’ S
+(B) 21° 49,8’ N
+(C) 21° 50,2’ N
+(D) 21° 50,2’ S
+(E) 21° 49,4’ N
+2
+de
+16
+
+
+
+===== PAGINA 3 OBJ 8 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+3) A determinação do
+ei
+do sextante foi efetuada pelo processo denominado “pelo
+horizonte do mar” e foi encontrado o valor de +2,8’. Nesse processo, quando as
+imagens direta e refletida do horizonte foram trazidas para um alinhamento perfeito,
+por meio da atuação no tambor micrométrico, e, sabendo-se que o sextante
+apresentava a escala do Vernier subdividida em 05 partes, pode-se afirmar que na
+leitura do sextante o índice da alidade estava à:
+(A) direita do zero do arco graduado e o índice do tambor micrométrico estava entre
+os valores 57’ e 58’.
+(B) direita do zero do arco graduado e o índice do tambor micrométrico estava entre
+os valores 03’ e 04’.
+(C) direita do zero do arco graduado e o índice do tambor micrométrico estava entre
+os valores 58’ e 59’.
+(D) esquerda do zero do arco graduado e o índice do tambor micrométrico estava
+entre os valores 58’ e 59’.
+(E) esquerda do zero do arco graduado e o índice do tambor micrométrico estava
+entre os valores 57’e 58’.
+4) Considerando os dados do enunciado da situação, indique a altura verdadeira do
+Sol, empregando os dados do
+ANB
+:
+(A) 36° 06,4’
+(B) 37° 49,2’
+(C) 36° 49,2’
+(D) 37° 06,4’
+(E) 36° 49,3’
+5) Considerando os dados do enunciado da situação, indique a Distância Zenital (
+z
+)
+calculada no instante da passagem meridiana do Sol:
+(A) 53° 53,6’
+(B) 53° 10,7’
+(C) 52° 10,8’
+(D) 53° 10,8’
+(E) 52° 53,6’
+6) A Latitude meridiana (Latitude do observador obtida pela observação do Sol na
+passagem meridiana - φmd) é calculada pela combinação da Declinação (δ) do Sol) do Sol
+no instante da observação da altura meridiana com a distância zenital (z) meridiana
+do astro, no mesmo instante. A fórmula que o navegante empregou para calcular a
+Latitude meridiana (φmd) foi:
+(A) φmd = z - δ) do Sol
+(B) φmd = δ) do Sol -z
+(C) φmd = z + δ) do Sol
+(D) φmd = 180° - ( δ) do Sol + z)
+(E) φmd = 180° - ( δ) do Sol - z)
+3
+de
+16
+
+
+
+===== PAGINA 4 OBJ 11 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+7) A Latitude meridiana(φmd)
+
+calculada na passagem meridiana do Sol no dia 30 de
+maio de 2021 foi de:
+(A) 32° 14,2’ S
+(B) 31° 14,2’ S
+(C) 31° 20,5’ S
+(D) 32° 20,5’ S
+(E) 31° 53,1’ S
+8) O navegador no dia 30 de maio de 2021 às 15h:30min, na posição que se
+encontrava o veleiro durante a travessia para a cidade do Cabo- África do Sul, fez
+uma ligação telefônica, via satélite, para amigos que estavam em Porto Alegre –
+Brasil, (coordenadas geográficas: φ - 30° 02,0’ S e λ - 051° 13,8’ W). A que Hora
+Legal (
+Hleg
+), em Porto Alegre - Brasil, foi atendida a ligação telefônica do
+navegador?
+(A) 15:30 P
+(B) 13:30 O
+(C) 12:30 A
+(D) 13:30 P
+(E) 15:30 O
+9) Uma navegante, ao fazer uma aterragem com uma embarcação dotada de radar,
+realizou a medida da distância ao litoral. Essa medida indicou 40 milhas náuticas de
+distância ao navio. Ao comparar essa medida com a posição GNSS (GPS), ela
+verificou que havia uma discrepância de 6 milhas náuticas “para menos” na posição
+GPS. Ambos os equipamentos estão em perfeito funcionamento. A que se deve
+essa
+discrepância
+?
+(A)
+Ao efeito da superrefração, que aumenta o alcance do radar em condições
+especiais da atmosfera.
+(B)
+Ao ajuste indevido do radar pelo excesso de Ganho, que distorce e borra a
+imagem apresentada na PPI, quando ajustado em excesso.
+(C)
+A acurácia em distância dos radares que fica prejudicada em até 60% em
+condições de umidade elevada, mormente em nevoeiros.
+(D)
+Ao ajuste indevido do GPS, pois a acurácia em distância dos radares é elevada.
+(E)
+Às terras mais para o interior, que geralmente são mais altas que as linhas de
+costa.
+4
+de
+16
+
+
+
+===== PAGINA 5 OBJ 14 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+10) Analise a representação dos contatos A, B, C, D e E na Rosa de Manobras nos
+minutos 00 e 06. Assinale a alternativa correta considerando que a embarcação de
+origem, de nome “Zoe”, navega no rumo 000° na velocidade de 10 nós
+(A)
+Contato A está em rumo de colisão com “Zoe”, B está com velocidade zero nós e
+E está com uma velocidade maior que “Zoe”.
+(B)
+Contato E está em rumo de colisão com “Zoe”, B está com velocidade zero nós e
+D está com uma velocidade maior que “Zoe”.
+(C)
+Contato A está em rumo de colisão com “Zoe”, B está com velocidade dez nós e
+E está com uma velocidade maior que “Zoe”.
+(D)
+Contato C tem prioridade de manobra sobre “Zoe”, D não irá cruzar a proa de
+“Zoe” e E está com velocidade dez nós.
+(E)
+Contato A não tem prioridade de manobra sobre “Zoe”, C está com velocidade
+zero nós e D está com velocidade zero nós”.
+11) Sobre o assunto controles operacionais do radar, analise as afirmações abaixo e
+assinale a alternativa correta:
+I-
+O
+anticlutter sea
+(STC) é um controle de ganho auxiliar, que permite diminuir o
+ganho dos ecos mais próximos, sem alterar os ecos mais distantes.
+II-
+O
+anticlutter sea
+(STC) não é um controle efetivo para atenuar chuva forte nas
+proximidades do navio, quando este se encontra em um temporal.
+III-
+O
+anticlutter rain
+(FTC) destina-se a diminuir, tanto quanto possível, os ecos de
+chuva, granizo e neve.
+IV-
+A linha de fé luminosa permite que seja estabelecida uma linha indicadora da
+proa do barco, na tela do radar.
+(A)
+Somente as afirmações I, II e III são verdadeiras.
+(B)
+Somente as afirmações I, III e IV são verdadeiras.
+(C)
+Somente as afirmações II, III e IV são verdadeiras.
+(D)
+Somente as afirmações III e IV são verdadeiras.
+(E)
+Somente as afirmações I, II e IV são verdadeiras.
+5
+de
+16
+
+
+
+===== PAGINA 6 OBJ 18 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+12)
+Dentre os métodos de obter uma posição da embarcação apresentados abaixo,
+qual o que obtém uma posição mais precisa?
+(A)
+Distâncias-radar e marcações visuais.
+(B)
+Cruzamentos de distâncias-radar.
+(C)
+Distâncias e marcações-radar.
+(D)
+Cruzamento de marcações-radar.
+(E)
+Marcações-radar e marcações visuais.
+13) Ao utilizar um sistema ECDIS verifica-se que há ligações com outros sistemas,
+equipamentos e sensores. Dentre os sistemas constantes das alternativas abaixo,
+qual deles possibilita a navegação em tempo real em um console ECDIS?
+(A)
+Sistema de Identificação Automática (AIS).
+(B)
+Auxílio de Plotagem Automática Radar (ARPA).
+(C)
+Agulha giroscópica.
+(D)
+Sistema de Posicionamento Global - GPS (GNSS).
+(E)
+Ecobatímetro.
+14) Em um equipamento radar dotado de ARPA, a função Alvo Perdido (
+Lost Target
+)
+tem uma grande importância. Sobre esse assunto, analise as afirmações abaixo e
+assinale a alternativa correta:
+I-
+Quando dois alvos passam muito próximos um do outro, o sistema determina que
+um deles seja “perdido”. Com isso os alarmes visual e sonoro são acionados.
+II-
+Os alarmes sonoro e visual serão acionados em relação a qualquer alvo perdido
+que esteja sendo acompanhado, mesmo que ele não esteja sendo exibido na escala
+selecionada pelo operador.
+III-
+Quando um alvo em acompanhamento desvanece da tela do radar, não sendo
+mais possível a sua detecção, o sistema o determina como “perdido”. Com isso os
+alarmes visual e sonoro são acionados.
+IV-
+O uso da aquisição automática é recomendável em áreas com intenso tráfego
+de embarcações.
+(A)
+Somente as afirmações I, II e III são verdadeiras.
+(B)
+Somente as afirmações I e IV são verdadeiras.
+(C)
+Somente as afirmações II e III são verdadeiras
+(D)
+Somente as afirmações I, III e IV são verdadeiras
+(E)
+Somente as afirmações II e IV são verdadeiras.
+15) Um navegante estava realizando uma navegação costeira durante o período
+noturno, e operando um radar que utiliza a banda “X”. Em determinado momento, o
+radar apresentou
+um
+“alvo” na tela (PPI). Ao verificar visualmente aquele novo
+contato, o navegante constatou serem
+duas
+embarcações próximas. Quais controles
+operacionais o navegante poderia ter ajustado para que o radar passasse a
+apresentar efetivamente os
+dois
+alvos na tela?
+(A)
+Largura do feixe, ganho,
+anticlutter sea
+e
+anticlutter rain
+.
+(B)
+Frequência de Repetição de Impulsos, brilho e ganho.
+(C)
+Brilho, ganho e linha de fé.
+(D)
+Ganho,
+anticlutter sea, anticlutter rain
+e largura de pulso.
+(E)
+Largura do feixe e Largura de pulso.
+6
+de
+16
+
+
+
+===== PAGINA 7 OBJ 21 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+16) Dentre as alternativas abaixo, assinale a que apresenta a melhor configuração
+de ajustes para o radar de uma embarcação que está realizando navegação em
+águas restritas no período noturno.
+(A)
+North-up
+, movimento verdadeiro, banda “X”, pulso longo.
+(B)
+North-up, movimento relativo, banda “X”, pulso curto.
+(C)
+Head-up, m
+ovimento relativo, banda “S”, pulso curto.
+(D)
+Head-up, movimento verdadeiro, banda “S”, pulso long
+o.
+(E)
+Course-up
+, movimento relativo, banda “X”, pulso longo.
+17)
+Quanto às “
+Emergency Position Indicating Radio Beacon
+” (EPIRB), assinale a
+alternativa correta.
+(A)
+Pertencem ao sistema GPS e são capazes de informar com precisão a posição
+de
+distress
+aos satélites do sistema.
+(B)
+São o principal recurso do GMDSS para a localização por aeronaves e navios
+de busca e salvamento.
+(C)
+São rastreáveis por radares da banda “S” na faixa de 5 Mhz.
+(D)
+São transmissores de emergência e permitem a comunicação por voz, via
+sistema INMARSAT.
+(E)
+Operam na frequência de 406 Mhz e se comunicam com os satélites do
+sistema COSPAS-SARSAT.
+18)
+Qual(is) faixa(s) de frequência de comunicação rádio (fonia e DSC) o GMDSS
+(
+Global Maritime Distress and Safety System
+) estabelece comoobrigatória para uma
+embarcação que navegará no limite de 150 milhas náuticas (área A2)?
+(A)
+Somente VHF.
+(B)
+VHF e HF.
+(C)
+VHF e MF.
+(D)
+Somente MF.
+(E)
+HF e MF.
+19)
+Ao iniciar uma chamada em radiotelefonia utilizando GRUPOS DE LETRAS do
+Código Internacional de Sinais (CIS), qual a palavra padrão deve ser pronunciada?
+(A)
+CIS
+(B)
+CODE
+(C)
+DE
+(D)
+INTERCO
+(E)
+GROUP
+7
+de
+16
+
+
+
+===== PAGINA 8 OBJ 24 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+20)
+Sobre os Serviços de Tráfego de Embarcações (
+Vessel Traffic Service – VTS
+),
+assinale a alternativa correta:
+(A)
+O AIS não possui as mesmas vulnerabilidades das comunicações em VHF.
+(B)
+Todas as embarcações que operam na área de atuação do VTS deverão possuir
+AIS por força das normas portuárias.
+(C)
+Radiogoniômetros (
+Radio Detection Finder – RDF
+) não são ferramentas
+essenciais de auxílio à navegação de um VTS.
+(D)
+A autoridade de um Serviço de Organização de Tráfego no VTS (VTS-TOS) não
+se sobrepõe à competência de um Comandante de embarcação, pela segurança de
+seu navio.
+(E)
+As Atalaias dos serviços de praticagem, se estiverem devidamente equipadas
+como um VTS, têm autorização para interferir no tráfego de embarcações de
+determinados portos no Brasil.
+21)
+Um Capitão Amador brasileiro, ao navegar nas proximidades das Ilhas Virgens
+Britânicas em seu Yatch, poderá utilizar um equipamento dedicado ao recebimento
+de boletins meteorológicos, via telegrafia, com impressão direta em banda estreita,
+no padrão MSI (
+Maritime Safety Information
+) e que usa a frequência de 518 kHz.
+Qual o nome do serviço em que esse equipamento opera?
+(A)
+MMSI.
+(B)
+LUT.
+(C)
+SafetyNET.
+(D)
+WMO.
+(E)
+NAVTEX.
+22)
+A publicação da DHN “Lista de Faróis” informa que o Sistema de Balizamento
+Marítimo IALA - da Região “B” - possui cinco tipos de sinais, que podem ser usados
+de forma combinada. Dentre as alternativas abaixo, assinale a que NÃO é
+verdadeira.
+(A) Sinais Laterais, associados a uma “Direção Convencional do Balizamento”, são
+usados em canais bem definidos, indicando bombordo e boreste da rota a ser
+seguida. Quando um canal se bifurca, um sinal lateral modificado pode ser usado
+para indicar a via preferencial.
+(B) Sinais Setoriais, cujo emprego está associado ao da agulha de navegação e que
+indicam o setor onde se poderão encontrar águas perigosas à navegação.
+(C) Sinais de Perigo Isolado são usados para indicar perigos isolados de tamanho
+limitado, cercados por águas navegáveis.
+(D) Sinais de Águas Seguras são usados para indicar que em torno de sua posição
+as águas são navegáveis, tais como sinais de meio de canal ou sinais de aterragem.
+(E) Sinais Especiais, cujo objetivo principal não é orientar a navegação e sim indicar
+uma área ou peculiaridade mencionada em documentos náuticos.
+8
+de
+16
+
+
+
+===== PAGINA 9 OBJ 27 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+23)
+Considerando a Rosa dos Ventos abaixo, qual é a declinação magnética para o
+ano de 2022?
+(A)
+0° 05’ E.
+(B)
+0° 19’ E.
+(C)
+2° 23’ W.
+(D)
+4° 19’ W.
+(E)
+4° 23’ W.
+9
+de
+16
+
+
+
+===== PAGINA 10 OBJ 31 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+24) Sobre as cartas náuticas convencionais impressas em papel e publicadas pela
+DHN, assinale a opção correta.
+(A) As cartas náuticas com escala 1:150.000, possuem menos detalhes do que as
+cartas náuticas com escala 1:500.000.
+(B) Como norma de navegação, deve-se navegar na carta de menor escala.
+(C) Em uma carta de projeção de Mercator, a escala de longitudes é variável.
+(D) A “escala natural” da carta náutica só é verdadeira ao longo do meridiano de
+referência.
+(E) O navegante deve evitar confiar cegamente na carta náutica e ser capaz de
+avaliar a confiança que ela pode inspirar.
+25) Sobre as publicações das Cartas de Corrente de Maré, publicadas pela DHN,
+assinale a alternativa correta.
+(A)
+Todos os portos brasileiros possuem essa publicação, que detalha a direção e
+corrente das marés durante todas as épocas do ano.
+(B)
+Cada Carta de Corrente de Maré é composta de 13 cartas, sendo 1 na preamar,
+6 de hora em hora antes da preamar e 6 de hora em hora depois da preamar.
+(C)
+Só há Cartas de Corrente de Maré publicadas para locais onde as marés têm
+característica “semidiurna”, devido à previsibilidade dos movimentos das águas.
+(D)
+Nos períodos de marés de quadratura considera-se a metade do valor registrado
+nas cartas e as direções são mantidas.
+(E)
+As Cartas de Corrente de Maré consideram a influência dos ventos costeiros nas
+direções e intensidades representadas.
+26) Quanto ao assunto uso de cartas náuticas em grandes travessias, assinale a
+alternativa correta:
+I-
+Nas cartas náuticas gnomônicas, as loxodromias, ou linhas de rumo, são
+representadas como linhas curvas.
+II-
+Ao se transportar uma derrota ortodrômica para cartas da projeção de
+Mercator, as seções de derrotas loxodrômicas devem ter no máximo 600 milhas
+náuticas.
+III-
+Navegar em ortodromias é navegar sobre arcos de círculos máximos.
+IV-
+Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.
+(A)
+Somente as afirmações I e II são verdadeiras.
+(B)
+Somente as afirmações I, II e III são verdadeiras.
+(C)
+Somente as afirmações II e III são verdadeiras.
+(D)
+Somente as afirmações III e IV são verdadeiras.
+(E)
+Somente as afirmações I, II e IV são verdadeiras.
+10
+de
+16
+
+
+
+===== PAGINA 11 OBJ 34 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+27) Assinale a resposta, preenchendo corretamente as lacunas.
+Ao analisar se o iate "Marina" apresentava algum tipo de deflexão causada por
+esforços longitudinais, o Capitão-Amador Lucas, de posse dos dados abaixo,
+calculou que o deslocamento do seu iate era de _______________ t e constatou
+que estava ________________ e _______________.
+LOA (Comprimento Total) = 25 m
+Boca Moldada = 4 m
+Volume de Carena = 200 m3
+Densidade da água salgada = 1,025 t/m3
+Hav (calado a vante) = 2,3 m;
+Har (calado a ré) = 2,5 m; e
+Hmn (calado a meio navio) = 2,39 m.
+(A)
+205, derrabada e contra-alquebrada.
+(B)
+230, embicada e alquebrada.
+(C)
+239, derrabada e contra-alquebrada.
+(D)
+240, embicada e contra-alquebrada
+(E)
+250, em águas parelhas e alquebrada.
+28) Marque a alternativa correta.
+Quando os tanques de combustível ou água não estão completamente cheios
+podemos dizer que estamos com superfície livre, tendo como consequência o
+aumento virtual do KG. Nesse caso, podemos afirmar que é de fundamental
+importância o estudo da estabilidade transversal e que o efeito da superfície livre:
+(A)
+não depende das dimensões do tanque.
+(B)
+depende da posição do tanque a bordo.
+(C)
+aumenta a estabilidade da embarcação.
+(D)
+diminui quando o tanque é dividido por anteparas longitudinais.
+(E)
+aumenta quando o tanque é dividido por anteparas longitudinais.
+29) Marque a alternativa correta em relação à CEE (Curva de Estabilidade Estática)
+abaixo:
+(A)
+representa embarcação com GM negativo.
+(B)
+representa embarcação com GM positivo.
+(C)
+representa embarcação com GM igual a zero.
+(D)
+a seta indica o ângulo de banda por descentralização de pesos.
+(E)
+a seta indica o ângulo de banda por GM igual a zero.
+11
+de
+16
+
+
+
+===== PAGINA 12 OBJ 38 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+30) O nevoeiro que se forma pelo ar úmido e quente movendo-se por uma
+superfície mais fria, dispersando com ventos frescos acima de 16 nós é chamado
+de:
+(A)
+matinal.
+(B)
+advecção.
+(C)
+orográfico.
+(D)
+radiação.
+(E)
+Noturno.
+31) Ao observar nuvens muito carregadas e acinzentadas, com aparência de
+grandes torres, pode um capitão amador afirmar que são
+(A) cumulonimbus, típicas de ciclones e associadas a fortes chuvas.
+(B) altostratus, que causam forte turbulência e apresentam perigo.
+(C) cirrocumulus, associadas a mau tempo e ciclones.
+(D) cirrostratus, que indicam uma frente quente.
+(E) nimbostratus, nuvens muito altas e típicas de mau tempo.
+32) Em condições de mar severo, ao se tomar a decisão de capear ou correr com o
+tempo, deve se considerar o trim da embarcação. Assinale a alternativa correta em
+relação a como melhor se compassar nessas situações, para condições de mar
+severo.
+(A) Correndo com o tempo – grande trim pela proa.
+(B) Correndo com o tempo – grande trim pela popa
+(C) Navegando a capa – compassado ou pequeno trim popa.
+(D) Navegando a capa – compassado ou pequeno trim de proa
+(E) Correndo com o tempo – pequeno trim pela proa.
+33) Corrente induzida pelo vento, abatimento e corrente oceânica são fatores
+responsáveis pelo(a):
+(A)
+arrasto das balsas salva-vidas em águas interiores.
+(B)
+deriva das balsas salva-vidas em águas abrigadas.
+(C)
+deriva das balsas salva-vidas em águas restritas.
+(D)
+arrastos das balsa salva-vidas em estuários.
+(E)
+deriva das balsas salva-vidas em alto mar.
+12
+de
+16
+
+
+
+===== PAGINA 13 OBJ 41 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+34) Utilizando a tabela de dados hidrostáticos abaixo, o Capitão-Amador Alan
+determinou a variação do trim causada por um peso de 1,8 t que foi movimentado 9
+m longitudinalmente para ré, tendo a embarcação os calados a vante e a ré iguais a
+1,9 m. Ele encontrou para essa variação e para o novo trim os seguintes valores:
+(A)
+0cm e 1cm.
+(B)
+1cm e 2cm.
+(C)
+2cm e 2cm.
+(D)
+0cm e 2cm.
+(E)
+2cm e 1cm.
+13
+de
+16
+
+
+
+===== PAGINA 14 OBJ 45 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+35) O Capitão-Amador Paulo demandando um porto às 11:35 horas, deseja
+determinar a altura de maré e, para isto, necessitará usar os elementos das tabelas
+abaixo.
+HORA
+ALTURA
+0106
+1,9m
+0755
+0,0m
+1335
+2,0m
+2025
+0,1m
+Tabela I - Fração da amplitude expressa em centésimos,
+correspondente ao
+intervalo de
+
+tempo
+
+entre
+
+o
+
+instante
+
+considerado
+
+e
+
+a
+
+preamar ou
+
+baixa-mar
+
+mais
+
+próxima
+INTERVALO DE
+TEMPO
+DURAÇÃO
+
+DE
+
+ENCHENTE
+
+OU
+
+VAZANTE
+h
+
+min
+h
+
+min
+h
+
+min
+h
+
+min
+h
+
+min
+h
+
+min
+h
+
+min
+h
+
+min
+h
+
+min
+h
+
+min
+hmin
+hmin
+4
+
+00
+4
+
+20
+4
+
+40
+5 00
+5 20
+5 40
+6
+
+00
+6
+
+20
+6
+
+40
+7 00
+7
+
+20
+7
+
+40
+h
+
+m
+c.
+c.
+c.
+c.
+c.
+c.
+c.
+c.
+c.
+c.
+c.
+c.
+0
+
+00
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+20
+2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
+30
+4
+3
+3
+2
+2
+2
+2
+2
+1
+1
+1
+1
+40
+7
+6
+5
+4
+4
+3
+3
+3
+2
+2
+2
+2
+50
+10
+9
+8
+7
+6
+5
+5
+4
+5
+3
+3
+3
+1 00
+15
+12
+11
+9
+8
+7
+7
+6
+5
+5
+4
+4
+10
+20
+17
+15
+13
+11
+10
+9
+8
+7
+7
+6
+6
+20
+25
+22
+19
+17
+15
+13
+13
+10
+10
+9
+8
+7
+30
+31
+27
+23
+21
+18
+16
+15
+13
+12
+11
+10
+9
+40
+37
+32
+29
+25
+22
+20
+18
+16
+15
+13
+12
+11
+50
+44
+38
+34
+30
+27
+24
+21
+19
+18
+16
+15
+14
+2
+
+00
+50
+44
+39
+35
+31
+28
+25
+23
+21
+19
+17
+16
+10
+50
+44
+40
+35
+32
+29
+26
+24
+22
+20
+18
+20
+50
+45
+40
+36
+33
+30
+27
+25
+23
+21
+30
+50
+43
+41
+37
+34
+31
+28
+26
+24
+40
+50
+46
+41
+38
+15
+32
+29
+27
+50
+50
+46
+42
+38
+35
+33
+30
+3
+
+00
+50
+46
+42
+39
+36
+33
+10
+50
+46
+43
+39
+36
+20
+50
+46
+43
+40
+30
+50
+46
+43
+40
+50
+47
+50
+50
+4
+
+00
+Tabela
+
+II
+
+-
+
+Correção
+
+à
+
+altura
+
+da
+
+preamar
+
+ou
+
+baixa-
+
+mar
+
+mais
+
+próxima,
+
+em
+
+função
+
+da
+
+fração
+
+da
+amplitude
+
+calculada
+
+com
+
+auxílio
+
+da
+
+Tabela
+
+I
+FRAÇÃO DA
+AMPLITUDE
+AMPLITUDE
+1m
+2
+m
+3
+
+m
+4
+
+m
+5
+
+m
+6
+
+m
+7
+
+m
+8
+
+m
+9
+
+m
+10
+
+m
+11m
+12
+
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+2
+0,0
+0,0
+0,1
+0,1
+0,1
+0,1
+0,1
+0,2
+0,2
+0,2
+0,2
+0,2
+4
+0,0
+0,1
+0,1
+0,2
+0,2
+0,2
+0,2
+0,3
+0,4
+0,4
+0,4
+0,5
+6
+0,1
+0,1
+0,2
+0,2
+0,3
+0,4
+0,4
+0,5
+0,5
+0,6
+0,7
+0,7
+8
+0,1
+0,2
+0,2
+0,3
+0,4
+0,5
+0,5
+0,6
+0,7
+0,8
+0,9
+1,0
+10
+0,1
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+0,8
+0,9
+1,0
+1,1
+1,2
+12
+0,1
+0,2
+0,4
+0,5
+0,6
+0,7
+0,8
+1,8
+1,1
+1,2
+1,3
+1,3
+14
+0,1
+0,3
+0,4
+0,6
+0,7
+0,8
+1,0
+1,1
+1,3
+1,4
+1,5
+1,7
+16
+0,2
+0,3
+0,5
+0,6
+0,8
+1,0
+1,1
+1,3
+1,4
+1,6
+1,8
+1,9
+18
+0,2
+0,4
+0,5
+0,7
+0,9
+1,1
+1,3
+1,4
+1,6
+1,8
+2,0
+2,2
+20
+0,2
+0,4
+0,6
+0,8
+1,0
+1,2
+1,4
+1,6
+1,8
+2,0
+2,2
+2,4
+22
+0,2
+0,4
+0,7
+0,9
+1,1
+1,3
+1,5
+1,8
+2,0
+2,2
+2,4
+2,6
+24
+0,2
+0,5
+0,7
+1,0
+1,2
+1,4
+1,7
+1,9
+2,2
+2,4
+2,6
+2,9
+26
+0,3
+0,5
+0,8
+1,0
+1,3
+1,6
+1,8
+2,1
+2,3
+2,6
+2,9
+3,1
+28
+0,3
+0,6
+0,8
+1,1
+1,4
+1,7
+2,0
+2,2
+2,5
+2,8
+3,1
+3,4
+30
+0,3
+0,6
+0,9
+1,2
+1,5
+1,8
+2,1
+2,4
+2,7
+3,0
+3,3
+3,6
+32
+0,3
+0,6
+1,0
+1,3
+1,6
+1,9
+2,2
+2,6
+2,9
+3,2
+3,5
+3,8
+34
+0,3
+0,7
+1,0
+1,4
+1,7
+2,0
+2,4
+2,7
+3,1
+3,4
+3,7
+4,1
+36
+0,4
+0,7
+1,1
+1,4
+1,8
+2,2
+2,5
+2,9
+3,2
+3,6
+4,0
+4,3
+38
+0,4
+0,8
+1,1
+1,5
+1,9
+2,3
+2,7
+3,0
+3,4
+4,8
+4,2
+4,6
+40
+0,4
+0,8
+1,2
+1,6
+2,0
+2,4
+2,8
+3,2
+3,6
+4,0
+4,4
+4,8
+42
+0,4
+0,8
+1,3
+1,7
+2,1
+2,5
+2,9
+3,4
+3,8
+4,2
+4,6
+5,0
+44
+0,4
+0,9
+1,3
+1,8
+2,2
+2,6
+3,1
+3,5
+4,0
+4,4
+4,8
+5,3
+46
+0,5
+0,9
+1,4
+1,8
+2,3
+2,8
+3,2
+3,7
+4,1
+4,6
+5,1
+5,5
+48
+0,5
+1,0
+1,4
+1,9
+2,4
+2,9
+3,4
+3,8
+4,3
+4,8
+5,3
+5,8
+50
+0,5
+1,0
+1,5
+2,0
+2,5
+3,0
+3,5
+4,0
+4,5
+5,0
+5,5
+6,0
+14
+de
+16
+
+
+
+===== PAGINA 15 OBJ 48 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+De acordo com as informações da página anterior, determine altura da maré.
+(A) 1,9 m.
+(B) 1,8 m.
+(C) 1,7 m.
+(D) 1,5 m.
+(E) 1,4 m.
+36) De acordo com o extrato da Carta Sinótica abaixo, assinale a afirmativa correta:
+(A)
+Não existe possibilidade de ressaca no sul do Brasil.
+(B)
+Na Área C é correto afirmar que o tempo permanecerá estável.
+(C)
+Entre as áreas A e B observa-se uma frente quente.
+(D)
+Na área sul oceânica teremos predominância de ventos fracos.
+(E)
+Ao sul da área “A” os ventos estarão com a direção indefinida.
+37) As embarcações de salvamento possuem rações líquidas. Porém, devido,
+principalmente, ao problema de espaço para acondicionamento, a quantidade de
+água existente é pouca para garantir a necessidade de uma pessoa por mais de 6
+dias. No Brasil, o Estado–Maior das Forças Armadas prescreve o consumo diário de
+700 ml de água, para que o náufrago se mantenha em condições psicofísicas
+favoráveis. Essa água é acondicionada em latas hermeticamente fechadas, cada
+uma com:
+(A)
+150 ml.
+(B)
+250 ml.
+(C)
+350 ml.
+(D)
+450 ml.
+(E)
+550 ml.
+15
+de
+16
+
+
+
+===== PAGINA 16 OBJ 52 0 =====
+PS–CPA-II-2022 – CAPITÃO-AMADOR
+38) A queimadura solar normalmente só é sentida algumas horas após a exposição.
+O náufrago não deve esperar que a sua pele fique vermelha para protegê-la do Sol,
+pois já será tarde demais. As queimaduras são classificadas em 3 graus, são eles:
+(A)
+1º grau: lesão das camadas mais profundas da pele, 2º grau: lesão das camadas
+superficiais da pele e 3º grau: lesão de todas as camadas da pele.
+(B)
+1º grau: lesão das camadas superficiais da pele, 2º grau: lesão das camadas
+mais profundas da pele e 3º grau: lesão de todas as camadas da pele.
+(C)
+1º grau: lesão de todas as camadas da pele, 2º grau: lesão das camadas mais
+profundas da pele e 3º grau: lesão das camadas superficiais da pele
+(D)
+1º grau: lesão das camadas mais profundas da pele, 2º grau: lesão de todas as
+camadas da pele e 3º grau: lesão das camadas superficiais da pele;
+(E)
+1º grau: lesão das camadas superficiais da pele, 2º grau: lesão de todas as
+camadas da pele e 3º grau: lesão das camadas mais profundas da pele.
+39) Mesmo que um náufrago siga corretamente todas as recomendações de
+sobrevivência no mar, ele estará constantemente perdendo água pela pele e pela
+respiração. Essa perda favorece o desenvolvimento da:
+(A)
+desidratação.
+(B)
+hipotermia.
+(C)
+insolação.
+(D)
+sede.
+(E)
+hipertermia.
+40) Toda pessoa que tenha perdido a consciência, antes de ser retirada da água fria,
+possui uma chance de ser recuperada por mais de 10 minutos. Este processo de
+sobrevivência,involuntário do organismo, recentemente descoberto, é devido à
+diminuição das funções normais, permitindo que somente uma diminuta quantidade
+de oxigênio circule muito lentamente entre os pulmões, coração e cérebro (mas
+nada para as extremidades dos membros ou pele). O “afogado” apresenta típicos
+sintomas de morte, aparentemente nenhuma batida do coração ou pulso, pele
+azulada, respiração não detectável e pupilas dilatadas. Este processo é chamado
+de:
+(A)
+afogamento molhado.
+(B)
+asfixia.
+(C)
+afogamento seco.
+(D)
+hipotermia.
+(E)
+sufocamento.
+16
+de
+16
+
+

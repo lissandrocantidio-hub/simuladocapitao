@@ -324,7 +324,7 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Como é chamado o nevoeiro que se forma pelo ar úmido em contato com a superfície da terra que foi submetida a um resfriamento noturno?',
+      'O nevoeiro produzido pelo resfriamento noturno do solo, com ar umido junto a superfície terrestre, recebe o nome de:',
     options: {
       A: 'Frontal.',
       B: 'Advecção.',
@@ -345,17 +345,17 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Faça a análise das afirmativas abaixo e assinale a opção correta. I. Após a passagem de uma frente fria, um Capitão Amador, navegando na região sul do Brasil, numa região costeira com forte gradiente horizontal de profundidade, deve ter atenção para que a corrente de deriva não o ponha em perigo, empurrando-o para a costa. II. A corrente de ressaca põe o navegante na região costeira em risco ao empurrá-lo na direção da costa. III. Quanto maior o comprimento de onda, mais distante da costa se encontrará a profundidade de interferência.',
+      'Faça a análise das afirmativas abaixo e assinale a opção correta.\n\nI. Após a passagem de uma frente fria, um Capitão-Amador, navegando na região sul do Brasil, em uma região costeira com forte gradiente horizontal de profundidade, deve ter atenção para que a corrente de deriva não o ponha em perigo, empurrando-o para a costa.\n\nII. A corrente de ressaca põe o navegante na região costeira em risco ao empurrá-lo na direção da costa.\n\nIII. Quanto maior o comprimento de onda, mais distante da costa se encontrará a profundidade de interferência.',
     options: {
-      A: 'todas as afirmativas são falsas.',
-      B: 'todas as afirmativas são verdadeiras.',
-      C: 'apenas a afirmativa I é verdadeira.',
-      D: 'apenas a afirmativa I é falsa.',
-      E: 'as afirmativas I e III são verdadeiras.',
+      A: 'Todas as afirmativas são falsas.',
+      B: 'Todas as afirmativas são verdadeiras.',
+      C: 'Apenas a afirmativa I é verdadeira.',
+      D: 'Apenas a afirmativa I é falsa.',
+      E: 'As afirmativas I e III são verdadeiras.',
     },
     correct: 'E',
     explanation:
-      'A III é verdadeira porque ondas mais longas passam a sentir o fundo em maiores profundidades; a II é falsa porque corrente de ressaca tende a afastar da praia.',
+      'A afirmativa III é verdadeira porque ondas mais longas passam a sentir o fundo em maiores profundidades; a afirmativa II é falsa porque a corrente de ressaca tende a afastar a embarcação da praia, e não empurrá-la para a costa. Portanto, as afirmativas I e III são verdadeiras.',
   },
   {
     id: 2017038,
@@ -408,7 +408,7 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Um sistema frontal apresenta uma depressão junto à frente fria e dois anticiclones das massas de ar fria e quente. A diferença de pressão entre os dois anticiclones irá determinar a',
+      'Em um sistema frontal com depressao próxima a frente fria, a diferenca de pressão entre os anticiclones das massas de ar indica principalmente a',
     options: {
       A: 'velocidade angular do ciclone.',
       B: 'pressão no centro de baixa pressão.',
@@ -442,27 +442,6 @@ export const meteorologiaQuestions: Question[] = [
       'A TSM afeta diretamente evaporação e disponibilidade de vapor d’água no ar sobrejacente.',
   },
   {
-    id: 2019003,
-    subject: 'meteorologia',
-    topic: 'nuvens pré-frontais',
-    year: 2018,
-    exam: 'CPA-I 2018',
-    source: 'Prova oficial da Marinha',
-    verified: true,
-    statement:
-      'Qual é o tipo de nuvem que forma uma densa camada com os discos solar ou lunar podendo ser vistos de forma difusa, porém sem apresentar halo, e prenuncia a chegada de uma frente fria, quando a massa de ar quente ainda está presente?',
-    options: {
-      A: 'Stratus.',
-      B: 'Cumulonimbus.',
-      C: 'Altostratus.',
-      D: 'Cirrocumulus.',
-      E: 'Stratocumulus.',
-    },
-    correct: 'C',
-    explanation:
-      'Altostratus costuma formar camada uniforme, deixando Sol ou Lua visíveis de forma difusa e sem halo marcado.',
-  },
-  {
     id: 2018038,
     subject: 'meteorologia',
     topic: 'ciclone subtropical / ZCAS',
@@ -471,7 +450,7 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Qual é o fenômeno perigoso à navegação originário de um centro de baixa pressão não associado a um sistema frontal que, quando ocorre no Brasil, se organiza na região Sudeste ou Sul sobre águas quentes do oceano, e se origina de um ar muito úmido transportado da região amazônica pela Zona de Convergência do Atlântico Sul (ZCAS)?',
+      'Qual é o fenômeno perigoso à navegação originário de um centro de baixa pressão não associado a um sistema frontal que, quando ocorre no Brasil, se organiza na região Sudeste ou Sul sobre águas quentes do oceano, e se origina de um ar muito úmido transportado da região amazônica pela Zona de Convergência do Atlântico Sul (ZCAS)',
     options: {
       A: 'Ciclone tropical.',
       B: 'Perturbação baroclínica.',
@@ -492,7 +471,7 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Com relação aos ventos alísios, qual das assertivas abaixo está correta?',
+      'Com relação aos ventos alísios, qual das assertivas abaixo está correta',
     options: {
       A: 'Ocorrem em latitudes médias na célula de Ferrel.',
       B: 'São ventos constantes e moderados de direção geral leste (nordeste ou sudeste), entre a faixa de Altas Pressões Subtropicais e os Doldrums.',
@@ -586,7 +565,7 @@ export const meteorologiaQuestions: Question[] = [
     },
     correct: 'B',
     explanation:
-      'No nevoeiro de advecção, ar quente e úmido desloca-se sobre uma superfície do mar mais fria, resfria-se por baixo e condensa. Isso corresponde à condição TPO > TSM, com vento fraco a moderado para manter o transporte de ar.',
+      'No nevoeiro de adveccao, o ar quente e umido passa sobre uma superfície do mar mais fria, resfria-se por baixo e condensa. Aqui, TPO significa temperatura do ponto de orvalho e TSM significa temperatura da superfície do mar. Quando a TPO fica acima da TSM, o ar tende a atingir a saturacao ao encontrar a água mais fria. Ventos fracos a moderados ajudam a transportar esse ar e favorecem a formacao do nevoeiro. Ja UR significa umidade relativa, e T representa a temperatura do ar.',
   },
   {
     id: 2017036,
@@ -597,7 +576,7 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Como é chamado o nevoeiro que se forma pelo ar úmido em contato com a superfície da terra que foi submetida a um resfriamento noturno?',
+      'Como é chamado o nevoeiro que se forma pelo ar úmido em contato com a superfície da terra que foi submetida a um resfriamento noturno',
     options: {
       A: 'Frontal.',
       B: 'Advecção.',
@@ -639,7 +618,7 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Qual é o tipo de nuvem que forma uma densa camada com os discos solar ou lunar podendo ser vistos de forma difusa, porém sem apresentar halo, e prenuncia a chegada de uma frente fria, quando a massa de ar quente ainda está presente?',
+      'Qual é o tipo de nuvem que forma uma densa camada com os discos solar ou lunar podendo ser vistos de forma difusa, porém sem apresentar halo, e prenuncia a chegada de uma frente fria, quando a massa de ar quente ainda está presente',
     options: {
       A: 'Stratus.',
       B: 'Cumulonimbus.',
@@ -652,7 +631,7 @@ export const meteorologiaQuestions: Question[] = [
       'Altostratus forma camada extensa e uniforme, deixando Sol ou Lua visíveis de forma difusa, sem halo marcado, e é típico da aproximação de sistema frontal. Por isso, a alternativa correta é Altostratus.',
   },
   {
-    id: 2020007,
+    id: 2020037,
     subject: 'meteorologia',
     topic: 'carta sinótica + satélite / associação',
     year: 2020,
@@ -660,13 +639,13 @@ export const meteorologiaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      `Na interpretacao das informacoes de uma carta sinotica e de uma imagem de satelite meteorologico do oceano Atlantico Sul, o navegante pode identificar os elementos de um sistema frontal. Baseado nessa interpretacao, faca a associacao dos parametros meteorologicos das colunas 1 e 2.
+      `Na interpretação das informacoes de uma carta sinotica e de uma imagem de satelite meteorologico do oceano Atlantico Sul, o navegante pode identificar os elementos de um sistema frontal. Baseado nessa interpretação, faca a associacao dos parametros meteorologicos das colunas 1 e 2.
 
 Coluna 1
 1. Frente fria
 2. Frente quente
-3. Centro de baixa pressao
-4. Centro de alta pressao
+3. Centro de baixa pressão
+4. Centro de alta pressão
 5. Faixa principal de nebulosidade
 6. Ar frio pos-frontal
 7. Ar quente pre-frontal
@@ -677,10 +656,10 @@ Coluna 2
 2. Setor situado atras da frente fria
 3. Regiao ciclonica identificada pelas isobaras fechadas
 4. Regiao anticiclonica identificada pelas isobaras fechadas
-5. Descontinuidade entre massas de ar com avanço do ar frio
+5. Descontinuidade entre massas de ar com avancÌ§o do ar frio
 6. Descontinuidade frontal com ar quente ascendendo sobre ar frio
 7. Setor quente a frente da frente fria
-8. Alongamento do campo de baixa pressao sem circulacao fechada`,
+8. Alongamento do campo de baixa pressão sem circulacao fechada`,
     options: {
       A: '(1) (-) (3) (6) (2) (5) (-) (4)',
       B: '(3) (5) (1) (6) (-) (2) (4) (-)',
@@ -690,7 +669,7 @@ Coluna 2
     },
     correct: 'A',
     explanation:
-      'A associacao correta e a que preserva as relacoes sinoticas classicas: frente fria com sua descontinuidade propria, banda principal de nebulosidade acompanhando o sistema, centro de baixa pressao na area ciclonica, centro de alta pressao na area anticiclonica e ar frio ocupando o setor pos-frontal. A sequencia compativel com esse conjunto e a da alternativa A.',
+      'A associacao correta e a que preserva as relacoes sinoticas classicas: frente fria com sua descontinuidade própria, banda principal de nebulosidade acompanhando o sistema, centro de baixa pressão na área ciclonica, centro de alta pressão na área anticiclonica e ar frio ocupando o setor pos-frontal. A sequencia compativel com esse conjunto e a da alternativa A.',
     attachments: [
       { label: 'Carta sinótica', path: '/anexos/meteorologia/carta-sinotica-atlantico-sul.pdf' },
       { label: 'Imagem de satélite meteorológico', path: '/anexos/meteorologia/satelite-atlantico-sul.pdf' },
@@ -716,6 +695,72 @@ Coluna 2
     correct: 'D',
     explanation:
       'Vento de NW com ronda anti-horária antes da passagem da frente indica permanência da embarcação no setor quente do sistema frontal. Nessa situação, a pressão tende a cair, tornando correta a alternativa D.',
+  },
+  {
+    id: 20222030,
+    subject: 'meteorologia',
+    topic: 'nevoeiro de adveccao',
+    year: 2022,
+    exam: 'CPA-II 2022',
+    source: 'Prova oficial da Marinha',
+    verified: true,
+    statement:
+      'O nevoeiro que se forma pelo ar umido e quente movendo-se por uma superfície mais fria, dispersando com ventos frescos acima de 16 nos, é chamado de:',
+    options: {
+      A: 'Matinal.',
+      B: 'Adveccao.',
+      C: 'Orografico.',
+      D: 'Radiacao.',
+      E: 'Noturno.',
+    },
+    correct: 'B',
+    explanation:
+      'O nevoeiro de adveccao ocorre quando ar quente e umido se desloca sobre uma superfície mais fria, resfria-se por baixo e atinge a saturacao. Ventos mais fortes tendem a dispersar esse nevoeiro. Por isso, a alternativa correta e a B.',
+  },
+  {
+    id: 20222031,
+    subject: 'meteorologia',
+    topic: 'nuvens cumulonimbus',
+    year: 2022,
+    exam: 'CPA-II 2022',
+    source: 'Prova oficial da Marinha',
+    verified: true,
+    statement:
+      'Ao observar nuvens muito carregadas e acinzentadas, com aparencia de grandes torres, pode um capitao amador afirmar que são:',
+    options: {
+      A: 'Cumulonimbus, tipicas de ciclones e associadas a fortes chuvas.',
+      B: 'Altostratus, que causam forte turbulencia e apresentam perigo.',
+      C: 'Cirrocumulus, associadas a mau tempo e ciclones.',
+      D: 'Cirrostratus, que indicam uma frente quente.',
+      E: 'Nimbostratus, nuvens muito altas e tipicas de mau tempo.',
+    },
+    correct: 'A',
+    explanation:
+      'Nuvens com grande desenvolvimento vertical, aspecto de torres, base escura e associacao com pancadas fortes são cumulonimbus. Por isso, a alternativa correta e a A.',
+  },
+  {
+    id: 20222036,
+    subject: 'meteorologia',
+    topic: 'carta sinotica',
+    year: 2022,
+    exam: 'CPA-II 2022',
+    source: 'Prova oficial da Marinha',
+    verified: true,
+    statement:
+      'De acordo com o extrato da Carta Sinotica abaixo, assinale a afirmativa correta.',
+    options: {
+      A: 'Nao existe possibilidade de ressaca no sul do Brasil.',
+      B: 'Na Area C e correto afirmar que o tempo permanecera estavel.',
+      C: 'Entre as áreas A e B observa-se uma frente quente.',
+      D: 'Na área sul oceanica teremos predominancia de ventos fracos.',
+      E: 'Ao sul da área "A" os ventos estarao com a direção indefinida.',
+    },
+    correct: 'D',
+    explanation:
+      'Na área sul oceanica, as isobaras aparecem mais afastadas no extrato, indicando menor gradiente horizontal de pressão e, portanto, predominancia de ventos mais fracos. As demais alternativas nao condizem com a leitura da carta e dos sistemas frontais indicados. Por isso, a alternativa correta e a D.',
+    attachments: [
+      { label: 'Extrato da carta sinotica - CPA-II 2022', path: '/anexos/cpa2-2022-carta-sinotica.png' },
+    ],
   },
   {
     id: 2025021,

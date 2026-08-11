@@ -1,0 +1,4 @@
+2026/04/24-16:29:41.938 4b90 Creating DB C:\Users\lissa\simuladocapitao\tmp-verify-profile\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/04/24-16:29:41.950 4b90 Reusing MANIFEST C:\Users\lissa\simuladocapitao\tmp-verify-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/04/24-16:29:41.995 578c Level-0 table #5: started
+2026/04/24-16:29:42.008 578c Level-0 table #5: 682121 bytes OK

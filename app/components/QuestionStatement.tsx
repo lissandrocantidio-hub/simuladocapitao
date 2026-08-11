@@ -9,6 +9,26 @@ type CorrelationLayout = {
   rightItems: string[]
 }
 
+function normalizeStatementStart(statement: string) {
+  const trimmed = statement.trimStart()
+
+  if (!trimmed) {
+    return statement
+  }
+
+  const firstChar = trimmed[0]
+  const isLetter = firstChar.toLowerCase() !== firstChar.toUpperCase()
+
+  if (!isLetter || firstChar === firstChar.toUpperCase()) {
+    return statement
+  }
+
+  const leadingSpaces = statement.length - trimmed.length
+  const normalized = firstChar.toLocaleUpperCase('pt-BR') + trimmed.slice(1)
+
+  return `${statement.slice(0, leadingSpaces)}${normalized}`
+}
+
 function parseCorrelationLayout(statement: string): CorrelationLayout | null {
   if (statement.includes('Coluna 1') && statement.includes('Coluna 2')) {
     const lines = statement
@@ -68,7 +88,8 @@ export default function QuestionStatement({
   statement,
   className = '',
 }: QuestionStatementProps) {
-  const correlationLayout = parseCorrelationLayout(statement)
+  const normalizedStatement = normalizeStatementStart(statement)
+  const correlationLayout = parseCorrelationLayout(normalizedStatement)
 
   if (correlationLayout) {
     return (
@@ -106,5 +127,9 @@ export default function QuestionStatement({
     )
   }
 
-  return <p className={`whitespace-pre-line text-sm leading-7 text-gray-800 ${className}`}>{statement}</p>
+  return (
+    <p className={`whitespace-pre-line text-sm leading-7 text-gray-800 ${className}`}>
+      {normalizedStatement}
+    </p>
+  )
 }

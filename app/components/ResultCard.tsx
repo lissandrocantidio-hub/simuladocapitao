@@ -1,4 +1,5 @@
 import type { Question } from '@/types/questions'
+import { formatStudyLabel } from '@/lib/study-labels'
 import QuestionStatement from './QuestionStatement'
 
 type ResultCardProps = {
@@ -29,7 +30,7 @@ export default function ResultCard({
           </p>
 
           <h3 className="text-base font-semibold text-gray-900">
-            {question.subject} · {question.topic}
+            {formatStudyLabel(question.subject)} · {formatStudyLabel(question.topic)}
           </h3>
 
           <p className="text-sm text-gray-500">

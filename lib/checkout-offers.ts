@@ -1,4 +1,4 @@
-import { accessPlan, launchCoupon, supportEmail } from '@/lib/billing'
+import { accessPlan, checkoutCoupons, launchCoupon, supportEmail } from '@/lib/billing'
 
 export { launchCoupon, supportEmail }
 
@@ -9,21 +9,30 @@ export type AppliedCoupon = {
 }
 
 export function normalizeCouponCode(code?: string | null) {
-  return code?.trim().toUpperCase() ?? ''
+  if (!code) {
+    return ''
+  }
+
+  return code
+    .trim()
+    .toUpperCase()
+    .replace(/[\s-]+/g, '_')
+    .replace(/[^A-Z0-9_]/g, '')
 }
 
 export function getAppliedCoupon(code?: string | null): AppliedCoupon | null {
   const normalizedCode = normalizeCouponCode(code)
+  const matchedCoupon = checkoutCoupons.find((coupon) => coupon.code === normalizedCode)
 
-  if (normalizedCode !== launchCoupon.code) {
+  if (!matchedCoupon) {
     return null
   }
 
-  const discountCents = Math.round((accessPlan.priceCents * launchCoupon.percentOff) / 100)
+  const discountCents = Math.round((accessPlan.priceCents * matchedCoupon.percentOff) / 100)
 
   return {
-    code: launchCoupon.code,
-    percentOff: launchCoupon.percentOff,
+    code: matchedCoupon.code,
+    percentOff: matchedCoupon.percentOff,
     discountCents,
   }
 }

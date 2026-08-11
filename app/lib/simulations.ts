@@ -10,16 +10,18 @@ export type SimulationPreset = {
   passRate: number
   mode: 'practice' | 'exam'
   fixedQuestionIds?: number[]
+  priorityQuestionIds?: number[]
 }
 
 export const subjectLabels: Record<string, string> = {
-  astronomia: 'Navegacao astronomica',
+  astronomia: 'Navegação astronômica',
   meteorologia: 'Meteorologia',
-  navegacao: 'Navegacao costeira',
-  'navegacao-eletronica': 'Navegacao eletronica',
-  sobrevivencia: 'Sobrevivencia no mar',
-  comunicacoes: 'Comunicacoes',
+  navegacao: 'Navegação costeira',
+  'navegacao-eletronica': 'Navegação eletrônica',
+  sobrevivencia: 'Sobrevivência no mar',
+  comunicacoes: 'Comunicações',
   estabilidade: 'Estabilidade',
+  'capitao-amador': 'Capitão-Amador',
   'arrais-amador': 'Arrais-Amador',
   'mestre-amador': 'Mestre-Amador',
 }
@@ -27,11 +29,11 @@ export const subjectLabels: Record<string, string> = {
 export const simulationPresets: SimulationPreset[] = [
   {
     href: '/simulado',
-    title: 'Demo Capitao-Amador',
+    title: 'Demo Capitão-Amador',
     description:
-      'Demo gratuita com 5 questoes fixas para conhecer a plataforma de Capitao antes da versao completa.',
-    badge: 'Entrada gratuita',
-    certification: 'Capitao-Amador',
+      'Teste grátis com 5 questões para conhecer a plataforma antes de desbloquear o acesso completo.',
+    badge: 'Demo gratuita',
+    certification: 'Capitão-Amador',
     subjects: [
       'astronomia',
       'meteorologia',
@@ -40,6 +42,7 @@ export const simulationPresets: SimulationPreset[] = [
       'sobrevivencia',
       'comunicacoes',
       'estabilidade',
+      'capitao-amador',
     ],
     questionCount: 5,
     durationMinutes: 15,
@@ -49,11 +52,11 @@ export const simulationPresets: SimulationPreset[] = [
   },
   {
     href: '/prova-marinha',
-    title: 'Prova estilo Marinha',
+    title: 'Simulado Capitão-Amador',
     description:
-      'Fluxo mais proximo da prova real, com cronometro mais longo e revisao so no final.',
-    badge: 'Modo prova',
-    certification: 'Capitao-Amador',
+      'Simulado completo com cronômetro mais longo e revisão só no final, no estilo da prova real.',
+    badge: 'Capitão-Amador',
+    certification: 'Capitão-Amador',
     subjects: [
       'astronomia',
       'meteorologia',
@@ -62,6 +65,7 @@ export const simulationPresets: SimulationPreset[] = [
       'sobrevivencia',
       'comunicacoes',
       'estabilidade',
+      'capitao-amador',
     ],
     questionCount: 20,
     durationMinutes: 60,
@@ -72,9 +76,9 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado-astronomica',
     title: 'Astronomica',
     description:
-      'Passagem meridiana, sextante, altura verdadeira, latitude e longitude.',
-    badge: 'Foco total',
-    certification: 'Capitao-Amador',
+      'Treine passagem meridiana, sextante, altura verdadeira, latitude e longitude.',
+    badge: 'Treino focado',
+    certification: 'Capitão-Amador',
     subjects: ['astronomia'],
     questionCount: 10,
     durationMinutes: 30,
@@ -85,9 +89,9 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado-meteorologia',
     title: 'Meteorologia',
     description:
-      'Frentes, nuvens, cartas sinoticas, ventos e leitura de cenarios operacionais.',
-    badge: 'Revisao rapida',
-    certification: 'Capitao-Amador',
+      'Revise frentes, nuvens, cartas sinóticas, ventos e leitura de cenários operacionais.',
+    badge: 'Treino rápido',
+    certification: 'Capitão-Amador',
     subjects: ['meteorologia'],
     questionCount: 10,
     durationMinutes: 25,
@@ -96,11 +100,11 @@ export const simulationPresets: SimulationPreset[] = [
   },
   {
     href: '/simulado-comunicacoes',
-    title: 'Comunicacoes',
+    title: 'Comunicações',
     description:
-      'GMDSS, EPIRB, SART e fundamentos operacionais das comunicacoes maritimas.',
-    badge: 'Novo bloco',
-    certification: 'Capitao-Amador',
+      'Treine GMDSS, EPIRB, SART e fundamentos das comunicações marítimas.',
+    badge: 'Treino rápido',
+    certification: 'Capitão-Amador',
     subjects: ['comunicacoes'],
     questionCount: 10,
     durationMinutes: 20,
@@ -109,11 +113,11 @@ export const simulationPresets: SimulationPreset[] = [
   },
   {
     href: '/simulado-sobrevivencia',
-    title: 'Sobrevivencia',
+    title: 'Sobrevivência',
     description:
-      'Hipotermia, abandono, balsas salva-vidas e manobras em mares tempestuosos.',
-    badge: 'Treino rapido',
-    certification: 'Capitao-Amador',
+      'Revise hipotermia, abandono, balsas salva-vidas e manobras em mares tempestuosos.',
+    badge: 'Treino rápido',
+    certification: 'Capitão-Amador',
     subjects: ['sobrevivencia'],
     questionCount: 10,
     durationMinutes: 20,
@@ -124,9 +128,9 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado-estabilidade',
     title: 'Estabilidade',
     description:
-      'GM, TPC, superficie livre e nocoes essenciais de seguranca da embarcacao.',
-    badge: 'Base tecnica',
-    certification: 'Capitao-Amador',
+      'Treine GM, TPC, superfície livre e noções essenciais de segurança da embarcação.',
+    badge: 'Treino técnico',
+    certification: 'Capitão-Amador',
     subjects: ['estabilidade'],
     questionCount: 10,
     durationMinutes: 20,
@@ -137,21 +141,34 @@ export const simulationPresets: SimulationPreset[] = [
     href: '/simulado-arrais',
     title: 'Arrais-Amador',
     description:
-      'Nova habilitacao com 100 questoes para treinar termos nauticos, manobras, Ripeam, balizamento, VHF e seguranca de navegacao.',
-    badge: 'Nova habilitacao',
+      'Treine termos náuticos, manobras, RIPEAM, balizamento, VHF e segurança de navegação.',
+    badge: 'Simulado premium',
     certification: 'Arrais-Amador',
     subjects: ['arrais-amador'],
     questionCount: 20,
     durationMinutes: 40,
     passRate: 0.5,
     mode: 'practice',
+    priorityQuestionIds: [
+      7201, 7202, 7204, 7206, 7207,
+      7208, 7209, 7211, 7212, 7214,
+      7215, 7216, 7218, 7219, 7220,
+      7222, 7223, 7224, 7225, 7228,
+      7229, 7231, 7232, 7235,
+      7237, 7238, 7240, 7241,
+      7243, 7246, 7249,
+      7250, 7253, 7254,
+      7257, 7258,
+      7264, 7265,
+      7271, 7274,
+    ],
   },
   {
     href: '/simulado-mestre',
     title: 'Mestre-Amador',
     description:
-      'Banco dedicado com 100 questoes para treinar carta nautica, navegacao costeira, meteorologia, manobras, Ripeam e seguranca.',
-    badge: 'Nova habilitacao',
+      'Treine navegação costeira, meteorologia, manobras, RIPEAM, equipamentos e segurança.',
+    badge: 'Simulado premium',
     certification: 'Mestre-Amador',
     subjects: ['mestre-amador'],
     questionCount: 20,
@@ -163,4 +180,44 @@ export const simulationPresets: SimulationPreset[] = [
 
 export function getPresetByPath(pathname: string): SimulationPreset | undefined {
   return simulationPresets.find((preset) => preset.href === pathname)
+}
+
+export function getCheckoutProductByPath(pathname: string | null | undefined) {
+  const preset = pathname ? getPresetByPath(pathname) : undefined
+
+  if (!preset) {
+    return {
+      title: 'Acesso completo aos simulados premium',
+      description: 'Acesso premium completo por 90 dias mediante pagamento aprovado.',
+      audienceLabel: 'aluno',
+      focusLabel: 'simulados premium',
+    }
+  }
+
+  if (preset.href === '/simulado-arrais') {
+    return {
+      title: 'Acesso Simulado Arrais-Amador',
+      description:
+        'Acesso premium ao banco de Arrais-Amador por 90 dias, com foco em manobras, RIPEAM, balizamento, VHF e seguranca.',
+      audienceLabel: 'futuro Arrais-Amador',
+      focusLabel: 'simulado de Arrais-Amador',
+    }
+  }
+
+  if (preset.href === '/simulado-mestre') {
+    return {
+      title: 'Acesso Simulado Mestre-Amador',
+      description:
+        'Acesso premium ao banco de Mestre-Amador por 90 dias, com foco em navegacao costeira, meteorologia, manobras e seguranca.',
+      audienceLabel: 'futuro Mestre-Amador',
+      focusLabel: 'simulado de Mestre-Amador',
+    }
+  }
+
+  return {
+    title: `Acesso ${preset.title}`,
+    description: `Acesso premium ao ${preset.title.toLowerCase()} por 90 dias mediante pagamento aprovado.`,
+    audienceLabel: 'aluno',
+    focusLabel: preset.title.toLowerCase(),
+  }
 }

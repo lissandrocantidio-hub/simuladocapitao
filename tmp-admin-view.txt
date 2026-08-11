@@ -1,0 +1,163 @@
+import 'server-only'
+
+import { prisma } from '@/lib/db'
+import { getPaymentAccessExpiration } from '@/lib/payment-access'
+
+export function isAdminEmail(email: string | null | undefined) {
+  if (!email) {
+    return false
+  }
+
+  const adminEmails = (process.env.ADMIN_EMAILS ?? '')
+    .split(',')
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean)
+
+  return adminEmails.includes(email.toLowerCase())
+}
+
+export type AdminStudentSummary = {
+  totalUsers: number
+  newUsersLast7Days: number
+  newUsersLast30Days: number
+  usersWithAttempts: number
+  usersWithPurchases: number
+  activeAccessGrants: number
+  onlineUsers: number
+}
+
+export async function getAdminStudentSummary(): Promise<AdminStudentSummary> {
+  const now = new Date()
+  const sevenDaysAgo = new Date(now)
+  sevenDaysAgo.setDate(now.getDate() - 7)
+
+  const thirtyDaysAgo = new Date(now)
+  thirtyDaysAgo.setDate(now.getDate() - 30)
+
+  const onlineThreshold = new Date(now.getTime() - 5 * 60 * 1000)
+
+  const [
+    totalUsers,
+    newUsersLast7Days,
+    newUsersLast30Days,
+    onlineUsers,
+    usersWithAttempts,
+    usersWithLegacyPurchases,
+    activeLegacyAccessGrants,
+    registeredUsers,
+    approvedEmailAccesses,
+    activeEmailAccesses,
+  ] = await Promise.all([
+    prisma.user.count(),
+    prisma.user.count({
+      where: {
+        createdAt: {
+          gte: sevenDaysAgo,
+        },
+      },
+    }),
+    prisma.user.count({
+      where: {
+        createdAt: {
+          gte: thirtyDaysAgo,
+        },
+      },
+    }),
+    prisma.user.count({
+      where: {
+        lastSeenAt: {
+          gte: onlineThreshold,
+        },
+      },
+    }),
+    prisma.user.count({
+      where: {
+        simulationAttempts: {
+          some: {},
+        },
+      },
+    }),
+    prisma.user.findMany({
+      where: {
+        purchases: {
+          some: {},
+        },
+      },
+      select: {
+        email: true,
+      },
+    }),
+    prisma.accessGrant.findMany({
+      where: {
+        status: 'ACTIVE',
+        expiresAt: {
+          gt: now,
+        },
+      },
+      select: {
+        user: {
+          select: {
+            email: true,
+          },
+        },
+      },
+    }),
+    prisma.user.findMany({
+      select: {
+        email: true,
+      },
+    }),
+    prisma.paymentAccess.findMany({
+      where: {
+        accessGranted: true,
+      },
+      select: {
+        email: true,
+      },
+    }),
+    prisma.paymentAccess.findMany({
+      where: {
+        accessGranted: true,
+      },
+      select: {
+        email: true,
+        updatedAt: true,
+      },
+    }),
+  ])
+
+  const registeredEmails = new Set(registeredUsers.map((user) => user.email.toLowerCase()))
+  const usersWithPurchases = new Set(
+    usersWithLegacyPurchases.map((user) => user.email.toLowerCase())
+  )
+
+  for (const access of approvedEmailAccesses) {
+    const normalizedEmail = access.email.toLowerCase()
+    if (registeredEmails.has(normalizedEmail)) {
+      usersWithPurchases.add(normalizedEmail)
+    }
+  }
+
+  const activeAccessEmails = new Set(
+    activeLegacyAccessGrants
+      .map((grant) => grant.user.email?.toLowerCase())
+      .filter((email): email is string => Boolean(email))
+  )
+
+  for (const access of activeEmailAccesses) {
+    const normalizedEmail = access.email.toLowerCase()
+    if (registeredEmails.has(normalizedEmail) && getPaymentAccessExpiration(access) > now) {
+      activeAccessEmails.add(normalizedEmail)
+    }
+  }
+
+  return {
+    totalUsers,
+    newUsersLast7Days,
+    newUsersLast30Days,
+    onlineUsers,
+    usersWithAttempts,
+    usersWithPurchases: usersWithPurchases.size,
+    activeAccessGrants: activeAccessEmails.size,
+  }
+}

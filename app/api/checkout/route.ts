@@ -3,7 +3,8 @@ import { getServerSession } from 'next-auth'
 import { NextResponse } from 'next/server'
 import { authOptions } from '@/lib/auth'
 import { accessPlan } from '@/lib/billing'
-import { getAppliedCoupon, getCheckoutPricing, normalizeCouponCode } from '@/lib/checkout-offers'
+import { normalizeCouponCode } from '@/lib/checkout-offers'
+import { resolveAppliedCoupon, resolveCheckoutPricing } from '@/lib/coupons'
 import { prisma } from '@/lib/db'
 import { getMercadoPagoPreferenceClient } from '@/lib/mercadopago'
 
@@ -23,11 +24,11 @@ export async function POST(request: Request) {
 
   const body = (await request.json().catch(() => ({}))) as { couponCode?: string }
   const couponCode = normalizeCouponCode(body.couponCode)
-  if (couponCode && !getAppliedCoupon(couponCode)) {
+  if (couponCode && !(await resolveAppliedCoupon(couponCode))) {
     return NextResponse.json({ error: 'Cupom invalido.' }, { status: 400 })
   }
 
-  const pricing = getCheckoutPricing(couponCode)
+  const pricing = await resolveCheckoutPricing(couponCode)
   const { origin } = new URL(request.url)
   const purchase = await prisma.purchase.create({
     data: {
@@ -72,7 +73,7 @@ export async function POST(request: Request) {
         },
         auto_return: 'approved',
         external_reference: purchase.id,
-        notification_url: `${origin}/api/webhooks/mercadopago`,
+        notification_url: `${origin}/api/mercadopago/webhook`,
         statement_descriptor: 'SIMULADO CAP',
       },
     })

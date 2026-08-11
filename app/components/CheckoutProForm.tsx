@@ -3,6 +3,8 @@
 import Link from 'next/link'
 import { FormEvent, useEffect, useState } from 'react'
 import { launchCoupon, supportEmail } from '@/lib/checkout-offers'
+import { trackBeginCheckout } from '@/lib/google-analytics'
+import { trackInitiateCheckout } from '@/lib/meta-pixel'
 import { sanitizeNextPath } from '@/lib/navigation'
 
 export type CheckoutStatus =
@@ -15,7 +17,7 @@ export type CheckoutStatus =
 export default function CheckoutProForm({
   initialEmail = '',
   checkoutStatus,
-  accessGranted = false,
+  accessGranted: initialAccessGranted = false,
   nextPath = '/prova-marinha',
 }: {
   initialEmail?: string
@@ -28,7 +30,39 @@ export default function CheckoutProForm({
   const [error, setError] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [sessionReady, setSessionReady] = useState(false)
+  const [accessGranted, setAccessGranted] = useState(initialAccessGranted)
+  const [accessStatus, setAccessStatus] = useState<string | null>(null)
+  const [isCheckingAccess, setIsCheckingAccess] = useState(false)
   const targetPath = sanitizeNextPath(nextPath)
+
+  async function refreshAccessState(targetEmail: string) {
+    if (!targetEmail) {
+      setAccessGranted(false)
+      setAccessStatus(null)
+      return
+    }
+
+    setIsCheckingAccess(true)
+
+    try {
+      const response = await fetch(`/api/access/check?email=${encodeURIComponent(targetEmail)}`)
+      const data = (await response.json().catch(() => ({}))) as {
+        granted?: boolean
+        status?: string | null
+      }
+
+      if (!response.ok) {
+        setAccessGranted(false)
+        setAccessStatus(null)
+        return
+      }
+
+      setAccessGranted(Boolean(data.granted))
+      setAccessStatus(data.status ?? null)
+    } finally {
+      setIsCheckingAccess(false)
+    }
+  }
 
   async function tryRestoreAccessSession(targetEmail: string) {
     const response = await fetch('/api/access/session', {
@@ -47,6 +81,14 @@ export default function CheckoutProForm({
     window.location.href = targetPath
     return true
   }
+
+  useEffect(() => {
+    if (!initialEmail) {
+      return
+    }
+
+    void refreshAccessState(initialEmail)
+  }, [initialEmail])
 
   useEffect(() => {
     if (!accessGranted || !initialEmail) {
@@ -109,6 +151,8 @@ export default function CheckoutProForm({
       return
     }
 
+    trackBeginCheckout()
+    await trackInitiateCheckout()
     window.location.href = data.init_point
   }
 
@@ -124,6 +168,7 @@ export default function CheckoutProForm({
     }
 
     setError('Ainda nao encontramos acesso liberado para esse e-mail. Se o pagamento foi recente, aguarde a confirmacao do webhook e tente novamente.')
+    await refreshAccessState(email.toLowerCase().trim())
   }
 
   return (
@@ -207,7 +252,7 @@ export default function CheckoutProForm({
           disabled={isLoading}
           className="rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-900 disabled:cursor-not-allowed disabled:opacity-70"
         >
-          {isLoading ? 'Verificando acesso...' : 'Desbloquear acesso completo'}
+          {isLoading ? 'Verificando acesso...' : 'Comecar agora por R$31,92'}
         </button>
 
         <button
@@ -221,6 +266,15 @@ export default function CheckoutProForm({
       </form>
 
       {error ? <p className="text-sm text-rose-700">{error}</p> : null}
+
+      {initialEmail ? (
+        <div className="rounded-2xl border border-line bg-slate-50 px-4 py-4 text-sm text-slate-700">
+          <p className="font-semibold text-slate-950">Status atual do e-mail</p>
+          <p className="mt-2">E-mail: {initialEmail}</p>
+          <p>Status: {isCheckingAccess ? 'verificando...' : (accessStatus ?? 'sem registro')}</p>
+          <p>Acesso liberado: {accessGranted ? 'sim' : 'nao'}</p>
+        </div>
+      ) : null}
 
       <p className="text-sm leading-7 text-slate-600">
         Suporte e atendimento: <a href={`mailto:${supportEmail}`}>{supportEmail}</a>

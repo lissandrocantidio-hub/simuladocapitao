@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Split Horizon Mirror</title>
+  <desc id="desc">Diagrama mostrando céu à esquerda, mar na metade inferior esquerda e astro à direita, usado em questão de sextante.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64b8ff"/>
+      <stop offset="45%" stop-color="#2e82e2"/>
+      <stop offset="100%" stop-color="#0c4a95"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3f3f3"/>
+      <stop offset="100%" stop-color="#d8d8d8"/>
+    </linearGradient>
+    <clipPath id="disc">
+      <circle cx="450" cy="255" r="170"/>
+    </clipPath>
+  </defs>
+  <rect width="900" height="620" fill="#ffffff"/>
+  <g clip-path="url(#disc)">
+    <rect x="280" y="85" width="170" height="170" fill="#ffffff"/>
+    <rect x="280" y="255" width="170" height="170" fill="url(#sea)"/>
+    <rect x="450" y="85" width="170" height="340" fill="#3e3900"/>
+    <circle cx="486" cy="236" r="28" fill="#ffe33d"/>
+    <rect x="280" y="252" width="170" height="3" fill="#d7eeff"/>
+    <rect x="450" y="85" width="3" height="340" fill="#111111"/>
+  </g>
+  <circle cx="450" cy="255" r="170" fill="none" stroke="#111111" stroke-width="4"/>
+  <text x="370" y="152" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#111111">CÉU</text>
+  <text x="361" y="332" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#ffffff">MAR</text>
+  <rect x="215" y="432" width="470" height="38" rx="2" fill="url(#shadow)"/>
+  <text x="450" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-style="italic" font-weight="700" fill="#222222">Split Horizon Mirror</text>
+</svg>

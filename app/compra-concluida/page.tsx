@@ -1,14 +1,18 @@
 import Link from 'next/link'
 import CheckoutProForm, { type CheckoutStatus } from '@/app/components/CheckoutProForm'
+import MetaPurchaseEvent from '@/app/components/MetaPurchaseEvent'
 import { getCurrentAccessSnapshot } from '@/lib/access'
 import { supportEmail } from '@/lib/checkout-offers'
 import { sanitizeNextPath } from '@/lib/navigation'
 import { getPaymentAccessByEmail, hasGrantedAccess } from '@/lib/payment-access'
+import { isTrackingAuditLogsEnabled } from '@/lib/tracking-audit'
 
 type CompraConcluidaPageProps = {
   searchParams?: Promise<{
     email?: string
     next?: string
+    payment_id?: string
+    collection_id?: string
     source?: string
     status?: string
   }>
@@ -18,7 +22,9 @@ export default async function CompraConcluidaPage({ searchParams }: CompraConclu
   const resolved = searchParams ? await searchParams : undefined
   const email = resolved?.email?.toLowerCase().trim() ?? ''
   const nextPath = sanitizeNextPath(resolved?.next)
+  const paymentId = resolved?.payment_id ?? resolved?.collection_id
   const source = resolved?.source ?? ''
+  const trackingAuditLogsEnabled = isTrackingAuditLogsEnabled()
   const checkoutStatus: CheckoutStatus =
     resolved?.status === 'success' || resolved?.status === 'pending' || resolved?.status === 'failure'
       ? { type: resolved.status, email }
@@ -31,6 +37,14 @@ export default async function CompraConcluidaPage({ searchParams }: CompraConclu
 
   return (
     <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 py-8 md:px-8 lg:px-10">
+      {paymentId && email ? (
+        <MetaPurchaseEvent
+          email={email}
+          paymentId={paymentId}
+          status={resolved?.status}
+          auditLogsEnabled={trackingAuditLogsEnabled}
+        />
+      ) : null}
       <section className="grid gap-6 rounded-[2.5rem] border border-line bg-surface p-8 shadow-[0_28px_90px_rgba(16,32,51,0.12)] md:grid-cols-[1.1fr_0.9fr]">
         <div className="space-y-5">
           <span className="inline-flex rounded-full bg-accent-soft px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-accent">
@@ -45,8 +59,11 @@ export default async function CompraConcluidaPage({ searchParams }: CompraConclu
           </p>
 
           <div className="rounded-2xl border border-line bg-white/75 px-4 py-4 text-sm text-slate-700">
-            <p className="font-semibold text-slate-950">URL de conversao para Google Ads</p>
-            <p className="mt-2 break-all">https://simuladocapitao.com.br/compra-concluida</p>
+            <p className="font-semibold text-slate-950">Pagina de retorno do checkout</p>
+            <p className="mt-2">
+              Esta pagina apenas recebe o retorno do Mercado Pago. A conversao de compra so e
+              enviada depois da validacao real do pagamento aprovado.
+            </p>
           </div>
 
           <div className="rounded-2xl border border-line bg-white/75 px-4 py-4 text-sm text-slate-700">
@@ -102,7 +119,8 @@ export default async function CompraConcluidaPage({ searchParams }: CompraConclu
             <div className="grid gap-3">
               <Link
                 href="/minha-conta"
-                className="rounded-full bg-slate-950 px-6 py-3 text-center text-sm font-semibold text-white transition hover:bg-slate-900"
+                className="rounded-full bg-slate-950 px-6 py-3 text-center text-sm font-semibold !text-white transition hover:bg-slate-900 hover:!text-white visited:!text-white focus-visible:!text-white"
+                style={{ color: '#ffffff', WebkitTextFillColor: '#ffffff' }}
               >
                 Ir para minha conta
               </Link>

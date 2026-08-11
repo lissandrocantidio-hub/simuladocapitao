@@ -1,3 +1,4 @@
+import { Prisma } from '@prisma/client'
 import { prisma } from '@/lib/db'
 import { accessPlan } from '@/lib/billing'
 
@@ -20,16 +21,19 @@ export type PaymentAccessSnapshot = {
   updatedAt: Date
 }
 
+export type ProcessApprovedPaymentResult = {
+  access: PaymentAccessSnapshot
+  eventId: string
+  isNewPayment: boolean
+}
+
 export async function createPendingPaymentAccess(email: string) {
+  const normalizedEmail = email.toLowerCase().trim()
   return prisma.paymentAccess.upsert({
-    where: { email },
-    update: {
-      status: 'pending',
-      accessGranted: false,
-      paymentId: null,
-    },
+    where: { email: normalizedEmail },
+    update: {},
     create: {
-      email,
+      email: normalizedEmail,
       status: 'pending',
       accessGranted: false,
     },
@@ -56,6 +60,84 @@ export async function markPaymentAccessStatus(input: {
       accessGranted: input.accessGranted,
     },
   })
+}
+
+export async function processApprovedMercadoPagoPayment(input: {
+  email: string
+  paymentId: string
+  status: 'approved'
+  amount: number
+  currency: string
+  eventId: string
+}): Promise<ProcessApprovedPaymentResult> {
+  const email = input.email.toLowerCase().trim()
+  const processedAt = new Date()
+
+  try {
+    const result = await prisma.$transaction(async (tx) => {
+      await tx.mercadoPagoPayment.create({
+        data: {
+          paymentId: input.paymentId,
+          email,
+          status: input.status,
+          amount: input.amount,
+          currency: input.currency,
+          eventId: input.eventId,
+          processedAt,
+        },
+      })
+
+      const access = await tx.paymentAccess.upsert({
+        where: { email },
+        update: {
+          paymentId: input.paymentId,
+          status: input.status,
+          accessGranted: true,
+        },
+        create: {
+          email,
+          paymentId: input.paymentId,
+          status: input.status,
+          accessGranted: true,
+        },
+        select: {
+          email: true,
+          paymentId: true,
+          status: true,
+          accessGranted: true,
+          confirmationEmailSentAt: true,
+          confirmationEmailSentForPaymentId: true,
+          confirmationEmailLastError: true,
+          createdAt: true,
+          updatedAt: true,
+        },
+      })
+
+      return { access }
+    })
+
+    return {
+      access: result.access,
+      eventId: input.eventId,
+      isNewPayment: true,
+    }
+  } catch (error) {
+    if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === 'P2002') {
+      const access = await getPaymentAccessByEmail(email)
+
+      if (!access) {
+        throw error
+      }
+
+      return {
+        access,
+        eventId: input.eventId,
+        isNewPayment: false,
+      }
+    }
+
+    throw error
+  }
 }
 
 export async function recordMercadoPagoWebhookEvent(input: {

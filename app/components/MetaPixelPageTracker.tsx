@@ -8,6 +8,7 @@ export default function MetaPixelPageTracker() {
   const pathname = usePathname()
   const searchParams = useSearchParams()
   const lastTrackedUrl = useRef<string | null>(null)
+  const skippedInitialPageview = useRef(false)
 
   useEffect(() => {
     if (!META_PIXEL_ID) {
@@ -22,6 +23,12 @@ export default function MetaPixelPageTracker() {
     }
 
     lastTrackedUrl.current = currentUrl
+
+    if (!skippedInitialPageview.current) {
+      skippedInitialPageview.current = true
+      return
+    }
+
     pageview()
   }, [pathname, searchParams])
 

@@ -10,7 +10,7 @@ export const navegacaoEletronicaQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Um Electronic Chart Display and Information System - ECDIS tem subsistemas ligados a ele. Qual subsistema, dentre as alternativas abaixo, possibilita ao navegante a navegação em tempo real na carta eletrônica?',
+      'Um Electronic Chart Display and Information System - ECDIS tem subsistemas ligados a ele. Qual subsistema, dentre as alternativas abaixo, possibilita ao navegante a navegação em tempo real na carta eletrônica',
     options: {
       A: 'AIS.',
       B: 'Odômetro.',
@@ -20,7 +20,7 @@ export const navegacaoEletronicaQuestions: Question[] = [
     },
     correct: 'E',
     explanation:
-      'O GNSS fornece o posicionamento em tempo real usado pelo ECDIS na carta eletrônica.',
+      'ECDIS significa Electronic Chart Display and Information System, ou sistema eletronico de exibicao e informação em cartas náuticas. GNSS significa Global Navigation Satellite System, conjunto de sistemas de posicionamento por satelite. E esse posicionamento em tempo real do GNSS que permite ao ECDIS mostrar o navio corretamente sobre a carta eletronica.',
   },
   {
     id: 2022008,
@@ -75,24 +75,24 @@ Com base nas informações apresentadas, marque a alternativa correta:`,
 
   explanation: `Analisando o movimento relativo dos alvos no radar:
 
-🔹 Alvo A:
+ðŸ”¹ Alvo A:
 Mantém marcação praticamente constante e reduz a distância.
 👉 Isso caracteriza risco de colisão.
 
-🔹 Alvo B:
+ðŸ”¹ Alvo B:
 Permanece praticamente na mesma posição relativa ao navio.
 👉 Indica que possui mesma direção e velocidade (movimento relativo nulo).
 
-🔹 Alvo C:
+ðŸ”¹ Alvo C:
 Mantém posição fixa no radar, sem deslocamento significativo.
-👉 Caracteriza alvo parado (velocidade zero).
+ðŸ‘‰ Caracteriza alvo parado (velocidade zero).
 
 Resumo:
 - A → rumo de colisão
 - B → mesmo rumo e velocidade
 - C → velocidade zero
 
-👉 Alternativa correta: E.`,
+ðŸ‘‰ Alternativa correta: E.`,
 },
   {
     id: 2022009,
@@ -124,7 +124,7 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Qual controle atenuador de reverberação de um RADAR deve ser usado para atenuar os efeitos da chuva?',
+      'Qual controle atenuador de reverberação de um RADAR deve ser usado para atenuar os efeitos da chuva',
     options: {
       A: 'Ganho.',
       B: 'Brilho.',
@@ -134,7 +134,7 @@ Resumo:
     },
     correct: 'C',
     explanation:
-      'O controle Anti-clutter RAIN é específico para atenuar ecos meteorológicos, como chuva.',
+      'O controle Anti-clutter RAIN e especifico para atenuar ecos meteorologicos, como chuva. Ja a sigla EBL, quando aparece no radar, significa Electronic Bearing Line, isto e, linha eletronica de marcacao.',
   },
   {
     id: 2022011,
@@ -151,11 +151,11 @@ Resumo:
       B: 'Velocidade relativa do alvo.',
       C: 'Ponto de Maior Aproximação (PMA) do alvo.',
       D: 'Tempo para o Ponto de Maior Aproximação (PMA) do alvo.',
-      E: 'Distância do alvo.',
+      E: 'DistÃ¢ncia do alvo.',
     },
     correct: 'B',
     explanation:
-      'O ARPA fornece rumo, distância, CPA e TCPA dos contatos acompanhados, mas não apresenta como informação primária a velocidade relativa do alvo da forma pedida na questão. Por isso, a alternativa B é a correta.',
+      'ARPA significa Automatic Radar Plotting Aid, recurso do radar para acompanhamento automatico de alvos. Ele fornece, entre outros dados, rumo, distância, CPA e TCPA. CPA e a distância mínima prevista de aproximação entre embarcações, e TCPA e o tempo ate essa aproximação. A velocidade relativa do alvo, do jeito pedido no enunciado, nao aparece como informação primaria. Por isso, a alternativa B e a correta.',
   },
   {
     id: 2022012,
@@ -197,7 +197,7 @@ Resumo:
     },
     correct: 'B',
     explanation:
-      'A alternativa incorreta é a B porque não se pode afirmar genericamente que o ARPA tenha alcance maior que o AIS. O desempenho de cada sistema depende de propagação, altura de antena, linha de visada e características próprias do sensor.',
+      'ARPA significa Automatic Radar Plotting Aid, recurso do radar para rastrear alvos. AIS significa Automatic Identification System, sistema de identificacao automatica entre embarcações. GNSS significa Global Navigation Satellite System, base dos dados de posição por satelite. A alternativa incorreta e a B porque nao se pode afirmar de forma geral que o ARPA tenha alcance maior que o AIS. O desempenho de cada sistema depende de propagacao, altura de antena, linha de visada e caracteristicas próprias do sensor.',
   },
   {
     id: 2022014,
@@ -208,7 +208,7 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'No display de um GNSS, qual o trigrama que significa “tempo estimado para atingir um ponto de guinada”?',
+      'No display de um GNSS, qual o trigrama que significa “tempo estimado para atingir um ponto de guinada”',
     options: {
       A: 'ETA.',
       B: 'XTE.',
@@ -218,7 +218,7 @@ Resumo:
     },
     correct: 'D',
     explanation:
-      'TTG significa Time To Go.',
+      'TTG significa Time To Go, isto e, tempo restante para atingir o ponto considerado. Em equipamentos GNSS, essa informação indica em quanto tempo a embarcação chegara ao ponto de guinada ou waypoint, mantendo a velocidade atual.',
   },
   {
     id: 2022015,
@@ -260,7 +260,7 @@ Resumo:
     },
     correct: 'D',
     explanation:
-      'A afirmativa I está incorreta porque uma estação de praticagem pode utilizar recursos semelhantes, mas isso não significa automaticamente constituir um VTS com autoridade para interferir no tráfego. Já as afirmativas II, III e IV estão corretas: elas descrevem adequadamente as ferramentas do VTS, o serviço de informações (INS) e o serviço de organização do tráfego (TOS). Por isso, a alternativa correta é a D.',
+      'VTS significa Vessel Traffic Service, ou servico de tráfego de embarcações. Dentro dele, INS significa Information Service, servico que fornece informacoes uteis ao navegante, e TOS significa Traffic Organization Service, servico voltado a organizar os movimentos do tráfego. A afirmativa I esta incorreta porque uma estacao de praticagem pode ter equipamentos parecidos com os de um VTS, mas isso nao a transforma automaticamente em VTS com autoridade para interferir no tráfego. Ja as afirmativas II, III e IV descrevem corretamente o sistema. Por isso, a alternativa correta e a D.',
   },
   {
     id: 2023009,
@@ -302,7 +302,7 @@ Resumo:
     },
     correct: 'E',
     explanation:
-      'Na lista proposta, as afirmativas I, III e IV estão corretas: o SEA reduz ecos próximos, a EBL fornece marcação e a descentralização amplia a área de interesse sem trocar a escala. A II está errada, então o conjunto correto é a alternativa E.',
+      'Na lista proposta, as afirmativas I, III e IV estao corretas. O controle SEA reduz ecos proximos produzidos pelo mar. A EBL, sigla de Electronic Bearing Line, e a linha eletronica usada para medir marcacao. E a descentralizacao da imagem amplia a área de interesse sem trocar a escala. A II esta errada, entao o conjunto correto e a alternativa E.',
   },
   {
     id: 2023011,
@@ -323,7 +323,7 @@ Resumo:
     },
     correct: 'D',
     explanation:
-      'O ajuste de TCPA LIMIT deve dar tempo para o operador perceber, avaliar e agir diante de um risco de abalroamento, sempre à luz do RIPEAM. Por isso, a alternativa correta é a D.',
+      'CPA significa distância mínima prevista de aproximação, e TCPA significa tempo ate essa aproximação. Ao ajustar o TCPA LIMIT, o operador define com quanta antecedencia quer ser alertado para avaliar o risco e agir a luz do RIPEAM. Por isso, a alternativa correta e a D.',
   },
   {
     id: 2023012,
@@ -334,7 +334,7 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Com relação ao horizonte-radar em condições atmosféricas padrão e refração normal, qual será o alcance em Milhas Náuticas (MN) de um equipamento radar em que a antena se encontra a 9 metros de altura em relação ao nível do mar?',
+      'Com relação ao horizonte-radar em condições atmosféricas padrão e refração normal, qual será o alcance em Milhas Náuticas (MN) de um equipamento radar em que a antena se encontra a 9 metros de altura em relação ao nível do mar',
     options: {
       A: '5,67 MN.',
       B: '6,63 MN.',
@@ -397,13 +397,13 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Durante uma aterragem com radar, a navegante mediu 40 milhas náuticas até o litoral. Ao comparar com a posição GNSS (GPS), encontrou uma discrepância de 6 milhas para menos na posição GPS, embora ambos os equipamentos estivessem em perfeito funcionamento. A que se deve essa discrepância?',
+      'Durante uma aterragem com radar, a navegante mediu 40 milhas náuticas até o litoral. Ao comparar com a posição GNSS (GPS), encontrou uma discrepância de 6 milhas para menos na posição GPS, embora ambos os equipamentos estivessem em perfeito funcionamento. A que se deve essa discrepância',
     options: {
       A: 'Ao efeito da superrefração, que aumenta o alcance do radar em condições especiais da atmosfera.',
       B: 'Ao ajuste indevido do radar pelo excesso de ganho, que distorce e borra a imagem apresentada na PPI.',
-      C: 'À acurácia em distância dos radares, que fica prejudicada em até 60% em nevoeiro e umidade elevada.',
+      C: 'A acurácia em distância dos radares, que fica prejudicada em até 60% em nevoeiro e umidade elevada.',
       D: 'Ao ajuste indevido do GPS, pois a acurácia em distância do radar é sempre superior.',
-      E: 'Às terras mais para o interior, que geralmente são mais altas do que a linha de costa.',
+      E: 'As terras mais para o interior, que geralmente são mais altas do que a linha de costa.',
     },
     correct: 'E',
     explanation:
@@ -418,7 +418,7 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Sobre controles operacionais do radar, analise as afirmações abaixo e assinale a alternativa correta. I - O anti-clutter sea (STC) é um controle de ganho auxiliar que reduz ecos mais próximos sem alterar os mais distantes. II - O anti-clutter sea (STC) não é um controle efetivo para atenuar chuva forte nas proximidades do navio. III - O anti-clutter rain (FTC) destina-se a diminuir, tanto quanto possível, os ecos de chuva, granizo e neve. IV - A linha de fé luminosa permite estabelecer uma linha indicadora da proa do barco na tela do radar.',
+      'Sobre controles operacionais do radar, analise as afirmações abaixo e assinale a alternativa correta.\n\nI - O anti-clutter sea (STC) é um controle de ganho auxiliar que reduz ecos mais próximos sem alterar os mais distantes.\n\nII - O anti-clutter sea (STC) não é um controle efetivo para atenuar chuva forte nas proximidades do navio.\n\nIII - O anti-clutter rain (FTC) destina-se a diminuir, tanto quanto possível, os ecos de chuva, granizo e neve.\n\nIV - A linha de fé luminosa permite estabelecer uma linha indicadora da proa do barco na tela do radar.',
     options: {
       A: 'Somente as afirmações I, II e III são verdadeiras.',
       B: 'Somente as afirmações I, III e IV são verdadeiras.',
@@ -431,6 +431,30 @@ Resumo:
       'As afirmativas I, III e IV estão corretas: o STC atua nos ecos próximos de mar, o FTC ajuda a reduzir ecos meteorológicos e a linha de fé indica a proa na apresentação. A II é incorreta na forma como generaliza o uso do STC para chuva forte. Por isso, a alternativa correta é a B.',
   },
   {
+    id: 20222010,
+    subject: 'navegacao-eletronica',
+    topic: 'radar / rosa de manobras',
+    year: 2022,
+    exam: 'CPA-II 2022',
+    source: 'Prova oficial da Marinha',
+    verified: true,
+    statement:
+      'Analise a representacao dos contatos A, B, C, D e E na Rosa de Manobras nos minutos 00 e 06. Assinale a alternativa correta considerando que a embarcação de origem, de nome "Zoe", navega no rumo 000 graus na velocidade de 10 nos.',
+    options: {
+      A: 'Contato A esta em rumo de colisao com "Zoe", B esta com velocidade zero nos e E esta com uma velocidade maior que "Zoe".',
+      B: 'Contato E esta em rumo de colisao com "Zoe", B esta com velocidade zero nos e D esta com uma velocidade maior que "Zoe".',
+      C: 'Contato A esta em rumo de colisao com "Zoe", B esta com velocidade dez nos e E esta com uma velocidade maior que "Zoe".',
+      D: 'Contato C tem prioridade de manobra sobre "Zoe", D nao ira cruzar a proa de "Zoe" e E esta com velocidade dez nos.',
+      E: 'Contato A nao tem prioridade de manobra sobre "Zoe", C esta com velocidade zero nos e D esta com velocidade zero nos.',
+    },
+    correct: 'C',
+    explanation:
+      'Na rosa de manobras, compara-se a posição dos contatos nos instantes 00 e 06 com o movimento da embarcação de origem. A leitura relativa indica o contato A em rumo de colisao, o contato B mantendo velocidade igual a de "Zoe" e o contato E com velocidade maior. Por isso, a alternativa correta e a C.',
+    attachments: [
+      { label: 'Rosa de manobras - CPA-II 2022', path: '/anexos/cpa2022-q17-radar.png' },
+    ],
+  },
+  {
     id: 20222012,
     subject: 'navegacao-eletronica',
     topic: 'radar / precisão de posicionamento',
@@ -439,17 +463,38 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Dentre os métodos abaixo para obter a posição da embarcação, qual fornece a posição mais precisa?',
+      'Dentre os métodos abaixo para obter a posição da embarcação, qual fornece a posição mais precisa',
     options: {
       A: 'Distâncias-radar e marcações visuais.',
-      B: 'Cruzamentos de distâncias-radar.',
+      B: 'Cruzamentos de distÃ¢ncias-radar.',
       C: 'Distâncias e marcações-radar.',
       D: 'Cruzamento de marcações-radar.',
       E: 'Marcações-radar e marcações visuais.',
     },
     correct: 'A',
     explanation:
-      'Em regra prática de navegação costeira, as distâncias-radar combinadas com marcações visuais tendem a produzir uma posição mais precisa, aproveitando boa definição de distância pelo radar e boa definição angular pela observação visual. Por isso, a alternativa correta é a A.',
+      'Em regra prática de navegação costeira, as distâncias-radar combinadas com marcações visuais tendem a produzir uma posição mais precisa, aproveitando boa definição de distância pelo radar é boa definição angular pela observação visual. Por isso, a alternativa correta é a A.',
+  },
+  {
+    id: 20222013,
+    subject: 'navegacao-eletronica',
+    topic: 'ECDIS / sensores de navegacao',
+    year: 2022,
+    exam: 'CPA-II 2022',
+    source: 'Prova oficial da Marinha',
+    verified: true,
+    statement:
+      'Ao utilizar um sistema ECDIS verifica-se que ha ligacoes com outros sistemas, equipamentos e sensores. Dentre os sistemas constantes das alternativas abaixo, qual deles possibilita à navegação em tempo real em um console ECDIS?',
+    options: {
+      A: 'Sistema de Identificacao Automatica (AIS).',
+      B: 'Auxilio de Plotagem Automatica Radar (ARPA).',
+      C: 'Agulha giroscopica.',
+      D: 'Sistema de Posicionamento Global - GPS (GNSS).',
+      E: 'Ecobatimetro.',
+    },
+    correct: 'D',
+    explanation:
+      'O ECDIS precisa receber uma posição continuamente atualizada para apresentar à navegação em tempo real. Essa informação e fornecida pelo GPS/GNSS, enquanto AIS, ARPA, agulha e ecobatimetro agregam dados complementares. Por isso, a alternativa correta e a D.',
   },
   {
     id: 20222014,
@@ -481,7 +526,7 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Durante navegação costeira noturna, um radar em banda X apresentou um único alvo na tela, mas a verificação visual mostrou que havia duas embarcações próximas. Quais controles operacionais poderiam ser ajustados para que o radar passasse a apresentar efetivamente os dois alvos?',
+      'Durante navegação costeira noturna, um radar em banda X apresentou um único alvo na tela, mas a verificação visual mostrou que havia duas embarcações próximas. Quais controles operacionais poderiam ser ajustados para que o radar passasse a apresentar efetivamente os dois alvos',
     options: {
       A: 'Largura do feixe, ganho, anti-clutter sea e anti-clutter rain.',
       B: 'Frequência de repetição de impulsos, brilho e ganho.',
@@ -523,17 +568,17 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Os dados dinÃ¢micos transmitidos pelo AIS sÃ£o normalmente recebidos de equipamentos interfaceados, exceto um dado dinÃ¢mico introduzido manualmente e que deve ser coerente com as luzes e marcas exibidas pela embarcaÃ§Ã£o. Qual Ã© esse dado?',
+      'Os dados dinâmicos transmitidos pelo AIS são normalmente recebidos de equipamentos interfaceados, exceto um dado dinâmico introduzido manualmente e que deve ser coerente com as luzes e marcas exibidas pela embarcação. Qual é esse dado',
     options: {
-      A: 'PosiÃ§Ã£o da embarcaÃ§Ã£o.',
+      A: 'Posição da embarcação.',
       B: 'Rumo no fundo.',
       C: 'Derrota percorrida.',
       D: 'Bandeira.',
-      E: 'SituaÃ§Ã£o da embarcaÃ§Ã£o.',
+      E: 'Situação da embarcação.',
     },
     correct: 'E',
     explanation:
-      'No AIS, a situaÃ§Ã£o da embarcaÃ§Ã£o pode ser inserida manualmente e deve refletir corretamente o estado operacional indicado por luzes e marcas. Por isso, a alternativa correta Ã© a E.',
+      'No AIS, a situação da embarcação pode ser inserida manualmente e deve refletir corretamente o estado operacional indicado por luzes e marcas. Por isso, a alternativa correta é a E.',
   },
   {
     id: 20212014,
@@ -544,17 +589,17 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Para melhorar a detecÃ§Ã£o radar de objetos de pequeno porte ou maus refletores, pode-se usar um equipamento que recebe o sinal do radar e transmite outro de volta na mesma frequÃªncia, exibindo um eco forte em cÃ³digo Morse na tela. Como se chama esse equipamento?',
+      'Para melhorar a detecção radar de objetos de pequeno porte ou maus refletores, pode-se usar um equipamento que recebe o sinal do radar e transmite outro de volta na mesma frequência, exibindo um eco forte em código Morse na tela. Como se chama esse equipamento',
     options: {
       A: 'RACON (Radar Transponder Beacon).',
-      B: 'ReforÃ§ador de alvo radar (RTE).',
+      B: 'Reforçador de alvo radar (RTE).',
       C: 'Refletor radar.',
       D: 'RAMARK.',
       E: 'SART.',
     },
     correct: 'A',
     explanation:
-      'O RACON responde ao pulso radar na mesma frequÃªncia e aparece como um eco caracterÃ­stico codificado em Morse, auxiliando a identificaÃ§Ã£o do ponto onde estÃ¡ instalado. Por isso, a alternativa correta Ã© a A.',
+      'O RACON responde ao pulso radar na mesma frequência e aparece como um eco característico codificado em Morse, auxiliando a identificação do ponto onde está instalado. Por isso, a alternativa correta é a A.',
   },
   {
     id: 20212015,
@@ -565,33 +610,33 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Como se chama a menor distÃ¢ncia entre dois alvos situados na mesma marcaÃ§Ã£o, para que esses alvos apareÃ§am como imagens distintas na tela do radar?',
+      'Como se chama a menor distância entre dois alvos situados na mesma marcação, para que esses alvos apareçam como imagens distintas na tela do radar',
     options: {
-      A: 'DiscriminaÃ§Ã£o tangencial.',
+      A: 'Discriminação tangencial.',
       B: 'Poder separador em distÃ¢ncia.',
-      C: 'Poder separador em marcaÃ§Ã£o.',
+      C: 'Poder separador em marcação.',
       D: 'Largura do feixe.',
       E: 'Largura de pulso.',
     },
     correct: 'B',
     explanation:
-      'Quando dois alvos estÃ£o na mesma marcaÃ§Ã£o, o critÃ©rio relevante Ã© a capacidade do radar de distingui-los ao longo da linha de visada. Essa caracterÃ­stica Ã© o poder separador em distÃ¢ncia. Por isso, a alternativa correta Ã© a B.',
+      'Quando dois alvos estão na mesma marcação, o critério relevante é a capacidade do radar de distingui-los ao longo da linha de visada. Essa característica é o poder separador em distância. Por isso, a alternativa correta é a B.',
   },
   {
     id: 20212016,
     subject: 'navegacao-eletronica',
-    topic: 'radar / poder separador em marcaÃ§Ã£o',
+    topic: 'radar / poder separador em marcação',
     year: 2021,
     exam: 'CPA-II 2021',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Como se chama a diferenÃ§a mÃ­nima em marcaÃ§Ã£o para que dois alvos situados Ã  mesma distÃ¢ncia do radar apareÃ§am como imagens distintas na tela do radar?',
+      'Como se chama a diferença mínima em marcação para que dois alvos situados à mesma distância do radar apareçam como imagens distintas na tela do radar',
     options: {
-      A: 'RefraÃ§Ã£o.',
+      A: 'Refração.',
       B: 'Poder separador em distÃ¢ncia.',
       C: 'Largura do feixe.',
-      D: 'Poder separador em marcaÃ§Ã£o.',
+      D: 'Poder separador em marcação.',
       E: 'Largura de pulso.',
     },
     correct: 'D',
@@ -607,7 +652,7 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Nossa embarcaÃ§Ã£o estÃ¡ no rumo 000Â°, velocidade 10 nÃ³s, e opera um radar com apresentaÃ§Ã£o estabilizada na escala de 12 milhas, com 2 milhas entre os anÃ©is de distÃ¢ncia. A figura mostra a posiÃ§Ã£o de cinco alvos (A, B, C, D e E) nos minutos 00 e 06. Qual desses alvos estÃ¡ no mesmo rumo e velocidade que o nosso navio?',
+      'Nossa embarcação está no rumo 000°, velocidade 10 nós, e opera um radar com apresentação estabilizada na escala de 12 milhas, com 2 milhas entre os anéis de distância. A figura mostra a posição de cinco alvos (A, B, C, D e E) nos minutos 00 e 06. Qual desses alvos está no mesmo rumo e velocidade que o nosso navio',
     attachments: [
       {
         label: 'Figura radar - CPA-II 2021 Q17',
@@ -623,39 +668,43 @@ Resumo:
     },
     correct: 'B',
     explanation:
-      'Em apresentaÃ§Ã£o estabilizada, um alvo com mesmo rumo e mesma velocidade do nosso navio tende a manter movimento relativo nulo ou quase nulo na tela. Na figura, esse comportamento corresponde ao alvo B. Por isso, a alternativa correta Ã© a B.',
+      'Em apresentação estabilizada, um alvo com mesmo rumo e mesma velocidade do nosso navio tende a manter movimento relativo nulo ou quase nulo na tela. Na figura, esse comportamento corresponde ao alvo B. Por isso, a alternativa correta é a B.',
   },
   {
     id: 20212018,
     subject: 'navegacao-eletronica',
-    topic: 'DGPS / RTE / ECDIS / navegaÃ§Ã£o paralela indexada',
+    topic: 'DGPS / RTE / ECDIS / navegação paralela indexada',
     year: 2021,
     exam: 'CPA-II 2021',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Analise as afirmativas abaixo. I - O DGPS auxilia na identificaÃ§Ã£o de embarcaÃ§Ãµes, no rastreamento de alvos e permite detectar alvos em torno de curvas e atrÃ¡s de ilhas. II - O RTE Ã© normalmente instalado no mastro de pequenas embarcaÃ§Ãµes, recebendo o sinal do transmissor radar, amplificando-o e devolvendo-o ao transmissor. III - O ECDIS possibilita navegaÃ§Ã£o em tempo real e operar com cartas raster. IV - A navegaÃ§Ã£o paralela indexada permite constatar em tempo real se a embarcaÃ§Ã£o estÃ¡ navegando sobre uma derrota planejada. Assinale a opÃ§Ã£o correta.',
+      'Analise as afirmativas abaixo. I - O DGPS auxilia na identificação de embarcações, no rastreamento de alvos e permite detectar alvos em torno de curvas e atrás de ilhas. II - O RTE é normalmente instalado no mastro de pequenas embarcações, recebendo o sinal do transmissor radar, amplificando-o e devolvendo-o ao transmissor. III - O ECDIS possibilita navegação em tempo real e operar com cartas raster. IV - A navegação paralela indexada permite constatar em tempo real se a embarcação está navegando sobre uma derrota planejada. Assinale a opção correta.',
     options: {
-      A: 'Apenas as afirmativas II e IV sÃ£o verdadeiras.',
-      B: 'Apenas a afirmativa IV Ã© verdadeira.',
-      C: 'Apenas as afirmativas II e III sÃ£o verdadeiras.',
-      D: 'Apenas as afirmativas II, III e IV sÃ£o verdadeiras.',
-      E: 'Apenas as afirmativas I e IV sÃ£o verdadeiras.',
+      A: 'Apenas as afirmativas II e IV são verdadeiras.',
+      B: 'Apenas a afirmativa IV é verdadeira.',
+      C: 'Apenas as afirmativas II e III são verdadeiras.',
+      D: 'Apenas as afirmativas II, III e IV são verdadeiras.',
+      E: 'Apenas as afirmativas I e IV são verdadeiras.',
     },
     correct: 'D',
     explanation:
-      'A afirmativa I Ã© falsa porque o DGPS nÃ£o Ã© um sensor de detecÃ§Ã£o de alvos. As afirmativas II, III e IV descrevem corretamente o uso do RTE, do ECDIS e da navegaÃ§Ã£o paralela indexada. Por isso, a alternativa correta Ã© a D.',
+      'A afirmativa I é falsa porque o DGPS não é um sensor de detecção de alvos. As afirmativas II, III e IV descrevem corretamente o uso do RTE, do ECDIS e da navegação paralela indexada. Por isso, a alternativa correta é a D.',
   },
   {
     id: 20212019,
     subject: 'navegacao-eletronica',
-    topic: 'radar / mÃ©todos de posicionamento',
+    topic: 'radar / métodos de posicionamento',
     year: 2021,
     exam: 'CPA-II 2021',
     source: 'Prova oficial da Marinha',
     verified: true,
-    statement:
-      'Coloque por ordem da maior precisÃ£o para a menor precisÃ£o os mÃ©todos abaixo utilizados para obtenÃ§Ã£o de uma posiÃ§Ã£o usando o radar. 1) Cruzamento de distÃ¢ncias radar. 2) Cruzamento de marcaÃ§Ãµes radar. 3) Cruzamento de distÃ¢ncias radar e marcaÃ§Ãµes visuais. 4) Cruzamento de distÃ¢ncias radar e marcaÃ§Ãµes radar.',
+    statement: `Coloque, da maior precisão para a menor precisão, os métodos abaixo utilizados para obtenção de uma posição usando o radar:
+
+1) Cruzamento de distâncias radar.
+2) Cruzamento de marcações radar.
+3) Cruzamento de distâncias radar e marcações visuais.
+4) Cruzamento de distâncias radar e marcações radar.`,
     options: {
       A: '1, 2, 3 e 4.',
       B: '3, 4, 1 e 2.',
@@ -665,7 +714,7 @@ Resumo:
     },
     correct: 'D',
     explanation:
-      'Na prÃ¡tica costeira, distÃ¢ncias radar combinadas com marcaÃ§Ãµes visuais tendem a oferecer a melhor precisÃ£o, seguidas por cruzamento de distÃ¢ncias radar, depois combinaÃ§Ãµes radar-radar e, por Ãºltimo, cruzamento exclusivo de marcaÃ§Ãµes radar. Por isso, a alternativa correta Ã© a D.',
+      'Na prática da navegação costeira, distâncias radar combinadas com marcações visuais tendem a oferecer a melhor precisão. Em seguida, vem o cruzamento de distâncias radar; depois, a combinação de distância e marcação radar; e, por último, o cruzamento exclusivo de marcações radar. Por isso, a alternativa correta é a D.',
   },
   {
     id: 20212020,
@@ -676,7 +725,7 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Em um radar em movimento relativo com a funÃ§Ã£o History Trails ativada, a figura mostra quatro alvos com histÃ³rico. Relacione os alvos com as situaÃ§Ãµes abaixo e assinale a sequÃªncia correta: ilha ou morro em terra; prÃ³ximo ao ponto de maior aproximaÃ§Ã£o; rumo de colisÃ£o e meu navio Ã© obrigado a manobrar; mesmo rumo e velocidade do nosso navio.',
+      'Em um radar em movimento relativo com a função History Trails ativada, a figura mostra quatro alvos com histórico. Relacione os alvos com as situações abaixo e assinale a sequência correta: ilha ou morro em terra; próximo ao ponto de maior aproximação; rumo de colisão e meu navio é obrigado a manobrar; mesmo rumo e velocidade do nosso navio.',
     attachments: [
       {
         label: 'Figura radar - CPA-II 2021 Q20',
@@ -692,28 +741,34 @@ Resumo:
     },
     correct: 'B',
     explanation:
-      'Pelo histÃ³rico mostrado na figura, o alvo 3 corresponde ao ponto fixo em terra, o alvo 2 estÃ¡ prÃ³ximo ao CPA, o alvo 1 caracteriza situaÃ§Ã£o de colisÃ£o com obrigaÃ§Ã£o de manobra do nosso navio, e o alvo 4 acompanha o mesmo rumo e velocidade relativa do navio prÃ³prio. Por isso, a alternativa correta Ã© a B.',
+      'Pelo histórico mostrado na figura, o alvo 3 corresponde ao ponto fixo em terra, o alvo 2 está próximo ao CPA, o alvo 1 caracteriza situação de colisão com obrigação de manobra do nosso navio, e o alvo 4 acompanha o mesmo rumo e velocidade relativa do navio próprio. Por isso, a alternativa correta é a B.',
   },
   {
     id: 20212021,
     subject: 'navegacao-eletronica',
-    topic: 'VTS / serviÃ§os de trÃ¡fego',
+    topic: 'VTS / serviços de tráfego',
     year: 2021,
     exam: 'CPA-II 2021',
     source: 'Prova oficial da Marinha',
     verified: true,
-    statement:
-      'Sobre o Vessel Traffic Service (VTS), analise as afirmativas. I - A participaÃ§Ã£o de uma embarcaÃ§Ã£o em um VTS pode ser mandatÃ³ria ou voluntÃ¡ria, dependendo das regras locais. II - A autoridade de um VTS se sobrepÃµe Ã competÃªncia do comandante pela seguranÃ§a da embarcaÃ§Ã£o. III - As normas da Autoridade MarÃ­tima para serviÃ§o de VTS constam da NORMAM-26/DHN. IV - O ServiÃ§o de AssistÃªncia Ã NavegaÃ§Ã£o (NAS) de um VTS provÃª informaÃ§Ãµes relevantes para a navegaÃ§Ã£o e contribui para a tomada de decisÃ£o a bordo. Assinale a opÃ§Ã£o correta.',
+    statement: `Sobre o Vessel Traffic Service (VTS), analise as afirmativas:
+
+I - A participação de uma embarcação em um VTS pode ser mandatória ou voluntária, dependendo das regras locais.
+II - A autoridade de um VTS se sobrepõe à competência do comandante pela segurança da embarcação.
+III - As normas da Autoridade Marítima para serviço de VTS constam da NORMAM-26/DHN.
+IV - O Serviço de Assistência à Navegação (NAS) de um VTS provê informações relevantes para a navegação e contribui para a tomada de decisão a bordo.
+
+Assinale a opção correta.`,
     options: {
-      A: 'Apenas as afirmativas II e IV sÃ£o verdadeiras.',
-      B: 'Apenas a afirmativa IV Ã© verdadeira.',
-      C: 'Apenas as afirmativas I, III e IV sÃ£o verdadeiras.',
-      D: 'Apenas as afirmativas II, III e IV sÃ£o verdadeiras.',
-      E: 'Apenas as afirmativas I e IV sÃ£o verdadeiras.',
+      A: 'Apenas as afirmativas II e IV são verdadeiras.',
+      B: 'Apenas a afirmativa IV é verdadeira.',
+      C: 'Apenas as afirmativas I, III e IV são verdadeiras.',
+      D: 'Apenas as afirmativas II, III e IV são verdadeiras.',
+      E: 'Apenas as afirmativas I e IV são verdadeiras.',
     },
     correct: 'C',
     explanation:
-      'A afirmativa II Ã© falsa porque a responsabilidade do comandante pela seguranÃ§a da embarcaÃ§Ã£o permanece. As afirmativas I, III e IV estÃ£o de acordo com a estrutura do serviÃ§o VTS. Por isso, a alternativa correta Ã© a C.',
+      'VTS significa Vessel Traffic Service, ou servico de tráfego de embarcações. NAS significa Navigational Assistance Service, isto e, servico de assistencia à navegação, usado quando o navegante precisa de apoio mais direto. A afirmativa II e falsa porque a responsabilidade do comandante pela segurança da embarcação continua existindo. Ja as afirmativas I, III e IV estao de acordo com a estrutura e com os servicos do VTS. Por isso, a alternativa correta e a C.',
   },
   {
     id: 20212022,
@@ -724,16 +779,16 @@ Resumo:
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'No que diz respeito Ã utilizaÃ§Ã£o do ECDIS, assinale a opÃ§Ã£o incorreta.',
+      'No que diz respeito à utilização do ECDIS, assinale a opção incorreta.',
     options: {
-      A: 'Permite a apresentaÃ§Ã£o da imagem radar e de informaÃ§Ãµes meteorolÃ³gicas grÃ¡ficas em sobreposiÃ§Ã£o Ã ENC.',
-      B: 'Durante a execuÃ§Ã£o de uma derrota, caso o sistema nÃ£o disponha de carta nÃ¡utica digital oficial para o trecho selecionado, pode exibir alerta para utilizaÃ§Ã£o de carta oficial em papel.',
-      C: 'Permite acesso a informaÃ§Ãµes digitais de publicaÃ§Ãµes nÃ¡uticas, como roteiro, auxÃ­lio-rÃ¡dio, lista de farÃ³is e avisos aos navegantes.',
-      D: 'Tem capacidade de integraÃ§Ã£o com agulha giroscÃ³pica, radar, diversos sensores e AIS.',
-      E: 'Quando utiliza cartas raster no modo RCDS, passa Ã condiÃ§Ã£o de ferramenta auxiliar de navegaÃ§Ã£o e dispensa o uso das respectivas cartas nÃ¡uticas em papel.',
+      A: 'Permite a apresentação da imagem radar e de informações meteorológicas gráficas em sobreposição à ENC.',
+      B: 'Durante a execução de uma derrota, caso o sistema não disponha de carta náutica digital oficial para o trecho selecionado, pode exibir alerta para utilização de carta oficial em papel.',
+      C: 'Permite acesso a informações digitais de publicações náuticas, como roteiro, auxílio-rádio, lista de faróis e avisos aos navegantes.',
+      D: 'Tem capacidade de integração com agulha giroscópica, radar, diversos sensores e AIS.',
+      E: 'Quando utiliza cartas raster no modo RCDS, passa à condição de ferramenta auxiliar de navegação e dispensa o uso das respectivas cartas náuticas em papel.',
     },
     correct: 'E',
     explanation:
-      'Quando o ECDIS opera em modo RCDS com cartas raster, ele nÃ£o substitui plenamente a documentaÃ§Ã£o cartogrÃ¡fica oficial em papel exigida para conduÃ§Ã£o da navegaÃ§Ã£o. Por isso, a alternativa incorreta Ã© a E.',
+      'Quando o ECDIS opera em modo RCDS com cartas raster, ele não substitui plenamente a documentação cartográfica oficial em papel exigida para condução da navegação. Por isso, a alternativa incorreta é a E.',
   },
 ]

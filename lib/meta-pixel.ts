@@ -30,3 +30,15 @@ export function event(name: string, options?: Record<string, unknown>) {
 
   window.fbq?.('track', name)
 }
+
+export function trackInitiateCheckout() {
+  if (!canTrack()) {
+    return Promise.resolve()
+  }
+
+  event('InitiateCheckout')
+
+  return new Promise<void>((resolve) => {
+    window.setTimeout(resolve, 250)
+  })
+}

@@ -10,17 +10,17 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'O que é o “EPIRB”?',
+      'O que Ã© o â€œEPIRBâ€',
     options: {
-      A: 'Auxílio à navegação.',
-      B: 'Baliza radioindicadora de posição em emergência.',
-      C: 'Símbolo representado pela Carta n° 12000.',
+      A: 'AuxÃ­lio Ã  navegaÃ§Ã£o.',
+      B: 'Baliza radioindicadora de posiÃ§Ã£o em emergÃªncia.',
+      C: 'SÃ­mbolo representado pela Carta nÂ° 12000.',
       D: 'Boia Lanby.',
-      E: 'Satélite geoestacionário.',
+      E: 'SatÃ©lite geoestacionÃ¡rio.',
     },
     correct: 'B',
     explanation:
-      'EPIRB é a sigla para Emergency Position Indicating Radio Beacon, uma baliza de emergência destinada a transmitir a posição da embarcação ou do sinistro para fins de busca e salvamento. Por isso, a alternativa correta é a B.',
+      'EPIRB Ã© a sigla para Emergency Position Indicating Radio Beacon, uma baliza de emergÃªncia destinada a transmitir a posiÃ§Ã£o da embarcaÃ§Ã£o ou do sinistro para fins de busca e salvamento. Por isso, a alternativa correta Ã© a B.',
   },
   {
     id: 2022037,
@@ -31,7 +31,7 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Equipamento do GMDSS para localização, projetado para operar com radares.',
+      'Equipamento do GMDSS para localizaÃ§Ã£o, projetado para operar com radares.',
     options: {
       A: 'ARPA.',
       B: 'SART.',
@@ -41,7 +41,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'B',
     explanation:
-      'O SART é o Search and Rescue Radar Transponder, equipamento do GMDSS projetado para responder a sinais de radar e facilitar a localização durante operações de busca e salvamento. Por isso, a alternativa correta é a B.',
+      'GMDSS significa Sistema Global de Socorro e Seguranca Maritima. Dentro dele, o SART e o Search and Rescue Radar Transponder, isto e, um transponder de radar para busca e salvamento. Quando interrogado por radar, ele gera uma resposta caracteristica na tela e ajuda a localizar a embarcação ou balsa em perigo. Por isso, a alternativa correta e a B.',
   },
   {
     id: 20252022,
@@ -52,7 +52,7 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Como é chamado um dispositivo que é ativado automaticamente após um naufrágio e emite uma mensagem que é captada pelos satélites do GMDSS?',
+      'Como Ã© chamado um dispositivo que Ã© ativado automaticamente apÃ³s um naufrÃ¡gio e emite uma mensagem que Ã© captada pelos satÃ©lites do GMDSS',
     options: {
       A: 'SART.',
       B: 'EPIRB.',
@@ -62,7 +62,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'B',
     explanation:
-      'O EPIRB é a baliza de emergência que transmite alerta de socorro, podendo ser ativada automaticamente em situações de sinistro. Por isso, a alternativa correta é a B.',
+      'O EPIRB Ã© a baliza de emergÃªncia que transmite alerta de socorro, podendo ser ativada automaticamente em situaÃ§Ãµes de sinistro. Por isso, a alternativa correta Ã© a B.',
   },
   {
     id: 20252023,
@@ -73,17 +73,17 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Sobre o GMDSS (Sistema Global de Socorro e Segurança Marítima), assinale a alternativa correta.',
+      'Sobre o GMDSS (Sistema Global de Socorro e SeguranÃ§a MarÃ­tima), assinale a alternativa correta.',
     options: {
-      A: 'A Área A3 está situada além das Áreas A1 e A2, e dentro do alcance de rádios MF das estações costeiras.',
-      B: 'A Área A1 abrange as regiões portuárias, sendo as regiões costeiras abrangidas pela Área A2.',
-      C: 'Na jurisdição do Brasil não existe a Área A3.',
-      D: 'O serviço SAFETYNET atende à Área A3.',
-      E: 'A NAVAREA IV é de responsabilidade do Brasil.',
+      A: 'A Ãrea A3 estÃ¡ situada alÃ©m das Ãreas A1 e A2, e dentro do alcance de rÃ¡dios MF das estaÃ§Ãµes costeiras.',
+      B: 'A Ãrea A1 abrange as regiÃµes portuÃ¡rias, sendo as regiÃµes costeiras abrangidas pela Ãrea A2.',
+      C: 'Na jurisdiÃ§Ã£o do Brasil nÃ£o existe a Ãrea A3.',
+      D: 'O serviÃ§o SAFETYNET atende Ã  Ãrea A3.',
+      E: 'A NAVAREA IV Ã© de responsabilidade do Brasil.',
     },
     correct: 'D',
     explanation:
-      'O SAFETYNET é um serviço de MSI via satélite voltado, entre outras aplicações, ao atendimento da Área A3 do GMDSS. As demais alternativas trazem definições incorretas sobre áreas marítimas ou responsabilidades. Por isso, a alternativa correta é a D.',
+      'GMDSS significa Sistema Global de Socorro e Seguranca Maritima. MSI significa informacoes de segurança maritima. O SAFETYNET e um servico via satelite usado para distribuir essas informacoes, inclusive na Area A3 do GMDSS. As demais alternativas confundem a definicao das áreas de mar ou das responsabilidades. Por isso, a alternativa correta e a D.',
   },
   {
     id: 20252024,
@@ -94,38 +94,38 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'O Capitão-Amador experiente deve ter disponível a bordo, quando em travessias transoceânicas, um equipamento de radiocomunicação em Alta Frequência (HF). Sobre esse recurso, assinale a alternativa correta.\n\nI - As transmissões e recepções em HF são pouco afetadas pela variação da ionosfera.\nII - Os equipamentos em HF não possuem Digital Selective Call (DSC).\nIII - A frequência de socorro no Atlântico Sul é 4.125 kHz.\nIV - O alcance de uma comunicação rádio em HF pode chegar a 6.000 milhas náuticas.',
+      'O CapitÃ£o-Amador experiente deve ter disponÃ­vel a bordo, quando em travessias transoceÃ¢nicas, um equipamento de radiocomunicaÃ§Ã£o em Alta FrequÃªncia (HF). Sobre esse recurso, assinale a alternativa correta.\n\nI - As transmissÃµes e recepÃ§Ãµes em HF sÃ£o pouco afetadas pela variaÃ§Ã£o da ionosfera.\nII - Os equipamentos em HF nÃ£o possuem Digital Selective Call (DSC).\nIII - A frequÃªncia de socorro no AtlÃ¢ntico Sul Ã© 4.125 kHz.\nIV - O alcance de uma comunicaÃ§Ã£o rÃ¡dio em HF pode chegar a 6.000 milhas nÃ¡uticas.',
     options: {
-      A: 'Somente as afirmativas I e II estão corretas.',
-      B: 'Somente as afirmativas I, II e IV estão corretas.',
-      C: 'Somente as afirmativas II e III estão corretas.',
-      D: 'Somente as afirmativas II, III e IV estão corretas.',
-      E: 'Somente as afirmativas III e IV estão corretas.',
+      A: 'Somente as afirmativas I e II estÃ£o corretas.',
+      B: 'Somente as afirmativas I, II e IV estÃ£o corretas.',
+      C: 'Somente as afirmativas II e III estÃ£o corretas.',
+      D: 'Somente as afirmativas II, III e IV estÃ£o corretas.',
+      E: 'Somente as afirmativas III e IV estÃ£o corretas.',
     },
     correct: 'E',
     explanation:
-      'Comunicações em HF são fortemente influenciadas pela ionosfera, e equipamentos modernos podem operar com DSC. Já a frequência de socorro de 4.125 kHz e o grande alcance potencial do HF estão corretos. Por isso, a alternativa correta é a E.',
+      'HF significa alta frequencia, usada em comunicacoes de longo alcance. DSC significa Digital Selective Call, ou chamada seletiva digital. Comunicacoes em HF sofrem influencia importante da ionosfera, e equipamentos modernos podem operar com DSC. Ja a frequencia de socorro de 4.125 kHz e o grande alcance potencial do HF estao corretos. Por isso, a alternativa correta e a E.',
   },
   {
     id: 20252025,
     subject: 'comunicacoes',
-    topic: 'socorro no mar / obrigação de assistência',
+    topic: 'socorro no mar / obrigacao de assistencia',
     year: 2025,
     exam: 'CPA-II 2025',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Ao participar da REFENO, um Capitão-Amador ouviu no VHF do barco, no canal de escuta permanente, uma mensagem de MAYDAY informando naufrágio nas proximidades de Fernando de Noronha. Em seguida, identificou um facho de luz vermelha de forte intensidade na área indicada, sendo sua embarcação a única próxima à posição. Quanto à prestação de auxílio a quem estiver em perigo no mar, assinale a alternativa correta.',
+      'Durante a participacao na REFENO, um capitao-amador ouviu no VHF de bordo, no canal de escuta permanente, uma mensagem de MAYDAY informando naufragio nas proximidades de Fernando de Noronha. Em seguida, identificou na área indicada um facho de luz vermelha de forte intensidade, sendo sua embarcação a única próxima da posição informada. Quanto ao dever de prestar assistencia a quem estiver em perigo no mar, assinale a alternativa correta.',
     options: {
-      A: 'Por estar em competição, o capitão não irá atender ao chamado.',
-      B: 'Qualquer um que vá a auxílio poderá cobrar os eventuais custos do socorro.',
-      C: 'O capitão deverá atender imediatamente ao chamado, por ser uma obrigação legal.',
-      D: 'O auxílio inicial será executado pelos navios de socorro da Marinha do Brasil, mesmo estando mais distantes.',
-      E: 'O capitão continuará sua derrota por se tratar de mensagem de urgência.',
+      A: 'Por estar em competicao, o capitao nao tera o dever de atender ao chamado.',
+      B: 'Qualquer embarcação que preste auxilio podera cobrar, desde logo, os eventuais custos do socorro.',
+      C: 'O capitao devera atender prontamente ao chamado, por se tratar de obrigacao legal de prestar assistencia.',
+      D: 'O auxilio inicial cabera, necessariamente, aos navios de socorro da Marinha do Brasil, ainda que estejam mais distantes.',
+      E: 'O capitao podera prosseguir em sua derrota, pois a mensagem recebida caracteriza apenas situação de urgencia.',
     },
     correct: 'C',
     explanation:
-      'O dever de prestar auxílio a pessoas em perigo no mar prevalece sobre conveniências da viagem ou da competição. Uma chamada MAYDAY indica socorro, não simples urgência. Por isso, a alternativa correta é a C.',
+      'O dever de prestar assistencia a pessoas em perigo no mar prevalece sobre a conveniencia da viagem ou da competicao. A expressao MAYDAY caracteriza mensagem de socorro, e nao simples urgencia. Por isso, a conduta correta e atender prontamente ao chamado, como afirma a alternativa C.',
   },
   {
     id: 20252029,
@@ -136,17 +136,17 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Quanto ao uso do rádio VHF de bordo, assinale a alternativa incorreta, no que se refere ao uso preferencial dos canais disponíveis.',
+      'Quanto ao uso do rÃ¡dio VHF de bordo, assinale a alternativa incorreta, no que se refere ao uso preferencial dos canais disponÃ­veis.',
     options: {
-      A: 'O canal 71 é dedicado ao uso do Digital Selective Call (DSC) em VHF.',
+      A: 'O canal 71 Ã© dedicado ao uso do Digital Selective Call (DSC) em VHF.',
       B: 'Deve ser feita escuta permanente no canal 16.',
-      C: 'Boletins meteorológicos e escuta permanente pelos iates clubes e marinas são feitos no canal 68.',
-      D: 'O canal 09 é a primeira opção em substituição ao canal 16 em chamadas de socorro, urgência e segurança.',
-      E: 'O canal 13 é usado em tráfego de segurança.',
+      C: 'Boletins meteorolÃ³gicos e escuta permanente pelos iates clubes e marinas sÃ£o feitos no canal 68.',
+      D: 'O canal 09 Ã© a primeira opÃ§Ã£o em substituiÃ§Ã£o ao canal 16 em chamadas de socorro, urgÃªncia e seguranÃ§a.',
+      E: 'O canal 13 Ã© usado em trÃ¡fego de seguranÃ§a.',
     },
     correct: 'A',
     explanation:
-      'No VHF marítimo, o DSC usa o canal 70, não o 71. Por isso, a alternativa A é a incorreta e, portanto, a resposta certa da questão.',
+      'VHF e a faixa de rádio de muito alta frequencia usada amplamente na navegação costeira. DSC significa Digital Selective Call, ou chamada seletiva digital. No VHF maritimo, o DSC usa o canal 70, nao o 71. Por isso, a alternativa A e a incorreta e, portanto, a resposta certa da questao.',
   },
   {
     id: 20242019,
@@ -157,17 +157,17 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Nas comunicações por satélite, a SES (Ship Earth Station) tem como principal equipamento para mensagens de socorro (distress) e segurança (safety) o INMARSAT-C. O que permite que esse equipamento opere mesmo que a embarcação esteja bem adernada?',
+      'Nas comunicaÃ§Ãµes por satÃ©lite, a SES (Ship Earth Station) tem como principal equipamento para mensagens de socorro (distress) e seguranÃ§a (safety) o INMARSAT-C. O que permite que esse equipamento opere mesmo que a embarcaÃ§Ã£o esteja bem adernada',
     options: {
-      A: 'Gerar alerta automático de ECG (chamada em grupo concentrada).',
+      A: 'Gerar alerta automÃ¡tico de ECG (chamada em grupo concentrada).',
       B: 'Transmitir em alta velocidade (6.000 bits por segundo).',
-      C: 'Operar com 04 satélites geoestacionários.',
-      D: 'As características da antena onidirecional.',
-      E: 'Transmitir em duas direções (two-way).',
+      C: 'Operar com 04 satÃ©lites geoestacionÃ¡rios.',
+      D: 'As caracterÃ­sticas da antena onidirecional.',
+      E: 'Transmitir em duas direÃ§Ãµes (two-way).',
     },
     correct: 'D',
     explanation:
-      'O INMARSAT-C usa antena praticamente onidirecional, o que permite operação mesmo com adernamento acentuado da embarcação. Por isso, a alternativa correta é a D.',
+      'SES significa Ship Earth Station, isto e, a estacao terrena de bordo. O INMARSAT-C e um terminal satelital de mensagens do sistema Inmarsat. Nesse caso, a operacao continua possível mesmo com bastante adernamento porque a antena e praticamente onidirecional e nao exige apontamento fino. Por isso, a alternativa correta e a D.',
   },
   {
     id: 20242020,
@@ -178,17 +178,17 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'As EPIRBs de 406 MHz, uma vez ativadas, emitem continuamente alertas de socorro em radiofrequência para os satélites do sistema COSPAS-SARSAT por pelo menos:',
+      'As EPIRBs de 406 MHz, uma vez ativadas, emitem continuamente alertas de socorro em radiofrequÃªncia para os satÃ©lites do sistema COSPAS-SARSAT por pelo menos:',
     options: {
-      A: '24 horas, podendo chegar a 100 horas em regiões tropicais.',
-      B: '48 horas, podendo chegar a 100 horas em regiões tropicais.',
-      C: '72 horas, podendo chegar a 200 horas em regiões tropicais.',
-      D: '96 horas, podendo chegar a 200 horas em regiões tropicais.',
-      E: '120 horas, podendo chegar a 200 horas em regiões tropicais.',
+      A: '24 horas, podendo chegar a 100 horas em regiÃµes tropicais.',
+      B: '48 horas, podendo chegar a 100 horas em regiÃµes tropicais.',
+      C: '72 horas, podendo chegar a 200 horas em regiÃµes tropicais.',
+      D: '96 horas, podendo chegar a 200 horas em regiÃµes tropicais.',
+      E: '120 horas, podendo chegar a 200 horas em regiÃµes tropicais.',
     },
     correct: 'B',
     explanation:
-      'As EPIRBs de 406 MHz devem ter autonomia mínima que assegure transmissão contínua por pelo menos 48 horas. Por isso, a alternativa correta é a B.',
+      'EPIRB significa Emergency Position Indicating Radio Beacon, uma baliza de emergência que transmite alerta de socorro. Nas EPIRBs de 406 MHz, a autonomia mínima deve garantir transmissao continua por pelo menos 48 horas. Por isso, a alternativa correta e a B.',
   },
   {
     id: 20242021,
@@ -199,28 +199,28 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Analise as afirmativas abaixo sobre o transponder SART, principal equipamento para localização de embarcação em perigo ou balsa salva-vidas na área do sinistro, e assinale a alternativa correta.\n\nI - opera na faixa de frequência de 9 GHz (9.200 a 9.500 MHz).\nII - gera uma série de sinais de resposta quando interrogado por um radar da banda S (10 cm).\nIII - o sinal de resposta gera na tela do radar uma linha com 10 pontos (blip code) para fora da posição do transponder ao longo da linha de marcação.\nIV - em embarcações de sobrevivência, a IMO recomenda que seja instalado a, no mínimo, 1 metro acima do nível do mar.',
+      'Analise as afirmativas abaixo sobre o transponder SART, principal equipamento para localizaÃ§Ã£o de embarcaÃ§Ã£o em perigo ou balsa salva-vidas na Ã¡rea do sinistro, e assinale a alternativa correta.\n\nI - opera na faixa de frequÃªncia de 9 GHz (9.200 a 9.500 MHz).\nII - gera uma sÃ©rie de sinais de resposta quando interrogado por um radar da banda S (10 cm).\nIII - o sinal de resposta gera na tela do radar uma linha com 10 pontos (blip code) para fora da posiÃ§Ã£o do transponder ao longo da linha de marcaÃ§Ã£o.\nIV - em embarcaÃ§Ãµes de sobrevivÃªncia, a IMO recomenda que seja instalado a, no mÃ­nimo, 1 metro acima do nÃ­vel do mar.',
     options: {
-      A: 'Apenas as afirmativas I e IV estão corretas.',
-      B: 'Apenas as afirmativas II e III estão corretas.',
-      C: 'Apenas as afirmativas I, III e IV estão corretas.',
-      D: 'Apenas as afirmativas II e IV estão corretas.',
-      E: 'Apenas as afirmativas I, II e III estão corretas.',
+      A: 'Apenas as afirmativas I e IV estÃ£o corretas.',
+      B: 'Apenas as afirmativas II e III estÃ£o corretas.',
+      C: 'Apenas as afirmativas I, III e IV estÃ£o corretas.',
+      D: 'Apenas as afirmativas II e IV estÃ£o corretas.',
+      E: 'Apenas as afirmativas I, II e III estÃ£o corretas.',
     },
     correct: 'A',
     explanation:
-      'O SART responde a radares da banda X, não da banda S, tornando a afirmativa II incorreta. A faixa de 9 GHz está correta, assim como a orientação de instalação elevada na embarcação de sobrevivência. Por isso, a alternativa correta é a A.',
+      'SART significa Search and Rescue Radar Transponder. Ele responde a radares da banda X, e nao da banda S, por isso a afirmativa II esta errada. A faixa de 9 GHz esta correta, assim como a recomendacao de instalacao elevada na embarcação de sobrevivencia para melhorar a deteccao. Por isso, a alternativa correta e a A.',
   },
   {
     id: 20242022,
     subject: 'comunicacoes',
-    topic: 'GMDSS / áreas de mar',
+    topic: 'GMDSS / Ã¡reas de mar',
     year: 2024,
     exam: 'CPA-II 2024',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Correlacione a coluna da esquerda com a da direita e marque a alternativa correta, quanto às áreas de mar e equipamentos do Sistema Global Marítimo de Socorro e Segurança (GMDSS).\n\n(01) Área A1\n(02) Área A2\n(03) Área A3\n(04) IRIDIUM\n(05) SAFETYNET\n(06) METAREA V\n(07) NAVTEX\n(08) NAVAREA VI\n(09) METAREA IV\n(10) NAVAREA V\n\nItens a correlacionar:\n- Atende as áreas A1 e A2.\n- Atende a área A3.\n- Área de responsabilidade do Brasil quando se trata de Aviso aos Navegantes.\n- Área de responsabilidade do Brasil quando se trata de meteorologia.\n- Área dentro da cobertura radiotelefônica com no mínimo 1 estação costeira em MF e alerta permanente de DSC em MF.\n- Utiliza o sistema INMARSAT de comunicações.\n- Utiliza satélites em órbitas baixas (LEO), possibilitando comunicações satelitais com cobertura global.\n- Área dentro da cobertura dos satélites geoestacionários do sistema INMARSAT, entre as latitudes de 70°S e o alcance das estações costeiras em HF.\n- Utiliza comunicações radiotelex de impressão direta em frequência fixa (NBDP).',
+      'Correlacione a coluna da esquerda com a da direita e marque a alternativa correta, quanto Ã s Ã¡reas de mar e equipamentos do Sistema Global MarÃ­timo de Socorro e SeguranÃ§a (GMDSS).\n\n(01) Ãrea A1\n(02) Ãrea A2\n(03) Ãrea A3\n(04) IRIDIUM\n(05) SAFETYNET\n(06) METAREA V\n(07) NAVTEX\n(08) NAVAREA VI\n(09) METAREA IV\n(10) NAVAREA V\n\nItens a correlacionar:\n- Atende as Ã¡reas A1 e A2.\n- Atende a Ã¡rea A3.\n- Ãrea de responsabilidade do Brasil quando se trata de Aviso aos Navegantes.\n- Ãrea de responsabilidade do Brasil quando se trata de meteorologia.\n- Ãrea dentro da cobertura radiotelefÃ´nica com no mÃ­nimo 1 estaÃ§Ã£o costeira em MF e alerta permanente de DSC em MF.\n- Utiliza o sistema INMARSAT de comunicaÃ§Ãµes.\n- Utiliza satÃ©lites em Ã³rbitas baixas (LEO), possibilitando comunicaÃ§Ãµes satelitais com cobertura global.\n- Ãrea dentro da cobertura dos satÃ©lites geoestacionÃ¡rios do sistema INMARSAT, entre as latitudes de 70Â°S e o alcance das estaÃ§Ãµes costeiras em HF.\n- Utiliza comunicaÃ§Ãµes radiotelex de impressÃ£o direta em frequÃªncia fixa (NBDP).',
     options: {
       A: '07 - 07 - 09 - 09 - 01 - 07 - 01 - 03 - 04',
       B: '04 - 05 - 08 - 06 - 02 - 05 - 04 - 01 - 04',
@@ -230,39 +230,39 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'D',
     explanation:
-      'A correlação correta é: NAVTEX atende às áreas A1 e A2; SAFETYNET usa o sistema INMARSAT; o Brasil é responsável pela NAVAREA V e pela METAREA VI no contexto do enunciado; a Área A2 é a de cobertura MF com alerta DSC permanente; IRIDIUM usa satélites LEO; e a Área A3 corresponde à cobertura INMARSAT fora da A1/A2. Essa combinação corresponde à alternativa D.',
+      'A correlaÃ§Ã£o correta Ã©: NAVTEX atende Ã s Ã¡reas A1 e A2; SAFETYNET usa o sistema INMARSAT; o Brasil Ã© responsÃ¡vel pela NAVAREA V e pela METAREA VI no contexto do enunciado; a Ãrea A2 Ã© a de cobertura MF com alerta DSC permanente; IRIDIUM usa satÃ©lites LEO; e a Ãrea A3 corresponde Ã  cobertura INMARSAT fora da A1/A2. Essa combinaÃ§Ã£o corresponde Ã  alternativa D.',
   },
   {
     id: 20242023,
     subject: 'comunicacoes',
-    topic: 'procedimentos radiotelefônicos / urgência',
+    topic: 'procedimentos radiotelefÃ´nicos / urgÃªncia',
     year: 2024,
     exam: 'CPA-II 2024',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'De acordo com os procedimentos radiotelefônicos, a estação que transmite uma mensagem muito urgente concernente à segurança de uma embarcação ou de uma pessoa deve iniciar a transmissão por:',
+      'De acordo com os procedimentos radiotelefÃ´nicos, a estaÃ§Ã£o que transmite uma mensagem muito urgente concernente Ã  seguranÃ§a de uma embarcaÃ§Ã£o ou de uma pessoa deve iniciar a transmissÃ£o por:',
     options: {
-      A: 'SÉCURITÉ, SÉCURITÉ, SÉCURITÉ.',
+      A: 'SÃ‰CURITÃ‰, SÃ‰CURITÃ‰, SÃ‰CURITÃ‰.',
       B: 'AVEGANTE, AVEGANTE, AVEGANTE.',
-      C: 'MÊIDEI, MÊIDEI, MÊIDEI.',
+      C: 'MÃŠIDEI, MÃŠIDEI, MÃŠIDEI.',
       D: 'INTERCO, INTERCO, INTERCO.',
       E: 'PAN, PAN, PAN.',
     },
     correct: 'E',
     explanation:
-      'A chamada de urgência em radiotelefonia marítima usa o sinal PAN PAN. “MAYDAY” é reservado ao socorro, e “SÉCURITÉ” a mensagens de segurança. Por isso, a alternativa correta é a E.',
+      'A chamada de urgÃªncia em radiotelefonia marÃ­tima usa o sinal PAN PAN. â€œMAYDAYâ€ Ã© reservado ao socorro, e â€œSÃ‰CURITÃ‰â€ a mensagens de seguranÃ§a. Por isso, a alternativa correta Ã© a E.',
   },
   {
     id: 20232017,
     subject: 'comunicacoes',
-    topic: 'HF / frequência de socorro',
+    topic: 'HF / frequÃªncia de socorro',
     year: 2023,
     exam: 'CPA-II 2023',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Durante um cruzeiro no oceano Atlântico Sul, o capitão-amador recebeu em seu equipamento receptor HF um “distress” no DSC. Para trafegar por voz, prontamente ajustou a escuta de radiotelefonia na frequência de:',
+      'Durante um cruzeiro no oceano AtlÃ¢ntico Sul, o capitÃ£o-amador recebeu em seu equipamento receptor HF um â€œdistressâ€ no DSC. Para trafegar por voz, prontamente ajustou a escuta de radiotelefonia na frequÃªncia de:',
     options: {
       A: 'canal 16 do VHF.',
       B: '2.182 kHz.',
@@ -272,7 +272,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'Na faixa de HF/MF marítima, a frequência de 4.125 kHz é usada para radiotelefonia de socorro em HF, compatível com o contexto da questão. Por isso, a alternativa correta é a C.',
+      'Na faixa de HF/MF marÃ­tima, a frequÃªncia de 4.125 kHz Ã© usada para radiotelefonia de socorro em HF, compatÃ­vel com o contexto da questÃ£o. Por isso, a alternativa correta Ã© a C.',
   },
   {
     id: 20232026,
@@ -298,23 +298,23 @@ export const comunicacoesQuestions: Question[] = [
   {
     id: 20232027,
     subject: 'comunicacoes',
-    topic: 'radiotelefonia / urgência',
+    topic: 'radiotelefonia / urgencia',
     year: 2023,
     exam: 'CPA-II 2023',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'De acordo com os procedimentos radiotelefônicos, uma estação que tem uma mensagem urgente concernente à segurança de uma embarcação, aeronave ou pessoa deve iniciar a transmissão por:',
+      'De acordo com os procedimentos radiotelefonicos, uma estacao que tem uma mensagem urgente concernente a segurança de uma embarcação, aeronave ou pessoa deve iniciar a transmissao por:',
     options: {
       A: 'MAYDAY, MAYDAY, MAYDAY.',
-      B: 'SÉCURITÉ, SÉCURITÉ, SÉCURITÉ.',
+      B: 'SECURITE, SECURITE, SECURITE.',
       C: 'INTERCO, INTERCO, INTERCO.',
       D: 'SOS, SOS, SOS.',
       E: 'PAN, PAN, PAN.',
     },
     correct: 'E',
     explanation:
-      'Mensagem urgente, mas não de socorro imediato, é precedida pelo sinal PAN PAN. Por isso, a alternativa correta é a E.',
+      'Mensagem urgente, mas nao de socorro imediato, e precedida pelo sinal PAN PAN. Por isso, a alternativa correta e a E.',
   },
   {
     id: 20232028,
@@ -325,7 +325,7 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Durante um cruzeiro no Atlântico Sul, o capitão-amador verificou na tela do radar banda X, na proa da embarcação, a cerca de 5 milhas náuticas, uma linha com 12 pontos (“blip code”) que depois se expandiu em arcos concêntricos e, posteriormente, círculos. Ele percebeu que se tratava de uma embarcação ou balsa salva-vidas em perigo, enviando um sinal de resposta de um:',
+      'Durante um cruzeiro no AtlÃ¢ntico Sul, o capitÃ£o-amador verificou na tela do radar banda X, na proa da embarcaÃ§Ã£o, a cerca de 5 milhas nÃ¡uticas, uma linha com 12 pontos (â€œblip codeâ€) que depois se expandiu em arcos concÃªntricos e, posteriormente, cÃ­rculos. Ele percebeu que se tratava de uma embarcaÃ§Ã£o ou balsa salva-vidas em perigo, enviando um sinal de resposta de um:',
     options: {
       A: 'EPIRB.',
       B: 'SART.',
@@ -335,7 +335,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'B',
     explanation:
-      'A linha de pontos que se abre em arcos e depois círculos na tela do radar é a assinatura típica de um SART interrogado por radar de banda X. Por isso, a alternativa correta é a B.',
+      'A linha de pontos que se abre em arcos e depois cÃ­rculos na tela do radar Ã© a assinatura tÃ­pica de um SART interrogado por radar de banda X. Por isso, a alternativa correta Ã© a B.',
   },
   {
     id: 20232029,
@@ -346,17 +346,17 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Analise as afirmativas abaixo e assinale a alternativa correta.\n\nI - Atualmente nenhuma estação costeira brasileira transmite mensagens em NAVTEX.\nII - Os rádios VHF são equipados com o recurso de Chamada Seletiva Digital (DSC), no canal 77.\nIII - Avisos temporários, divulgados por meio dos Avisos aos Navegantes, antecipam informações de correções que, posteriormente, serão objeto de Avisos permanentes.\nIV - Foguetes ou granadas lançando estrelas encarnadas, disparados um de cada vez em intervalos curtos, indicam perigo e necessidade de auxílio imediato.',
+      'Analise as afirmativas abaixo e assinale a alternativa correta.\n\nI - Atualmente nenhuma estaÃ§Ã£o costeira brasileira transmite mensagens em NAVTEX.\nII - Os rÃ¡dios VHF sÃ£o equipados com o recurso de Chamada Seletiva Digital (DSC), no canal 77.\nIII - Avisos temporÃ¡rios, divulgados por meio dos Avisos aos Navegantes, antecipam informaÃ§Ãµes de correÃ§Ãµes que, posteriormente, serÃ£o objeto de Avisos permanentes.\nIV - Foguetes ou granadas lanÃ§ando estrelas encarnadas, disparados um de cada vez em intervalos curtos, indicam perigo e necessidade de auxÃ­lio imediato.',
     options: {
-      A: 'Apenas as afirmativas I e IV estão corretas.',
-      B: 'Apenas as afirmativas II e III estão corretas.',
-      C: 'Apenas as afirmativas I, III e IV estão corretas.',
-      D: 'Apenas as afirmativas II e IV estão corretas.',
-      E: 'Apenas as afirmativas I, II e III estão corretas.',
+      A: 'Apenas as afirmativas I e IV estÃ£o corretas.',
+      B: 'Apenas as afirmativas II e III estÃ£o corretas.',
+      C: 'Apenas as afirmativas I, III e IV estÃ£o corretas.',
+      D: 'Apenas as afirmativas II e IV estÃ£o corretas.',
+      E: 'Apenas as afirmativas I, II e III estÃ£o corretas.',
     },
     correct: 'A',
     explanation:
-      'A afirmativa I é aceita como correta no contexto da prova, e a IV também está correta porque foguetes ou granadas lançando estrelas vermelhas, em intervalos curtos, são sinais internacionais de socorro. A II está errada porque o DSC em VHF usa o canal 70, não o 77. A III está incorreta porque avisos temporários não são, por definição, simples antecipações de futuros avisos permanentes. Por isso, a alternativa correta é a A.',
+      'A afirmativa I Ã© aceita como correta no contexto da prova, e a IV tambÃ©m estÃ¡ correta porque foguetes ou granadas lanÃ§ando estrelas vermelhas, em intervalos curtos, sÃ£o sinais internacionais de socorro. A II estÃ¡ errada porque o DSC em VHF usa o canal 70, nÃ£o o 77. A III estÃ¡ incorreta porque avisos temporÃ¡rios nÃ£o sÃ£o, por definiÃ§Ã£o, simples antecipaÃ§Ãµes de futuros avisos permanentes. Por isso, a alternativa correta Ã© a A.',
   },
   {
     id: 20222017,
@@ -367,28 +367,28 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Quanto às “Emergency Position Indicating Radio Beacon” (EPIRB), assinale a alternativa correta.',
+      'Quanto Ã s â€œEmergency Position Indicating Radio Beaconâ€ (EPIRB), assinale a alternativa correta.',
     options: {
-      A: 'Pertencem ao sistema GPS e são capazes de informar com precisão a posição de distress aos satélites do sistema.',
-      B: 'São o principal recurso do GMDSS para a localização por aeronaves e navios de busca e salvamento.',
-      C: 'São rastreáveis por radares da banda “S” na faixa de 5 Mhz.',
-      D: 'São transmissores de emergência e permitem a comunicação por voz, via sistema INMARSAT.',
-      E: 'Operam na frequência de 406 Mhz e se comunicam com os satélites do sistema COSPAS-SARSAT.',
+      A: 'Pertencem ao sistema GPS e sÃ£o capazes de informar com precisÃ£o a posiÃ§Ã£o de distress aos satÃ©lites do sistema.',
+      B: 'SÃ£o o principal recurso do GMDSS para a localizaÃ§Ã£o por aeronaves e navios de busca e salvamento.',
+      C: 'SÃ£o rastreÃ¡veis por radares da banda â€œSâ€ na faixa de 5 Mhz.',
+      D: 'SÃ£o transmissores de emergÃªncia e permitem a comunicaÃ§Ã£o por voz, via sistema INMARSAT.',
+      E: 'Operam na frequÃªncia de 406 Mhz e se comunicam com os satÃ©lites do sistema COSPAS-SARSAT.',
     },
     correct: 'E',
     explanation:
-      'As EPIRBs modernas de emergência operam em 406 MHz e transmitem alertas ao sistema COSPAS-SARSAT. Por isso, a alternativa correta é a E.',
+      'As EPIRBs modernas de emergÃªncia operam em 406 MHz e transmitem alertas ao sistema COSPAS-SARSAT. Por isso, a alternativa correta Ã© a E.',
   },
   {
     id: 20222018,
     subject: 'comunicacoes',
-    topic: 'GMDSS / área A2',
+    topic: 'GMDSS / Ã¡rea A2',
     year: 2022,
     exam: 'CPA-II 2022',
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Qual(is) faixa(s) de frequência de comunicação rádio (fonia e DSC) o GMDSS (Global Maritime Distress and Safety System) estabelece como obrigatória para uma embarcação que navegará no limite de 150 milhas náuticas (área A2)?',
+      'Qual(is) faixa(s) de frequÃªncia de comunicaÃ§Ã£o rÃ¡dio (fonia e DSC) o GMDSS (Global Maritime Distress and Safety System) estabelece como obrigatÃ³ria para uma embarcaÃ§Ã£o que navegarÃ¡ no limite de 150 milhas nÃ¡uticas (Ã¡rea A2)',
     options: {
       A: 'Somente VHF.',
       B: 'VHF e HF.',
@@ -398,7 +398,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'C',
     explanation:
-      'Na Área A2, o GMDSS exige cobertura além da Área A1, com VHF e MF/DSC. Por isso, a alternativa correta é a C.',
+      'Na Ãrea A2, o GMDSS exige cobertura alÃ©m da Ãrea A1, com VHF e MF/DSC. Por isso, a alternativa correta Ã© a C.',
   },
   {
     id: 20222019,
@@ -409,7 +409,7 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Ao iniciar uma chamada em radiotelefonia utilizando GRUPOS DE LETRAS do Código Internacional de Sinais (CIS), qual a palavra padrão deve ser pronunciada?',
+      'Ao iniciar uma chamada em radiotelefonia utilizando GRUPOS DE LETRAS do CÃ³digo Internacional de Sinais (CIS), qual a palavra padrÃ£o deve ser pronunciada',
     options: {
       A: 'CIS',
       B: 'CODE',
@@ -419,7 +419,7 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'D',
     explanation:
-      'Em português, a palavra padrão usada na abertura de chamada com grupos do Código Internacional de Sinais é “INTERCO”. Por isso, a alternativa correta é a D.',
+      'Em portuguÃªs, a palavra padrÃ£o usada na abertura de chamada com grupos do CÃ³digo Internacional de Sinais Ã© â€œINTERCOâ€. Por isso, a alternativa correta Ã© a D.',
   },
   {
     id: 20222020,
@@ -430,17 +430,17 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Sobre os Serviços de Tráfego de Embarcações (Vessel Traffic Service – VTS), assinale a alternativa correta:',
+      'Sobre os ServiÃ§os de TrÃ¡fego de EmbarcaÃ§Ãµes (Vessel Traffic Service â€“ VTS), assinale a alternativa correta:',
     options: {
-      A: 'O AIS não possui as mesmas vulnerabilidades das comunicações em VHF.',
-      B: 'Todas as embarcações que operam na área de atuação do VTS deverão possuir AIS por força das normas portuárias.',
-      C: 'Radiogoniômetros (Radio Detection Finder – RDF) não são ferramentas essenciais de auxílio à navegação de um VTS.',
-      D: 'A autoridade de um Serviço de Organização de Tráfego no VTS (VTS-TOS) não se sobrepõe à competência de um Comandante de embarcação, pela segurança de seu navio.',
-      E: 'As Atalaias dos serviços de praticagem, se estiverem devidamente equipadas como um VTS, têm autorização para interferir no tráfego de embarcações de determinados portos no Brasil.',
+      A: 'O AIS nÃ£o possui as mesmas vulnerabilidades das comunicaÃ§Ãµes em VHF.',
+      B: 'Todas as embarcaÃ§Ãµes que operam na Ã¡rea de atuaÃ§Ã£o do VTS deverÃ£o possuir AIS por forÃ§a das normas portuÃ¡rias.',
+      C: 'RadiogoniÃ´metros (Radio Detection Finder â€“ RDF) nÃ£o sÃ£o ferramentas essenciais de auxÃ­lio Ã  navegaÃ§Ã£o de um VTS.',
+      D: 'A autoridade de um ServiÃ§o de OrganizaÃ§Ã£o de TrÃ¡fego no VTS (VTS-TOS) nÃ£o se sobrepÃµe Ã  competÃªncia de um Comandante de embarcaÃ§Ã£o, pela seguranÃ§a de seu navio.',
+      E: 'As Atalaias dos serviÃ§os de praticagem, se estiverem devidamente equipadas como um VTS, tÃªm autorizaÃ§Ã£o para interferir no trÃ¡fego de embarcaÃ§Ãµes de determinados portos no Brasil.',
     },
     correct: 'D',
     explanation:
-      'A responsabilidade primária pela segurança do navio permanece com o comandante, ainda que exista organização de tráfego por VTS. Por isso, a alternativa correta é a D.',
+      'A responsabilidade primÃ¡ria pela seguranÃ§a do navio permanece com o comandante, ainda que exista organizaÃ§Ã£o de trÃ¡fego por VTS. Por isso, a alternativa correta Ã© a D.',
   },
   {
     id: 20222021,
@@ -451,7 +451,7 @@ export const comunicacoesQuestions: Question[] = [
     source: 'Prova oficial da Marinha',
     verified: true,
     statement:
-      'Um Capitão Amador brasileiro, ao navegar nas proximidades das Ilhas Virgens Britânicas em seu Yatch, poderá utilizar um equipamento dedicado ao recebimento de boletins meteorológicos, via telegrafia, com impressão direta em banda estreita, no padrão MSI (Maritime Safety Information) e que usa a frequência de 518 kHz. Qual o nome do serviço em que esse equipamento opera?',
+      'Um CapitÃ£o Amador brasileiro, ao navegar nas proximidades das Ilhas Virgens BritÃ¢nicas em seu Yatch, poderÃ¡ utilizar um equipamento dedicado ao recebimento de boletins meteorolÃ³gicos, via telegrafia, com impressÃ£o direta em banda estreita, no padrÃ£o MSI (Maritime Safety Information) e que usa a frequÃªncia de 518 kHz. Qual o nome do serviÃ§o em que esse equipamento opera',
     options: {
       A: 'MMSI.',
       B: 'LUT.',
@@ -461,6 +461,9 @@ export const comunicacoesQuestions: Question[] = [
     },
     correct: 'E',
     explanation:
-      'O serviço MSI em 518 kHz com impressão direta em banda estreita é o NAVTEX. Por isso, a alternativa correta é a E.',
+      'O serviÃ§o MSI em 518 kHz com impressÃ£o direta em banda estreita Ã© o NAVTEX. Por isso, a alternativa correta Ã© a E.',
   },
 ]
+
+
+

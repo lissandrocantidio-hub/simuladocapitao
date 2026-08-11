@@ -1,0 +1,124 @@
+import { PurchaseStatus } from '@prisma/client'
+import { NextResponse } from 'next/server'
+import { grantPlanAccess } from '@/lib/access'
+import { accessPlan } from '@/lib/billing'
+import { getCheckoutPricing } from '@/lib/checkout-offers'
+import { prisma } from '@/lib/db'
+import { getMercadoPagoPaymentClient } from '@/lib/mercadopago'
+import {
+  grantAccessForApprovedPayment,
+  markConfirmationEmailResult,
+  shouldSendConfirmationEmail,
+} from '@/lib/payment-access'
+import { sendPurchaseConfirmationEmail } from '@/lib/purchase-confirmation-email'
+
+function mapPaymentStatus(status?: string) {
+  switch (status) {
+    case 'approved':
+      return PurchaseStatus.APPROVED
+    case 'rejected':
+      return PurchaseStatus.REJECTED
+    case 'cancelled':
+      return PurchaseStatus.CANCELLED
+    case 'refunded':
+      return PurchaseStatus.REFUNDED
+    default:
+      return PurchaseStatus.PENDING
+  }
+}
+
+export async function POST(request: Request) {
+  if (!process.env.MERCADOPAGO_ACCESS_TOKEN) {
+    return NextResponse.json({ ok: true })
+  }
+
+  const { searchParams } = new URL(request.url)
+  const topic = searchParams.get('topic') ?? searchParams.get('type')
+  const paymentId =
+    searchParams.get('data.id') ??
+    searchParams.get('id') ??
+    request.headers.get('x-payment-id')
+
+  if (topic !== 'payment' || !paymentId) {
+    return NextResponse.json({ ok: true })
+  }
+
+  try {
+    const paymentClient = getMercadoPagoPaymentClient()
+    const payment = await paymentClient.get({ id: paymentId })
+
+    if (!payment.external_reference) {
+      return NextResponse.json({ ok: true })
+    }
+
+    const status = mapPaymentStatus(payment.status)
+    const purchase = await prisma.purchase.update({
+      where: { id: payment.external_reference },
+      data: {
+        providerPaymentId: String(payment.id),
+        status,
+        metadata: {
+          paymentStatus: payment.status ?? null,
+          statusDetail: payment.status_detail ?? null,
+          paymentTypeId: payment.payment_type_id ?? null,
+          paidAmount: payment.transaction_amount ?? null,
+        },
+      },
+    })
+
+    if (status === PurchaseStatus.APPROVED && purchase.planCode === accessPlan.code) {
+      const existingAccess = await prisma.accessGrant.findFirst({
+        where: {
+          userId: purchase.userId,
+          planCode: accessPlan.code,
+          expiresAt: {
+            gt: new Date(),
+          },
+        },
+      })
+
+      if (!existingAccess) {
+        await grantPlanAccess(purchase.userId)
+      }
+
+      const buyerEmail = payment.payer?.email?.toLowerCase().trim()
+      if (buyerEmail) {
+        const emailAccess = await grantAccessForApprovedPayment({
+          email: buyerEmail,
+          paymentId: String(payment.id),
+          status: payment.status ?? 'approved',
+        })
+
+        if (shouldSendConfirmationEmail(emailAccess)) {
+          const couponCode =
+            purchase.metadata &&
+            typeof purchase.metadata === 'object' &&
+            purchase.metadata !== null &&
+            'couponCode' in purchase.metadata &&
+            typeof purchase.metadata.couponCode === 'string'
+              ? purchase.metadata.couponCode
+              : null
+          const pricing = getCheckoutPricing(couponCode)
+          const emailResult = await sendPurchaseConfirmationEmail({
+            buyerEmail,
+            paymentId: String(payment.id),
+            amountCents: pricing.finalPriceCents,
+          })
+
+          if (!emailResult.skipped) {
+            await markConfirmationEmailResult({
+              email: buyerEmail,
+              paymentId: String(payment.id),
+              success: emailResult.ok,
+              error: emailResult.ok ? null : emailResult.error,
+            })
+          }
+        }
+      }
+    }
+
+    return NextResponse.json({ ok: true })
+  } catch {
+    return NextResponse.json({ ok: false }, { status: 500 })
+  }
+}

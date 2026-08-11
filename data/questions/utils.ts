@@ -1,4 +1,4 @@
-import type { Question } from '../../types/questions'
+﻿import type { Question } from '../../types/questions'
 import { sanitizeText } from '@/lib/text'
 
 const BLOCKED_HINTS = [
@@ -16,14 +16,18 @@ const BLOCKED_HINTS = [
   'imagem abaixo',
   'tabela abaixo',
   'gráfico abaixo',
-  'carta',
+  'observe a carta',
+  'conforme a carta',
+  'com base na carta',
+  'analise a carta',
+  'carta abaixo',
+  'carta náutica abaixo',
+  'trecho da carta',
   'anexo',
   'almanaque náutico',
-  'almanaque nautico',
+  'almanaque náutico',
   'situação apresentada',
-  'situacao apresentada',
-  'posição estimada',
-  'posicao estimada',
+  'situação apresentada',
   'dados fornecidos',
   'tábua',
   'tabua',

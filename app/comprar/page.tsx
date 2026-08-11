@@ -1,8 +1,9 @@
 import CheckoutProForm, { type CheckoutStatus } from '@/app/components/CheckoutProForm'
+import { getCheckoutProductByPath } from '@/app/lib/simulations'
 import { formatPriceInReais } from '@/lib/billing'
 import { getCheckoutPricing, launchCoupon, supportEmail } from '@/lib/checkout-offers'
 import { sanitizeNextPath } from '@/lib/navigation'
-import { checkoutProduct, getPaymentAccessByEmail, hasGrantedAccess } from '@/lib/payment-access'
+import { checkoutProduct } from '@/lib/payment-access'
 
 type ComprarPageProps = {
   searchParams?: Promise<{
@@ -22,22 +23,21 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
       : undefined
 
   const launchPricing = getCheckoutPricing(launchCoupon.code)
-  const hasAccess = email ? await hasGrantedAccess(email) : false
-  const accessRecord = email ? await getPaymentAccessByEmail(email) : null
-
+  const checkoutDisplayProduct = getCheckoutProductByPath(nextPath)
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-8 md:px-8 lg:px-10">
-      <section className="grid gap-6 rounded-[2.5rem] border border-line bg-surface p-8 shadow-[0_28px_90px_rgba(16,32,51,0.12)] md:grid-cols-[1.15fr_0.85fr]">
+      <section className="grid gap-6 rounded-[2.5rem] border border-line bg-surface p-8 shadow-[0_14px_36px_rgba(16,32,51,0.08)] md:grid-cols-[1.15fr_0.85fr] md:shadow-[0_28px_90px_rgba(16,32,51,0.12)]">
         <div className="space-y-5">
           <span className="inline-flex rounded-full bg-accent-soft px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-accent">
             Checkout Pro
           </span>
           <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-            Desbloqueie o acesso completo
+            Desbloqueie seu acesso
           </h1>
           <p className="max-w-2xl text-base leading-8 text-slate-700">
-            Informe o e-mail do aluno, abra o checkout do Mercado Pago e deixe o webhook liberar o
-            acesso automaticamente quando o pagamento for aprovado.
+            Informe o e-mail do {checkoutDisplayProduct.audienceLabel}, abra o checkout do Mercado
+            Pago e deixe o webhook liberar o acesso automaticamente quando o pagamento for
+            aprovado.
           </p>
 
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-4 text-sm text-emerald-950">
@@ -54,7 +54,7 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
               90 dias de acesso premium
             </li>
             <li className="rounded-2xl border border-line bg-white/65 px-4 py-4">
-              Simulados por materia
+              Foco em {checkoutDisplayProduct.focusLabel}
             </li>
             <li className="rounded-2xl border border-line bg-white/65 px-4 py-4">
               Pix priorizado no checkout
@@ -62,11 +62,15 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
           </ul>
         </div>
 
-        <div className="grid gap-4 rounded-[2rem] border border-line bg-white/80 p-6 shadow-sm">
+        <div className="grid gap-4 rounded-[2rem] border border-line bg-white/80 p-6 shadow-[0_8px_24px_rgba(16,32,51,0.05)] md:shadow-sm">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Produto</p>
-            <strong className="mt-2 block text-3xl text-slate-950">{checkoutProduct.title}</strong>
-            <p className="mt-2 text-sm leading-7 text-slate-700">{checkoutProduct.description}</p>
+            <strong className="mt-2 block text-3xl text-slate-950">
+              {checkoutDisplayProduct.title}
+            </strong>
+            <p className="mt-2 text-sm leading-7 text-slate-700">
+              {checkoutDisplayProduct.description}
+            </p>
             <p className="mt-4 text-sm uppercase tracking-[0.2em] text-slate-500">Valor</p>
             <strong className="mt-2 block text-4xl text-slate-950">
               {formatPriceInReais(checkoutProduct.priceCents)}
@@ -86,19 +90,8 @@ export default async function ComprarPage({ searchParams }: ComprarPageProps) {
           <CheckoutProForm
             initialEmail={email}
             checkoutStatus={checkoutStatus}
-            accessGranted={hasAccess}
             nextPath={nextPath}
           />
-
-
-          {email ? (
-            <div className="rounded-2xl border border-line bg-slate-50 px-4 py-4 text-sm text-slate-700">
-              <p className="font-semibold text-slate-950">Status atual do e-mail</p>
-              <p className="mt-2">E-mail: {email}</p>
-              <p>Status: {accessRecord?.status ?? 'sem registro'}</p>
-              <p>Acesso liberado: {hasAccess ? 'sim' : 'nao'}</p>
-            </div>
-          ) : null}
         </div>
       </section>
     </main>

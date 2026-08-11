@@ -79,7 +79,7 @@ Por isso, o conjunto correto é I, II e V.`,
 I - O navegante irá avaliar se a profundidade medida oferece perigo, de acordo com o calado da embarcação.
 II - O navegante irá comparar a profundidade medida com a posição obtida na carta náutica por outros métodos ou sistemas de navegação.
 III - O navegante poderá obter uma LDP que se lança mão na navegação costeira, em condições especiais.
-IV - As profundidades registradas nas cartas náuticas têm como origem o Nível de Redução que, nas cartas da DHN, é definido como a média das baixa-mares de quadratura.`,
+IV - As profundidades registradas nas cartas náuticas têm como origem o Nível de Redução que, nas cartas da DHN, é definido como a média das baixa-marés de quadratura.`,
 
   options: {
     A: 'Apenas as afirmativas I, II e IV são verdadeiras.',
@@ -93,7 +93,7 @@ IV - As profundidades registradas nas cartas náuticas têm como origem o Nível
 
   explanation: `As afirmativas I e II estão corretas porque o ecobatímetro deve ser interpretado à luz do calado da embarcação e comparado com a posição obtida por outros meios. A III também é correta, pois a profundidade pode ajudar na obtenção de uma Linha de Posição em condições específicas de navegação costeira.
 
-A IV está incorreta porque o Nível de Redução adotado nas cartas da DHN não é definido como média das baixa-mares de quadratura. Por isso, a alternativa correta é a C.`,
+A IV está incorreta porque o Nível de Redução adotado nas cartas da DHN não é definido como média das baixa-marés de quadratura. Por isso, a alternativa correta é a C.`,
 },
 {
   id: 2022031,
@@ -104,7 +104,7 @@ A IV está incorreta porque o Nível de Redução adotado nas cartas da DHN não
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Uma embarcação navegava em fevereiro desse ano no rumo magnético 230° e avistou um farol na marcação magnética 330°. As informações da declinação magnética retirada da rosa dos ventos da carta náutica são de 16° 30’E (2002) (8’W). Qual é a marcação verdadeira do farol?`,
+  statement: `Uma embarcação navegava em fevereiro desse ano no rumo magnético 230° e avistou um farol na marcação magnética 330°. As informações da declinação magnética retirada da rosa dos ventos da carta náutica são de 16° 30’E (2002) (8’W). Qual é a marcação verdadeira do farol`,
 
   options: {
     A: '244°.',
@@ -131,7 +131,7 @@ Por isso, a alternativa correta é a C.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Geralmente as cartas náuticas são construídas na projeção de Mercator. Como é representado numa carta náutica de Mercator uma ortodromia?`,
+  statement: `Geralmente as cartas náuticas são construídas na projeção de Mercator. Como é representado numa carta náutica de Mercator uma ortodromia`,
 
   options: {
     A: 'Uma curva.',
@@ -164,7 +164,7 @@ Por isso, a alternativa correta é a C.`,
     E: 'o título da carta náutica.',
   },
 
-  correct: 'B',
+  correct: 'D',
 
   explanation: `Reticulado, rosa de rumos, notas explanatórias e título são elementos usuais de uma carta náutica. Já “escala natural de velocidade” não é elemento cartográfico de carta náutica. Por isso, a alternativa correta é a B.`,
 },
@@ -312,38 +312,65 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   explanation: `Na projeção gnomônica, a ortodromia aparece como reta, enquanto a loxodromia aparece como curva. Em Mercator, as linhas de rumo são loxodromias, não ortodromias. Assim, I, II e III são verdadeiras, e IV é falsa. Por isso, a alternativa correta é a B.`,
 },
 {
-  id: 20212009,
+  id: 20222035,
   subject: 'navegacao',
-  topic: 'carta nÃ¡utica / definiÃ§Ã£o',
-  year: 2021,
-  exam: 'CPA-II 2021',
+  topic: 'mare / altura da mare',
+  year: 2022,
+  exam: 'CPA-II 2022',
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Como se chama o documento cartogrÃ¡fico resultante de levantamentos de Ã¡reas oceÃ¢nicas, mares, baÃ­as, rios, canais, lagos, lagoas ou qualquer outra massa d'Ã¡gua navegÃ¡vel, destinado a servir de base Ã navegaÃ§Ã£o?`,
+  statement: `O Capitao-Amador Paulo, demandando um porto as 11h35, deseja determinar a altura de maré usando a tabua e a tabela de fracao da amplitude apresentadas na prova. De acordo com essas informacoes, determine a altura da maré.`,
 
   options: {
-    A: 'ProjeÃ§Ã£o transversa de Mercator.',
-    B: 'Carta de Ney.',
-    C: 'Carta naval.',
-    D: 'Carta de auxÃ­lio.',
-    E: 'Carta nÃ¡utica.',
+    A: '1,9 m.',
+    B: '1,8 m.',
+    C: '1,7 m.',
+    D: '1,5 m.',
+    E: '1,4 m.',
   },
 
   correct: 'E',
 
-  explanation: `O documento cartogrÃ¡fico oficial elaborado para representar Ã¡guas navegÃ¡veis e apoiar a seguranÃ§a da navegaÃ§Ã£o Ã© a carta nÃ¡utica. Por isso, a alternativa correta Ã© a E.`,
+  explanation: `A baixa-mar ocorre as 07h55 com 0,0 m, e a preamar seguinte ocorre as 13h35 com 2,0 m. O instante 11h35 fica 2h antes da preamar mais próxima. Pela tabela de fracao da amplitude para essa duracao de enchente, a altura resultante e aproximadamente 1,4 m. Por isso, a alternativa correta e a E.`,
+
+  attachments: [
+    { label: 'Tabua e tabela de maré - CPA-II 2022', path: '/anexos/cpa2022-q28-mares.pdf' },
+  ],
 },
 {
-  id: 20212010,
+  id: 20212009,
   subject: 'navegacao',
-  topic: 'projeÃ§Ã£o de Mercator',
+  topic: 'carta náutica / definição',
   year: 2021,
   exam: 'CPA-II 2021',
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Cartas nÃ¡uticas para baixas latitudes sÃ£o, em sua maioria, construÃ­das na projeÃ§Ã£o de:`,
+  statement: `Como se chama o documento cartográfico resultante de levantamentos de áreas oceânicas, marés, baías, rios, canais, lagos, lagoas ou qualquer outra massa d'água navegável, destinado a servir de base � navegação`,
+
+  options: {
+    A: 'Projeção transversa de Mercator.',
+    B: 'Carta de Ney.',
+    C: 'Carta naval.',
+    D: 'Carta de auxílio.',
+    E: 'Carta náutica.',
+  },
+
+  correct: 'E',
+
+  explanation: `O documento cartográfico oficial elaborado para representar águas navegáveis e apoiar a segurança da navegação é a carta náutica. Por isso, a alternativa correta é a E.`,
+},
+{
+  id: 20212010,
+  subject: 'navegacao',
+  topic: 'projeção de Mercator',
+  year: 2021,
+  exam: 'CPA-II 2021',
+  source: 'Prova oficial da Marinha',
+  verified: true,
+
+  statement: `Cartas náuticas para baixas latitudes são, em sua maioria, construídas na projeção de:`,
 
   options: {
     A: 'Ney.',
@@ -355,64 +382,64 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `A projeÃ§Ã£o de Mercator Ã© a mais empregada nas cartas nÃ¡uticas usuais de baixas e mÃ©dias latitudes por preservar os rumos como linhas retas. Por isso, a alternativa correta Ã© a C.`,
+  explanation: `A projeção de Mercator é a mais empregada nas cartas náuticas usuais de baixas e médias latitudes por preservar os rumos como linhas retas. Por isso, a alternativa correta é a C.`,
 },
 {
   id: 20212011,
   subject: 'navegacao',
-  topic: 'carta nÃ¡utica / conceitos gerais',
+  topic: 'carta náutica / conceitos gerais',
   year: 2021,
   exam: 'CPA-II 2021',
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Em relaÃ§Ã£o Ãs cartas nÃ¡uticas, assinale a alternativa incorreta.`,
+  statement: `Em relação �s cartas náuticas, assinale a alternativa incorreta.`,
 
   options: {
     A: 'Representam os acidentes terrestres e submarinos.',
-    B: 'SÃ£o documentos cartogrÃ¡ficos.',
-    C: 'Servem de base Ã navegaÃ§Ã£o.',
-    D: 'Todas sÃ£o construÃ­das na projeÃ§Ã£o policÃ´nica.',
-    E: 'Fornecem informaÃ§Ãµes sobre profundidades, perigos Ã navegaÃ§Ã£o e natureza do fundo.',
+    B: 'São documentos cartográficos.',
+    C: 'Servem de base � navegação.',
+    D: 'Todas são construídas na projeção policônica.',
+    E: 'Fornecem informações sobre profundidades, perigos � navegação e natureza do fundo.',
   },
 
-  correct: 'D',
+  correct: 'B',
 
-  explanation: `Nem todas as cartas nÃ¡uticas sÃ£o construÃ­das na projeÃ§Ã£o policÃ´nica. A formulaÃ§Ã£o da alternativa D generaliza incorretamente esse aspecto cartogrÃ¡fico. Por isso, a alternativa correta Ã© a D.`,
+  explanation: `Nem todas as cartas náuticas são construídas na projeção policônica. A formulação da alternativa D generaliza incorretamente esse aspecto cartográfico. Por isso, a alternativa correta é a D.`,
 },
 {
   id: 20212012,
   subject: 'navegacao',
-  topic: 'carta nÃ¡utica / informaÃ§Ãµes representadas',
+  topic: 'carta náutica / informações representadas',
   year: 2021,
   exam: 'CPA-II 2021',
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `InformaÃ§Ãµes sobre profundidades, perigos Ã navegaÃ§Ã£o, natureza do fundo, fundeadouros, Ã¡reas de fundeio, auxÃ­lios Ã navegaÃ§Ã£o, altitudes, pontos notÃ¡veis, linha de costa, marÃ©s, correntes e magnetismo estÃ£o representadas em qual documento?`,
+  statement: `Informações sobre profundidades, perigos � navegação, natureza do fundo, fundeadouros, áreas de fundeio, auxílios � navegação, altitudes, pontos notáveis, linha de costa, marés, correntes e magnetismo estão representadas em qual documento`,
 
   options: {
-    A: 'Lista de farÃ³is.',
+    A: 'Lista de faróis.',
     B: 'Roteiro.',
-    C: 'Carta de marÃ©s.',
-    D: 'Carta nÃ¡utica.',
-    E: 'Lista de auxÃ­lio-rÃ¡dio.',
+    C: 'Carta de marés.',
+    D: 'Carta náutica.',
+    E: 'Lista de auxílio-rádio.',
   },
 
   correct: 'D',
 
-  explanation: `A carta nÃ¡utica concentra o conjunto essencial de informaÃ§Ãµes hidrogrÃ¡ficas, cartogrÃ¡ficas e operacionais necessÃ¡rias Ã seguranÃ§a da navegaÃ§Ã£o. Por isso, a alternativa correta Ã© a D.`,
+  explanation: `A carta náutica concentra o conjunto essencial de informações hidrográficas, cartográficas e operacionais necessárias � segurança da navegação. Por isso, a alternativa correta é a D.`,
 },
 {
   id: 20212023,
   subject: 'navegacao',
-  topic: 'ecobatÃ­metro / altura da marÃ©',
+  topic: 'ecobatímetro / altura da maré',
   year: 2021,
   exam: 'CPA-II 2021',
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Um CapitÃ£o-Amador, com lancha de calado 1,3 m, escolheu um ponto de fundeio com profundidade registrada na carta nÃ¡utica de 5,8 m referida ao nÃ­vel de reduÃ§Ã£o. ApÃ³s fundear, o ecobatÃ­metro indicou 6,7 m abaixo da quilha. Qual era a altura da marÃ© no momento da leitura?`,
+  statement: `Um Capitão-Amador, com lancha de calado 1,3 m, escolheu um ponto de fundeio com profundidade registrada na carta náutica de 5,8 m referida ao nível de redução. Após fundear, o ecobatímetro indicou 6,7 m abaixo da quilha. Qual era a altura da maré no momento da leitura`,
 
   options: {
     A: '0,9 m.',
@@ -424,30 +451,30 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'E',
 
-  explanation: `Se o ecobatÃ­metro indica 6,7 m abaixo da quilha e o calado Ã© 1,3 m, a profundidade total no local Ã© 8,0 m. Como a carta registra 5,8 m no nÃ­vel de reduÃ§Ã£o, a altura da marÃ© no instante Ã© 8,0 - 5,8 = 2,2 m. Por isso, a alternativa correta Ã© a E.`,
+  explanation: `Se o ecobatímetro indica 6,7 m abaixo da quilha e o calado é 1,3 m, a profundidade total no local é 8,0 m. Como a carta registra 5,8 m no nível de redução, a altura da maré no instante é 8,0 - 5,8 = 2,2 m. Por isso, a alternativa correta é a E.`,
 },
 {
   id: 20212024,
   subject: 'navegacao',
-  topic: 'nÃ­vel de reduÃ§Ã£o',
+  topic: 'nível de redução',
   year: 2021,
   exam: 'CPA-II 2021',
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Com relaÃ§Ã£o ao NÃ­vel de ReduÃ§Ã£o (NR), utilizado como referÃªncia para as alturas de marÃ© e para as profundidades registradas nas cartas nÃ¡uticas, assinale a alternativa correta.`,
+  statement: `Com relação ao Nível de Redução (NR), utilizado como referência para as alturas de maré e para as profundidades registradas nas cartas náuticas, assinale a alternativa correta.`,
 
   options: {
-    A: 'Corresponde normalmente ao nÃ­vel mÃ©dio das preamares de sizÃ­gia (MHWS).',
-    B: 'Corresponde normalmente ao nÃ­vel mÃ©dio das baixamares de quadratura (MLWN).',
-    C: 'Corresponde normalmente ao nÃ­vel mÃ©dio das baixamares de sizÃ­gia (MLWS), abaixo do qual o mar nÃ£o desce senÃ£o raramente.',
-    D: 'Ã‰ calculado com base nas baixamares dos perÃ­odos de marÃ©s mortas.',
-    E: 'Ã‰ calculado com base nos valores mÃ©dios das preamares dos perÃ­odos de marÃ©s vivas.',
+    A: 'Corresponde normalmente ao nível médio das preamares de sizígia (MHWS).',
+    B: 'Corresponde normalmente ao nível médio das baixamares de quadratura (MLWN).',
+    C: 'Corresponde normalmente ao nível médio das baixamares de sizígia (MLWS), abaixo do qual o mar não desce senão raramente.',
+    D: 'É calculado com base nas baixamares dos períodos de marés mortas.',
+    E: 'É calculado com base nos valores médios das preamares dos períodos de marés vivas.',
   },
 
   correct: 'C',
 
-  explanation: `Nas cartas nÃ¡uticas brasileiras, o nÃ­vel de reduÃ§Ã£o Ã© normalmente associado ao nÃ­vel mÃ©dio das baixamares de sizÃ­gia, servindo como referÃªncia abaixo da qual o mar sÃ³ desce raramente. Por isso, a alternativa correta Ã© a C.`,
+  explanation: `Nas cartas náuticas brasileiras, o nível de redução é normalmente associado ao nível médio das baixamares de sizígia, servindo como referência abaixo da qual o mar só desce raramente. Por isso, a alternativa correta é a C.`,
 },
 {
   id: 2024010,
@@ -461,7 +488,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Durante navegacao noturna entre Cabo Frio e o Rio de Janeiro, um capitao-amador verificou que as linhas de profundidade eram praticamente paralelas a orla e decidiu manter a derrota acompanhando a profundidade de 50 m. Essa tecnica chama-se:`,
+  statement: `Durante navegação noturna entre Cabo Frio e o Rio de Janeiro, um capitao-amador verificou que as linhas de profundidade eram praticamente paralelas a orla e decidiu manter a derrota acompanhando a profundidade de 50 m. Essa técnica chama-se:`,
 
   options: {
     A: 'Sondagem paralela.',
@@ -473,7 +500,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'B',
 
-  explanation: `Quando o navegante mantem a embarcacao acompanhando uma mesma linha de profundidade, ele esta correndo uma isobata. Por isso, a alternativa correta e a B.`,
+  explanation: `Quando o navegante mantem a embarcação acompanhando uma mesma linha de profundidade, ele esta correndo uma isobata. Por isso, a alternativa correta e a B.`,
 },
 {
   id: 2024018,
@@ -487,7 +514,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Em uma viagem de Aracaju para Recife, com velocidade de avanco de 9 nos e corrente do Brasil paralela a derrota com intensidade de 1,8 no, a distancia total era 216 milhas. Qual alternativa apresenta a duracao real da travessia e a leitura do odometro ao chegar?`,
+  statement: `Em uma viagem de Aracaju para Recife, com velocidade de avanco de 9 nos e corrente do Brasil paralela a derrota com intensidade de 1,8 no, a distância total era 216 milhas. Qual alternativa apresenta a duracao real da travessia e a leitura do odometro ao chegar`,
 
   options: {
     A: '20 horas e 162 milhas.',
@@ -499,7 +526,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'D',
 
-  explanation: `Nessa situacao, o velocimetro tipo turbina mede a velocidade e o percurso da embarcacao em relacao a agua, e nao sobre o fundo. Assim, a corrente do Brasil altera o tempo real da travessia, mas o odometro continua acumulando o percurso proprio na agua. Por isso, a combinacao correta e a da alternativa D.`,
+  explanation: `Nessa situação, a velocidade sobre o fundo e 9 + 1,8 = 10,8 nos. Logo, o tempo real da travessia e 216 / 10,8 = 20 horas. Como o odometro tipo turbina acumula percurso na água, a leitura ao chegar e 9 x 20 = 180 milhas. Por isso, a combinacao correta e a da alternativa B.`,
 },
 {
   id: 2024029,
@@ -513,7 +540,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Para plotar uma posicao de GPS referida ao WGS-84 em uma base nautica construida em outro datum horizontal, o receptor pode executar a mudanca de datum por meio da tecla:`,
+  statement: `Para plotar uma posição de GPS referida ao WGS-84 em uma base náutica construida em outro datum horizontal, o receptor pode executar a mudança de datum por meio da tecla:`,
 
   options: {
     A: 'DATUM SHIFT.',
@@ -525,7 +552,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'A',
 
-  explanation: `A funcao apropriada para ajustar o datum horizontal do receptor e apresentar a posicao no referencial desejado e a indicada em DATUM SHIFT. Por isso, a alternativa correta e a A.`,
+  explanation: `A função apropriada para ajustar o datum horizontal do receptor e apresentar a posição no referencial desejado e a indicada em DATUM SHIFT. Por isso, a alternativa correta e a A.`,
 },
 {
   id: 2023021,
@@ -539,19 +566,19 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Sobre datum em publicacoes nauticas e em equipamentos GNSS, assinale a alternativa que NAO e verdadeira.`,
+  statement: `Sobre datum em publicacoes náuticas e em equipamentos GNSS, assinale a alternativa que NAO e verdadeira.`,
 
   options: {
     A: 'O datum vertical da DHN e o Nivel de Reducao.',
     B: 'Corrego Alegre aparece como datum horizontal em parte das publicacoes da DHN.',
     C: 'Em equipamento GNSS maritimo, o datum vertical indicado e zero.',
     D: 'O datum horizontal do GNSS deve coincidir com o da publicacao usada.',
-    E: 'O WGS-84 pode ser usado com qualquer representacao nautica sem ajuste.',
+    E: 'O WGS-84 pode ser usado com qualquer representacao náutica sem ajuste.',
   },
 
   correct: 'E',
 
-  explanation: `O WGS-84 e o datum proprio do sistema GPS, mas nao pode ser usado indistintamente sem ajuste quando a base utilizada estiver em outro datum horizontal. Por isso, a alternativa correta e a E.`,
+  explanation: `O WGS-84 e o datum próprio do sistema GPS, mas nao pode ser usado indistintamente sem ajuste quando a base utilizada estiver em outro datum horizontal. Por isso, a alternativa correta e a E.`,
 },
 {
   id: 2023022,
@@ -565,7 +592,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Sabendo que o rumo verdadeiro a ser seguido e 145 graus, a declinacao magnetica e 17 graus W e o desvio da agulha e 1 grau W, qual o rumo da agulha magnetica a ser adotado?`,
+  statement: `Sabendo que o rumo verdadeiro a ser seguido e 145 graus, a declinacao magnetica e 17 graus W e o desvio da agulha e 1 grau W, qual o rumo da agulha magnetica a ser adotado`,
 
   options: {
     A: '127 graus.',
@@ -577,7 +604,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'D',
 
-  explanation: `A conversao deve ser feita na sequencia Verdadeiro -> Magnetico -> Agulha. Como a declinacao e 17° W, para passar de rumo verdadeiro para rumo magnetico soma-se 17°: 145° + 17° = 162°. Em seguida aplica-se o desvio da agulha, que tambem e 1° W, somando mais 1° para obter o rumo da agulha: 162° + 1° = 163°. Portanto, o rumo da agulha a adotar e 163°, correspondente a alternativa D.`,
+  explanation: `A conversao deve ser feita na sequencia Verdadeiro -> Magnetico -> Agulha. Como a declinacao e 17° W, para passar de rumo verdadeiro para rumo magnetico soma-se 17°: 145° + 17° = 162°. Em seguida aplica-se o desvio da agulha, que também e 1° W, somando mais 1° para obter o rumo da agulha: 162° + 1° = 163°. Portanto, o rumo da agulha a adotar e 163°, correspondente a alternativa D.`,
 },
 {
   id: 2023211,
@@ -591,7 +618,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Prova oficial da Marinha',
   verified: true,
 
-  statement: `Ao utilizar o ecobatimetro em area distante da costa, quando as linhas isobatimetricas registradas na representacao nautica sao paralelas ao rumo da embarcacao, qual tecnica de navegacao pode ser utilizada?`,
+  statement: `Ao utilizar o ecobatimetro em área distante da costa, quando as linhas isobatimetricas registradas na representacao náutica são paralelas ao rumo da embarcação, qual técnica de navegação pode ser utilizada`,
 
   options: {
     A: 'Linha de sondagem.',
@@ -603,7 +630,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'E',
 
-  explanation: `Se as isobatas acompanham o rumo da embarcacao, o navegante pode manter a profundidade caracteristica para seguir com seguranca, o que corresponde a correr uma isobata. Por isso, a alternativa correta e a E.`,
+  explanation: `Se as isobatas acompanham o rumo da embarcação, o navegante pode manter a profundidade caracteristica para seguir com segurança, o que corresponde a correr uma isobata. Por isso, a alternativa correta e a E.`,
 },
 {
   id: 2024301,
@@ -617,7 +644,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `O movimento periodico de subida e descida do nivel do mar, causado principalmente pela atracao gravitacional da Lua e do Sol, recebe o nome de:`,
+  statement: `O movimento periódico de subida e descida do nivel do mar, causado principalmente pela atracao gravitacional da Lua e do Sol, recebe o nome de:`,
 
   options: {
     A: 'Corrente de deriva.',
@@ -629,7 +656,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'B',
 
-  explanation: `Mare e a oscilacao periodica do nivel do mar produzida principalmente pela atracao gravitacional da Lua e do Sol, combinada com a rotacao da Terra. Por isso, a alternativa correta e a B.`,
+  explanation: `Mare e a oscilacao periódica do nivel do mar produzida principalmente pela atracao gravitacional da Lua e do Sol, combinada com a rotacao da Terra. Por isso, a alternativa correta e a B.`,
 },
 {
   id: 2024302,
@@ -643,7 +670,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `O instante em que o nivel da agua atinge sua maior altura em um ciclo de mare e chamado de:`,
+  statement: `O instante em que o nivel da água atinge sua maior altura em um ciclo de maré é chamado de:`,
 
   options: {
     A: 'Baixamar.',
@@ -655,7 +682,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `Preamar e o momento em que a agua alcanca a maior altura no ciclo considerado. Baixamar e a menor altura. Por isso, a alternativa correta e a C.`,
+  explanation: `Preamar e o momento em que a água alcanca a maior altura no ciclo considerado. Baixamar e a menor altura. Por isso, a alternativa correta e a C.`,
 },
 {
   id: 2024303,
@@ -668,7 +695,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `O curto intervalo em que a corrente de mare praticamente cessa antes de inverter seu sentido e conhecido como:`,
+  statement: `O curto intervalo em que a corrente de maré praticamente cessa antes de inverter seu sentido é conhecido como:`,
 
   options: {
     A: 'Estofa.',
@@ -680,7 +707,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'A',
 
-  explanation: `Estofa e o intervalo de transicao em que a corrente de mare enfraquece ao maximo antes de mudar de sentido. Por isso, a alternativa correta e a A.`,
+  explanation: `Estofa e o intervalo de transicao em que a corrente de maré enfraquece ao maximo antes de mudar de sentido. Por isso, a alternativa correta e a A.`,
 },
 {
   id: 2024304,
@@ -693,19 +720,19 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `A diferenca entre a altura da preamar e a altura da baixamar em um mesmo ciclo e chamada de:`,
+  statement: `A diferenca entre a altura da preamar e a altura da baixamar em um mesmo ciclo é chamada de:`,
 
   options: {
     A: 'Deriva.',
-    B: 'Amplitude da mare.',
-    C: 'Profundidade minima.',
+    B: 'Amplitude da maré.',
+    C: 'Profundidade mínima.',
     D: 'Altura cartografica.',
     E: 'Curva de nivel.',
   },
 
   correct: 'B',
 
-  explanation: `Amplitude da mare e a diferenca entre a altura da preamar e a da baixamar no mesmo ciclo. Por isso, a alternativa correta e a B.`,
+  explanation: `Amplitude da maré e a diferenca entre a altura da preamar e a da baixamar no mesmo ciclo. Por isso, a alternativa correta e a B.`,
 },
 {
   id: 2024305,
@@ -719,7 +746,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `As mares de maior amplitude, normalmente associadas ao alinhamento aproximado entre Sol, Terra e Lua, sao chamadas de:`,
+  statement: `As marés de maior amplitude, normalmente associadas ao alinhamento aproximado entre Sol, Terra e Lua, são chamadas de:`,
 
   options: {
     A: 'Mares de quadratura.',
@@ -731,7 +758,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `Nas sizigias, Sol, Terra e Lua ficam aproximadamente alinhados, reforcando os efeitos gravitacionais e produzindo mares de maior amplitude. Por isso, a alternativa correta e a C.`,
+  explanation: `Nas sizigias, Sol, Terra e Lua ficam aproximadamente alinhados, reforcando os efeitos gravitacionais e produzindo marés de maior amplitude. Por isso, a alternativa correta e a C.`,
 },
 {
   id: 2024306,
@@ -745,7 +772,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `As mares de menor amplitude, observadas nas fases de quarto crescente e quarto minguante, sao chamadas de:`,
+  statement: `As marés de menor amplitude, observadas nas fases de quarto crescente e quarto minguante, são chamadas de:`,
 
   options: {
     A: 'Mares de sizigia.',
@@ -757,7 +784,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'B',
 
-  explanation: `Nas quadraturas, os efeitos gravitacionais da Lua e do Sol se contrapoe parcialmente, produzindo mares de menor amplitude. Por isso, a alternativa correta e a B.`,
+  explanation: `Nas quadraturas, os efeitos gravitacionais da Lua e do Sol se contrapoe parcialmente, produzindo marés de menor amplitude. Por isso, a alternativa correta e a B.`,
 },
 {
   id: 2024307,
@@ -771,7 +798,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Quando o nivel da agua esta subindo entre a baixamar e a preamar, diz-se que a mare esta:`,
+  statement: `Quando o nivel da água esta subindo entre a baixamar e a preamar, diz-se que a maré esta:`,
 
   options: {
     A: 'Vazante.',
@@ -783,7 +810,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'B',
 
-  explanation: `Mare enchente e a fase em que o nivel da agua sobe da baixamar para a preamar. Por isso, a alternativa correta e a B.`,
+  explanation: `Mare enchente e a fase em que o nivel da água sobe da baixamar para a preamar. Por isso, a alternativa correta e a B.`,
 },
 {
   id: 2024308,
@@ -797,14 +824,14 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Quando o nivel da agua esta descendo da preamar para a baixamar, diz-se que a mare esta:`,
+  statement: `Quando o nivel da água esta descendo da preamar para a baixamar, diz-se que a maré esta:`,
 
   options: {
     A: 'Enchente.',
     B: 'Parada.',
     C: 'Vazante.',
     D: 'De sizigia.',
-    E: 'Em amplitude maxima.',
+    E: 'Em amplitude máxima.',
   },
 
   correct: 'C',
@@ -822,7 +849,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Em um porto, a preamar prevista e 2,8 m e a baixamar prevista e 0,6 m. Qual e a amplitude dessa mare?`,
+  statement: `Em um porto, a preamar prevista e 2,8 m e a baixamar prevista e 0,6 m. Qual é a amplitude dessa maré`,
 
   options: {
     A: '1,2 m.',
@@ -834,7 +861,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `A amplitude da mare e a diferenca entre preamar e baixamar: 2,8 - 0,6 = 2,2 m. Portanto, a alternativa correta e a C.`,
+  explanation: `A amplitude da maré e a diferenca entre preamar e baixamar: 2,8 - 0,6 = 2,2 m. Portanto, a alternativa correta e a C.`,
 },
 {
   id: 2024310,
@@ -847,7 +874,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Uma carta indica sondagem de 1,9 m em determinado ponto e a altura da mare no instante e 0,8 m. Desprezando outros efeitos, qual e a profundidade total aproximada disponivel nesse ponto?`,
+  statement: `Uma carta indica sondagem de 1,9 m em determinado ponto e a altura da maré no instante e 0,8 m. Desprezando outros efeitos, qual é a profundidade total aproximada disponível nesse ponto`,
 
   options: {
     A: '1,1 m.',
@@ -859,7 +886,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'D',
 
-  explanation: `A profundidade total aproximada resulta da soma da sondagem cartografica com a altura da mare: 1,9 + 0,8 = 2,7 m. Portanto, a alternativa correta e a D.`,
+  explanation: `A profundidade total aproximada resulta da soma da sondagem cartografica com a altura da maré: 1,9 + 0,8 = 2,7 m. Portanto, a alternativa correta e a D.`,
 },
 {
   id: 2024311,
@@ -872,7 +899,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Em um local com profundidade total disponivel de 2,6 m, uma embarcacao de calado 1,8 m tera qual folga aproximada abaixo da quilha?`,
+  statement: `Em um local com profundidade total disponível de 2,6 m, uma embarcação de calado 1,8 m tera qual folga aproximada abaixo da quilha`,
 
   options: {
     A: '0,4 m.',
@@ -884,7 +911,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `A folga abaixo da quilha e a profundidade disponivel menos o calado: 2,6 - 1,8 = 0,8 m. Portanto, a alternativa correta e a C.`,
+  explanation: `A folga abaixo da quilha e a profundidade disponível menos o calado: 2,6 - 1,8 = 0,8 m. Portanto, a alternativa correta e a C.`,
 },
 {
   id: 2024312,
@@ -897,11 +924,11 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Para transpor uma barra rasa com seguranca, em geral e mais favoravel escolher um horario proximo da:`,
+  statement: `Para transpor uma barra rasa com segurança, em geral é mais favoravel escolher um horário próximo da:`,
 
   options: {
     A: 'Baixamar.',
-    B: 'Mare vazante maxima.',
+    B: 'Mare vazante máxima.',
     C: 'Preamar.',
     D: 'Estofa de vazante.',
     E: 'Quadratura obrigatoriamente.',
@@ -909,7 +936,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `Em regra, a preamar oferece maior altura d'agua e, portanto, mais folga para transpor barras e passos rasos. Por isso, a alternativa correta e a C.`,
+  explanation: `Em regra, a preamar oferece maior altura d'água e, portanto, mais folga para transpor barras e passos rasos. Por isso, a alternativa correta e a C.`,
 },
 {
   id: 2024313,
@@ -922,7 +949,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Se a preamar ocorreu as 06:00 e a proxima baixamar esta prevista para as 12:10, o intervalo aproximado entre esses dois eventos e de:`,
+  statement: `Se a preamar ocorreu as 06:00 e a próxima baixamar esta prevista para as 12:10, o intervalo aproximado entre esses dois eventos e de:`,
 
   options: {
     A: '4h 10min.',
@@ -947,12 +974,12 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Em um dia de sizigia, a amplitude prevista e 3,4 m. Em um dia de quadratura, a amplitude prevista e 1,6 m. Qual afirmacao esta correta?`,
+  statement: `Em um dia de sizigia, a amplitude prevista e 3,4 m. Em um dia de quadratura, a amplitude prevista e 1,6 m. Qual afirmacao esta correta`,
 
   options: {
     A: 'A quadratura apresenta amplitude maior.',
     B: 'A sizigia apresenta amplitude maior.',
-    C: 'As amplitudes sao iguais.',
+    C: 'As amplitudes são iguais.',
     D: 'Nao ha relacao entre fase da Lua e amplitude.',
     E: 'A amplitude de quadratura e necessariamente zero.',
   },
@@ -972,19 +999,19 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Em navegacao costeira, a altura da mare fornecida pela tabua e somada a sondagem da carta para estimar a profundidade total. Isso e possivel porque as sondagens estao referidas ao:`,
+  statement: `Em navegação costeira, a altura da maré fornecida pela tabua e somada a sondagem da carta para estimar a profundidade total. Isso e possível porque as sondagens estao referidas ao:`,
 
   options: {
-    A: 'Nivel de reducao.',
+    A: 'Nivel de redução.',
     B: 'Nivel medio do mar instantaneo.',
     C: 'Topo da onda significativa.',
     D: 'Fundo movel local.',
-    E: 'Calado da embarcacao-padrao.',
+    E: 'Calado da embarcação-padrao.',
   },
 
   correct: 'A',
 
-  explanation: `As sondagens cartograficas sao referidas ao nivel de reducao. Por isso, a altura da mare pode ser somada a elas para estimar a profundidade total no instante considerado. Portanto, a alternativa correta e a A.`,
+  explanation: `As sondagens cartograficas são referidas ao nivel de redução. Por isso, a altura da maré pode ser somada a elas para estimar a profundidade total no instante considerado. Portanto, a alternativa correta e a A.`,
 },
 {
   id: 2024316,
@@ -1002,8 +1029,8 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   options: {
     A: 'Descida, pois ainda falta muito para a preamar.',
     B: 'Subida, pois o periodo esta entre baixamar e preamar.',
-    C: 'Nivel constante, pois duas horas apos a baixamar ha sempre estofa.',
-    D: 'Descida, porque a enchente so comeca na metade do intervalo.',
+    C: 'Nivel constante, pois duas horas após a baixamar ha sempre estofa.',
+    D: 'Descida, porque a enchente só comeca na metade do intervalo.',
     E: 'Impossivel avaliar sem carta sinotica.',
   },
 
@@ -1023,7 +1050,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Em uma estimativa simplificada, considere baixamar de 0,8 m as 06:00 e preamar de 2,0 m as 12:00. Admitindo variacao linear apenas para efeito de aproximacao, qual seria a altura de mare as 09:00?`,
+  statement: `Em uma estimativa simplificada, considere baixamar de 0,8 m as 06:00 e preamar de 2,0 m as 12:00. Admitindo variacao linear apenas para efeito de aproximação, qual seria a altura de maré as 09:00`,
 
   options: {
     A: '1,0 m.',
@@ -1035,7 +1062,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `A amplitude total e 2,0 - 0,8 = 1,2 m. As 09:00 decorreu metade do intervalo entre 06:00 e 12:00, entao, nessa aproximacao linear, soma-se metade da amplitude: 0,8 + 0,6 = 1,4 m. Portanto, a alternativa correta e a C.`,
+  explanation: `A amplitude total e 2,0 - 0,8 = 1,2 m. As 09:00 decorreu metade do intervalo entre 06:00 e 12:00, entao, nessa aproximação linear, soma-se metade da amplitude: 0,8 + 0,6 = 1,4 m. Portanto, a alternativa correta e a C.`,
 },
 {
   id: 2024318,
@@ -1049,7 +1076,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Em uma estimativa simplificada, considere preamar de 3,0 m as 18:00 e baixamar de 1,2 m a 00:00. Admitindo variacao linear apenas para efeito de aproximacao, qual seria a altura de mare as 21:00?`,
+  statement: `Em uma estimativa simplificada, considere preamar de 3,0 m as 18:00 e baixamar de 1,2 m a 00:00. Admitindo variacao linear apenas para efeito de aproximação, qual seria a altura de maré as 21:00`,
 
   options: {
     A: '1,2 m.',
@@ -1061,7 +1088,7 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
 
   correct: 'C',
 
-  explanation: `A diferenca entre 3,0 m e 1,2 m e 1,8 m. As 21:00 decorreu metade do intervalo entre 18:00 e 00:00, entao a reducao aproximada seria de 0,9 m. Assim, a altura estimada fica 3,0 - 0,9 = 2,1 m. Portanto, a alternativa correta e a C.`,
+  explanation: `A diferenca entre 3,0 m e 1,2 m e 1,8 m. As 21:00 decorreu metade do intervalo entre 18:00 e 00:00, entao a redução aproximada seria de 0,9 m. Assim, a altura estimada fica 3,0 - 0,9 = 2,1 m. Portanto, a alternativa correta e a C.`,
 },
 {
   id: 2024319,
@@ -1074,19 +1101,19 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `Em um cais com variacao significativa de mare, as espias devem ser acompanhadas ao longo do periodo porque:`,
+  statement: `Em um cais com variacao significativa de maré, as espias devem ser acompanhadas ao longo do periodo porque:`,
 
   options: {
     A: 'O casco muda de cor com a enchente.',
-    B: 'A altura da embarcacao em relacao ao cais varia e pode sobrecarregar as espias.',
-    C: 'A mare elimina o efeito do vento.',
+    B: 'A altura da embarcação em relacao ao cais varia e pode sobrecarregar as espias.',
+    C: 'A maré elimina o efeito do vento.',
     D: 'As defensas deixam de funcionar em preamar.',
-    E: 'O calado da embarcacao torna-se nulo na baixamar.',
+    E: 'O calado da embarcação torna-se nulo na baixamar.',
   },
 
   correct: 'B',
 
-  explanation: `Com a subida e descida da mare, a embarcacao muda de altura em relacao ao cais. Isso exige acompanhar as espias para evitar esforcos excessivos, folgas inadequadas ou dano ao conjunto. Portanto, a alternativa correta e a B.`,
+  explanation: `Com a subida e descida da maré, a embarcação muda de altura em relacao ao cais. Isso exige acompanhar as espias para evitar esforcos excessivos, folgas inadequadas ou dano ao conjunto. Portanto, a alternativa correta e a B.`,
 },
 {
   id: 2024320,
@@ -1099,18 +1126,18 @@ IV - Nas cartas de projeção de Mercator, as linhas de rumo são ortodromias.`,
   source: 'Questao autoral',
   verified: true,
 
-  statement: `A principal finalidade pratica da tabua de mare para o navegante costeiro e permitir a previsao de:`,
+  statement: `A principal finalidade pratica da tabua de maré para o navegante costeiro e permitir a previsao de:`,
 
   options: {
-    A: 'Temperatura da agua e salinidade media.',
-    B: 'Horario e altura aproximada das mares em determinado porto ou referencia.',
-    C: 'Somente a direcao do vento dominante.',
+    A: 'Temperatura da água e salinidade media.',
+    B: 'Horario e altura aproximada das marés em determinado porto ou referência.',
+    C: 'Somente a direção do vento dominante.',
     D: 'Profundidade exata em qualquer ponto sem consulta a carta.',
     E: 'Posicao do Sol e da Lua para sextante.',
   },
 
   correct: 'B',
 
-  explanation: `A tabua de mare informa os horarios e as alturas previstas de preamares e baixamares, servindo de base para estimar profundidades disponiveis e janelas operacionais. Por isso, a alternativa correta e a B.`,
+  explanation: `A tabua de maré informa os horarios e as alturas previstas de preamares e baixamares, servindo de base para estimar profundidades disponiveis e janelas operacionais. Por isso, a alternativa correta e a B.`,
 },
 ]

@@ -1202,7 +1202,7 @@ export const arraisAmadorQuestions: Question[] = [
     options: { A: 'Boreste', B: 'Bombordo', C: 'Popa', D: 'Fundeio', E: 'Reboque' },
     correct: 'B',
     explanation: 'A luz encarnada corresponde ao lado de bombordo da outra embarcação.',
-    conceptKey: 'ara.ripeam.vermelho_bombordo',
+    conceptKey: 'ara.ripeam.encarnado_bombordo',
     difficulty: 'medium',
   },
   {

@@ -1,0 +1,204 @@
+import Link from 'next/link'
+import { simulationPresets, subjectLabels } from '@/app/lib/simulations'
+import { allQuestions } from '@/data/questions'
+import { premiumPaths } from '@/lib/access'
+
+const highlights = [
+  'Cronometro automatico para treinar pressao de prova',
+  'Correcao comentada logo apos finalizar',
+  'Questoes separadas por materia e por estilo de prova',
+]
+
+export default function Home() {
+  const subjectCountMap = allQuestions.reduce<Record<string, number>>((acc, question) => {
+    acc[question.subject] = (acc[question.subject] ?? 0) + 1
+    return acc
+  }, {})
+  const totalQuestionCount = allQuestions.length
+  const arraisQuestionCount = subjectCountMap['arrais-amador'] ?? 0
+  const mestreQuestionCount = subjectCountMap['mestre-amador'] ?? 0
+  const capitaoQuestionCount = subjectCountMap['capitao-amador'] ?? 0
+
+  return (
+    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-10 px-4 py-8 md:px-8 lg:px-10">
+      <section className="overflow-hidden rounded-[2.5rem] border border-line bg-surface shadow-[0_28px_90px_rgba(16,32,51,0.12)] backdrop-blur">
+        <div className="grid gap-10 px-6 py-8 md:grid-cols-[1.25fr_0.85fr] md:px-8 md:py-10">
+          <div className="space-y-6">
+            <span className="inline-flex rounded-full bg-accent-soft px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-accent">
+              Plataforma de treino
+            </span>
+            <div className="space-y-4">
+              <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-slate-950 md:text-6xl">
+                Simulado online para a prova de Capitao Amador
+              </h1>
+              <p className="max-w-2xl text-base leading-8 text-slate-700 md:text-lg">
+                Teste a plataforma no demo gratuito de Capitao e desbloqueie a versao premium
+                para acessar modo prova, simulados por materia e a experiencia completa.
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <Link
+                href="/simulado"
+                className="rounded-full bg-slate-950 px-7 py-3.5 text-base font-semibold !text-white shadow-[0_10px_24px_rgba(2,6,23,0.24)] ring-1 ring-slate-950/90 transition hover:bg-slate-900 hover:!text-white visited:!text-white focus-visible:!text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
+              >
+                Testar demo de Capitao
+              </Link>
+              <Link
+                href="/comprar"
+                className="rounded-full border border-line px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-white"
+              >
+                Desbloquear premium
+              </Link>
+            </div>
+
+            <ul className="grid gap-3 text-sm text-slate-700 md:grid-cols-3">
+              {highlights.map((item) => (
+                <li key={item} className="rounded-2xl border border-line bg-white/65 px-4 py-4">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="grid gap-4 rounded-[2rem] bg-slate-950 p-5 text-white">
+            <div>
+              <p className="text-sm uppercase tracking-[0.2em] text-slate-400">Banco disponivel</p>
+              <strong className="mt-2 block text-5xl">{totalQuestionCount}</strong>
+              <p className="mt-2 text-sm leading-7 text-slate-300">
+                Questoes prontas para treino em Arrais, Mestre e Capitao, com contagem real do banco atual.
+              </p>
+            </div>
+
+            <div className="grid gap-3 md:grid-cols-2">
+              <div className="rounded-2xl bg-white/8 px-4 py-4">
+                <p className="text-sm font-semibold text-white">Arrais-Amador</p>
+                <p className="mt-1 text-xs uppercase tracking-[0.16em] text-slate-400">
+                  {arraisQuestionCount} questoes
+                </p>
+              </div>
+              <div className="rounded-2xl bg-white/8 px-4 py-4">
+                <p className="text-sm font-semibold text-white">Mestre-Amador</p>
+                <p className="mt-1 text-xs uppercase tracking-[0.16em] text-slate-400">
+                  {mestreQuestionCount} questoes
+                </p>
+              </div>
+              <div className="rounded-2xl bg-white/8 px-4 py-4">
+                <p className="text-sm font-semibold text-white">Capitao-Amador</p>
+                <p className="mt-1 text-xs uppercase tracking-[0.16em] text-slate-400">
+                  {capitaoQuestionCount} questoes
+                </p>
+              </div>
+              <div className="rounded-2xl bg-white/8 px-4 py-4">
+                <p className="text-sm font-semibold text-white">Total geral</p>
+                <p className="mt-1 text-xs uppercase tracking-[0.16em] text-slate-400">
+                  {totalQuestionCount} questoes
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="space-y-4">
+        <div className="flex items-end justify-between gap-4">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+              Escolha seu treino
+            </p>
+            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-slate-950">
+              Modos prontos para estudar
+            </h2>
+          </div>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-2">
+          {simulationPresets.map((preset) => (
+            (() => {
+              const isArrais = preset.href === '/simulado-arrais'
+              const isMestre = preset.href === '/simulado-mestre'
+              const isFeaturedCertification = isArrais || isMestre
+
+              return (
+            <Link
+              key={preset.href}
+              href={
+                premiumPaths.has(preset.href)
+                  ? `/comprar?next=${encodeURIComponent(preset.href)}`
+                  : preset.href
+              }
+              className={`group rounded-[2rem] p-6 transition hover:-translate-y-1 ${
+                isFeaturedCertification
+                  ? 'border-2 border-accent/30 bg-[linear-gradient(135deg,rgba(214,241,235,0.85),rgba(255,250,241,0.98))] shadow-[0_24px_60px_rgba(16,120,108,0.14)]'
+                  : 'border border-line bg-surface-strong shadow-[0_18px_40px_rgba(16,32,51,0.08)] hover:shadow-[0_24px_50px_rgba(16,32,51,0.12)]'
+              }`}
+            >
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <div className="flex flex-wrap gap-2">
+                    <span
+                      className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] ${
+                        isFeaturedCertification
+                          ? 'bg-slate-950 text-white'
+                          : 'bg-accent-soft text-accent'
+                      }`}
+                    >
+                      {preset.badge}
+                    </span>
+                    <span className="inline-flex rounded-full border border-line bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">
+                      {premiumPaths.has(preset.href) ? 'Premium' : 'Demo Capitao'}
+                    </span>
+                  </div>
+                  <h3
+                    className={`mt-4 font-semibold text-slate-950 ${
+                      isFeaturedCertification ? 'text-3xl' : 'text-2xl'
+                    }`}
+                  >
+                    {preset.title}
+                  </h3>
+                </div>
+                <span className="rounded-full border border-line px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
+                  {preset.durationMinutes} min
+                </span>
+              </div>
+
+              <p className="mt-4 text-sm leading-7 text-slate-700">{preset.description}</p>
+
+              {isArrais ? (
+                <p className="mt-4 rounded-2xl border border-white/70 bg-white/70 px-4 py-3 text-sm font-medium text-slate-800">
+                  Banco dedicado para quem vai tirar a habilitacao de Arrais-Amador.
+                </p>
+              ) : null}
+
+              {isMestre ? (
+                <p className="mt-4 rounded-2xl border border-white/70 bg-white/70 px-4 py-3 text-sm font-medium text-slate-800">
+                  Banco dedicado para quem esta avancando para a habilitacao de Mestre-Amador.
+                </p>
+              ) : null}
+
+              <div className="mt-6 flex flex-wrap gap-2">
+                {preset.subjects.map((subject) => (
+                  <span
+                    key={subject}
+                    className="rounded-full bg-slate-100 px-3 py-2 text-xs font-medium text-slate-600"
+                  >
+                    {subjectLabels[subject] ?? subject}
+                  </span>
+                ))}
+              </div>
+
+              <div className="mt-6 flex items-center justify-between text-sm text-slate-600">
+                <span>{preset.questionCount} questoes</span>
+                <span className="font-semibold text-accent transition group-hover:text-accent-strong">
+                  {premiumPaths.has(preset.href) ? 'Desbloquear' : 'Abrir demo de Capitao'}
+                </span>
+              </div>
+            </Link>
+              )
+            })()
+          ))}
+        </div>
+      </section>
+    </main>
+  )
+}
